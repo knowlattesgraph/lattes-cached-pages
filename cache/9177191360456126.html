@@ -1,0 +1,920 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Fabio Bom Aggio)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+        			
+      		});			  
+      		
+      		                                
+		
+	</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=9177191360456126" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4227802H3&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4227802H3"><div class="infpessoa">
+<h2 class="nome">Fabio Bom Aggio</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/9177191360456126</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 23/01/2009</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">possui graduação em Medicina pela Universidade Federal de São Paulo (1999). Atualmente é pós-graduando, nível doutorado, da Universidade Federal de São Paulo. Tem experiência na área de Medicina, com ênfase em oftalmologia, atuando principalmente nos seguintes temas: doenças maculares, imagenologia e farmacologia ocular.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Fabio Bom Aggio</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">AGGIO, F. B.</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Especialização - Residência médica<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal de São Paulo, UNIFESP, Brasil.
+		
+	Residência médica em: <br class="clear" />Número do registro: . <br class="clear" />Bolsista do(a): Ministério da Educação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Especialização em Retina e Vítreo<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal de São Paulo, UNIFESP, Brasil.
+		
+	<br class="clear" />Título: Fatores prognósticos em corio-retinopatia serosa central. <br class="clear" />Orientador: Michel Eid Farah. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1994 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Medicina<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal de São Paulo, UNIFESP, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências da Saúde / Área: Medicina. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências da Saúde / Área: Medicina / Subárea: OFTALMOLOGIA. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Razoavelmente, Lê Bem, Escreve Bem. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Especialização em Oftalmologia, Associação Médica Brasileira. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MALERBI, F. K.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span>MALERBI, F. K. ; HUANG, S. J. ; <b>AGGIO, F. B.</b> ; CARVALHO, E. S. ; BONOMO, P. P. ; FARAH, M. E. . Indocyanine green-mediated photothrombosis for choroidal neovascularization in angioid streaks. Arquivos Brasileiros de Oftalmologia<sup><img id='00042749_1' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00042749' /></sup>, v. 71, p. 311-315, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00042749&volume=71&issue=&paginaInicial=311&titulo=Indocyanine green-mediated photothrombosis for choroidal neovascularization in angioid streaks&sequencial=1&nomePeriodico=Arquivos Brasileiros de Oftalmologia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MAIA, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span>MAIA, M. ; FARAH, M. E. ; <b>AGGIO, F. B.</b> ; RODRIGUES, E. B. ; SOUZA, E. C. ; MAGALHAES JR, O. . Peripapillary haemorrhagic retinal pigment epithelium detachment following radial optic neurotomy. Clinical & Experimental Ophthalmology<sup><img id='14426404_2' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='14426404' /></sup>, v. 35, p. 672-674, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14426404&volume=35&issue=&paginaInicial=672&titulo=Peripapillary haemorrhagic retinal pigment epithelium detachment following radial optic neurotomy&sequencial=2&nomePeriodico=Clinical & Experimental Ophthalmology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>PENHA, F</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.ajo.2006.12.008" target="_blank"></a>PENHA, F ; <b>AGGIO, F. B.</b> ; BONOMO, P . Severe Retinal Thermal Injury After Indocyanine Green Mediated Photothrombosis for Central Serous Chorioretinopathy. American Journal of Ophthalmology<sup><img id='00029394_3' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00029394' /></sup>, v. 143, p. 887-889, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.ajo.2006.12.008&issn=00029394&volume=143&issue=&paginaInicial=887&titulo=Severe Retinal Thermal Injury After Indocyanine Green Mediated Photothrombosis for Central Serous Chorioretinopathy&sequencial=3&nomePeriodico=American Journal of Ophthalmology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MAIA, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1136/bjo.2007.115386" target="_blank"></a>MAIA, M. ; FARAH, M. E. ; Belfort, R. N ; Penha, F. M. ; Lima Filho, A. A S ; <b>AGGIO, F. B.</b> ; Belfort, R. . Effects of intravitreal triamcinolone acetonide injection with and without preservative. British Journal of Ophthalmology<sup><img id='00071161_4' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00071161' /></sup>, v. 91, p. 1122-1124, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1136/bjo.2007.115386&issn=00071161&volume=91&issue=&paginaInicial=1122&titulo=Effects of intravitreal triamcinolone acetonide injection with and without preservative&sequencial=4&nomePeriodico=British Journal of Ophthalmology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Melo, G. B.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span>Melo, G. B. ; FARAH, M. E. ; <b>AGGIO, F. B.</b> . Intravitreal injection of bevacizumab for cystoid macular edema in retinitis pigmentosa. Acta Ophthalmologica Scandinavica<sup><img id='13953907_5' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='13953907' /></sup>, v. 85, p. 461-463, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=13953907&volume=85&issue=&paginaInicial=461&titulo=Intravitreal injection of bevacizumab for cystoid macular edema in retinitis pigmentosa&sequencial=5&nomePeriodico=Acta Ophthalmologica Scandinavica" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>AGGIO, F. B.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1038/sj.eye.6702683" target="_blank"></a><b>AGGIO, F. B.</b>; Farah, M E ; de Melo, G B ; d&amp ; Pignatari, A C C ; Höfling-Lima, A L . Acute endophthalmitis following intravitreal bevacizumab (Avastin) injection. Eye (London)<sup><img id='0950222X_6' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='0950222X' /></sup>, v. 21, p. 408-409, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1038/sj.eye.6702683&issn=0950222X&volume=21&issue=&paginaInicial=408&titulo=Acute endophthalmitis following intravitreal bevacizumab (Avastin) injection&sequencial=6&nomePeriodico=Eye (London)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>AGGIO, F. B.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span><b>AGGIO, F. B.</b>; FARAH, M. E. ; MEIRELLES, R. L. ; COSTA, R. A. ; MONTEIRO, M. L. R. . New stratusoct findings in extrapapillary excavated anomaly and secondary macular complications. Retina (Philadelphia)<sup><img id='0275004X_7' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='0275004X' /></sup>, v. 27, p. 113-115, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=0275004X&volume=27&issue=&paginaInicial=113&titulo=New stratusoct findings in extrapapillary excavated anomaly and secondary macular complications&sequencial=7&nomePeriodico=Retina (Philadelphia)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Melo, Gustavo Barreto</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s00417-006-0503-3" target="_blank"></a>Melo, Gustavo Barreto ; <b>AGGIO, F. B.</b> ; Höfling-Lima, Ana Luisa ; d Azevedo, Pedro Alves ; Pignatari, Antônio Carlos Campos . Pulsed-field gel electrophoresis in the identification of the origin of bacterial keratitis caused by Pseudomonas aeruginosa. Graefe's Archive for Clinical and Experimental Ophthalmology<sup><img id='0721832X_8' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='0721832X' /></sup>, v. 245, p. 1053-1054, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1007/s00417-006-0503-3&issn=0721832X&volume=245&issue=&paginaInicial=1053&titulo=Pulsed-field gel electrophoresis in the identification of the origin of bacterial keratitis caused by Pseudomonas aeruginosa&sequencial=8&nomePeriodico=Graefe's Archive for Clinical and Experimental Ophthalmology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>AGGIO, F. B.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s00417-006-0412-5" target="_blank"></a><b>AGGIO, F. B.</b>; Farah, Michel Eid ; Silva, Wagner Camilo ; Melo, Gustavo Barreto . Intravitreal bevacizumab for exudative age-related macular degeneration after multiple treatments. Graefe's Archive for Clinical and Experimental Ophthalmology<sup><img id='0721832X_9' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='0721832X' /></sup>, v. 245, p. 215-220, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1007/s00417-006-0412-5&issn=0721832X&volume=245&issue=&paginaInicial=215&titulo=Intravitreal bevacizumab for exudative age-related macular degeneration after multiple treatments&sequencial=9&nomePeriodico=Graefe's Archive for Clinical and Experimental Ophthalmology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>AGGIO, F. B.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2006</span><b>AGGIO, F. B.</b>; Melo, G. B. ; HOFLING-LIMA, A. L. ; FARAH, M. E. . Photodynamic therapy with verteporfin combined with intravitreal injection of bevacizumab for exudative age-related macular degeneration. Acta Ophthalmologica Scandinavica<sup><img id='13953907_10' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='13953907' /></sup>, v. 84, p. 831-833, 2006. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=13953907&volume=84&issue=&paginaInicial=831&titulo=Photodynamic therapy with verteporfin combined with intravitreal injection of bevacizumab for exudative age-related macular degeneration&sequencial=10&nomePeriodico=Acta Ophthalmologica Scandinavica" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>AGGIO, F. B.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2006</span><b>AGGIO, F. B.</b>; FARAH, M. E. ; Melo, G. B. . Intravitreal bevacizumab for occult choroidal neovascularization with pigment epithelium detachment in age-related macular degeneration. Acta Ophthalmologica Scandinavica<sup><img id='13953907_11' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='13953907' /></sup>, v. 84, p. 713-714, 2006. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=13953907&volume=84&issue=&paginaInicial=713&titulo=Intravitreal bevacizumab for occult choroidal neovascularization with pigment epithelium detachment in age-related macular degeneration&sequencial=11&nomePeriodico=Acta Ophthalmologica Scandinavica" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>AGGIO, F. B.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2005</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>AGGIO, F. B.</b>; FARAH, M. E. ; MEIRELLES, R. L. ; SOUZA, E. C. . StratusOCT and multifocal ERG in unilateral acute idiopathic maculopathy. Graefe's Archive for Clinical and Experimental Ophthalmology<sup><img id='1435702X_12' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='1435702X' /></sup>, Alemanha, 2005. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=1435702X&volume=&issue=&paginaInicial=&titulo=StratusOCT and multifocal ERG in unilateral acute idiopathic maculopathy&sequencial=12&nomePeriodico=Graefe's Archive for Clinical and Experimental Ophthalmology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MEIRELLES, R. L.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2005</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		MEIRELLES, R. L. ; <b>AGGIO, F. B.</b> ; COSTA, R. A. ; FARAH, M. E. . Stratus optical coherence tomography in unilateral colobomatous excavation of the optic disc and secondary retinoschisis.. Graefe's Archive for Clinical and Experimental Ophthalmology<sup><img id='0721832X_13' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='0721832X' /></sup>, Alemanha, v. 243, n.1, p. 76-81, 2005. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=0721832X&volume=243&issue=&paginaInicial=76&titulo=Stratus optical coherence tomography in unilateral colobomatous excavation of the optic disc and secondary retinoschisis.&sequencial=13&nomePeriodico=Graefe's Archive for Clinical and Experimental Ophthalmology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>AGGIO, F. B.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2005</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>AGGIO, F. B.</b>; MUCCIOLI, C. ; BELFORT JR, R. . Intravitreal triamcinolone acetonide as an adjunct in the treatment of severe ocular toxoplasmosis. Eye<sup><img id='14765454_14' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='14765454' /></sup>, Inglaterra, 2005. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14765454&volume=&issue=&paginaInicial=&titulo=Intravitreal triamcinolone acetonide as an adjunct in the treatment of severe ocular toxoplasmosis&sequencial=14&nomePeriodico=Eye" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>AGGIO, F. B.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2004</span><b>AGGIO, F. B.</b>; CARIELLO, A. J. ; ALMEIDA, M. S. S. ; RODRIGUES, C. A. ; MORAES, N. S. B. ; COLLEONI, G. W. B. ; FARAH, M. E. . Bilateral central retinal vein occlusion associated with multiple myeloma. Ophthalmologica (Basel)<sup><img id='00303755_15' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00303755' /></sup>, Suíça, v. 218, n.4, p. 283-287, 2004. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00303755&volume=218&issue=&paginaInicial=283&titulo=Bilateral central retinal vein occlusion associated with multiple myeloma&sequencial=15&nomePeriodico=Ophthalmologica (Basel)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FARAH, M. E. ; SARAIVA, V. S. ; <b>AGGIO, F. B.</b> . Pathology of age-related macular degeneration. In: Samuel Boyd; Hilel Lewis. (Org.). The Highlights Collection: Age-Related Macular Degeneration. 1ed.El Dorado: Highlights of Ophthalmology, 2006, v. 2, p. 19-28. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MESQUITA, J. R. ; GUIA, T. ; <b>AGGIO, F. B.</b> ; FARAH, M. E. . Princípios Físicos. Tomografia de Coerência Óptica. Rio de Janeiro: Cultura Médica, 2006, v. , p. 9-12. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SARAIVA, V. S. ; <b>AGGIO, F. B.</b> ; BURNIER JR, M. N. ; FARAH, M. E. . Correlação Anatômica. Tomografia de Coerência Óptica. Rio de Janeiro: Cultura Médica, 2006, v. , p. 45-49. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZANOTELE, M. ; <b>AGGIO, F. B.</b> ; DUPRAT, J. P. N. ; FARAH, M. E. . Descolamento do Epitélio Pigmentado da Retina. Tomografia de Coerência Óptica. Rio de Janeiro: Cultura Médica, 2006, v. , p. 101-106. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLIVEIRA, A. H. P. ; <b>AGGIO, F. B.</b> ; FARAH, M. E. . Terapia Fotodinâmica com Verteporfina. Tomografia de Coerência Óptica. Rio de Janeiro: Cultura Médica, 2006, v. , p. 123-126. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>AGGIO, F. B.</b>; SILVA, W. C. ; FARAH, M. E. . Bevacizumabe no Tratamento da Neovascularização Coróidea e do Edema Macular. Tomografia de Coerência Óptica. Rio de Janeiro: Cultura Médica, 2006, v. , p. 139-144. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BONOMO, P. P. ; <b>AGGIO, F. B.</b> ; HUANG, S. J. ; FARAH, M. E. . Edema Macular Cistóide Pós-Facectomia. Tomografia de Coerência Óptica. Rio de Janeiro: Cultura Médica, 2006, v. , p. 177-182. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MALERBI, F. K. ; CASELLA, A. M. B. ; <b>AGGIO, F. B.</b> ; FARAH, M. E. . Macroaneurismas Arteriais Retinianos. Tomografia de Coerência Óptica. Rio de Janeiro: Cultura Médica, 2006, v. , p. 201-204. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MORALES, P. H. ; <b>AGGIO, F. B.</b> ; FARAH, M. E. . Maculopatia diabética. Tomografia de Coerência Óptica. Rio de Janeiro: Cultura Médica, 2006, v. , p. 231-234. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">WATANABE, S. E. S. ; <b>AGGIO, F. B.</b> ; FARAH, M. E. . Distrofias Maculares. Tomografia de Coerência Óptica. Rio de Janeiro: Cultura Médica, 2006, v. , p. 283-286. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MEIRELLES, R. L. ; <b>AGGIO, F. B.</b> ; PABA, T. N. I. ; FARAH, M. E. . Coloboma E Fosseta do Disco Óptico. Tomografia de Coerência Óptica. Rio de Janeiro: Cultura Médica, 2006, v. , p. 357-366. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FARAH, M. E. ; MALERBI, F. K. ; HUANG, S. J. ; <b>AGGIO, F. B.</b> ; CARVALHO, E. S. . Indocyanine green-mediated photothrombosis for choroidal neovascularization in angioid streaks. In: Association for Research in Vision and Ophthalmology Annual Meeting, 2005, Fort Lauderdale. Investigative Ophthalmology and Visual Science. Fort Lauderdale: Association for Research in Vision and Ophthalmology, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PINTO, L. M. ; <b>AGGIO, F. B.</b> ; ENDO, M. Y. ; YASAKI, E. S. ; OLIVEIRA, A. H. P. ; FARAH, M. E. . Third generation optical coherence tomography (OCT 3) in high myopia. In: Association for Research in Vision and Ophthalmology Annual Meeting, 2005, Fort Lauderdale. Investigative Ophthalmology and Visual Science. Fort Lauderdale: Association for Research in Vision and Ophthalmology, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>AGGIO, F. B.</b>; ISAAC, D. L. ; MAGACHO, L. ; AVILA, M. P. ; FARAH, M. E. . Combined photodynamic therapy with verteporfin and intravitreal triamcinolone acetonide for subfoveal CNV in age-related macular degeneration. In: Annual Scientific Congress of the Royal Australian and New Zealand College of Ophthalmologists, 2005, Hobart. Clinical and Experimental Ophthalmology. Victoria: Blackwell Publishing, 2005. v. 33. p. 53-54. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZANOTELE, M. ; <b>AGGIO, F. B.</b> ; MORAES, N. S. B. ; COSTA, R. A. ; FARAH, M. E. . Central serous chorioretinopathy: a study by StratusOCT. In: Association for Research in Vision and Ophthalmology, 2004, Fort Lauderdale. Investigative Ophthalmology and Visual Science. Fort Lauderdale: The Association for Reaserch in Vision and Ophthalmology, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>AGGIO, F. B.</b>; ROCHA, G. M. S. ; ARAUJO, M. C. ; MASRUHA, M. ; SALLUM, J. M. F. . Alterações oculares na Síndrome de Sjögren-Larsson. In: Congresso Brasileiro de Oftalmologia, 2003, Salvador. Arquivos Brasileiros de Oftalmologia. São Paulo: Conselho Brasileiro de Oftalmologia, 2003. v. 66. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>AGGIO, F. B.</b>; Melo, G. B. ; Loewenstein A ; FARAH, M. E. . Correlation Between Preferential Hyperacuity Perimetry and OCT in Patients With Metamorphopsia. 2006. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 19/09/2019 &agrave;s 8:04:41</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=9177191360456126" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>
