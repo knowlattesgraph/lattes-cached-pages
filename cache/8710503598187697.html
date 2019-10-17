@@ -1,0 +1,1841 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (&Aacute;guida Celina de M&eacute;o Barreiro)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+        			
+      		});			  
+      		
+      		                                
+		
+	</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=8710503598187697" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasInformacoesRelevantes">Outras informações relevantes</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#LinhaPesquisa">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4703361U2&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4703361U2"><div class="infpessoa">
+<h2 class="nome">&Aacute;guida Celina de M&eacute;o Barreiro</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/8710503598187697</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 25/10/2004</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui gradua&ccedil;&atilde;o  em Licenciatura Plena Em Orienta&ccedil;&atilde;o Educacional pela Universidade Federal de S&atilde;o Carlos(1978), mestrado em Educa&ccedil;&atilde;o pela Universidade Federal de S&atilde;o Carlos(1986) e doutorado em Educa&ccedil;&atilde;o pela Universidade de S&atilde;o Paulo(1996). Tem experi&ecirc;ncia na &aacute;rea de Educa&ccedil;&atilde;o. Atuando principalmente nos seguintes temas:CAPACITA&Ccedil;&Atilde;O DOCENTE, ENSINO SUPERIOR, Forma&ccedil;&atilde;o pedag&oacute;gica, avalia&ccedil;&atilde;o. <span style="font-weight: bold" class="texto"> (Texto gerado automaticamente pela aplica&ccedil;&atilde;o CVLattes)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Águida Celina de Méo Barreiro</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">BARREIRO, A. C. M.</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade de São Paulo, Instituto de Física de São Carlos, Departamento de Física e Informática. <br class="clear" />Av. Trabalhador Sãocarlense, 400<br class="clear" />Centro<br class="clear" />13566590 - Sao Carlos, SP - Brasil - Caixa-postal: 369<br class="clear" />Fax: (16) 33739877</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1991 - 1996</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Educação<span class="ajaxCAPES" data-param="&codigoCurso=33002010001P6&nivelCurso=D"></span>. <br class="clear" />Universidade de São Paulo, USP, Brasil.
+		
+	<br class="clear" />Título: A prática docente do professor de Física do terceiro grau, Ano de obtenção: 1996. <br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/0857037856114032'><img src='images/curriculo/logolattes.gif' /></a>Marcos Tarciso Masetto. <br class="clear" />Palavras-chave: CAPACITAÇÃO DOCENTE; ENSINO SUPERIOR; Formação pedagógica; avaliação.<br class="clear" />Grande área: Ciências Humanas / Área: Educação / Subárea: Didática / Especialidade: Capacitação Docente. <br class="clear" />Grande Área: Ciências Humanas / Área: Educação / Subárea: Planejamento e Avaliação Educacional / Especialidade: Avaliação de Sistemas, Instituições, Planos e Programas Educacionais. <br class="clear" />Setores de atividade: Educação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1982 - 1986</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Educação<span class="ajaxCAPES" data-param="&codigoCurso=33001014001P0&nivelCurso=M"></span>. <br class="clear" />Universidade Federal de São Carlos, UFSCAR, Brasil.
+		
+	<br class="clear" />Título: Estudo do processo de ensino da unidade área das figuras geométricas,Ano de Obtenção: 1986.<br class="clear" />Orientador: Fermino Fernandes Sisto.<br class="clear" />Palavras-chave: Ensino; Aprendizagem.<br class="clear" />Grande área: Ciências Humanas / Área: Educação / Subárea: Metodologia de Ensino / Especialidade: Ensino Aprendizagem. <br class="clear" />Setores de atividade: Educação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1974 - 1978</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Licenciatura Plena Em Orientação Educacional<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal de São Carlos, UFSCAR, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade de São Paulo, USP, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1990 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor doutor, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Docente Aposentada.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/2002 - 6/2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Outras atividades técnico-científicas , Instituto de Física de São Carlos, Departamento de Física e Informática. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade realizada<br class="clear" />Coordenadora da área pedagógica do curso de Licenciatura em Ciências Exatas. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/2000 - 6/2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Instituto de Física de São Carlos, Departamento de Física e Informática. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Serviços à comunidade na área de ensino de grau médio/Projeto Educacional/IEA-USP. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/2000 - 6/2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Instituto de Física de São Carlos, Departamento de Física e Informática. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Projeto pequeno cidadão, Campus São Carlos USP. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/1998 - 6/2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Instituto de Física de São Carlos, Departamento de Física e Informática. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Programa de educação de adultos através do Telecurso 2000, Campus de São Carlos USP. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/1997 - 6/2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Física, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Práticas pedagógicas e comunicação e expressão<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/1991 - 6/2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Instituto de Física de São Carlos, Departamento de Física e Informática. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />Assessoria em educação no Centro de Divulgação Científica e Cultural (CDCC). </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/1991 - 6/2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Outras atividades técnico-científicas , Instituto de Física de São Carlos, Departamento de Física e Informática. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade realizada<br class="clear" />Presidente da  comissão de bibliotecas do Centro de Divulgação Científica e Cultural (CDCC). </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/1991 - 6/2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Outras atividades técnico-científicas , Instituto de Física de São Carlos, Departamento de Física e Informática. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade realizada<br class="clear" />Supervisora do programa de aperfeiçoamento de ensino do IFSC. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/1990 - 6/2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Instituto de Física de São Carlos, Departamento de Física e Informática. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Capacitação docente'>Capacitação docente</a><br class="clear" /><a href='#LP_Avaliação educacional'>Avaliação educacional</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/1990 - 6/2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Licenciatura Em Ciências Exatas, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Psicologia da educação<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/1990 - 6/2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Licenciatura Em Matemática, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Psicologia da Educação<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3/1993 - 8/2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Outras atividades técnico-científicas , Instituto de Física de São Carlos, Departamento de Física e Informática. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade realizada<br class="clear" />Membro da CoC - Coordenação de curso da Licenciatura em Ciências Exatas. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="LinhaPesquisa">
+<h1>Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='LP_Capacita&ccedil;&atilde;o docente'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Capacitação docente</div>
+</div><a name='LP_Avalia&ccedil;&atilde;o educacional'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Avaliação educacional</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Humanas / Área: Educação. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Português</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BARREIRO, A. C. M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2001</span><b>BARREIRO, A. C. M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9231522389312679" target="_blank">BARREIRO, D. L.</a> . Compositor musical e professor: uma visão comparativa.. Comunicação & Educação<sup><img id='01046829_1' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='01046829' /></sup>, São Pauo, SP, v. 21, p. 43-53, 2001. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01046829&volume=21&issue=&paginaInicial=43&titulo=Compositor musical e professor: uma visão comparativa.&sequencial=1&nomePeriodico=Comunicação & Educação" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BARREIRO, A. C. M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2000</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8710503598187697" target="_blank">BARREIRO, A. C. M.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9572410339084315" target="_blank">NASCIMENTO, O R</a> . A participação de alunos na correção das provas de uma disciplina de física no ensino superior.1. Caderno Catarinense de Ensino de Física<sup><img id='01023594_2' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='01023594' /></sup>, Florinanópolis, SC, v. 17, n.3, p. 295-306, 2000. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01023594&volume=17&issue=&paginaInicial=295&titulo=A participação de alunos na correção das provas de uma disciplina de física no ensino superior.1&sequencial=2&nomePeriodico=Caderno Catarinense de Ensino de Física" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BARREIRO, A. C. M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1994</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>BARREIRO, A. C. M.</b> . PSICOLOGIA DA EDUCAÇÃO NAS LICENCIATURAS EM FÍSICA, QUÍMICA E MATEMÁTICA. Revista Educação e Filosofia, Uberlândia, MG, v. 8, n.15, p. 83-88, 1994. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=&volume=8&issue=&paginaInicial=83&titulo=PSICOLOGIA DA EDUCAÇÃO NAS LICENCIATURAS EM FÍSICA, QUÍMICA E MATEMÁTICA&sequencial=3&nomePeriodico=Revista Educação e Filosofia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BARREIRO, A. C. M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1994</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>BARREIRO, A. C. M.</b> . MODELOS DE ENSINO. Revista Educação e Fillosofia, Uberlândia, MG, v. 8, n.15, p. 109-116, 1994. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=&volume=8&issue=&paginaInicial=109&titulo=MODELOS DE ENSINO&sequencial=4&nomePeriodico=Revista Educação e Fillosofia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MARQUES, P. M. A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1994</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7119886675051877" target="_blank">MARQUES, P. M. A.</a> ; <b>BARREIRO, A. C. M.</b> ; SOUZA, A. ; GALEANO, E. . DEMONSTRAÇÃO EM TEORIA CINÉTICA. Caderno Catarinense de Ensino de Física<sup><img id='01023594_5' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='01023594' /></sup>, Florianópolis, SC, v. 11, n.2, p. 100-104, 1994. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01023594&volume=11&issue=&paginaInicial=100&titulo=DEMONSTRAÇÃO EM TEORIA CINÉTICA&sequencial=5&nomePeriodico=Caderno Catarinense de Ensino de Física" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BARREIRO, A. C. M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1992</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8710503598187697" target="_blank">BARREIRO, A. C. M.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4947860249518663" target="_blank">BAGNATO, V. S.</a> . AULAS DEMONSTRATIVAS NOS CURSOS BÁSICOS DE FÍSICA. Caderno Catarinense de Ensino de Física<sup><img id='01023594_6' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='01023594' /></sup>, Florianópolis, v. 9, n.3, p. 238-244, 1992. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01023594&volume=9&issue=&paginaInicial=238&titulo=AULAS DEMONSTRATIVAS NOS CURSOS BÁSICOS DE FÍSICA&sequencial=6&nomePeriodico=Caderno Catarinense de Ensino de Física" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BARREIRO, A. C. M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1992</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8710503598187697" target="_blank">BARREIRO, A. C. M.</a></b>. LICENCIATURA EM FÍSICA: UMA PROPOSTA. Revista Brasileira de Ensino de Física<sup><img id='01024744_7' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='01024744' /></sup>, São Paulo, SP, v. 14, n.3, p. 125-128, 1992. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01024744&volume=14&issue=&paginaInicial=125&titulo=LICENCIATURA EM FÍSICA: UMA PROPOSTA&sequencial=7&nomePeriodico=Revista Brasileira de Ensino de Física" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>TAVEIRA, M. A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1992</span>TAVEIRA, M. A. ; <b>BARREIRO, A. C. M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4947860249518663" target="_blank">BAGNATO, V. S.</a> . SIMPLES DEMONSTRAÇÃO DO MOVIMENTO DE PROJETÉIS EM SALA DE AULA. Caderno Catarinense de Ensino de Física<sup><img id='01023594_8' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='01023594' /></sup>, Florianópolis, SC, v. 9, n.1, p. 30-44, 1992. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01023594&volume=9&issue=&paginaInicial=30&titulo=SIMPLES DEMONSTRAÇÃO DO MOVIMENTO DE PROJETÉIS EM SALA DE AULA&sequencial=8&nomePeriodico=Caderno Catarinense de Ensino de Física" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="LivrosCapitulos"></a>Livros publicados/organizados ou edições</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8710503598187697" target="_blank">BARREIRO, A. C. M.</a></b>; BARREIRO, J C (Org.) ; FELTRAN, R C S (Org.) . Experiências em avaliação na Universidade.. Taubaté, SP: Cabral Editora e Livraria Universitária, 2004. 237p . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8710503598187697" target="_blank">BARREIRO, A. C. M.</a></b>; SCHIEL, D. (Org.) ; FERREIRA, E. R. O. (Org.) . A criatividade. São Carlos, SP: IFQSC-CDCC, 1990. v. 1. 67p . </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8710503598187697" target="_blank">BARREIRO, A. C. M.</a></b>; NAKAO, O S ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9572410339084315" target="_blank">NASCIMENTO, O R</a> . Avaliando na área de ciências Exatas: duas experiências. 
+
+. In: BARREIRO, A. C. M.; BARREIRO, J. C.; FELTRAN, R.C.S.;. (Org.). Experiências em avaliação na universidade.. Taubaté, SP: Cabral Editora e Livraria Universitária, 2004, v. , p. 67-98. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8710503598187697" target="_blank">BARREIRO, A. C. M.</a></b>; FERNANDES, L A . Avaliação da aprendizagem em física. 
+
+. In: BARREIRO, A. C. M.; BARREIRO, J. C.; FELTRAN, R.C.S.;. (Org.). Experiências em avaliação na universidade.. Taubaté, SP: Cabral Editora e Livraria Universitária, 2004, v. , p. 123-154. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8710503598187697" target="_blank">BARREIRO, A. C. M.</a></b>. A prática docente na universidade.. In: FELTRAN, R.C.S.; MALUÁ, S.. (Org.). A prática da docência universitária. São Paulo, SP: Factash Editora, 2003, v. , p. 39-98. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TextosJornaisRevistas"></a>Textos em jornais de notícias/revistas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">PASQUA, N. H. ; <b>BARREIRO, A. C. M.</b> . Ovação aos Educadores.. Jornal A Primeira Página, São Carlos, SP, p. D7, 20 out.  2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RÓZ, A. L. ; <b>BARREIRO, A. C. M.</b> . A Educação Atual.. Jornal A Primeira Página, São Carlos, SP, p. D7, 13 out.  2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FONTANA, C. R. ; <b>BARREIRO, A. C. M.</b> . O Professor: Além do Saber, o Show e a Arte.. Jornal A Primeira Página, São Carlos, SP, p. D7, 04 ago.  2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BEZERRA, R. M. ; <b>BARREIRO, A. C. M.</b> . A Progressão Continuada: Prós e Contras.. Jornal A Primeira Página, São Carlos, SP, p. D7, 07 jul.  2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">TAMBELLI, C. E. C. ; <b>BARREIRO, A. C. M.</b> . Jean Piaget e a Escola.. Jornal A Primeira Página, São Carlos, SP, p. D7, 30 jun.  2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZUCOLOTTO, V. ; <b>BARREIRO, A. C. M.</b> . Internet como ferramenta de ensino: o papel do professor.. Jornal A Primeira Página, São Carlos, SP, p. D7, 16 jun.  2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CAZATI, T. ; <b>BARREIRO, A. C. M.</b> . A Pedagogia da Alternância.. Jornal A Primeira Página, São Carlos, SP, p. D7, 05 maio  2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, M. ; <b>BARREIRO, A. C. M.</b> . A importância da preparação pedagógica para os alunos de pós-graduação das áreas de Ciências Exatas e Biológicas.. Jornal Primeira Página, São Carlos, SP, p. 1, 31 mar.  2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS JÚNIOR, D. S. ; <b>BARREIRO, A. C. M.</b> . O papel da informática no ensino superior de química.. Jornal Primeira Página, São Carlos,SP, a ser publicado, 20 fev.  2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LOBO, M. P. ; <b>BARREIRO, A. C. M.</b> . Física Teórica na WEB: um projeto de ensino à distância.. Jornal Primeira Página, São Carlos,SP, a ser publicado, 20 fev.  2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FLORES, A. M. ; <b>BARREIRO, A. C. M.</b> . Características de um bom professor.. Jornal Primeira Página, São Carlos,SP, a ser publicado, 20 fev.  2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8710503598187697" target="_blank">BARREIRO, A. C. M.</a></b>; GUEDES, F. B. . Uma experiência universitária participativa no ensino médio.. Jornal Primeira Página, São Carlos, SP, p. D7, 20 ago.  2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RODRIGUES, S. C. M. ; <b>BARREIRO, A. C. M.</b> . O computador na educação.. Jornal Primeira Página, São Carlos, SP, p. D7, 23 jul.  2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GRANJA, S. C. G. ; <b>BARREIRO, A. C. M.</b> . Saberes da docência.. Jornal Primeira Página, São Carlos, SP, p. D7, 16 jul.  2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SIMÕES, T. P. ; <b>BARREIRO, A. C. M.</b> . Potencial intelectual II.. Jornal Primeira Página, São Carlos, SP, p. D7, 09 jul.  2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SIMÕES, T. P. ; <b>BARREIRO, A. C. M.</b> . Potencial intelectual I.. Jornal Primeira Página, São Carlos, SP, p. D7, 02 jul.  2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FRANCISCO, M. S. P. ; CARVALHO, L. A. ; <b>BARREIRO, A. C. M.</b> . Paulo Freire - educação e ensino II.. Jornal Primeira Página, São Carlos, SP, p. D7, 07 maio  2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FRANCISCO, M. S. P. ; CARVALHO, L. A. ; <b>BARREIRO, A. C. M.</b> . Paulo Freire - educação e ensino I.. Jornal Primeira Página, São Carlos, SP, p. D7, 30 abr.  2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8710503598187697" target="_blank">BARREIRO, A. C. M.</a></b>. USP: VALORIZAÇÃO DO ENSINO DE GRADUAÇÃO I E II. Jornal Primeira Página, São Carlos, SP, p. A12, 20 set.  1998. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8710503598187697" target="_blank">BARREIRO, A. C. M.</a></b>. O ENSINO DE FÍSICA EM CUBA. Jornal Primeira Página, São Carlos, SP, p. A13, 16 ago.  1998. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8710503598187697" target="_blank">BARREIRO, A. C. M.</a></b>; DONOSO, J. P. ; MAREGA JUNIOR, E. . SEMINÁRIO DE VALORIZAÇÃO DO ENSINO DE GRADUAÇÃO. Boletim Informativo IFSC/USP, São Carlos, SP, , v. 17, p. 1 - 2, 01 jul.  1998. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8710503598187697" target="_blank">BARREIRO, A. C. M.</a></b>. O INSTITUTO DE FÍSICA DE SÃO CARLOS E A VALORIZAÇÃO DO ENSINO. Boletim Informativo IFSC/USP, São Carlos, SP, , v. 15, p. 1 - 1, 01 jun.  1998. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8710503598187697" target="_blank">BARREIRO, A. C. M.</a></b>. CONTRIBUIÇÕES DO INSTITUTO DE FÍSICA DE SÃO CARLOS - USP. Jornal Primeira Página, São Carlos, SP, p. A9, 12 abr.  1998. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8710503598187697" target="_blank">BARREIRO, A. C. M.</a></b>. O CAMPUS DE SÃO CARLOS E O INSTITUTO DE FÍSICA DE SÃO CARLOS. Jornal Primeira Página, São Carlos, SP, p. A9, 05 abr.  1998. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8710503598187697" target="_blank">BARREIRO, A. C. M.</a></b>. O PROGRAMA DE APERFEIÇOAMENTO DO ENSINO NO INSTITUTO DE FÍSICA DE SÃO CARLOS: PREPARANDO PROFESSORES PARA O ENSINO SUPERIOR. Boletim do Pae Usp, São Paulo, SP, , v. 06, p. 3 - 3, 03 jan.  1998. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8710503598187697" target="_blank">BARREIRO, A. C. M.</a></b>. USP DESENVOLVE APERFEIÇOAMENTO NO ENSINO. Jornal Primeira Página, São Carlos, SP, p. B8, 05 out.  1997. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BELTRAMINI, L. M. ; <b>BARREIRO, A. C. M.</b> ; L, L. V. . LICENCIATURA EM CIÊNCIAS EXATAS - CURSO NOTURNO. Jornal Primeira Página, São Carlos, SP, p. A17, 21 set.  1997. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8710503598187697" target="_blank">BARREIRO, A. C. M.</a></b>; GUERRINI, Iria M ; MASCARENHAS, Yvonne P . As interfaces possíveis em um estudo sobre interdisciplinaridade na formação inicial e contínua de professores.
+
+. In: IX Encontro de Pesquisa em Ensino Física, 2004, Jaboticatubas, MG, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OZANA, L. A. ; <b>BARREIRO, A. C. M.</b> . Adaptaçãp pedagógica do educador perante as mudanças sócioculturais. In: IX Congresso de Iniciação Científica da USP, 2001, São Paulo, 2001. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SALES, N. L. L. ; LÍBERO, V. L. ; <b>BARREIRO, A. C. M.</b> . Uma aula experimental: o movimento de queda livre.. In: XIII Simpósio Nacional de Ensino de Física, 1999, Brasilia, DF. Atas do XIII Simpósio Nacional de Ensino de Física. São Paulo, SP: Sociedade Brasileira de Física, 1999. p. 298-300. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SALES, N. L. L. ; LÍBERO, V. L. ; <b>BARREIRO, A. C. M.</b> . Uma aula experimental: o movimento de queda livre.. In: XIII Simpósio Nacional de Ensino de Física, 1999, Brasília, DF. Caderno de Resumos e Programação - painél 12.5. São Paulo, SP: Sociedade Brasileira de Física, 1999. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OSHIRO, A. M. ; <b>BARREIRO, A. C. M.</b> . Ciência no ensino fundamental: o conhecimento físico. In: 3a. Reunião Anual de Ciência do Centro Universitário do Triângulo - UNIT, 1999, Uberlândia, MG, 1999. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BARBOSA, P. R. ; <b>BARREIRO, A. C. M.</b> . Atividades de matemática para o ensino fundamental. In: 3a. Reunião Anual de Ciência do Centro Universitário do Triângulo - UNIT, 1999, Uberlândia, MG, 1999. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8710503598187697" target="_blank">BARREIRO, A. C. M.</a></b>. A prática docente do professor de física no terceiro grau. In: XII Simpósio Nacional de Ensino de Física, 1997, Belo Horizonte, MG. Atas. Belo Horizonte, MG, 1997. p. 256-262. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7119886675051877" target="_blank">MARQUES, P. M. A.</a> ; <b>BARREIRO, A. C. M.</b> ; SOUZA, A. ; GALEANO, E. . Demonstração em teoria cinética. In: X Simpósio Nacional de Ensino de Física, 1993, Londrina, PR. Atas. São Paulo, SP: Sociedade Brasileira de Física, 1993. p. 482-486. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8710503598187697" target="_blank">BARREIRO, A. C. M.</a></b>. Psicologia da educação nas licenciaturas em física, química e matemática. In: X Simpósio Nacional de Ensino de Física, 1993, Londrina, PR. Atas. São Paulo, SP: Sociedade Brasileira de Física, 1993. p. 412-415. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OZANA, L. A. ; <b>BARREIRO, A. C. M.</b> . Adaptação pedagógica do educador perante as mudanças sócioculturais.. In: IV Jornada Científica e IX Congresso de Iniciação Científica da UFScar, 2001, São Carlos, SP. Anais. São Carlos, SP, 2001. p. 1-2. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MANTOVANI, K. C. ; SCHIEL, D. ; <b>BARREIRO, A. C. M.</b> . Internet e linguagem logo no ensino de física experimental na educação de jovens e adultos.. In: XIV Simpósio Nacional de Ensino de Física, 2001, Natal, RN, 2001. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BARBOSA, P. R. ; <b>BARREIRO, A. C. M.</b> . Atividades de matemática para o ensino fundamental.. In: VIII Simpósio Internacional de Iniciação Científica da Universidade de São Paulo, 2000, São Carlos, SP. Resumo. São Paulo, SP: Universidade de São Paulo, 2000. v. 2. p. 379. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8710503598187697" target="_blank">BARREIRO, A. C. M.</a></b>. O aluno de pós-graduação em física precisa da preparação pedagógica? . In: XIII Simpósio Nacional de Ensino de Física, 1999, Brasília, DF. Caderno de Resumos e Programação. São Paulo, SP: Sociedade Brasileira de Física, 1999. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OSHIRO, A. M. ; <b>BARREIRO, A. C. M.</b> . Ciências no ensino fundamental: o conhecimento físico.. In: VII Simpósio Internacional de Iniciação Científica da Universidade de São Paulo, 1999, São Paulo, SP. Resumos - res.3.12. São Paulo, SP: Universidade de São Paulo, 1999. p. 82-82. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ALVES, M. V. ; RODRIGUES, S. G. ; FRANCESCHINI, M. J. ; FREITAS, K. G. ; MAREGA JUNIOR, E. ; <b>BARREIRO, A. C. M.</b> . MONITORIA EM FÍSICA: PERFIL DE ALUNOS-USUÁRIOS DO CDCC E DIAGNÓSTICO DE DIFICULDADE NO SEGUNDO GRAU. In: 9 Encontro Nacional de Didática e Prática de Ensino, 1998, Águas de Lindóia, SP. Resumos, res. PO-104, 1998. v. 1. p. 463. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ALVES, M. V. ; <b>BARREIRO, A. C. M.</b> ; MAREGA JUNIOR, E. . Avaliando a formação de conceitos no ensino de física do segundo grau.. In: 6 Encontro de Pesquisa em Ensino de Física, 1998, Florianópolis, SC. Resumos, 1998. p. 175-178. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8710503598187697" target="_blank">BARREIRO, A. C. M.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9572410339084315" target="_blank">NASCIMENTO, O R</a> . Avaliação no terceiro grau.. In: 6 Encontro de Pesquisa em Ensino de Física, 1998, Florianópolis. Resumos, 1998. p. 172-174. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8710503598187697" target="_blank">BARREIRO, A. C. M.</a></b>. A PRÁTICA DOCENTE DO PROFESSOR DE FÍSICA DO TERCEIRO GRAU. In: XII Simpósio Nacional de Ensino de Física, 1997, Belo Horizonte, MG. Programa e Resumos, 1997. p. 53. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8710503598187697" target="_blank">BARREIRO, A. C. M.</a></b>. INVESTIGANDO A PRÁTICA DOCENTE DO PROFESSOR/PESQUISADOR DE FÍSICA. In: 20 Reunião Anual da Associação Nacional de Pós-Graduação e Pesquisa em Educação - ANPED, 1997, Caxambú, MG. Programas e Resumos. São Paulo, SP: Associação Nacional de Pós-Graduação e Pesquisa em Educação, 1997. p. 167. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8710503598187697" target="_blank">BARREIRO, A. C. M.</a></b>. A DOCÊNCIA NO BACHARELADO E NA LICENCIATURA EM FÍSICA. In: I Congresso de Ciências da Educação: Perspectivas de investigação., 1997, Araraquara, SP. Araraquara, SP: UNESP, 1997. p. 50. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8710503598187697" target="_blank">BARREIRO, A. C. M.</a></b>. A USP, o campus de São Carlos e o IFSC. In: Convenção USP: História da Ciência e da Tecnologia, 1997, São Paulo, SP. Caderno de Resumos. São Paulo, SP: Centro de História da Ciência - USP, 1997. p. 4-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8710503598187697" target="_blank">BARREIRO, A. C. M.</a></b>. Psicologia da educação na licenciatura em física, química e matemática. In: X Simpósio Nacional de Ensino de Física, 1993, Londrina, PR. res. PN.SEG.153. São Paulo, SP: Sociedade Brasileira de Física, 1993. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8710503598187697" target="_blank">BARREIRO, A. C. M.</a></b>; REDONDO, D. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7119886675051877" target="_blank">MARQUES, P. M. A.</a> ; GALEANO, E. ; SOUZA, A. . Demonstração em teoria cinética. In: X Simpósio Nacional de Ensino de Física, 1993, Londrina, PR. Res.PN.TER.151. São Paulo, SP: Sociedade Brasileira de Física, 1993. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8710503598187697" target="_blank">BARREIRO, A. C. M.</a></b>; BAGNATO, V. S. . Uso de aulas demonstrativas nos cursos básicos de física. In: 5 Reunion Latino Americana sobre Educacion en Fisica, 1992, Porto Alegre, RS. Atas - res.R79, 1992. p. 297. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8710503598187697" target="_blank">BARREIRO, A. C. M.</a></b>; REDONDO, D. M. ; SCHIEL, D. ; SANTOS, R. H. A. ; CAMPANA FILHO, S. P. . Licenciatura em física: uma proposta. In: 5 Reunion Latino Americana sobre Educacion en Fisica, 1992, Gramado, RS. Atas-res. R1, 1992. p. 219. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8710503598187697" target="_blank">BARREIRO, A. C. M.</a></b>. Licenciatura em física: uma proposta. In: 5 Reunion Latino Americana sobre Educacion en Fisica, 1992, Gramado, RS. Resumos, 1992. p. 14. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8710503598187697" target="_blank">BARREIRO, A. C. M.</a></b>; TAVEIRA, A. M. A. ; BAGNATO, V. S. . Uso de aulas demonstrativas nos cursos básicos de física. In: Uso de aulas demonstrativas nos cursos básicos de física, 1992, Gramado, RS. Resumos. Porto Alegre, RS, 1992. p. 101. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RODRIGUES, M. M.; AMARAL, V. B. S.; <b>BARREIRO, A. C. M.</b>; MALOSÁ, S..  Participação em banca de Vana Beatriz Soares do Amaral. A importância da comunicação no desenvolvimento das relações interpessoais: uma análise da prática docente no curso de pedagogia de Itumbiara-GO. 2002. Dissertação (Mestrado em Educação Magistério Superior) - Centro Universitário do Triângulo. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FELTRAN, R. C. S.; FERNANDES, L. A.; PAGOTTI, A. W.; <b>BARREIRO, A. C. M.</b>.  Participação em banca de Luiz Antonio Fernandes. A avaliação da Aprendizagem na Disciplina Física na Educação Superior.. 2002. Dissertação (Mestrado em Educação Magistério Superior) - Centro Universitário do Triângulo. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FELTRAN, R. C. S.; SANTOS, G. M. B.; <b>BARREIRO, A. C. M.</b>; MALOSÁ, S..  Participação em banca de Glória de Melo Bruno Santos. O curso de pedagogia e a formação dos professores das séries iniciais do ensino fundamental: a realidade de Patos de Minas. 2001. Dissertação (Mestrado em Educação Magistério Superior) - Centro Universitário do Triângulo. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BELHOT, R. V.; COLENCI, A. T.; <b>BARREIRO, A. C. M.</b>; ESCRIVÃO FILHO, E.; REBELATTO, D. A. N..  Participação em banca de Ana Teresa Colenci. O ensino de engenharia como uma atividade de serviços: a exigência de atuação em novos patamares de qualidade acadêmica . 2000. Dissertação (Mestrado em Engenharia (Engenharia de Produção)) - Universidade de São Paulo. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FELTRAN, R. C. S.; DIAS, S. R.; <b>BARREIRO, A. C. M.</b>; PAGOTTI, W..  Participação em banca de Sandra Regina Dias. Avaliação: desafio de docentes e discentes universitários . 2000. Dissertação (Mestrado em Educação Magistério Superior) - Centro Universitário do Triângulo. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Outros tipos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BELHOT, R. V.; COLENCI, A. T.; <b>BARREIRO, A. C. M.</b>; ESCRIVÃO FILHO, E.; REBELATTA, D. A. N.. 
+						Participação em banca de Ana Teresa Colenci.
+							O ensino de engenharia como uma atividade de serviços: a exigência de atuação em novos patamares de qualidade acadêmica.
+							2000. Outra participação,
+							Universidade de São Paulo. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FELTRAN, R. C. S.; DIAS, S. R.; <b>BARREIRO, A. C. M.</b>; PAGOTTI, W.. 
+						Participação em banca de Sandra Regina Dias.
+							Avaliação: desafio de docentes e discentes universtários .
+							1999. Outra participação,
+							Centro Universitário do Triângulo. </div>
+</div>
+<br class="clear"><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">International Conference on Science and Mathematics Education.Apresentação do trabalho conjunto: Development and Evaluation of a Participative Universtiy Pedagogy for the Teaching of Science and Mathematics in High School. 2002. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIII Encontro de Pesquisa em Ensino de Física.Apresentação do trabalho conjunto: Analisando a aplicação de informática na Educação de Jovens e Adultos: é possível que a informática contribua para a construção de modelos científicos em Eletricidade?.
+							2002. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">X Simpósio Internacional de Iniciação Científica da Universidade de São Paulo.Apresentação do trabalho da bolsista Alessandra Aparecida Viveiro: Ensinando Ciências para Crianças..
+							2002. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Encontro de Educação e Sociedade: melhoria do Ensino Básico de Ciências na América Latina.Encontro de Educação e Sociedade: melhoria do Ensino Básico de Ciências na América Latina..
+							2001. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IX Congresso de Iniciação Científica da UFSCar. 4a. Jornada Científica - conhecimentos e diálogo de saberes.. Apresentação do trabalho do bolsista Leandro Antonio Ozana: Adaptação pedagógica do educador perante as mudanças sócio-culturais.. 2001. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IX Simpósio de Iniciação Científica da USP.Apresentação de trabalho do bolsista Leandro Antonio Ozana: Adaptação pedagógica do educador perante as mudanças sócio-culturais..
+							2001. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIV Simpósio Nacional de Ensino de Física.Apresentação do trabalho conjunto: Internet e Linguagem LOGO no ensino de física experimental na educação de jovens e adultos..
+							2001. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">8o. Simpósio Internacional de Iniciação Científica da Universidade de São Paulo.Apresentação do trabalho do bolsista Paulo R. Barbosa: Atividades de matemática para o ensino fundamental..
+							2000. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">3a. Reunião Anual de Ciência.Apresentação do trabalho da bolsista A. M. Oshiro Ciências no Ensino Fundamental: o conhecimento físico. 1999. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">3a. Reunião Anual de Ciência.Apresentação do trabalho do bolsista Paulo Roberto Barbosa: Atividades de Matemática para o Ensino Fundamental. 1999. (Outra). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Comemoração dos 30 Anos da FE/USP e 40 Anos da Escola de Aplicação.Faculdades de Educação: Realizações e Desafios. 1999. (Outra). 
+					</div>
+</div>
+<br class="clear">
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Katia Cristina Cota Mantovani. Internet e linguagem logo no ensino de física experimental na educação de jovens e adultos.
+							2002. 0 f.
+						
+					Dissertação  (Mestrado em Educação)  - Universidade Estadual Paulista Júlio de Mesquita Filho, . Coorientador: Águida Celina de Méo Barreiro. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Alessandra Aparecida Viveiro.
+							Ensinando ciências para crianças: o conhecimento físico no ensino fundamental.
+							2002. 0 f.
+							Iniciação Científica. (Graduando em Licenciatura Em Ciências Exatas)  - Universidade de São Paulo,
+							Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Águida Celina de Méo Barreiro.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Andréia M Oshiro.
+							Ciências no ensino fundamental: o conhecimento físico.
+							2000. 0 f.
+							Iniciação Científica. (Graduando em Licenciatura Em Ciências Exatas)  - Universidade de São Paulo,
+							Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Águida Celina de Méo Barreiro.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Paulo Roberto Barbosa.
+							Atividades e jogos de matemática no ensino fundamental.
+							2000. 0 f.
+							Iniciação Científica. (Graduando em Licenciatura Em Matemática)  - Universidade de São Paulo,
+							Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Águida Celina de Méo Barreiro.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrasInformacoesRelevantes">
+<h1>Outras informa&ccedil;&otilde;es relevantes</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<pre class="outras-informacoes">Referée do Caderno Catarinense de Ensino;
+Organização e coordenação dos workshops: "Ciências: o conhecimento físico no ensino fundamental" e "Atividades e jogos de matemática: vínculos com o cotidiano", promovidos pelo IFSC-USP e Fundação Educacional de Penápolis, ministrados por Aguida C. M. Barreiro, Andréia M. Oshiro e Paulo Roberto Barbosa, em 2000.</pre>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 19/09/2019 &agrave;s 14:09:34</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=8710503598187697" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

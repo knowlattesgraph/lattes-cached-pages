@@ -1,0 +1,3063 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Mario L&uacute;cio C&ocirc;rtes)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+        			
+      		});	
+      				  
+      		$( function() {
+			    $( document ).tooltip();
+			 } );
+      		                                
+		
+	</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=8094245998438335" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#LinhaPesquisa">Linhas de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RevisorPeriodico">Revisor de periódico</a></li>
+		
+	
+		
+		
+		<li><a href="#RevisorProjetoFomento">Revisor de projeto de fomento</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosDesenvolvimento">Projetos de desenvolvimento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("patentes-registros");</script>
+		
+		
+		<a id="ancora-menu-patentes-registros" href="#PatentesRegistros" class="acessibilidade separador"><span></span>Patentes e Registros</a>
+		
+	
+		
+		
+		<div id="menu-patentes-registros" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Patente">Patente</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputador">Programa de computador</a></li>
+		
+	
+		
+		
+		<li><a href="#CultivarProtegida">Cultivar protegida</a></li>
+		
+	
+		
+		
+		<li><a href="#CultivarRegistrada">Cultivar registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#DesenhoIndustrial">Desenho industrial</a></li>
+		
+	
+		
+		
+		<li><a href="#MarcaRegistrada">Marca registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#TopografiaCircuitoIntegrado">Topografia de circuito integrado</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("potencialInovacao");</script>
+		
+		
+		<a id="ancora-menu-potencialInovacao" href="#PotencialInovacao" class="acessibilidade separador"><span></span>Inovação</a>
+		
+	
+		
+		
+		<div id="menu-potencialInovacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#PatentePI">Patente</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoPI">Programa de computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#CultivarProtegidaPI">Cultivar protegida</a></li>
+		
+	
+		
+		
+		<li><a href="#CultivarRegistradaPI">Cultivar registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#DesenhoIndustrialRegistradoPI">Desenho industrial registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#MarcaRegistradaPI">Marca registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#TopografiaCircuitoIntegradoRegistradaPI">Topografia de circuito integrado registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorSemRegistroPI">Programa de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosPI">Produtos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicasPI">Processos ou técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosPesquisaPI">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetoDesenvolvimentoTecnologicoPI">Projeto de desenvolvimento tecnológico</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetoExtensaoPI">Projeto de extensão</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrosProjetosPI">Outros projetos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4793228J1&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4793228J1"><div class="infpessoa">
+<h2 class="nome">Mario L&uacute;cio C&ocirc;rtes</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/8094245998438335</li>
+<li>
+<span class="img_identy icone-informacao-autor"></span>ID Lattes: <span style="font-weight: bold; color: #326C99;">8094245998438335</span>
+</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 12/08/2019</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui graduação em Engenharia Eletrônica pelo Instituto Tecnológico de Aeronáutica (1973), mestrado em Engenharia Elétrica pela Universidade de São Paulo (1980) e doutorado em Electrical Engineering - Stanford University (1987). Trabalhou na Fundação Centro de Pesquisa e Desenvolvimento em Telecomunicações como pesquisador e gerente de qualidade no período 1987 a 2010. Professor Associado do Instituto de Computação da Universidade Estadual de Campinas, com ingresso em 1991. Tem experiência na área de Ciência da Computação, com ênfase em Arquitetura de Sistemas de Computação, atuando principalmente nos seguintes temas: engenharia de software, qualidade de software, projeto e teste de circuitos VLSI e arquitetura de computadores.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mario Lúcio Côrtes</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">CÔRTES, M. L.;CORTES, MARIO L.;CORTES, MARIO;CÔRTES, MARIO L.;CÔRTES, MARIO LÚCIO</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Lattes iD</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><img src="./images/v2/icone_lattes.png" style="width: 15px; margin-right: 10px;">http://lattes.cnpq.br/8094245998438335</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade Estadual de Campinas, Institudo de Computação. <br class="clear" />Av Albert Einstein, 1251<br class="clear" />Barão Geraldo<br class="clear" />13083852 - Campinas, SP - Brasil<br class="clear" />Telefone: (19) 35215835<br class="clear" />Fax: (19) 35215835<br class="clear" />URL da Homepage: <a target="blank" href="http://www.dcc.unicamp.br/~cortes">http://www.dcc.unicamp.br/~cortes</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1981 - 1987</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Electrical Engineering<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=D"></span>. <br class="clear" />Stanford University, STANFORD, Estados Unidos.
+		
+	<br class="clear" />Título: Temporary Failures in Digital Circuits: Experimental Results and Fault Modeling, Ano de obtenção: 1987. <br class="clear" />Orientador: Edward J McCluskey. <br class="clear" />Bolsista do(a): Fundação de Amparo à Pesquisa do Estado de São Paulo, FAPESP, Brasil. <br class="clear" />Palavras-chave: falhas temporárias; falhas intermitentes; sistemas digitais; modelo de falha.<br class="clear" />Grande área: Engenharias<br class="clear" />Setores de atividade: Industria Eletro-Eletrônica. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1978 - 1980</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Engenharia Elétrica<span class="ajaxCAPES" data-param="&codigoCurso=33002010045P3&nivelCurso=M"></span>. <br class="clear" />Universidade de São Paulo, USP, Brasil.
+		
+	<br class="clear" />Título: Avaliação da Confiabilidade em Sistemas Digitais Triplicados,Ano de Obtenção: 1980.<br class="clear" />Orientador: Francisco José de Oliveira Dias.<br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. <br class="clear" />Palavras-chave: confiabilidade; sistemas digitais; modelamento.<br class="clear" />Grande área: Engenharias<br class="clear" />Grande Área: Engenharias / Área: Engenharia Elétrica / Subárea: Circuitos Elétricos, Magnéticos e Eletrônicos. <br class="clear" />Setores de atividade: Industria Eletro-Eletrônica. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1969 - 1973</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Engenharia Eletrônica<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Instituto Tecnológico de Aeronáutica, ITA, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaLivreDocencia">
+<h1>Livre-doc&ecirc;ncia</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Livre-docência. <br class="clear" />Universidade Estadual de Campinas, UNICAMP, Brasil.
+		
+	<br class="clear" />Título: Arquitetura de Computarodres, Ano de obtenção: 2000.<br class="clear" />Palavras-chave: sistemas digitais; arquitetura de computadores; circuitos lógicos.<br class="clear" />Grande área: Ciências Exatas e da Terra<br class="clear" />Grande Área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação / Especialidade: Hardware. <br class="clear" />Setores de atividade: Industria Eletro-Eletrônica. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso de Formação de Black Belt.  (Carga horária: 120h). <br class="clear" />ANOVA Métodos para Melhoria, ANOVA, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Estadual de Campinas, UNICAMP, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor associado, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1989 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: Professor associado, Carga horária: 20</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">A partir de março de 2010, passou a ser RDIDP (Regime de Dedicação Integral à Docência e Pesquisa)</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Institudo de Computação, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Chefe do Departamento de Sistemas de Computação.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8/1998 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Extensão universitária , Institudo de Computação, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade de extensão realizada<br class="clear" />INF 310 - Modelos de Qualidade de Software. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1/1989 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Institudo de Computação, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Projeto e Teste de Sistemas Digitais'>Projeto e Teste de Sistemas Digitais</a><br class="clear" /><a href='#LP_Arquitetura de Computadores'>Arquitetura de Computadores</a><br class="clear" /><a href='#LP_Qualidade de Software'>Qualidade de Software</a><br class="clear" /><a href='#LP_Segurança e uso de PUFs (Physical Unclonable Function)'>Segurança e uso de PUFs (Physical Unclonable Function)</a><br class="clear" /><a href='#LP_Uso de requisitos não funcionais na estimativa de software'>Uso de requisitos não funcionais na estimativa de software</a><br class="clear" /><a href='#LP_Gestão de conhecimento em ambientes ágeis'>Gestão de conhecimento em ambientes ágeis</a><br class="clear" /><a href='#LP_Adequação do processo de desenvolvimento de linhas de produto de software visando a manutenibilidade'>Adequação do processo de desenvolvimento de linhas de produto de software visando a manutenibilidade</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1/1989 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Ciência da Computação, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />MO 612 - Introdução ao Projeto de Sistemas VLSI<br class="clear" />MO 813 - Teste de Circuitos Digitais<br class="clear" />MO 401 - Arquitetura de Computadores<br class="clear" />MO 647 - Introdução ao Projeto de Sistemas VLSI<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1/1989 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Engenharia da Computação, Nível: Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />MC 602 - Introdução a Circuitos Lógicos<br class="clear" />MC 603 - Laboratório de Circuitos Lógicos<br class="clear" />MC 922 - Introdução ao Projeto de Sistemas VLSI<br class="clear" />MC 702 - Arquitetura de Computadores<br class="clear" />MC 722- Arquitetura de Computadores<br class="clear" />MC 726- Análise e Projeto de Sistemas de Informação (Qualidade de Software<br class="clear" />MC 522 - Organização de Computadores<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/2012 - 08/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Institudo de Computação, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Presidente da Comissão Diretora de Informática.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>08/2013 - 06/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Institudo de Computação, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Membro de Comissão para avaliação de solicitação para revalidação de diploma.
+				
+				</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11/2013 - 05/2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conselhos, Comissões e Consultoria, Institudo de Computação, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Organizador (como chefe do Departamento de Sistemas de Computação) de concurso para contratação de professor doutor.
+				
+				</div>
+</div><br class="clear" /><div class="inst_back">
+<b>Fundação Centro de Pesquisa e Desenvolvimento em Telecomunicações, CPqD, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1987 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista formal, Enquadramento Funcional: Pesquisador e Gerente de Qualidade, Carga horária: 40</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Trabalhei nas áreas: - Gerente da Qualidade (atual) - Gerente de Ambiente de Desenvolvimento de Software - Gerente de Ambiente de Desenvolvimento de Hardware - Engenheiro de Teste de Circuito Integrado Entre 2008 e 2010 coordenou e participou do projeto de tradução oficial do modelo CMMI versão 1.2 para o português. A tradução está atualmente disponível para consulta de toda a comunidade no site do SEI: http://www.sei.cmu.edu/</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/1998 - 02/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Treinamentos ministrados , Assessoria da Qualidade, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Treinamentos ministrados<br class="clear" />Sistema da Qualidade do CPqD<br></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>04/1998 - 02/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Treinamentos ministrados , Assessoria da Qualidade, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Treinamentos ministrados<br class="clear" />Qualidade de Software<br></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1/1998 - 02/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Assessoria da Qualidade, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Implantação de ISO 9001'>Implantação de ISO 9001</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4/1997 - 02/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Assessoria da Qualidade, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Assessor da Qualidade.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1/1997 - 02/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Assessoria da Qualidade, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Implantação de CMM'>Implantação de CMM</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11/1996 - 01/2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Assessoria da Qualidade, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Participação na Elaboração da ISO 15504'>Participação na Elaboração da ISO 15504</a><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6/1995 - 3/1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Assessoria da Qualidade, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" />Gerente da Seção de Ambientes Básicos.</div>
+</div><br class="clear" /><div class="inst_back">
+<b>Fundação Brasileira Para o Desenvolvimento do Ensino da Ciência, FUNBEC, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1980 - 1981</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor público ou celetista, Enquadramento Funcional: Engenheiro, Carga horária: 40</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/1980 - 8/1981</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Outras atividades técnico-científicas , Fundação Brasileira Para o Desenvolvimento do Ensino da Ciência, Fundação Brasileira Para o Desenvolvimento do Ensino da Ciência. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade realizada<br class="clear" />Desenvolvimento de circuito para controle de velocidade de motor DC. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/1980 - 8/1981</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Outras atividades técnico-científicas , Fundação Brasileira Para o Desenvolvimento do Ensino da Ciência, Fundação Brasileira Para o Desenvolvimento do Ensino da Ciência. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade realizada<br class="clear" />Desenvolvimento de um eletrocardiógrafo com controle microprocessado. </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Palo Alto Research Associates, PARA, Estados Unidos.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1987 - 1987</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Pesquisador, Carga horária: 10</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1/1987 - 3/1987</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Palo Alto Research Associates, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Linhas de pesquisa <br class="clear" /><a href='#LP_Teste de vida acelerado de circuitos digitais'>Teste de vida acelerado de circuitos digitais</a><br class="clear" /><a href='#LP_Estudo sobre o efeito do ruído na rede de alimentação sobre Gate Arrays'>Estudo sobre o efeito do ruído na rede de alimentação sobre Gate Arrays</a><br class="clear" /><a href='#LP_Comportamento de circuitos digitais sob falhas intermitentes'>Comportamento de circuitos digitais sob falhas intermitentes</a><br class="clear" /></div>
+</div><br class="clear" /><div class="inst_back">
+<b>David Systems, D.S., Estados Unidos.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1987 - 1987</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Outro, Enquadramento Funcional: Contratado temporário, Carga horária: 10</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Análise de Confiabilidade; depuração e atualização de placas de circuito impresso; depuração de descrições de circuitos em ferramentas CAD</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1/1987 - 3/1987</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Outras atividades técnico-científicas , David Systems, David Systems. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade realizada<br class="clear" />depuração de placas de circuito impresso. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1/1987 - 3/1987</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Outras atividades técnico-científicas , David Systems, David Systems. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade realizada<br class="clear" />depuração de descrições em formato CAD. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1/1987 - 3/1987</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Outras atividades técnico-científicas , David Systems, David Systems. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade realizada<br class="clear" />análise de confiabilidade. </div>
+</div><br class="clear" /><div class="inst_back">
+<b>Telecomunicações da Bahia, TELEBAHIA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1974 - 1974</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor público ou celetista, Enquadramento Funcional: Engenheiro, Carga horária: 40</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1/1974 - 12/1974</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Outras atividades técnico-científicas , Telecomunicações da Bahia, Telecomunicações da Bahia. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Atividade realizada<br class="clear" />Projeto, Instalação e Testes de Equipamento para Multiplex Telefônico. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="LinhaPesquisa">
+<h1>Linhas de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='LP_Projeto e Teste de Sistemas Digitais'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto e Teste de Sistemas Digitais</div>
+</div><a name='LP_Arquitetura de Computadores'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Arquitetura de Computadores</div>
+</div><a name='LP_Qualidade de Software'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Qualidade de Software</div>
+</div><a name='LP_Seguran&ccedil;a e uso de PUFs (Physical Unclonable Function)'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Segurança e uso de PUFs (Physical Unclonable Function)</div>
+</div><a name='LP_Uso de requisitos n&atilde;o funcionais na estimativa de software'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Uso de requisitos não funcionais na estimativa de software</div>
+</div><a name='LP_Gest&atilde;o de conhecimento em ambientes &aacute;geis'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Gestão de conhecimento em ambientes ágeis</div>
+</div><a name='LP_Adequa&ccedil;&atilde;o do processo de desenvolvimento de linhas de produto de software visando a manutenibilidade'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Adequação do processo de desenvolvimento de linhas de produto de software visando a manutenibilidade</div>
+</div><a name='LP_Implanta&ccedil;&atilde;o de ISO 9001'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Implantação de ISO 9001</div>
+</div><a name='LP_Participa&ccedil;&atilde;o na Elabora&ccedil;&atilde;o da ISO 15504'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Participação na Elaboração da ISO 15504</div>
+</div><a name='LP_Implanta&ccedil;&atilde;o de CMM'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Implantação de CMM</div>
+</div><a name='LP_Teste de vida acelerado de circuitos digitais'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Teste de vida acelerado de circuitos digitais</div>
+</div><a name='LP_Estudo sobre o efeito do ru&iacute;do na rede de alimenta&ccedil;&atilde;o sobre Gate Arrays'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estudo sobre o efeito do ruído na rede de alimentação sobre Gate Arrays</div>
+</div><a name='LP_Comportamento de circuitos digitais sob falhas intermitentes'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Comportamento de circuitos digitais sob falhas intermitentes</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosDesenvolvimento">
+<h1>Projetos de desenvolvimento</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Tradu&ccedil;&atilde;o oficial do modelo CMMI v. 1.2 para o Portugu&ecirc;s'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Tradução oficial do modelo CMMI v. 1.2 para o Português<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Tradução oficial do modelo CMMI v. 1.2 para o Português.. <br class="clear" />Situação: Concluído; Natureza: Desenvolvimento. <br class="clear" /><br class="clear" />Integrantes: Mario Lúcio Côrtes - Coordenador.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="RevisorPeriodico">
+<h1>Revisor de peri&oacute;dico</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Anais do I CMAC Sudeste</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="RevisorProjetoFomento">
+<h1>Revisor de projeto de fomento</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1990 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Agência de fomento: Fundação de Amparo à Pesquisa do Estado de São Paulo</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Arquitetura de Sistemas de Computação. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação/Especialidade: Hardware. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Engenharias / Área: Engenharia Elétrica / Subárea: Circuitos Elétricos, Magnéticos e Eletrônicos/Especialidade: Circuitos Eletrônicos. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Engenharias / Área: Engenharia Elétrica / Subárea: Telecomunicações/Especialidade: Sistemas de Telecomunicações. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Engenharias / Área: Engenharia de Produção / Subárea: Gerência de Produção/Especialidade: Garantia de Controle de Qualidade. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Engenharia de Software. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Português</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Pouco. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Francês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Pouco, Fala Pouco, Lê Razoavelmente, Escreve Pouco. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Italiano</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Primeiro lugar na categoria Model2Market, em inovação no evento Spin 2014, Reitoria da UNICAMP. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GOMES, LUIZ ALBERTO FERREIRA</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2019</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.infsof.2019.07.009" target="_blank"></a>GOMES, LUIZ ALBERTO FERREIRA ; TORRES, RICARDO DA SILVA ; <b>CÔRTES, MARIO LÚCIO</b> . Bug Report Severity Level Prediction in Open Source Software: A Survey and Research Opportunities. INFORMATION AND SOFTWARE TECHNOLOGY<sup><img id='09505849_1' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='09505849' /></sup>, v. 115, p. 58-78, 2019. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.infsof.2019.07.009&issn=09505849&volume=115&issue=&paginaInicial=58&titulo=Bug Report Severity Level Prediction in Open Source Software: A Survey and Research Opportunities&sequencial=1&nomePeriodico=INFORMATION AND SOFTWARE TECHNOLOGY" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>1</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SURITA, RODRIGO C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2018</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.micpro.2018.05.006" target="_blank"></a>SURITA, RODRIGO C. ; <b>CÔRTES, MARIO L.</b> ; ARANHA, DIEGO F. ; ARAUJO, GUIDO . CRPUF: A modeling-resistant delay PUF based on cylindrical reconvergence. MICROPROCESSORS AND MICROSYSTEMS<sup><img id='01419331_2' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='01419331' /></sup>, v. 60, p. 10-22, 2018. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.micpro.2018.05.006&issn=01419331&volume=60&issue=&paginaInicial=10&titulo=CRPUF: A modeling-resistant delay PUF based on cylindrical reconvergence&sequencial=2&nomePeriodico=MICROPROCESSORS AND MICROSYSTEMS" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="LivrosCapitulos"></a>Livros publicados/organizados ou edições</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; CHIOSSI, Thelma C dos Santos . Modelos de Qualidade de Software. 1. ed. Campinas: Editora da Unicamp, 2001. v. 3000. 150p . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; FURTADO NETO, J. M. . Introdução ao Teste de Circuitos Digitais. Rio de Janeiro: V Escola Brasileiro-Argentina de Informática, 1991. v. 500. 140p . </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, S. E. F. ; <b>CÔRTES, M. L.</b> . Use of non-functional requirements in software effort estimation: systematic review and experimental results. In: 5th International Conference in Software Engineering Research and Innovation (CONISOFT?17), 2017, Mérida, Yucatan, México. 5th International Conference in Software Engineering Research and Innovation (CONISOFT?17). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/dsd.2016.100" target="_blank"></a>SURITA, RODRIGO C. ; <b>CORTES, MARIO L.</b> ; ARANHA, DIEGO F. ; ARAUJO, GUIDO . Cylindrical Reconvergence Physical Unclonable Function. In: 2016 Euromicro Conference on Digital System Design (DSD), 2016, Limassol. 2016 Euromicro Conference on Digital System Design (DSD), 2016. p. 446. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1145/2800986.2801010" target="_blank"></a>CAPOVILLA, JEFFERSON ; <b>CORTES, MARIO</b> ; ARAUJO, GUIDO . Improving the Statistical Variability of Delay-based Physical Unclonable Functions. In: the 28th Symposium, 2015, Salvador. Proceedings of the 28th Symposium on Integrated Circuits and Systems Design - SBCCI &apos;15. v. 28. p. 1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/codesisss.2015.7331377" target="_blank"></a>HOFFMAN, CAIO ; <b>CORTES, MARIO</b> ; ARANHA, DIEGO F. ; ARAUJO, GUIDO . Computer security by hardware-intrinsic authentication. In: 2015 International Conference on Hardware/Software Codesign and System Synthesis (CODES+ISSS), 2015, Amsterdam. 2015 International Conference on Hardware/Software Codesign and System Synthesis (CODES+ISSS). v. 2015. p. 143. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/patmos.2014.6951892" target="_blank"></a>VIDAL, DANIEL ; <b>CORTES, MARIO L.</b> . Fast and accurate solution for power estimation and DPA countermeasure design. In: 2014 24th International Workshop on Power and Timing Modeling, Optimization and Simulation (PATMOS), 2014, Palma de Mallorca. 2014 24th International Workshop on Power and Timing Modeling, Optimization and Simulation (PATMOS). p. 1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; VILLASBOAS, André ; LOPES, Sílvia . Do SQA ao PPQA: a implementação CMMI do CPqD. In: SIMPROS 2005 - VII Simpósio Internacional de Melhoria de Processos de Software, 2005, São Paulo. SIMPROS 2005 - VII Simpósio Internacional de Melhoria de Processos de Software, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; BOSKO, João Marcelo Borovina . P-CMM e outros modelos na Gestão de Pessoas. In: SIMPROS 2005 - VII Simpósio Internacional de Melhoria de Processos de Software, 2005, São Paulo. SIMPROS 2005 - VII Simpósio Internacional de Melhoria de Processos de Software, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; GOMES, Luiz Alberto . Comércio Eletrônico: uma Análise da Aplicabilidade de Modelos de Qualidade de Software. In: I Simpósio Brasileiro de Qualidade de Software, 2002, Gramado. I Simpósio Brasileiro de Qualidade de Software, 2002. v. 1. p. 100-115. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; GOMES, Luiz Alberto . Suitability of Software Quality Models to E-Commerce Applications. In: IADIS International Conference WWW/INTERNET 2002, 2002, Lisboa. Proceedings of the IADIS International Conference WWW/INTERNET 2002, 2002. v. 1. p. 632-635. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>. Uma avaliação CMM de baixo custo: a abordagem do CPqD. In: Workshop de Qualidade de Software - SBC, 2001, Rio de Janeiro. Workshop de Qualidade de Software - Simpósio Brasileiro de Engenharia de Software, 2001. p. 51-61. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; BASTOS, Marta R ; VILLASBOAS, André . Implantação CMM: a Experiência do CPqD. In: X Conferência Internacional de Tecnologia de Software (CITS), 1999, Curitiba. X Conferência Internacional de Tecnologia de Software, 1999. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; VILLASBOAS, André ; BASTOS, Marta R ; ARRUDA, Nazareth . Avaliação CMM: a Experiência do CPqD. In: Workshop de Qualidade de Software - SBC, 1998, Maringá - Paraná. Anais do Workshop de Qualidade de Software - XII Simpósio Brasileiro de Engenharia de Software, 1998. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/MICRO.1998.742781" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8683914780987242" target="_blank">ARAÚJO, Guido</a> ; PANNAIN, Ricardo ; CENTODUCATTE, Paulo César . Code compression based on operand factorization. In: 31st International Symposium on Microarchitectures, 1998, Dallas - EUA. 31st International Symposium on Microarchitectures, 1998. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>. Introdução ao teste de sistemas digitais. In: International Conference on Microelectronics and Packaging, 1998, Curitiba. International Conference on Microelectronics and Packaging, 1998. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; ADÁRIO, Alexandro dos Santos ; LEITE, Neucimar José . A FPGA Implementation of a Neighbourhood Processor for Digital Image Applications. In: X Simpósio Brasileiro de Concepção de Circuitos Integrados, 1997, Gramado. X Simpósio Brasileiro de Concepção de Circuitos Integrados, 1997. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; ADÁRIO, Alexandro dos Santos . Considerações sobre a Síntese em FPGAs de Células de Processadores Matriciais. In: XXIII Seminário Integrado de Software e Hardware - SEMISH, 1996, Recife. XXIII Seminário Integrado de Software e Hardware, 1996. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7175176058308121" target="_blank">ALEXANDRINO, Josemir Cruz</a> . Uma Implementação em VLSI para o Reconhecimento de Imagens. In: XX Seminário Integrado de Software e Hardware, 1993, Florianópolis. XX Seminário Integrado de Software e Hardware, 1993. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7175176058308121" target="_blank">ALEXANDRINO, Josemir Cruz</a> . Uma Implementação em VLSI para Wisard. In: Workshop sobre Computação de Alto Desempenho para Processamento de Sinais, 1993, São Carlos. Workshop sobre Computação de Alto Desempenho para Processamento de Sinais, 1993. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>. Uma Implementação em VLSI para o Reconhecimento de Imagem. In: VI Conferência Nacional de Inteligência Artificial, 1993, Barquisimeto - Venezuela. VI Conferência Nacional de Inteligência Artificial, 1993. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>. Planejamento de EDA: a Experiência do CPqD. In: VI Congresso da Sociedade Brasileira de Micro-Eletrônica, 1991, Belo Horizonte. VI Congresso da Sociedade Brasileira de Micro-Eletrônica, 1991. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">FURTADO NETO, J. M. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b> . H-ALG: um Algoritmo Hierárquico para a Geração de Padrão de Teste. In: IV Congresso da Sociedade Brasileira de Micro-Eletrônica, 1989, Porto Alegre. IV Congresso da Sociedade Brasileira de Micro-Eletrônica, 1989. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; RIBEIRO, A. J. L. . PLAs: Geração de Padrão de Teste e Avaliação de cobertura. In: IV Congresso da Sociedade Brasileira de Micro-Eletrônica, 1989, Porto Alegre. IV Congresso da Sociedade Brasileira de Micro-Eletrônica, 1989. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; FURTADO NETO, J. M. . I-ALG: um Algoritmo para a Geração de Padrão de Teste. In: III Congresso da Sociedade Brasileira de Micro-Eletrônica, 1988, São Paulo. III Congresso da Sociedade Brasileira de Micro-Eletrônica, 1988. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">AMER, H. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b> . Robust Dynamic Recovery Mechanisms. In: IEEE International Conference on Computer Design, 1987, New York. IEEE International Conference on Computer Design, 1987. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/ISSCC.1986.1157008" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; MCCLUSKEY, E. J. . Modeling Power Supply Disturbances in Digital Circuits. In: IEEE International Solid State Circuits Conference, 1986, Anaheim, California. IEEE International Solid State Circuits Conference, 1986. p. 164-165. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; MCCLUSKEY, E. J. . Properties of Transient Errors Due to Power Sypply Disturbances. In: IEEE International Symposium on Circuits and Systems, 1986, San Jose, California. IEEE International Symposium on Circuits and Systems, 1986. p. 1046-1049. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; MCCLUSKEY, E. J. . An Experiment on Intermittent-Failure Mechanisms. In: IEEE International Test Conference, 1986, Washington, DC. IEEE International Test Conference, 1986. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; IYER, R. K. . Device Failures and System Activity: a Thermal Effects Model. In: IEEE Fault Tolerant Computing Symposium, 1984, Orlando, Florida. IEEE Fault Tolerant Computing Symposium, 1984. p. 71-76. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CORTES, MARIO L.</a></b>. Radiance. 2015. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosTecnicos"></a>Trabalhos técnicos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VIDAL, D. ; <b>CÔRTES, M. L.</b> . DPE (Fast and Accurate Dynamic Power Estimation): Implementation and User Guidelines. 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8683914780987242" target="_blank">ARAÚJO, Guido</a> ; PANNAIN, Ricardo ; CENTODUCATTE, Paulo César . Code compression based on operand factorization. 1998. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; AUGUSTO, Nelson Vitor ; CENTODUCATTE, Paulo César . A CPU for Educational Applications Designed with VHDL and FPGA. 1996. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; KRUGER, Carlos Geraldo . Modelamento, simulação e síntese com VHDL. 1993. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>. Techniques for Injecting Non Stuck-at Faults. 1987. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; AMER, H. . Inadequacy of Conventional Dynamic Recovery Mechamins in the Presence of Temporary Failures. 1987. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; GOOSEN, H. . Design of the Detector II: a CMOS Gate Array for the Study of Concurrent Error Detection Techniques. 1987. </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>. 25th Symposium on Integrated Circuits and System Design. 2012.
+							(Membro do Comitê de Programa da SBCCI-2012).
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PatentesRegistros">
+<h1>Patentes e registros</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Patente"></a><br class="clear" /><div class="inst_back">
+<b>Patente</b>
+</div><br/><div class='status-patente'>A Confirmação do status de um pedido de patentes poderá ser solicitada à Diretoria de Patentes (DIRPA) por meio de uma Certidão de atos relativos aos processos</div><div style='clear:both'></div><a name="patente"></a>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span title="Clique aqui para visualizar as informações da patente no site do INPI" class="ajaxINPI tooltip" data-param="codigoRegistro=PI0062057&idCNPq=8094245998438335&sequencial=112">&nbsp;</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8683914780987242" target="_blank">ARAÚJO, Guido</a> ; SANTANA, M. F. . PUF eletrônico digital e método de captura para identificação do PUF proposto. 
+						2013, 
+						Brasil. <br>
+                Patente:
+                Privilégio de Inovação.
+            Número do registro: PI0062057, título: "PUF eletrônico digital e método de captura para identificação do PUF proposto" , Instituição de registro: INPI - Instituto Nacional da Propriedade Industrial.          
+        Depósito: 15/03/2013Instituição(ões) financiadora(s): FAPESP.
+					</div>
+</div>
+<br class="clear">
+<a name="patente"></a>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span title="Clique aqui para visualizar as informações da patente no site do INPI" class="ajaxINPI tooltip" data-param="codigoRegistro=BR1020150168314&idCNPq=8094245998438335&sequencial=129">&nbsp;</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8683914780987242" target="_blank">ARAÚJO, Guido</a> ; <b>CORTES, MARIO L.</b> ; HOFFMAN, C. . ARQUITETURA SEGURA PARA SISTEMAS EMBARCADOS. 
+						2015, 
+						Brasil. <br>
+                Patente:
+                Privilégio de Inovação.
+            Número do registro: BR1020150168314, título: "ARQUITETURA SEGURA PARA SISTEMAS EMBARCADOS" , Instituição de registro: INPI - Instituto Nacional da Propriedade Industrial.          
+        Depósito: 17/07/2015</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>CÔRTES, M. L.</b>; GUDWIN, R. R.; CARVALHO, Ariadne M. B. Rizzoni.  Participação em banca de Stallin Estefferson Ferreira da Silva. Uso de requisitos não-funcionais na estimativa de esforço de software: revisão sistemática e resultados experimentais. 2017. Dissertação (Mestrado em Ciência da Computação) - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8683914780987242" target="_blank">ARAÚJO, Guido</a>; AZEVEDO, Rodolfo Jardim de; BALDASSIN, A. J.; CALAZANS, N. L. V.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>.  Participação em banca de Flávia de Oliveira Santos. MediaBox: Uma Plataforma Baseada em NoCs para Aplicações Multimídia. 2013. Dissertação (Mestrado em Ciência da Computação) - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">JINO, Mario; SALVIANO, C.; COSTA, M. T. C.; <b>CÔRTES, M. L.</b>.  Participação em banca de Edgar Lopes Banhesse. Um metamodelo de perfis de capacidade de processo. 2013. Dissertação (Mestrado em Engenharia Elétrica) - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8683914780987242" target="_blank">ARAÚJO, Guido</a>; BOIS, A. du; <b>CORTES, MARIO L.</b>; Sandro Rigo; Wang Jiang Chau.  Participação em banca de Caio Hoffman. Análise de desgaste de técnicas de correção de erros em Phase-Change Memories. 2013. Dissertação (Mestrado em Ciência da Computação) - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8683914780987242" target="_blank">ARAÚJO, Guido</a>; MELCHER, E. U. K.; CENTODUCATTE, Paulo César; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; MARRANGHELLO, N..  Participação em banca de Yang Yun Ju. Impacto de Técnicas de Projeto na Redução de Consumo de Potência em ASICs. 2011. Dissertação (Mestrado em Ciência da Computação) - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8683914780987242" target="_blank">ARAÚJO, Guido</a>; AZEVEDO, Rodolfo Jardim de; BRETERNITZ JR, M.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; BALDASSIN, A. J..  Participação em banca de André Oliveira Loureiro do Baixo. Mecanismo para execução especulativa de aplicações paralelizadas por técnicas DODIPE usando replicação de estágios. 2011. Dissertação (Mestrado em Ciência da Computação) - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Sandro Rigo; Hexsel, Roberto; CENTODUCATTE, Paulo César; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>.  Participação em banca de ?	Rodrigo Richard Cantos Faveri. Viabilizando a simulação multi-threaded para modelos escritos em SystemC. 2010. Dissertação (Mestrado em Ciência da Computação) - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Sandro Rigo; MOREANO, N. B.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>.  Participação em banca de João Batista Corrêa Gomes Moreira. Análise de consumo de energia em STMs e uma plataforma de simulação multiprocessada com abstração híbrida. 2010. Dissertação (Mestrado em Ciência da Computação) - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; CENTODUCATTE, Paulo César; FROLICH, A. A. M..  Participação em banca de Leonardo Luiz Ecco. SPARC16: Uma nova visão de compressão para processadores SPARC. 2010. Dissertação (Mestrado em Ciência da Computação) - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; MARTINS, Eliane; CRESPO, Alberto Nobiato; GUIMARÃES, Célio Cardoso.  Participação em banca de Marcus Valério de Queiroz Bruneli. A utilização de uma metodologia de teste no processamento da melhoria da qualidade do software. 2006. Dissertação (Mestrado em Ciência da Computação) - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; GUERRA, Ana Cervigni; MASSRUHA, Silvia Maria Fonseca Silveira; MELLO FILHO, Rogério Drumond Burnier de.  Participação em banca de Eduardo Vasconcelos Silva. Um modelo sistêmico para atividade de avaliação e teste de software. 2006. Dissertação (Mestrado em Ciência da Computação) - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; GUERRA, Ana Cervigni; CARVALHO, Ariadne M. B. Rizzoni.  Participação em banca de Márcio David Drach. Aplicabilidade de métricas por pontos de função em sistemas baseados em WEB. 2005. Dissertação (Mestrado em Ciência da Computação) - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; GUERRA, Ana Cervigni; MASSRUHA, Silvia Maria Fonseca Silveira; CARVALHO, Ariadne M. B. Rizzoni.  Participação em banca de Maurício Gruhn Sanches. Um estudo sobre os riscos inerentes à implantação do reuso de componentes no processo de desenvolvimento de software. 2005. Dissertação (Mestrado em Ciência da Computação) - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; SANTOS, Raimundo Nonato Macedo dos; CARVALHO, José Oscar Fontanini de.  Participação em banca de Antônio Tupinambá Timbira de Oliveira Pinto Filho. As contribuições da comunicação e do conhecimento da ciência da informação para a análise de requisitos no desenvolvimento de software. 2005. Dissertação (Mestrado em Ciência da Informação) - Pontifícia Universidade Católica de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; BARANAUSKAS, Maria Cecília; SILVA, Júnia Coutinho Anacleto; LEITE, Neucimar Jerônimo.  Participação em banca de Elaine Cristina da Cruz Miravete Vianna. Estudo e proposta de práticas participativas na gestão de requisitos. 2004. Dissertação (Mestrado em Ciência da Computação) - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; MAGALHÃES, Geovane Cayres; MADEIRA, Edmundo Roberto Mauro; PARREIRA, Anderson Delcio.  Participação em banca de Rogério Prado Colferai. Desempenho e Modelagem de SGBD Ogjeto-Relacional em Sistema de Visualização de Faturamento na WEB. 2004. Dissertação (Mestrado em Ciência da Computação) - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; CATTO, Arthur João; GUERRA, Ana Cervigni; LEITE, Neucimar Jerônimo.  Participação em banca de João Marcelo Borovina Josko. Gestão de Pessoas em tecnologia da informação - uma visão perspectiva das abordagens. 2004. Dissertação (Mestrado em Ciência da Computação) - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; GUERRA, Ana Cervigni; PETENATTE, Ademir; ZOQUI, Eugenio.  Participação em banca de Sônia Thereza Maintinguer. Um método de avaliação especialista para produtos de software, desenvolvido a partir dos requisitos de um edital. 2004. Dissertação (Mestrado em Engenharia Mecânica) - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; GUERRA, Ana Cervigni; PETENATTE, Ademir.  Participação em banca de Eduardo Paulo Souza. Elementos fundamentais na melhoria da qualidade de software. 2004. Dissertação (Mestrado em Engenharia Mecânica) - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>.  Participação em banca de Christian Farias da Silva. Algoritmos para síntese de sistemas embutidos tolerantes a falhas empregando reconfiguração dinâmica de FPGAs. 2003. Dissertação (Mestrado em Engenharia Elétrica) - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MARTINS, Eliane; SILVA, Maria de Fátima Rdolfi Ordini Pires da; ANIDO, Ricardo de Oliveira; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>.  Participação em banca de Ângela Cristina de Oliveira. ETIERP - Estratégia de testes para implantação de sistemas ERP. 2003. Dissertação (Mestrado em Ciência da Computação) - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>.  Participação em banca de José Artur Quilici Gonzalez. Algoritmos de otimização de planos de teste de unidades funcionais para circuitos BIST. 2001. Dissertação (Mestrado em Engenharia Elétrica) - Universidade de São Paulo. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>.  Participação em banca de Alexandre Carvalho de Alencar. Qualidade de dados em aplicações geográficas. 2000. Dissertação (Mestrado em Ciência da Computação) - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>.  Participação em banca de Ademir Morgenstern Padilha. MAPS-15504: Uma metodologia de avaliação de processo de software para o ambiente ExPSEE baseada no ISO/IEC TR 15504. 2000. Dissertação (Mestrado em Ciência da Computação) - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>.  Participação em banca de Jorge Arturo Martin Polar. Projeto e implementação da unidade de interface de rede de um sistema de barramento automotivo. 1998. Dissertação (Mestrado em Engenharia Elétrica) - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>.  Participação em banca de Henrique Eduardo Goulart. Integração de ferramentas automáticas de teste e diagnóstico. 1996. Dissertação (Mestrado em Ciências da Computação) - Universidade Federal de Minas Gerais. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>.  Participação em banca de Roberto Cangellar Cossi Júnior. Aplicações do boundary scan para o teste de módulos multi-chip. 1996. Dissertação (Mestrado em Engenharia Elétrica) - Universidade de São Paulo. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>.  Participação em banca de Renato Jansen de Oliveira Figueiredo. Síntese comportamental de circuitos utilizando SDL. 1995. Dissertação (Mestrado em Engenharia Elétrica) - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>.  Participação em banca de Wilton Speziali Caldas. título. 1994. Dissertação (Mestrado em Ciências da Computação) - Universidade Federal de Minas Gerais. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>.  Participação em banca de Álvaro Freitas Moreira. Uma Semântica Axiomática para DSL - uma Linguagem para Descrição de Hardware. 1992. Dissertação (Mestrado em Computação) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>.  Participação em banca de Fabian Luis Vargas. Validação de Protótipo e Análise de Falhas no Teste com Feixe de Elétrons: Um Estudo Visando a Sua Automação. 1991. Dissertação (Mestrado em Computação) - Universidade Federal do Rio Grande do Sul. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>.  Participação em banca de Carlos Alberto Pisani. Medidor de dose de íons implantados. 1990. Dissertação (Mestrado em Engenharia Elétrica) - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>.  Participação em banca de Alexandre César Rodrigues da Silva. Contribuição à minimização e simulação de circuitos lógicos. 1989. Dissertação (Mestrado em Engenharia Elétrica) - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Teses de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8683914780987242" target="_blank">ARAÚJO, Guido</a>; RIGO, S.; BALDASSIN, A. J.; CASTRO, M. B.; <b>CORTES, MARIO L.</b>.  Participação em banca de Márcio Machado Pereira. Scheduling Techniques for Transactional Memories. 2015. Tese (Doutorado em Ciência da Computação)  - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MARTINS, Eliane; VIEIRA, M.; MATTIELLO-FRANCISCO, M. F.; JINO, Mario; RUBIRA, C. M. F.; <b>CÔRTES, M. L.</b>; SANTANCHE, A.; NAKAGAWA, E. Y..  Participação em banca de Juliana Galvani Greghi. Geração Semiautomática de Máquinas Finitas de Estados Estendidas a Partir de Documento de Padronização do Domínio Aeroespacial. 2015. Tese (Doutorado em Doutorado em Ciência da Computação - UNICAMP)  - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">AZEVEDO, R. J.; MORAES, F. G.; BALDASSIN, A. J.; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8683914780987242" target="_blank">ARAÚJO, Guido</a>; WANNER, L. F.; BORIN, E.; <b>CÔRTES, M. L.</b>; SANTOS, R. R..  Participação em banca de Liana Dessandre Duenha Garanhani. MPSoCBench: a Benchmark for High-Level Evaluation of Multiprocessor System-on-Chip Tools and Methodologies. 2015. Tese (Doutorado em Doutorado em Ciência da Computação - UNICAMP)  - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">AZEVEDO, R. J.; SILVA, J. L. E.; HEXSEL, R. A.; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8683914780987242" target="_blank">ARAÚJO, Guido</a>; <b>CÔRTES, M. L.</b>; TOKARNIA, A. M. B. H.; RIGO, S.; BALDASSIN, A..  Participação em banca de Bruno Cardoso Lopes. Estudo e Avaliação de Conjuntos de Instruções Compactos. 2014. Tese (Doutorado em Ciência da Computação)  - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">NAVAUX, P. O. A.; SENGER, H.; MADEIRA, E. R. M.; AZEVEDO, R. J.; HENRIQUES, M. A. A.; <b>CÔRTES, M. L.</b>; BALDASSIN, A. J..  Participação em banca de Leonardo de Paula Rosa Piga. Modeling, characterization, and optimization of web server power in data centers. 2013. Tese (Doutorado em Ciência da Computação)  - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">AZEVEDO, Rodolfo Jardim de; Luiz Carlos Villar dos Santos; Luigi Carro; Reinaldo Bergamaschi; Sandro Rigo; Wang Jiang Chau; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>.  Participação em banca de Felipe Vieira Klein. Técnicas Avançadas de Modelagem, Análise e Otimização de Potência em Sistemas Digitais. 2009. Tese (Doutorado em Ciência da Computação)  - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CENTODUCATTE, Paulo César; Meira, Wagner; Lima, Manoel Eusébio; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; Calciolari, IIslene.  Participação em banca de Alexandre José Baldassin. Explorando memória transacional em software nos contextos de arquiteturas assimétricas, jogos computacionais e consumo de energia. 2009. Tese (Doutorado em Ciência da Computação)  - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">AZEVEDO, Rodolfo Jardim de; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; CENTODUCATTE, Paulo César; SOUZA, Alberto Ferreira de; SATO, L. M..  Participação em banca de ?	Ricardo Ribeiro dos Santos. 2D-VLIW: uma Arquitetura de Processador Baseada na Geometria da Computação. 2007. Tese (Doutorado em Doutorado em Ciência da Computação - UNICAMP)  - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; JINO, Mario; SPÍNOLA, Mauro de Mesquita; CARDOZO, Eleri; RICARTE, Ivan Luiz Marques; MAGALHÃES, Maurício Ferreira.  Participação em banca de Clenio Figueiredo Salviano. Uma proposta orientada a perfis de capacidade de processo para evolução da melhoria de processo de software. 2006. Tese (Doutorado em Engenharia Elétrica)  - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8683914780987242" target="_blank">ARAÚJO, Guido</a>; SONG, Siang Wun; WAGNER, Flávio Rech; KOWALTOWSKI, Tomasz; SOUZA, Cid Carvalho de.  Participação em banca de Nahri Balesdent Moreano. Algoritmos para Alocação de Recursos em Arquiteturas Reconfiguráveis. 2005. Tese (Doutorado em Ciência da Computação)  - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; FERNANDES, Antonio Otavio; BERGERMAN, Marcel; CAMPOS, Mario Fernando Montenegro; COELHO JUNIOR, Claudionor Jose Nunes.  Participação em banca de Wilton Speziali Caldas. Tolerância a falhas adaptativa para robôs móveis com arquitetura híbrida. 2004. Tese (Doutorado em Ciências da Computação)  - Universidade Federal de Minas Gerais. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; CENTODUCATTE, Paulo César; AZEVEDO, Rodolfo Jardim de.  Participação em banca de Eduardo Bráulio Wanderley Netto. Compressão de código baseada em multi-profiles. 2004. Tese (Doutorado em Ciência da Computação)  - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>.  Participação em banca de Rodolfo Jardim de Azevedo. Uma arquitetura para a execução de programas comprimidos em sistemas dedicados. 2002. Tese (Doutorado em Ciência da Computação)  - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>.  Participação em banca de Ricardo Pannain. Compressão de código de programa usando fatoração de operandos. 1999. Tese (Doutorado em Engenharia Elétrica)  - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>.  Participação em banca de Marcelo Arturo Jara Pérez. Projeto e implementação em VLSI de uma rede neural auto-organizável, utilizando síntese automática de alto nível. 1997. Tese (Doutorado em Engenharia Elétrica)  - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>.  Participação em banca de Alexandre César Rodrigues da Silva. Contribuição à minimização e simulação de circuitos lógicos. 1993. Tese (Doutorado em Engenharia Elétrica)  - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Qualificações de Doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8683914780987242" target="_blank">ARAÚJO, Guido</a>; BORIN, E.; MORAES, F. G.; <b>CÔRTES, M. L.</b>; CALAZANS, N. L. V..  Participação em banca de Maxiwell Salvador Garcia. Metodologias para Simulações Arquiteturais Rápidas Utilizando a ADL ArchC.. 2013. Exame de qualificação (Doutorando em Ciência da Computação)  - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; AZEVEDO, Rodolfo Jardim de.  Participação em banca de ?	Felipe Vieira Klein. Análise e Otimização de Potência de SoCs Heterogêneos. 2007. Exame de qualificação (Doutorando em Doutorado em Ciência da Computação - UNICAMP)  - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; BARANAUSKAS, Maria Cecília; MARTINS, Eliane; SILVA, Junia Coutinho Anacelto.  Participação em banca de Juliano Schimiguel. Qualidade em Interface para Aplicações em SIG na WEB. 2005. Exame de qualificação (Doutorando em Ciência da Computação)  - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8683914780987242" target="_blank">ARAÚJO, Guido</a>.  Participação em banca de Ricardo Ribeiro dos Santos. Técnicas Arquiteturais e Geração de Código para Arquiteturas Reconfiguráveis. 2005. Exame de qualificação (Doutorando em Ciência da Computação)  - Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>; FERNANDES, Antonio Otavio; CAMPOS, Mario Fernando Montenegro; BERGERMAN, Marcel; COELHO JUNIOR, Claudionor Jose Nunes.  Participação em banca de Wilton Speziali Caldas. Tolerância a falhas adaptativa para robôs móveis com arquitetura híbrida. 2001. Exame de qualificação (Doutorando em Ciências da Computação)  - Universidade Federal de Minas Gerais. </div>
+</div>
+<br class="clear"><br class="clear" /><a name="ParticipacaoBancasComissoes"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Concurso público</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">TOZZI, C. L.; KRETLY, L. C.; LOTUFO, R. A.; CARVALHO, A. A.; SEARA, R.; <b>CORTES, MARIO L.</b>; MAGALHAES, L. P.. Concurso para o provimento decargo de Professor Doutor, nível MS 3.1.
+							2015. Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">TOZZI, C. L.; YACOUB, M. D.; SUSIN, A. A.; COURY, D. V.; <b>CÔRTES, M. L.</b>; RICARTE, I. L. M.. Concurso para o provimento decargo de Professor Doutor, nível MS 3.1.
+							2014. Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>. Concurso para preenchimento de vaga de professor associado; candidatos Rodolfo Jardim de Azevedo, Martha Ximena Torres Delgado e Marcelo Carvalho Tosin.
+							2003. Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>. Concurso para admissão de professor assistente-doutor; candidatos Antônio Augusto Fasolo Quevedo e Alice Maria Bastos Hubinger Tokarnia.
+							1999. Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>. Concurso para admissão de professor adjunto; candidatos Antônio Otávio Fernandes.
+							1991. Universidade Federal de Minas Gerais. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Livre docência</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SPÍNOLA, Mauro de Mesquita; Selma shin shimizu melnikiff; SHIMIZU, T.; RICCIO, E. L.; SOMA, N. Y.; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>. Concurso para Livre Docência de Mauro de Mesquita Spínola.
+						2008. Universidade de São Paulo. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8094245998438335" target="_blank">CÔRTES, M. L.</a></b>. Concurso para professor livre docente Guido Costa Souza de Araújo.
+						2001. Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Radiance 2015.Membro do Comitê de Programa.
+							2015. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SBCCI.Membro do Comitê de Programa.
+							2015. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SBCCI.Membro do Comitê de Programa.
+							2013. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">João Luis Villar de Oliveira. Uso de gestão de conhecimento em ambientes ágeis.
+						Início: 2014.
+						Dissertação (Mestrado em Ciência da Computação)  - Universidade Estadual de Campinas. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Tese de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/5732116193852474'><img src='images/curriculo/logolattes.gif' /></a>Luiz Alberto Gomes. Processo de desenvolvimento de linhas de produto visando a manutenibilidade.
+						Início: 2015. Tese (Doutorado em Ciência da Computação)  - Universidade Estadual de Campinas. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Caio Hoffman. Uso de PUFs (Physical Unclonable Function) na geração de números aleatóreos.
+						Início: 2013. Tese (Doutorado em Ciência da Computação)  - Universidade Estadual de Campinas, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. (Coorientador). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Rodrigo Surita. Um novo método para coleta de spikes em respostas de PUFs (Physical Unclonable Function). Início: 2013. Iniciação científica (Graduando em Ciência da Computação)  - Universidade Estadual de Campinas. (Orientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Stallin Estefferson Ferreira da Silva. Uso de requisitos não-funcionais na estimativa de esforço de software: revisão sistemática e resultados experimentais.
+							2017.
+						
+					Dissertação  (Mestrado em Ciência da Computação)  - Universidade Estadual de Campinas, . Orientador: Mario Lúcio Côrtes. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Jefferson Rodrigo Capovilla. Improving the Statistical Variability of Delay-based Physical Unclonable Functions.
+							2016.
+						
+					Dissertação  (Mestrado em Ciência da Computação)  - Universidade Estadual de Campinas, . Coorientador: Mario Lúcio Côrtes. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Alexander Sieh. Uma implementação em Standard Cell de novos dispositivos PUF (Physical Unclonable Function).
+							2015.
+						
+					Dissertação  (Mestrado em Ciência da Computação)  - Universidade Estadual de Campinas, . Coorientador: Mario Lúcio Côrtes. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Daniel Vidal. Desenvolvimento e avaliação de uma técnica eficiente para estimativa de potência dinâmica em circuitos digitais gate-level.
+							2015.
+						
+					Dissertação  (Mestrado em Ciência da Computação)  - Universidade Estadual de Campinas, . Orientador: Mario Lúcio Côrtes. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Vitor Ciaramella. A Project Management Game-based learning tool.
+							2014.
+						
+					Dissertação  (Mestrado em Ciência da Computação)  - Universidade Estadual de Campinas, . Orientador: Mario Lúcio Côrtes. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marcelo Fontes Santana. Autenticação de circuitos integrados usando Physical Unclonable Functions.
+							2012.
+						
+					Dissertação  (Mestrado em Ciência da Computação)  - Universidade Estadual de Campinas, Fundação de Amparo à Pesquisa do Estado de São Paulo. Coorientador: Mario Lúcio Côrtes. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Luiz Yukishigue Kacuta. Integração de modelo do negócio com a especificação de software: uma proposta para alinhar sistemas à estratégia do negócio.
+							2006. 0 f.
+						
+					Dissertação  (Mestrado em Ciência da Computação)  - Universidade Estadual de Campinas, . Coorientador: Mario Lúcio Côrtes. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Gisele Consoline do Couto. Uma avaliação da influência da arquitetura no desempenho de sistemas de software.
+							2006. 0 f.
+						
+					Dissertação  (Mestrado em Ciência da Computação)  - Universidade Estadual de Campinas, . Orientador: Mario Lúcio Côrtes. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Andreza Polcelli. Um estudo sobre a relevância de melhores práticas de Engenharia de Requisitos.
+							2005. 120 f.
+						
+					Dissertação  (Mestrado em Ciência da Computação)  - Universidade Estadual de Campinas, . Orientador: Mario Lúcio Côrtes. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/3238408117360208'><img src='images/curriculo/logolattes.gif' /></a>João Marcelo Borovina Josko. Gestão de pessoas em tecnologia da informação ? uma visão perspectiva das abordagens.
+							2004. 93 f.
+						
+					Dissertação  (Mestrado em Ciência da Computação)  - Universidade Estadual de Campinas, . Orientador: Mario Lúcio Côrtes. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/5732116193852474'><img src='images/curriculo/logolattes.gif' /></a>Luiz Alberto Gomes. Aplicabilidade de modelos de qualidade ao desenvolvimento de aplicativos para comércio eletrônico.
+							2003. 100 f.
+						
+					Dissertação  (Mestrado em Ciência da Computação)  - Universidade Estadual de Campinas, . Orientador: Mario Lúcio Côrtes. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/4158528643201560'><img src='images/curriculo/logolattes.gif' /></a>Alexandro dos Santos Adário. Implementação em FPGA de um processador matricial para processamento de imagem.
+							1997. 100 f.
+						
+					Dissertação  (Mestrado em Ciência da Computação)  - Universidade Estadual de Campinas, Fundação de Amparo à Pesquisa do Estado de São Paulo. Orientador: Mario Lúcio Côrtes. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/7175176058308121'><img src='images/curriculo/logolattes.gif' /></a>Josemir Cruz Alexandrino. Uma Implementação em VLSI para o Reconhecimento de Imagens.
+							1994. 100 f.
+						
+					Dissertação  (Mestrado em Ciência da Computação)  - Universidade Estadual de Campinas, Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Mario Lúcio Côrtes. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Carlos Geraldo Kruger. ASIC e VHDL: um Estudo de Metodologia de Projeto de Alto Nível Visando Reusabilidade de Hardware.
+							1993. 100 f.
+						
+					Dissertação  (Mestrado em Ciência da Computação)  - Universidade Estadual de Campinas, . Orientador: Mario Lúcio Côrtes. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Bernadete Aparecida de Lima Oliveira. Especificação de um Auditor de Testabilidade de Projetos de CIs Digitais Baseados em Células.
+							1991. 100 f.
+						
+					Dissertação  (Mestrado em Engenharia Elétrica)  - Universidade Estadual de Campinas, . Coorientador: Mario Lúcio Côrtes. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">José Mendonça Furtado Neto. H-ALG: Um algorítmo Hierárquico para a Geração de Padrão de Teste.
+							1990. 100 f.
+						
+					Dissertação  (Mestrado em Engenharia Elétrica)  - Universidade Estadual de Campinas, . Orientador: Mario Lúcio Côrtes. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Tese de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Caio Hoffman.
+						Computer Security by Hardware-Intrinsic Authentication.
+							2019. Tese
+					 (Doutorado em Ciência da Computação)  - Universidade Estadual de Campinas, Fundação de Amparo à Pesquisa do Estado de São Paulo. Coorientador: Mario Lúcio Côrtes. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/0758877444698557'><img src='images/curriculo/logolattes.gif' /></a>Paulo César Centoducatte.
+						Compressão de Programas Usando Árvores de Expressão.
+							2000. 120 f. Tese
+					 (Doutorado em Ciência da Computação)  - Universidade Estadual de Campinas, . Orientador: Mario Lúcio Côrtes. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Lucas Carrilho Pessoa.
+							Um novo método para garantir a integridade de programas de software com o uso de PUFs (Physical Unclonable Function).
+							2014.
+							Iniciação Científica. (Graduando em Ciência da Computação)  - Universidade Estadual de Campinas. Orientador: Mario Lúcio Côrtes.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PotencialInovacao">
+<h1>Inova&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="PatentePI"></a><br class="clear" /><div class="inst_back">
+<b>Patente</b>
+</div>
+<a name="patente"></a>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span title="Clique aqui para visualizar as informações da patente no site do INPI" class="ajaxINPI tooltip" data-param="codigoRegistro=BR1020150168314&idCNPq=8094245998438335&sequencial=129">&nbsp;</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8683914780987242" target="_blank">ARAÚJO, Guido</a> ; <b>CORTES, MARIO L.</b> ; HOFFMAN, C. . ARQUITETURA SEGURA PARA SISTEMAS EMBARCADOS. 
+						2015, 
+						Brasil. <br>
+                Patente:
+                Privilégio de Inovação.
+            Número do registro: BR1020150168314, título: "ARQUITETURA SEGURA PARA SISTEMAS EMBARCADOS" , Instituição de registro: INPI - Instituto Nacional da Propriedade Industrial.          
+        Depósito: 17/07/2015</div>
+</div>
+<br class="clear">
+<a name="patente"></a>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span title="Clique aqui para visualizar as informações da patente no site do INPI" class="ajaxINPI tooltip" data-param="codigoRegistro=PI0062057&idCNPq=8094245998438335&sequencial=112">&nbsp;</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8683914780987242" target="_blank">ARAÚJO, Guido</a> ; SANTANA, M. F. . PUF eletrônico digital e método de captura para identificação do PUF proposto. 
+						2013, 
+						Brasil. <br>
+                Patente:
+                Privilégio de Inovação.
+            Número do registro: PI0062057, título: "PUF eletrônico digital e método de captura para identificação do PUF proposto" , Instituição de registro: INPI - Instituto Nacional da Propriedade Industrial.          
+        Depósito: 15/03/2013Instituição(ões) financiadora(s): FAPESP.
+					</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 25/08/2019 &agrave;s 10:17:37</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=8094245998438335" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

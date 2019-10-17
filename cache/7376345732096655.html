@@ -1,0 +1,984 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Mauricio Eiji Nakai)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+        			
+      		});			  
+      		
+      		                                
+		
+	</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4411633H6&amp;idiomaExibicao=2" class="btn-br">English</a><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=7376345732096655" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4411633H6&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4411633H6"><div class="infpessoa">
+<h2 class="nome">Mauricio Eiji Nakai</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/7376345732096655</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 12/08/2019</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui graduação em Engenharia Elétrica pela Universidade Estadual Paulista Júlio de Mesquita Filho (2006), mestrado em Engenharia Elétrica pela Universidade Estadual Paulista Júlio de Mesquita Filho (2012) e doutorado em Engenharia Elétrica pela Universidade de São Paulo (2018). , atuando principalmente nos seguintes temas: sistemas de controle, otimização, robôs móveis, formação de robôs heterogênea e VANT.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mauricio Eiji Nakai<img src='/buscatextual/images/icon-rfb.png' class='alinhamento-texto-img'  title='Dados cadastrais validados junto a Receita Federal do Brasil' /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">NAKAI, M. E.;NAKAI, MAURICIO;NAKAI, MAURICIO EIJI;NAKAI, MAURICIO E.;NAKAI, MAURÍCIO E.</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2018</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Engenharia Elétrica<span class="ajaxCAPES" data-param="&codigoCurso=33002045010P1&nivelCurso=D"></span>. <br class="clear" />Universidade de São Paulo, USP, Brasil.
+		
+	<br class="clear" />Título: Controle Robusto Tolerante a Falhas na Formação de Robôs Heterogêneos Baseado em Sistemas Lineares Sujeitos a Saltos Markovianos, Ano de obtenção: 2018. <br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/5416767068643649'><img src='images/curriculo/logolattes.gif' /></a>Marco Henrique Terra. <br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear" />Palavras-chave: Robôs Heterogêneos; Robôs Móveis; Controle de Formação; VANT.<br class="clear" />Grande área: Engenharias<br class="clear" />Grande Área: Outros / Área: Robótica, Mecatrônica e Automação. <br class="clear" />Grande Área: Engenharias / Área: Engenharia Elétrica / Subárea: Eletrônica Industrial, Sistemas e Controles Eletrônicos / Especialidade: Controle de Processos Eletrônicos, Retroalimentação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Engenharia Elétrica<span class="ajaxCAPES" data-param="&codigoCurso=33004056087P2&nivelCurso=M"></span>. <br class="clear" />Universidade Estadual Paulista Júlio de Mesquita Filho, UNESP, Brasil.
+		
+	<br class="clear" />Título: Avaliação de Modelos Neurais Aplicados na Estimação de Parâmetros da Retificação de Cerâmicas Avançadas,Ano de Obtenção: 2012.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/1455400309660081'><img src='images/curriculo/logolattes.gif' /></a>Prof Dr Paulo Roberto de Aguiar.<br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear" />Grande área: Engenharias<br class="clear" />Grande Área: Engenharias / Área: Engenharia Elétrica / Subárea: Eletrônica Industrial, Sistemas e Controles Eletrônicos. <br class="clear" />Grande Área: Engenharias / Área: Engenharia Elétrica / Subárea: Eletrônica Industrial, Sistemas e Controles Eletrônicos / Especialidade: Automação Eletrônica de Processos Elétricos e Industriais. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Engenharia Elétrica<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Estadual Paulista Júlio de Mesquita Filho, UNESP, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - 2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso técnico/profissionalizante<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Liceu de Artes e Oficio de São Paulo, LAO, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Motoppar, M, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Eng. Eletricista, Carga horária: 40</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">PPA - Portas e Portões Automáticos Rua: Av. Dr. Labieno da Costa Machado, 3526 - Distrito Industrial - Garça-SP CEP: 17400-000 - Fone: (14) 3407-1000 http://www.ppa.com.br</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Faculdade de Tecnologia - Bauru, FATEC - BAURU, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: , Enquadramento Funcional: Professor Assistente 1, Carga horária: 12</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situada na Rua Manoel Bento Cruz, nº 3-30 Centro - Bauru/SP CEP 17015-171 Telefone (014) 3223-2083</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Centro Estadual de Educação Tecnológica Paula Souza, CEETEPS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: , Enquadramento Funcional: Professor 1, Carga horária: 5</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">ETEC Monsenhor Antônio Magliano Endereço: Praça Dr. Martinho Funchal de Barros nº 277 - Bairro Willians - Garça - SP Fone(14) 3471-0099 http://www.etecmam.com.br</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Universidade Anhanguera de São Paulo, UNIAN/SP, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - 2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: , Enquadramento Funcional: Professor, Carga horária: 8</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Avenida Eduardo Andréa Matarazzo, 891 - Ipiranga - Ribeirão Preto - SP CEP: 14080-730 (16) 3512-4700 | (16) 3512-4701</div>
+</div><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Francês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Pouco, Fala Pouco, Lê Pouco, Escreve Pouco. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>INOUE, ROBERTO S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2019</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1002/asjc.2058" target="_blank"></a>INOUE, ROBERTO S. ; TERRA, MARCO H. ; LEÃO, WILLIAN M. ; <b>NAKAI, MAURÍCIO E.</b> . Robust recursive linear quadratic regulator for wheeled mobile robots based on optical motion capture cameras. ASIAN JOURNAL OF CONTROL<sup><img id='15618625_1' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15618625' /></sup>, v. 1, p. 1-14, 2019. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1002/asjc.2058&issn=15618625&volume=1&issue=&paginaInicial=1-14&titulo=Robust recursive linear quadratic regulator for wheeled mobile robots based on optical motion capture cameras&sequencial=1&nomePeriodico=ASIAN JOURNAL OF CONTROL" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>NAKAI, M. E.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2017</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s10846-017-0723-2" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7376345732096655" target="_blank">NAKAI, M. E.</a></b>; INOUE, R. S. ; TERRA, M. H. ; GRASSI, V. . Robust Discrete-Time Markovian Control for Wheeled Mobile Robot Formation: A Fault Tolerant Approach. JOURNAL OF INTELLIGENT & ROBOTIC SYSTEMS<sup><img id='09210296_2' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='09210296' /></sup>, v. 1, p. 1, 2017. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1007/s10846-017-0723-2&issn=09210296&volume=1&issue=&paginaInicial=1&titulo=Robust Discrete-Time Markovian Control for Wheeled Mobile Robot Formation: A Fault Tolerant Approach&sequencial=2&nomePeriodico=JOURNAL OF INTELLIGENT & ROBOTIC SYSTEMS" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>NAKAI, MAURICIO EIJI</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1504/IJMMM.2015.073152" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7376345732096655" target="_blank">NAKAI, MAURICIO EIJI</a></b>; JÚNIOR, HILDO GUILLARDI ; AGUIAR, PAULO R. ; BIANCHI, EDUARDO CARLOS ; SILVA, PAULO SÉRGIO DA . Evaluation of neural models to estimate the roughness of advanced ceramics in surface grinding. International Journal of Machining and Machinability of Materials (Online)<sup><img id='1748572X_3' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='1748572X' /></sup>, v. 17, p. 454, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1504/IJMMM.2015.073152&issn=1748572X&volume=17&issue=&paginaInicial=454&titulo=Evaluation of neural models to estimate the roughness of advanced ceramics in surface grinding&sequencial=3&nomePeriodico=International Journal of Machining and Machinability of Materials (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>NAKAI, MAURICIO EIJI</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.eswa.2015.05.008" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7376345732096655" target="_blank">NAKAI, MAURICIO EIJI</a></b>; AGUIAR, PAULO ROBERTO ; GUILLARDI, HILDO ; BIANCHI, EDUARDO CARLOS ; SPATTI, DANILO HERNANE ; D?ADDONA, DORIANA MARILENA . Evaluation of neural models applied to the estimation of tool wear in the grinding of advanced ceramics. Expert Systems with Applications<sup><img id='09574174_4' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='09574174' /></sup>, v. 42, p. 7026-7035, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.eswa.2015.05.008&issn=09574174&volume=42&issue=&paginaInicial=7026&titulo=Evaluation of neural models applied to the estimation of tool wear in the grinding of advanced ceramics&sequencial=4&nomePeriodico=Expert Systems with Applications" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>NAKAI, M. E.;NAKAI, MAURICIO;NAKAI, MAURICIO EIJI;NAKAI, MAURICIO E.;NAKAI, MAURÍCIO E.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/tla.2015.7040629" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7376345732096655" target="_blank">NAKAI, M. E.</a></b>; Guilardi Junior, Hildo ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1455400309660081" target="_blank">AGUIAR, P. R.</a> ; Bianchi, E. C. ; SPATTI, Danilo Hernane . Neural Tool Condition Estimation in The Grinding of Advanced Ceramics. Revista IEEE América Latina<sup><img id='15480992_5' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15480992' /></sup>, v. 13, p. 62-68, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1109/tla.2015.7040629&issn=15480992&volume=13&issue=&paginaInicial=62&titulo=Neural Tool Condition Estimation in The Grinding of Advanced Ceramics&sequencial=5&nomePeriodico=Revista IEEE América Latina" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Marcelino, A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span>Marcelino, A. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7376345732096655" target="_blank">NAKAI, M. E.</a></b> ; Gillardi Jr, H. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1455400309660081" target="_blank">AGUIAR, P. R.</a> ; Bianchi, E. C. . Modelos neurais usados na estimação do desgaste da ferramenta. Maquinas e Metais<sup><img id='00252700_6' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00252700' /></sup>, v. 50, p. 52-65, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00252700&volume=50&issue=&paginaInicial=52&titulo=Modelos neurais usados na estimação do desgaste da ferramenta&sequencial=6&nomePeriodico=Maquinas e Metais" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Marchi, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span>Marchi, M. ; Luzia, R. F. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7376345732096655" target="_blank">NAKAI, M. E.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1455400309660081" target="_blank">AGUIAR, P. R.</a> ; Bianchi, E. C. . Proposta de equipamento de baixo custo para detectar danos térmicos. Maquinas e Metais<sup><img id='00252700_7' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00252700' /></sup>, v. 49, p. 92-111, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00252700&volume=49&issue=&paginaInicial=92&titulo=Proposta de equipamento de baixo custo para detectar danos térmicos&sequencial=7&nomePeriodico=Maquinas e Metais" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/LARS-SBR.2016.36" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7376345732096655" target="_blank">NAKAI, MAURICIO E.</a></b>; INOUE, ROBERTO S. ; TERRA, MARCO H. ; GRASSI, VALDIR . Wheeled Mobile Robot Formation Using Recursive Robust Regulator with Discrete-Time Markov Linear System. In: 2016 XIII Latin American Robotics Symposium and IV Brazilian Robotics Symposium (LARS/SBR), 2016, Recife. 2016 XIII Latin American Robotics Symposium and IV Brazilian Robotics Symposium (LARS/SBR), 2016. p. 175. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7376345732096655" target="_blank">NAKAI, M. E.</a></b>; INOUE, R. S. ; GRASSI JR., V. ; TERRA, M. H. . Sobre o Controle de Robôs Heterogêneos em Formação Utilizando o Sistema de Posicionamento Vicon. In: XII Simpósio Brasileiro de Automação Inteligente, 2015, Natal - RN. XII Simpósio Brasileiro de Automação Inteligente, 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MARCELINO, A. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7376345732096655" target="_blank">NAKAI, M. E.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2763526214348012" target="_blank">GUILARDI JR, H.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1455400309660081" target="_blank">AGUIAR, P. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3617240079473748" target="_blank">BIANCHI, C. E.</a> . Modelos neurais na estimação do desgaste da ferramenta na retificação de cerâmicas. In: 7o. Congresso Brasileiro de Engenharia de Fabricação, 2013, Itatiaia-TJ. 7o. Congresso Brasileiro de Engenharia de Fabricação, 2013. v. 1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7376345732096655" target="_blank">NAKAI, M. E.</a></b>; MARCELINO, A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2763526214348012" target="_blank">GUILARDI JR, H.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1455400309660081" target="_blank">AGUIAR, P. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3617240079473748" target="_blank">BIANCHI, C. E.</a> . Modelos Neurais na Estimação da Rugosidade e do Desgaste da Ferramenta em Retificação. In: VII Congresso Nacional de Engenharia Mecanica - CONEM 2012, 2012, São Luís. Congresso Nacional de Engenharia Mecanica - CONEM 2012, 2012. p. CONEM2012-0879. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7376345732096655" target="_blank">NAKAI, M. E.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2239727191980662" target="_blank">LUZIA, R. F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3095603500889749" target="_blank">MARCHI, M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1455400309660081" target="_blank">AGUIAR, P. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3617240079473748" target="_blank">BIANCHI, C. E.</a> . Digital signal processor and multi-sensor in monitoring of dressing operation.. In: 21st Brazilian Congress of Mechanical Engineering, 2011, Natal. 21st Brazilian Congress of Mechanical Engineering, 2011. v. 1. p. 1-10. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3095603500889749" target="_blank">MARCHI, M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2239727191980662" target="_blank">LUZIA, R. F.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7376345732096655" target="_blank">NAKAI, M. E.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1455400309660081" target="_blank">AGUIAR, P. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3617240079473748" target="_blank">BIANCHI, C. E.</a> . Hardware dsPIC no monitoramento e detecção de dano térmico em processos de retificação. In: X Congresso Iberoamericano de Engenharia Mecânica (CIBEM 10), 2011, Porto. X Congresso Iberoamericano de Engenharia Mecânica (CIBEM 10), 2011. v. 1. p. 3335-3345. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7376345732096655" target="_blank">NAKAI, M. E.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1485594618640412" target="_blank">Martins C. H. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2239727191980662" target="_blank">LUZIA, R. F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3095603500889749" target="_blank">MARCHI, M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1455400309660081" target="_blank">AGUIAR, P. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3617240079473748" target="_blank">BIANCHI, C. E.</a> . Monitoramento da Operação de Dressagem Baseado em Controlador Digital de Sinais. In: X Conferência Brasileira de Dinâmica, Controle e Aplicações (DINCON 2011), 2011, Águas de Lindóia, SP. X Conferência Brasileira de Dinâmica, Controle e Aplicações (DINCON 2011), 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7376345732096655" target="_blank">NAKAI, M. E.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2763526214348012" target="_blank">GUILARDI JR, H.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3655955192139456" target="_blank">SPADOTO, M. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1455400309660081" target="_blank">AGUIAR, P. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3617240079473748" target="_blank">BIANCHI, C. E.</a> . ANFIS applied to the prediction of surface roughness in grinding of advanced ceramics. In: IASTED Conference on Artificial Intelligence and Soft Computing, 2011, Hersonissos - Creta. IASTED Conference on Artificial Intelligence and Soft Computing, 2011. v. 1. p. 329-334. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Simões E. V.; M. Luppe; <b>NAKAI, M. E.</b>.  Participação em banca de Miguel Pinto Cabral Neto.Gamificação para o ensino de Tae-Kwon-Do.
+							2018. Trabalho de Conclusão de Curso (Graduação em Engenharia Elétrica - Ênfase em Sistemas de Energia e Automação)  - Universidade de São Paulo. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">INOUE, R. S.; <b>NAKAI, M. E.</b>; Benevides J. R. S..  Participação em banca de Natália dos Santos Andrade.Formação de Robôs Móveis com Desvio de Obstáculos Baseado em Ciclo Limite em 2D e em 3D.
+							2018. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">TERRA, MARCO H.; INOUE, ROBERTO S.; <b>NAKAI, M. E.</b>.  Participação em banca de Aurimar Bezerra Melo de Souza Filho.Controle de Formação de Robôs Móveis.
+							2018. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLIVEIRA, V. A.; Gamboa E. A.; <b>NAKAI, M. E.</b>.  Participação em banca de Pedro Augusto Viana Pato.Modelagem e Controle de um Twin-Rotor.
+							2016. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">OLIVEIRA, V. A.; Mercaldi, H. V.; <b>NAKAI, M. E.</b>.  Participação em banca de Rodrigo Lisboa Della Rovere.Protótipo de um sistema inteligente de monitoramento de consumo de energia elétrica de uma residência.
+							2016. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GESUALDO, E.; SPATTI, Danilo Hernane; <b>NAKAI, M. E.</b>.  Participação em banca de Tatiani Pivem.Sistemas de Desvio de Obstáculos.
+							2015. Trabalho de Conclusão de Curso (Graduação em Engenharia Elétrica - Ênfase em Eletrônica)  - Universidade de São Paulo. </div>
+</div>
+<br class="clear"><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VII Congresso Nacional de Engenharia Mecanica - CONEM 2012. Modelos Neurais na Estimação da Rugosidade e do Desgaste da Ferramenta em Retificação. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">21st Brazilian Congress of Mechanical Engineering. Digital signal processor and multi-sensor in monitoring of dressing operation. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+</div>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 19/09/2019 &agrave;s 12:19:29</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=7376345732096655" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

@@ -1,0 +1,1000 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Matthias Diener)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+        			
+      		});			  
+      		
+      		                                
+		
+	</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4363639J6&amp;idiomaExibicao=2" class="btn-br">English</a><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=8653611969517458" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4363639J6&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4363639J6"><div class="infpessoa">
+<h2 class="nome">Matthias Diener</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/8653611969517458</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 16/07/2017</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui gradua&ccedil;&atilde;o  em Computer Engineering pela Technische Universit&auml;t Berlin(2010) e doutorado em Computa&ccedil;&atilde;o pela Universidade Federal do Rio Grande do Sul(2015). Tem experi&ecirc;ncia na &aacute;rea de Ci&ecirc;ncia da Computa&ccedil;&atilde;o. <span style="font-weight: bold" class="texto"> (Texto gerado automaticamente pela aplica&ccedil;&atilde;o CVLattes)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Matthias Diener<img src='/buscatextual/images/icon-rfb.png' class='alinhamento-texto-img'  title='Dados cadastrais validados junto a Receita Federal do Brasil' /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">DIENER, MATTHIAS;DIENER, M.</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - 2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Computação<span class="ajaxCAPES" data-param="&codigoCurso=42001013004P4&nivelCurso=D"></span>. <br class="clear" />Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	<br class="clear" />com <b>período </b><b>co-tutela </b> em Technische Universität Berlin (Orientador: Hans-Ulrich Heiss). <br class="clear" />Título: Automatic Task and Data Mapping in Shared Memory Architectures, Ano de obtenção: 2015. <br class="clear" />Orientador: Philippe O. A. Navaux. <br class="clear" />Coorientador: Hans-Ulrich Heiss. <br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Computer Engineering<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Technische Universität Berlin, TUBerlin, Alemanha.
+		
+	<br class="clear" />Título: Evaluating Thread Placement Improvements in Multi-core Architectures. <br class="clear" />Orientador: Hans-Ulrich Heiss. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Alemão</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Português</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Razoavelmente, Lê Bem, Escreve Razoavelmente. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CRUZ, EDUARDO H. M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2016</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1145/2975587" target="_blank"></a>CRUZ, EDUARDO H. M. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8653611969517458" target="_blank">DIENER, MATTHIAS</a></b> ; PILLA, LAÉRCIO L. ; NAVAUX, PHILIPPE O. A. . Hardware-Assisted Thread and Data Mapping in Hierarchical Multicore Architectures. ACM Transactions on Architecture and Code Optimization<sup><img id='15443566_1' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15443566' /></sup>, v. 13, p. 1-28, 2016. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1145/2975587&issn=15443566&volume=13&issue=&paginaInicial=1&titulo=Hardware-Assisted Thread and Data Mapping in Hierarchical Multicore Architectures&sequencial=1&nomePeriodico=ACM Transactions on Architecture and Code Optimization" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DIENER, MATTHIAS;DIENER, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2016</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1145/3006385" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8653611969517458" target="_blank">DIENER, MATTHIAS</a></b>; CRUZ, EDUARDO H. M. ; Alves, Marco A. Z. ; NAVAUX, PHILIPPE O. A. ; KOREN, ISRAEL . Affinity-Based Thread and Data Mapping in Shared Memory Systems. ACM COMPUTING SURVEYS<sup><img id='03600300_2' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='03600300' /></sup>, v. 49, p. 1-38, 2016. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1145/3006385&issn=03600300&volume=49&issue=&paginaInicial=1&titulo=Affinity-Based Thread and Data Mapping in Shared Memory Systems&sequencial=2&nomePeriodico=ACM COMPUTING SURVEYS" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DIENER, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2016</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1177/1094342016640056" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8653611969517458" target="_blank">DIENER, M.</a></b>; CRUZ, E. H. ; NAVAUX, P. O. . Modeling memory access behavior for data mapping. INTERNATIONAL JOURNAL OF HIGH PERFORMANCE COMPUTING APPLICATIONS<sup><img id='10943420_3' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='10943420' /></sup>, v. 31, p. 212-228, 2016. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1177/1094342016640056&issn=10943420&volume=31&issue=&paginaInicial=212&titulo=Modeling memory access behavior for data mapping&sequencial=3&nomePeriodico=INTERNATIONAL JOURNAL OF HIGH PERFORMANCE COMPUTING APPLICATIONS" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MOREIRA, FRANCIS B.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2016</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.parco.2016.01.010" target="_blank"></a>MOREIRA, FRANCIS B. ; ALVES, MARCO A.Z. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8653611969517458" target="_blank">DIENER, MATTHIAS</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5554254760869075" target="_blank">NAVAUX, PHILIPPE O.A.</a> ; KOREN, ISRAEL . A dynamic block-level execution profiler. Parallel Computing<sup><img id='01678191_4' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='01678191' /></sup>, v. 54, p. 15-28, 2016. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.parco.2016.01.010&issn=01678191&volume=54&issue=&paginaInicial=15&titulo=A dynamic block-level execution profiler&sequencial=4&nomePeriodico=Parallel Computing" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DIENER, MATTHIAS;DIENER, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.parco.2015.01.005" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8653611969517458" target="_blank">DIENER, MATTHIAS</a></b>; CRUZ, EDUARDO H.M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5554254760869075" target="_blank">NAVAUX, PHILIPPE O.A.</a> ; BUSSE, ANSELM ; HEIß, HANS-ULRICH . Communication-aware process and thread mapping using online communication detection. Parallel Computing<sup><img id='01678191_5' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='01678191' /></sup>, v. 43, p. 43-63, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.parco.2015.01.005&issn=01678191&volume=43&issue=&paginaInicial=43&titulo=Communication-aware process and thread mapping using online communication detection&sequencial=5&nomePeriodico=Parallel Computing" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DIENER, MATTHIAS;DIENER, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.peva.2015.03.001" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8653611969517458" target="_blank">DIENER, MATTHIAS</a></b>; CRUZ, EDUARDO H.M. ; PILLA, LAÉRCIO L. ; DUPROS, FABRICE ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5554254760869075" target="_blank">NAVAUX, PHILIPPE O.A.</a> . Characterizing communication and page usage of parallel applications for thread and data mapping. Performance Evaluation<sup><img id='01665316_6' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='01665316' /></sup>, v. 88-89, p. 18-36, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.peva.2015.03.001&issn=01665316&volume=88-89&issue=&paginaInicial=18&titulo=Characterizing communication and page usage of parallel applications for thread and data mapping&sequencial=6&nomePeriodico=Performance Evaluation" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CRUZ, EDUARDO H.M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.parco.2015.12.001" target="_blank"></a>CRUZ, EDUARDO H.M. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8653611969517458" target="_blank">DIENER, MATTHIAS</a></b> ; ALVES, MARCO A.Z. ; PILLA, LAÉRCIO L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5554254760869075" target="_blank">NAVAUX, PHILIPPE O.A.</a> . LAPT: A Locality-Aware Page Table for Thread and Data Mapping. Parallel Computing<sup><img id='01678191_7' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='01678191' /></sup>, v. 1, p. 1, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.parco.2015.12.001&issn=01678191&volume=1&issue=&paginaInicial=1&titulo=LAPT: A Locality-Aware Page Table for Thread and Data Mapping&sequencial=7&nomePeriodico=Parallel Computing" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CRUZ, EDUARDO H. M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1002/cpe.3487" target="_blank"></a>CRUZ, EDUARDO H. M. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8653611969517458" target="_blank">DIENER, MATTHIAS</a></b> ; NAVAUX, PHILIPPE O. A. . Communication-aware thread mapping using the translation lookaside buffer. Concurrency and Computation<sup><img id='15320626_8' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15320626' /></sup>, v. 27, p. n/a-n/a, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1002/cpe.3487&issn=15320626&volume=27&issue=&paginaInicial=n/a&titulo=Communication-aware thread mapping using the translation lookaside buffer&sequencial=8&nomePeriodico=Concurrency and Computation" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DIENER, MATTHIAS;DIENER, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/TPDS.2015.2504985" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8653611969517458" target="_blank">DIENER, MATTHIAS</a></b>; CRUZ, EDUARDO ; ALVES, MARCO ; NAVAUX, PHILIPPE ; BUSSE, ANSELM ; HEISS, HANS-ULRICH . Kernel-Based Thread and Data Mapping for Improved Memory Affinity. IEEE Transactions on Parallel and Distributed Systems (Print)<sup><img id='10459219_9' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='10459219' /></sup>, v. 27, p. 1-1, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1109/TPDS.2015.2504985&issn=10459219&volume=27&issue=&paginaInicial=1&titulo=Kernel-Based Thread and Data Mapping for Improved Memory Affinity&sequencial=9&nomePeriodico=IEEE Transactions on Parallel and Distributed Systems (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CRUZ, EDUARDO H.M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.jpdc.2013.11.006" target="_blank"></a>CRUZ, EDUARDO H.M. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8653611969517458" target="_blank">DIENER, MATTHIAS</a></b> ; ALVES, MARCO A.Z. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5554254760869075" target="_blank">NAVAUX, PHILIPPE O.A.</a> . Dynamic thread mapping of shared memory applications by exploiting cache coherence protocols. Journal of Parallel and Distributed Computing (Print)<sup><img id='07437315_10' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='07437315' /></sup>, v. 74, p. 2215-2228, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.jpdc.2013.11.006&issn=07437315&volume=74&issue=&paginaInicial=2215&titulo=Dynamic thread mapping of shared memory applications by exploiting cache coherence protocols&sequencial=10&nomePeriodico=Journal of Parallel and Distributed Computing (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/978-3-319-57972-6_2" target="_blank"></a>ROLOFF, EDUARDO ; Diaz Carreño, Emmanuell ; Valverde-Sánchez, Jimmy K. M. ; <b>DIENER, MATTHIAS</b> ; da Silva Serpa, Matheus ; Houzeaux, Guillaume ; Schnorr, Lucas M. ; MAILLARD, NICOLAS ; GASPARY, LUCIANO PASCHOAL ; NAVAUX, PHILIPPE . Performance Evaluation of Multiple Cloud Data Centers Allocations for HPC. Communications in Computer and Information Science. 1ed.: Springer International Publishing, 2017, v. , p. 18-32. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/978-3-319-43659-3_36" target="_blank"></a>CRUZ, EDUARDO H. M. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8653611969517458" target="_blank">DIENER, MATTHIAS</a></b> ; PILLA, LAÉRCIO L. ; NAVAUX, PHILIPPE O. A. . A Sharing-Aware Memory Management Unit for Online Mapping in Multi-core Architectures. Lecture Notes in Computer Science. 1ed.: Springer International Publishing, 2016, v. , p. 490-501. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/978-3-662-48096-0_16" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8653611969517458" target="_blank">DIENER, MATTHIAS</a></b>; CRUZ, EDUARDO H. M. ; Alves, Marco A. Z. ; Alhakeem, Mohammad S. ; NAVAUX, PHILIPPE O. A. ; HEIß, HANS-ULRICH . Locality and Balance for Communication-Aware Thread Mapping in Multicore Systems. Lecture Notes in Computer Science. 1ed.: Springer Berlin Heidelberg, 2015, v. 9233, p. 196-208. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1145/3075564.3075566" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8653611969517458" target="_blank">DIENER, MATTHIAS</a></b>; CRUZ, EDUARDO H. M. ; Alves, Marco A. Z. ; BORIN, EDSON ; NAVAUX, PHILIPPE O. A. . Optimizing memory affinity with a hybrid compiler/OS approach. In: the Computing Frontiers Conference, 2017, Siena. Proceedings of the Computing Frontiers Conference on ZZZ - CF&apos;17, 2017. p. 221. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1145/3075564.3075578" target="_blank"></a>MOREIRA, FRANCIS B. ; <b>DIENER, MATTHIAS</b> ; NAVAUX, PHILIPPE O. A. ; KOREN, ISRAEL . Data mining the memory access stream to detect anomalous application behavior. In: the Computing Frontiers Conference, 2017, Siena. Proceedings of the Computing Frontiers Conference on ZZZ - CF&apos;17. New York: ACM Press, 2017. p. 45. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/pdp.2017.59" target="_blank"></a>ROLOFF, EDUARDO ; <b>DIENER, MATTHIAS</b> ; GASPARY, LUCIANO PASCHOAL ; NAVAUX, PHILIPPE O. A. . HPC Application Performance and Cost Efficiency in the Cloud. In: 2017 25th Euromicro International Conference on Parallel, Distributed and Networkbased Processing (PDP), 2017, St. Petersburg. 2017 25th Euromicro International Conference on Parallel, Distributed and Network-based Processing (PDP), 2017. p. 473. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/PDP.2016.37" target="_blank"></a>MARIANO, ARTUR ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8653611969517458" target="_blank">DIENER, MATTHIAS</a></b> ; BISCHOF, CHRISTIAN ; NAVAUX, PHILIPPE O. A. . Analyzing and Improving Memory Access Patterns of Large Irregular Applications on NUMA Machines. In: 2016 24th Euromicro International Conference on Parallel, Distributed, and NetworkBased Processing (PDP), 2016, Heraklion. 2016 24th Euromicro International Conference on Parallel, Distributed, and Network-Based Processing (PDP), 2016. p. 382. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/PDP.2016.16" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8653611969517458" target="_blank">DIENER, MATTHIAS</a></b>; CRUZ, EDUARDO H. M. ; Alves, Marco A. Z. ; NAVAUX, PHILIPPE O. A. . Communication in Shared Memory: Concepts, Definitions, and Efficient Detection. In: 2016 24th Euromicro International Conference on Parallel, Distributed, and NetworkBased Processing (PDP), 2016, Heraklion. 2016 24th Euromicro International Conference on Parallel, Distributed, and Network-Based Processing (PDP), 2016. p. 151. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/PDP.2016.55" target="_blank"></a>SANTOS, PAULO C. ; Alves, Marco A. Z. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8653611969517458" target="_blank">DIENER, MATTHIAS</a></b> ; CARRO, LUIGI ; NAVAUX, PHILIPPE O. A. . Exploring Cache Size and Core Count Tradeoffs in Systems with Reduced Memory Access Latency. In: 2016 24th Euromicro International Conference on Parallel, Distributed, and NetworkBased Processing (PDP), 2016, Heraklion. 2016 24th Euromicro International Conference on Parallel, Distributed, and Network-Based Processing (PDP), 2016. p. 388. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/CCGrid.2016.59" target="_blank"></a>CARRENO, EMMANUELL D. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8653611969517458" target="_blank">DIENER, MATTHIAS</a></b> ; CRUZ, EDUARDO H. M. ; NAVAUX, PHILIPPE O. A. . Automatic Communication Optimization of Parallel Applications in Public Clouds. In: 2016 16th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGrid), 2016, Cartagena. 2016 16th IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGrid), 2016. p. 1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.3850/9783981537079_0093" target="_blank"></a>A. Z. ALVES, MARCO ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8653611969517458" target="_blank">DIENER, MATTHIAS</a></b> ; C. SANTOS, PAULO ; CARRO, LUIGI . Large Vector Extensions Inside the HMC. In: Proceedings of the 2016 Design, Automation &amp; Test in Europe Conference &amp; Exhibition (DATE), 2016. Proceedings of the 2016 Design, Automation &amp; Test in Europe Conference &amp; Exhibition (DATE). Singapore: Research Publishing Services, 2016. p. 1249. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1145/2695664.2695736" target="_blank"></a>BUSSE, ANSELM ; SCHÖNHERR, JAN H. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8653611969517458" target="_blank">DIENER, MATTHIAS</a></b> ; NAVAUX, PHILIPPE O. A. ; HEIß, HANS-ULRICH . Partial coscheduling of virtual machines based on memory access patterns. In: the 30th Annual ACM Symposium, 2015, Salamanca. Proceedings of the 30th Annual ACM Symposium on Applied Computing - SAC &apos;15, 2015. p. 2033. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/pdp.2015.11" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8653611969517458" target="_blank">DIENER, MATTHIAS</a></b>; CRUZ, EDUARDO H.M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5554254760869075" target="_blank">NAVAUX, PHILIPPE O.A.</a> . Locality vs. Balance: Exploring Data Mapping Policies on NUMA Systems. In: 2015 23rd Euromicro International Conference on Parallel, Distributed and NetworkBased Processing (PDP), 2015, Turku. 2015 23rd Euromicro International Conference on Parallel, Distributed, and Network-Based Processing, 2015. p. 9. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/pdp.2015.25" target="_blank"></a>CRUZ, EDUARDO H.M. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8653611969517458" target="_blank">DIENER, MATTHIAS</a></b> ; PILLA, LAERCIO L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5554254760869075" target="_blank">NAVAUX, PHILIPPE O.A.</a> . An Efficient Algorithm for Communication-Based Task Mapping. In: 2015 23rd Euromicro International Conference on Parallel, Distributed and NetworkBased Processing (PDP), 2015, Turku. 2015 23rd Euromicro International Conference on Parallel, Distributed, and Network-Based Processing, 2015. p. 207. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1145/2818950.2818953" target="_blank"></a>Alves, Marco A. Z. ; SANTOS, PAULO C. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8653611969517458" target="_blank">DIENER, MATTHIAS</a></b> ; CARRO, LUIGI . Opportunities and Challenges of Performing Vector Operations inside the DRAM. In: the 2015 International Symposium, 2015, Washington DC. Proceedings of the 2015 International Symposium on Memory Systems - MEMSYS &apos;15. New York: ACM Press, 2015. p. 22. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/recosoc.2015.7238099" target="_blank"></a>Alves, Marco A. Z. ; SANTOS, PAULO C. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8653611969517458" target="_blank">DIENER, MATTHIAS</a></b> ; CARRO, LUIGI . Reconfigurable Vector Extensions inside the DRAM. In: 2015 10th International Symposium on Reconfigurable Communicationcentric SystemsonChip (ReCoSoC), 2015, Bremen. 2015 10th International Symposium on Reconfigurable Communication-centric Systems-on-Chip (ReCoSoC), 2015. p. 1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/HPCC-CSS-ICESS.2015.166" target="_blank"></a>ALVES, MARCO ANTONIO ZANATA ; VILLAVIEJA, CARLOS ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8653611969517458" target="_blank">DIENER, MATTHIAS</a></b> ; MOREIRA, FRANCIS BIRCK ; NAVAUX, PHILIPPE OLIVIER ALEXANDRE . SiNUCA: A Validated Micro-Architecture Simulator. In: 2015 IEEE 17th International Conference on High Performance Computing and Communications (HPCC), 2015 IEEE 7th International Symposium on Cyberspace Safety and Security (CSS) and 2015 IEEE 12th International Conf on Embedded Software and Systems (ICESS), 2015, New York. 2015 IEEE 17th International Conference on High Performance Computing and Communications, 2015 IEEE 7th International Symposium on Cyberspace Safety and Security, and 2015 IEEE 12th International Conference on Embedded Software and Systems, 2015. p. 605. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/CASES.2015.7324552" target="_blank"></a>Alves, Marco A. Z. ; SANTOS, PAULO C. ; MOREIRA, FRANCIS B. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8653611969517458" target="_blank">DIENER, MATTHIAS</a></b> ; CARRO, LUIGI . Saving memory movements through vector processing in the DRAM. In: 2015 International Conference on Compilers, Architecture and Synthesis for Embedded Systems (CASES), 2015, Amsterdam. 2015 International Conference on Compilers, Architecture and Synthesis for Embedded Systems (CASES), 2015. p. 117. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1145/2835238.2835239" target="_blank"></a>BENIAMINE, DAVID ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8653611969517458" target="_blank">DIENER, MATTHIAS</a></b> ; HUARD, GUILLAUME ; NAVAUX, PHILIPPE O. A. . TABARNAC. In: the 2nd Workshop, 2015, Austin. Proceedings of the 2nd Workshop on Visual Performance Analysis - VPA &apos;15. New York: ACM Press, 2015. p. 1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1145/2628071.2628085" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8653611969517458" target="_blank">DIENER, MATTHIAS</a></b>; CRUZ, EDUARDO H.M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5554254760869075" target="_blank">NAVAUX, PHILIPPE O.A.</a> ; BUSSE, ANSELM ; HEIß, HANS-ULRICH . kMAF. In: the 23rd international conference, 2014, Edmonton. Proceedings of the 23rd international conference on Parallel architectures and compilation - PACT '14. New York: ACM Press. p. 277. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">BIRCK, FRANCIS ; ALVES, MARCO A.Z. ; <b>DIENER, MATTHIAS</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5554254760869075" target="_blank">Navaux, P.O.A</a> ; Israel Koren . Profiling and Reducing Micro-Architecture Bottlenecks at the Hardware Level. In: Computer Architecture and High Performance Computing (SBAC-PAD), 2014 IEEE 26th International Symposium on, 2014, Paris. Proceedings..., 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/sbac-pad.2014.22" target="_blank"></a>CRUZ, EDUARDO H.M. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8653611969517458" target="_blank">DIENER, MATTHIAS</a></b> ; ALVES, MARCO A.Z. ; PILLA, LAERCIO L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5554254760869075" target="_blank">NAVAUX, PHILIPPE O.A.</a> . Optimizing Memory Locality Using a Locality-Aware Page Table. In: 2014 26th International Symposium on Computer Architecture and High Performance Computing (SBACPAD), 2014, Jussieu. 2014 IEEE 26th International Symposium on Computer Architecture and High Performance Computing, 2014. p. 198. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/IPDPS.2013.57" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8653611969517458" target="_blank">DIENER, MATTHIAS</a></b>; CRUZ, EDUARDO H.M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5554254760869075" target="_blank">NAVAUX, PHILIPPE O.A.</a> . Communication-Based Mapping Using Shared Pages. In: 2013 IEEE International Symposium on Parallel &amp; Distributed Processing (IPDPS), 2013, Cambridge. 2013 IEEE 27th International Symposium on Parallel and Distributed Processing, 2013. p. 700. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1145/2480362.2480661" target="_blank"></a>BUSSE, ANSELM ; SCHÖNHERR, JAN H. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8653611969517458" target="_blank">DIENER, MATTHIAS</a></b> ; MÜHL, GERO ; RICHLING, JAN . Analyzing resource interdependencies in multi-core architectures to improve scheduling decisions. In: the 28th Annual ACM Symposium, 2013, Coimbra. Proceedings of the 28th Annual ACM Symposium on Applied Computing - SAC &apos;13. New York: ACM Press, 2013. p. 1595. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/SBAC-PAD.2013.12" target="_blank"></a>ALVES, MARCO A.Z. ; VILLAVIEJA, CARLOS ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8653611969517458" target="_blank">DIENER, MATTHIAS</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5554254760869075" target="_blank">NAVAUX, PHILIPPE O.A.</a> . Energy Efficient Last Level Caches via Last Read/Write Prediction. In: 2013 25th International Symposium on Computer Architecture and High Performance Computing (SBACPAD), 2013, Porto de Galinhas. 2013 25th International Symposium on Computer Architecture and High Performance Computing, 2013. p. 73. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/CLOUD.2012.47" target="_blank"></a>ROLOFF, EDUARDO ; BIRCK, FRANCIS ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8653611969517458" target="_blank">DIENER, MATTHIAS</a></b> ; CARISSIMI, ALEXANDRE ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5554254760869075" target="_blank">NAVAUX, PHILIPPE O.A.</a> . Evaluating High Performance Computing on the Windows Azure Platform. In: 2012 IEEE 5th International Conference on Cloud Computing (CLOUD), 2012, Honolulu. 2012 IEEE Fifth International Conference on Cloud Computing, 2012. p. 803. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/IPDPS.2012.56" target="_blank"></a>CRUZ, EDUARDO H.M. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8653611969517458" target="_blank">DIENER, MATTHIAS</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5554254760869075" target="_blank">NAVAUX, PHILIPPE O.A.</a> . Using the Translation Lookaside Buffer to Map Threads in Parallel Applications Based on Shared Memory. In: 2012 IEEE International Symposium on Parallel &amp; Distributed Processing (IPDPS), 2012, Shanghai. 2012 IEEE 26th International Parallel and Distributed Processing Symposium, 2012. p. 532. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/CloudCom.2012.6427549" target="_blank"></a>ROLOFF, EDUARDO ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8653611969517458" target="_blank">DIENER, MATTHIAS</a></b> ; CARISSIMI, ALEXANDRE ; NAVAUX, PHILIPPE O. A. . High Performance Computing in the cloud: Deployment, performance and cost efficiency. In: 2012 IEEE 4th International Conference on Cloud Computing Technology and Science (CloudCom), 2012, Taipei. 4th IEEE International Conference on Cloud Computing Technology and Science Proceedings. p. 371. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/WAMCA.2011.12" target="_blank"></a>KASSICK, RODRIGO VIROTE ; BOITO, FRANCIELI ZANON ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8653611969517458" target="_blank">DIENER, MATTHIAS</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5554254760869075" target="_blank">NAVAUX, PHILIPPE O.A.</a> ; DENNEULIN, YVES ; SCHEPKE, CLAUDIO ; MAILLARD, NICOLAS ; OSTHOFF, CARLA ; GRUNMANN, PABLO ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9273702863744424" target="_blank">DIAS, PEDRO</a> ; PANETTA, JAIRO . Trace-Based Visualization as a Tool to Understand Applications' I/O Performance in Multi-core Machines. In: 2011 Second Workshop on Architecture and MultiCore Applications (WAMCA), 2011, Victoria. 2011 Second Workshop on Architecture and Multi-Core Applications (wamca 2011). p. 5-11. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/HPCC.2010.114" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8653611969517458" target="_blank">DIENER, MATTHIAS</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1457053866639687" target="_blank">MADRUGA, F. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7011183305034415" target="_blank">ALVES, M. A. Z.</a> ; SCHNEIDER, J. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8441527555085287" target="_blank">RODRIGUES, E. R.</a> ; HEISS, H. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5554254760869075" target="_blank">Navaux, P.O.A</a> . Evaluating Thread Placement Based on Memory Access Patterns for Multi-core Processors. In: High Performance Computing and Communications (HPCC), 2010 12th IEEE International Conference on, 2010, Melbourne. Proceedings of the 2010 12th IEEE International Conference on High Performance Computing and Communications, 2010. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">João Paulo Ruschel.
+							Parallel Implementations of the Cholesky Decomposition on CPUs and GPUs.
+							2016.
+							Trabalho de Conclusão de Curso. (Graduação em Ciência da Computação)  - Universidade Federal do Rio Grande do Sul. Orientador: Matthias Diener.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 18/09/2019 &agrave;s 15:14:27</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=8653611969517458" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>
