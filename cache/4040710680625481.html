@@ -1,0 +1,625 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Carlos Cezar de Paula Souza)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+        			
+      		});			  
+      		
+      		                                
+		
+	</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4759290U7&amp;idiomaExibicao=2" class="btn-br">English</a><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=4040710680625481" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasInformacoesRelevantes">Outras informações relevantes</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosDesenvolvimento">Projetos de desenvolvimento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4759290U7&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4759290U7"><div class="infpessoa">
+<h2 class="nome">Carlos Cezar de Paula Souza</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/4040710680625481</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 24/11/2014</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Graduado em Engenharia Mecânica pela Universidade Estadual de Bauru (1989) e MESTRADO EM ENGENHARIA MECÂNICA pela Universidade Estadual de Bauru (2008). 
+Engenheiro Mecânico com atuação em planejamento, acompanhamento e execução de serviços e tarefas vinculadas à Engenharia, Qualidade, Financeiro, Suprimento, Produção e Montagem Industrial. Experiência e vivência em Gestão de Qualidade, projeto e requisitos de Qualidade no contrato de obra. Gerenciamento e controle de procedimentos técnicos, cronogramas e planos referentes às atividades ligadas à Qualidade do empreendimento. Coordenar e gerenciar o controle de qualidade, documentação técnica, inspeção da Qualidade dos equipamentos e/ou serviços executados. Conhecimento prático na norma ISO 9001 e teórico nas normas ISO 14001 e OHSAS 18001 (Sistema de Gestão Integrada). Visão macro dos processos organizacionais, administração, orçamentação, suprimentos. Coordenar os inspetores das áreas: civil, Elétrica, Mecânica, Instrumentação e Tubulação e gerenciar toda documentação para a completação mecânica (mechanical completion) e comissionamento (commissioning) da obra. Participar da gestão das atividades de execução e verificação, se as instalações montadas estão em conformidade com o projeto e em condições de funcionabilidade para serem operadas, utilizando Fluxograma de Engenharia (P&ID - Piping and instrument diagram). Coordenar e executar o controle do planejamento de entrega do bem, gerenciar a entrega da aquisição do equipamento em seu tempo correto, local, conforme cronograma da obra, com a qualidade adquirida no produto, exigida em seus requisitos, em conformidade com suas especificações em contrato. Apoio à Gestão de Qualidade de Suprimentos de Materiais e Serviços e apoio ao Diligenciamento aos fornecedores. Domínio pleno do Pacote Office (intermediário em MS-Project) e Adobe. Domínio em leitura e interpretação de desenhos técnicos e mecânicos.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Carlos Cezar de Paula Souza</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Souza, Carlos Cezar de Paula</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">ETM ENGENHARIA LTDA, ENGENHARIA. <br class="clear" />Rua Doutor Barros Cassal<br class="clear" />Floresta<br class="clear" />90035030 - Porto Alegre, RS - Brasil<br class="clear" />Telefone: (51) 32217444<br class="clear" />URL da Homepage: <a target="blank" href="http://www.etm.eng.br">www.etm.eng.br</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em MESTRADO EM ENGENHARIA<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=M"></span>. <br class="clear" />Universidade Estadual de Bauru.
+		
+	<br class="clear" />Título: REDES NEURAIS ARTIFICIAIS APLICADA NA DETECÇÃO DA QUEIMA NO PROCESSO DE RETIFIAÇÃO,Ano de Obtenção: 2008.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/1455400309660081'><img src='images/curriculo/logolattes.gif' /></a>PAULO ROBERTO DE AGUIAR.<br class="clear" />Coorientador: CARLOS EDUARDO BIANCHI. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1983 - 1989</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Engenharia Mecanica<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Estadual de Bauru.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>ETM ENGENHARIA LTDA, ETM, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: PROFISSIONAL LIBERAL, Enquadramento Funcional: COORDENADOR DA COMPLETAÇÃO MECÂNICA, Carga horária: 44, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Coordenador Mechanical Completion (Completação Mecânica) Coordenar equipes de inspetores das áreas: Civil, Elétrica, Mecânica, Instrumentação, Tubulação e gerenciar toda documentação do Mechanical Completion e Comissionamento. Participar da gestão das atividades de execução e verificação, se as instalações montadas estão em conformidade com o projeto e em condições de funcionabilidade para serem operadas, utilizando Fluxograma de Engenharia (Diagramas de instrumentação e Processo - P&ID - Piping and instrument diagram). Gerenciar todo Mechanical Completion na obra, distribuindo os Registros de Montagens para cada especialidade, controlando através dos subsistemas (SSOP). Preparar as equipes nas atividades de verificação da funcionalidade e da preparação de seu funcionamento para cada sistema (SOP) e subsistema (SSOP) com o objetivo de atestar a funcionalidade do conjunto, assegurando que cada componente encontra-se adequadamente fabricado, montado, instalado, identificado, interligado e intrinsecamente preparado para ser energizado e operar (verificação de funcionalidade) nas condições especificadas; e obter a condição de pronto para energizar ou operar do conjunto, que consiste na aplicação integrada de técnicas e procedimentos de engenharia. Gerenciar a equipe de técnicos da documentação gerados pelos sistemas de controle e divulgar via GreenDocs. Controlar as pendências geradas através da Punch List e divulgar a obra para que faça as devidas correções e eliminação dessas pendências. Procurement Service Management Coordenar e executar o controle do planejamento de entrega do bem, gerenciar a entrega da aquisição do equipamento em seu tempo correto, local, conforme cronograma da obra, com a qualidade adquirida no produto, exigida em seus requisitos, em conformidade com suas especificações em contrato. Acompanhar e desenvolver o layout de armazenamento, gestão de carga de entrada, plano de rigging, preservação do bem no canteiro de obra e aceitação pela produ</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Cibe Energia, CIBE, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Gerente da Qualidade, Carga horária: 44, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Desenvolvimento da estrutura de comunicação junto às empresas projetista e de montagem. Gerenciamento dos prazos das atividades fins para inspeção, controle e gestão. Desenvolvimento de novos fornecedores de inspeção com intuito de reduzir custos. Participar das atualizações das atividades do projeto bem como seu avanço progressivo. Planejar os processos de medições de pagamentos de inspeção da Qualidade junto ao orçamento anual da Empresa. Conhecimento em gestão de projetos, metodologias PMBOK, indicadores de desempenho, mapeamento e descrição de projetos (básicos). Elaborar e coordenar as atividades de implantação do sistema de gerenciamento MERIDIAN (InnoCielo Enterprise) de documentos de Engenharia através do Workflow. Elaborar e gerenciar o sistema de controle Matricial de Despesas (GMD) dos gastos fixos e variaríeis através das contas contábeis (criação). Elaborar e gerenciar os indicadores de Gestão da Qualidade do Empreendimento a nível corporativo. Elaborar e gerenciar a estruturar de gestão da documentação administrativa do Empreendimento via Sistema Documentação Bertin. Coordenar a equipe de implantação do sistema de Qualidade. Elaborar e estruturar o sistema de manutenção (O&M), Norma Alemã KKS (Kraftwerk Kennzeichen System), Gerenciamento Eletrônico de Documento (GED) - MERIDIAN com o Padrão Numérico do Equipamento e/ou Máquina (Tag) com a documentação do Complexo Termoelétrico do Grupo</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Frigorifigo Bertin Ltda, FBL, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: COORD. SISTEMA DE GESTÃO PELA QUALIDADE, Carga horária: 44, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Experiência a mais de 15 anos na área de Qualidade, cargo de confiança, gestor de mudanças. Conhecimento da Gestão pela Qualidade, das políticas estabelecidas para a instituição, conhecimentos básicos sobre planejamento estratégico; Experiência em implantação de programa de modernização (programa de Gestão pela Qualidade, de reestruturação interna); Experiência com gestão de pessoas, comunicação; Experiência em mapeamento de processo; Técnicas de treinamento, oratória. Capacidade de liderar pessoas e processos, de trabalho em equipe; Habilidade de participação, de relacionamento interpessoal, de integração, articulação e administração de conflitos; Criatividade, habilidade; Iniciativa de tomar decisões, tendo como objetivo a prevenção e o compromisso de se fazer certo; Postura proativa; Predisposição favorável a ambientes de mudanças; Fluência verbal e escrita.</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10/1998 - 04/2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Treinamentos ministrados , Derivados de Carne, Lins. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Treinamentos ministrados<br class="clear" />CEP   Controle Estatístico do Processo<br>Conceito de Acuracidade de Estoque e Inventário<br>Conceitos, definições das principais cadeias produtivas<br>Confiabilidade, Manutenabilidade e Disponibilidade<br>Produtividade x Eficiência Global (Gráfico Toyota)<br>Controle de Estoque   Classificação ABC<br>Engenharia Simultânea<br></div>
+</div><br class="clear" /><div class="inst_back">
+<b>COMPANHIA CERVEJARIA BRAHMA, BRAHMA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1995 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: ENGENHEIRO PLENO DE PLANEJAMENTO E MANUTENÇÃO, Carga horária: 44, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Coordenar equipes multiplicadoras de novos Métodos/Processos/Implantação e realização da filosofia de Manutenção única as Organizações e Filiais em termos de Padronização (1ª premiação do prêmio de Excelência Fabril PEF). Coordenar equipe de Planejamento de Gastos Anuais Programados GAP (2ª premiação do prêmio de Excelência Fabril PEF). Desenvolver e gerenciar a viabilização de prazos, mão-de-obra, materiais e custos para a manutenção planejada. Desenvolver novos fornecedores, estudos de aplicação, elaboração e apresentação de proposta técnicas a Diretoria. Elaborar e gerenciar a Metodologia de Manutenção, buscando Produtividade, Qualidade e minimizando Custos. Gerenciar os desdobramentos de Metas e Planos de Trabalhos da Empresa junto as equipes de Manutenção. Gerenciar toda Verba de Investimentos/gastos da Manutenção e seus respectivos ativos disponíveis. Participar na implantação da ISO-9000.</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>ZANARDO INSTRUMENTAÇÃO INDUSTRIAL, ZANARDO, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1994 - 1995</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: GTE  ENG. PRODUTOS E PROCESSO, Carga horária: 44, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Gerenciar equipe multidisciplinar de desenvolvimento e fabricação de peças, manutenção e confecção de painéis elétricos. Controlar e gerenciar toda compra de materiais, logística, produção, processo e Qualidade assegurada. Coordenar a equipe de novos produtos para as indústrias de açúcar e álcool. Desenvolver de novos clientes, participar das negociações de preços e de peças de reposição como válvulas, atuadores e automação em geral.</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>EQUIPAV S/A AÇUCAR E ALCOOL, EQUIPAV, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1991 - 1994</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: GTE  ENGENHARIA INDUSTRIAL, Carga horária: 44, Regime: Dedicação exclusiva. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Gerenciar o grupo de chefias do processo industrial na ausência do gerente industrial. Gerenciar o grupo multidisciplinar de processo, produção, manutenção e compra. Gerenciar equipes de manutenção dos equipamentos pesados da Usina (Turbina a Vapor, Moendas, Volandeiras, Válvulas Hidráulicas e Pneumáticas, Centrífugas em Geral, Redutores, Caldeiras, Trocadores de Calor, Sistema de Soldagem, etc.). Elaborar e gerenciar as atividades de planejamento de entre Safra dos equipamentos junto aos fornecedores (Dedini / Zanini). Gerenciar os projetos de nacionalização de peças para atender os novos projetos e os existentes. Gerenciar a montagem da primeira Fábrica de Açúcar da Empresa. Elaborar e desenvolver Métodos e Processos para Indústria Sucos-alcooleira.</div>
+</div><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosDesenvolvimento">
+<h1>Projetos de desenvolvimento</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Planejamento Estrategico'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Planejamento Estrategico<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Projeto iniciado em 2005 com ajuda de INEPAD - atribuidos aos funcionarios com especializacao em MBA.. <br class="clear" />Situação: Concluído; Natureza: Desenvolvimento. <br class="clear" />Alunos envolvidos: Graduação: (0)  / Especialização: (0)  / Mestrado acadêmico: (1)  / Mestrado profissional: (0)  / Doutorado: (0) . <br class="clear" /><br class="clear" />Integrantes: Carlos Cezar de Paula Souza - Coordenador.<br class="clear" />Financiador(es): Frigorifigo Bertin Ltda - Outra.</div>
+</div><a name='PP_desdobramentos de metas'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">desdobramentos de metas<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: projeto de Orcamento Matricial (OM) e Diagnostico de Desempenho Organizacional (DDO)com apoio da Instituto de Desenvolvimento Gerencial (INDG).. <br class="clear" />Situação: Concluído; Natureza: Desenvolvimento. <br class="clear" />Alunos envolvidos: Graduação: (0)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissional: (0)  / Doutorado: (0) . <br class="clear" /><br class="clear" />Integrantes: Carlos Cezar de Paula Souza - Coordenador.<br class="clear" />Financiador(es): Frigorifigo Bertin Ltda - Outra.</div>
+</div><a name='PP_desenvolvimento de metodos e processos'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - 1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">desenvolvimento de metodos e processos<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Projeto de Orcamento Matricial e Diagnostico de Desempenho Operacional.. <br class="clear" />Situação: Concluído; Natureza: Desenvolvimento. <br class="clear" />Alunos envolvidos: Graduação: (0)  / Especialização: (0)  / Mestrado acadêmico: (0)  / Mestrado profissional: (0)  / Doutorado: (0) . <br class="clear" /><br class="clear" />Integrantes: Carlos Cezar de Paula Souza - Coordenador.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Engenharias / Área: Engenharia Mecânica / Subárea: Processos de Fabricação/Especialidade: Processos de Fabricação, Seleção Econômica. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Pouco, Fala Pouco, Lê Razoavelmente, Escreve Pouco. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrasInformacoesRelevantes">
+<h1>Outras informa&ccedil;&otilde;es relevantes</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<pre class="outras-informacoes">Área de projeto, comunicação, etc.
+Gerenciamento de Contrato
+Controle de documentação técnica de engenharia
+Engenharia de Tag´s.
+Manutenção (O&M), TPM   gráfico de Toyota
+Conhecimento técnico sobre a natureza (missão, visão, valores e objetivos), estrutura, o funcionamento e as especificações da organização;
+Conhecimento da Gestão pela Qualidade, das políticas estabelecidas para a instituição onde atua;
+Conhecimentos básicos sobre planejamento estratégico;
+Experiência em implantação de programa de modernização (programa de Gestão pela Qualidade, de reestruturação interna);
+Experiência com gestão de pessoas, comunicação;
+Experiência em mapeamento de processo;
+Técnicas de treinamento, oratória.
+
+PRINCIPAIS PUBLICAÇÕES
+SOUZA, Carlos Cezar de Paula; PAULA, Wallace C F de; SPADOTTO, Marcelo Montepulciano ; LEITE, Ricardo Robles ; AGUIAR, P. R. ; BIANCHI, Eduardo Carlos. REDES NEURAIS ARTIFICIAIS APLICADAS NA DETECÇÃO DA QUEIMA NO PROCESSO DE RETIFICAÇÃO. In: IV Congresso Nacional de Engenharia Mecânica, 2006, Recife, PE. IV Congresso Nacional de Engenharia Mecânica, 2006. p. CD-ROM. 
+SOUZA, Carlos Cezar de Paula; SPADOTTO, Marcelo Montepulciano; AGUIAR, P. R.; BIANCHI, Eduardo Carlos; PRAZERES, Ricardo C. ARTIFICIAL NEURAL NETWORK APPLIED TO DETECTION OF BURNING IN GRINDING PROCESS. In V International Conference on Mechanics & Materials in Design, Porto, Portugal, 2006. 
+SOUZA, Carlos Cezar de Paula; PRAZERES, Ricardo C.; AGUIAR, P. R.; BIANCHI, Eduardo Carlos.  ANÁLISE DO CONTEÚDO HARMÔNICO DO SINAL DE EMISSÃO ACÚSTICA QUANDO DA QUEIMA NO PROCESSO DE RETIFICAÇÃO. XII Simpósio de Engenharia de Produção, Bauru, 2005</pre>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 19/09/2019 &agrave;s 12:18:24</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=4040710680625481" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

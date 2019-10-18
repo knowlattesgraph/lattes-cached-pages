@@ -1,0 +1,1363 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Till Roenneberg)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+        			
+      		});			  
+      		
+      		                                
+		
+	</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4836827D0&amp;idiomaExibicao=2" class="btn-br">English</a><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=4930590945373760" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4836827D0&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4836827D0"><div class="infpessoa">
+<h2 class="nome">Till Roenneberg</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/4930590945373760</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 01/09/2013</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui doutorado em Neurophysiology pela Ludwig-Maximilians-Universit&auml;t M&uuml;nchen(1983). Atualmente &eacute;  da Universidade Federal do Rio Grande do Sul. Tem experi&ecirc;ncia na &aacute;rea de Medicina. <span style="font-weight: bold" class="texto"> (Texto gerado automaticamente pela aplica&ccedil;&atilde;o CVLattes)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Till Roenneberg</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">ROENNEBERG, T.;ROENNEBERG, TILL;ROENNEBERG,, TILL;ROENNEBERG, T</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1981 - 1983</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Neurophysiology<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=D"></span>. <br class="clear" />Ludwig-Maximilians-Universität München, LMU, Alemanha.
+		
+	<br class="clear" />Título: Topography of light summation of phasic ganglion cells in the cat's retina, Ano de obtenção: 1983. <br class="clear" />Orientador: Jung Aschoff. <br class="clear" />Bolsista do(a): . </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Universidade Federal do Rio Grande do Sul, UFRGS, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: , Enquadramento Funcional: </div>
+</div><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Etologia do sono humano: um estudo do processo evolutivo do sono em ambientes de luz natural e artificial Ethology of Human Sleep in natural and artificial Light Environments'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Etologia do sono humano: um estudo do processo evolutivo do sono em ambientes de luz natural e artificial Ethology of Human Sleep in natural and artificial Light Environments<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Till Roenneberg - Integrante / LEVANDOVSKI, ROSA - Integrante / HIDALGO, MARIA PAZ LOAYZA - Coordenador.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Cooperação.</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências da Saúde / Área: Medicina. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Alemão</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Francês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Razoavelmente, Lê Razoavelmente, Escreve Razoavelmente. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>JUDA, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1177/0748730412475042" target="_blank"></a>JUDA, M. ; VETTER, C. ; <b>ROENNEBERG, T.</b> . Chronotype Modulates Sleep Duration, Sleep Quality, and Social Jet Lag in Shift-Workers. Journal of Biological Rhythms<sup><img id='15524531_1' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15524531' /></sup>, v. 28, p. 141-151, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1177/0748730412475042&issn=15524531&volume=28&issue=&paginaInicial=141&titulo=Chronotype Modulates Sleep Duration, Sleep Quality, and Social Jet Lag in Shift-Workers&sequencial=1&nomePeriodico=Journal of Biological Rhythms" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>JUDA, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1177/0748730412475041" target="_blank"></a>JUDA, M. ; VETTER, C. ; <b>ROENNEBERG, T.</b> . The Munich ChronoType Questionnaire for Shift-Workers (MCTQShift). Journal of Biological Rhythms<sup><img id='15524531_2' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15524531' /></sup>, v. 28, p. 130-140, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1177/0748730412475041&issn=15524531&volume=28&issue=&paginaInicial=130&titulo=The Munich ChronoType Questionnaire for Shift-Workers (MCTQShift)&sequencial=2&nomePeriodico=Journal of Biological Rhythms" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BLAUTZIK, JANUSCH</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.neuroimage.2012.08.010" target="_blank"></a>BLAUTZIK, JANUSCH ; VETTER, CÉLINE ; PERES, ISABELLA ; GUTYRCHIK, EVGENY ; KEESER, DANIEL ; BERMAN, ALBERT ; KIRSCH, VALERIE ; MUELLER, SOPHIA ; PÖPPEL, ERNST ; REISER, MAXIMILIAN ; <b>ROENNEBERG, TILL</b> ; MEINDL, THOMAS . Classifying fMRI-derived resting-state connectivity patterns according to their daily rhythmicity. Neuroimage (Orlando, Fla. Print)<sup><img id='10538119_3' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='10538119' /></sup>, v. 71, p. 298-306, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.neuroimage.2012.08.010&issn=10538119&volume=71&issue=&paginaInicial=298&titulo=Classifying fMRI-derived resting-state connectivity patterns according to their daily rhythmicity&sequencial=3&nomePeriodico=Neuroimage (Orlando, Fla. Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>VETTER, CÉLINE</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.3109/07420528.2012.707999" target="_blank"></a>VETTER, CÉLINE ; JUDA, MYRIAM ; <b>ROENNEBERG, TILL</b> . The Influence of Internal Time, Time Awake, and Sleep Duration on Cognitive Performance in Shiftworkers. Chronobiology International<sup><img id='07420528_4' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='07420528' /></sup>, v. 29, p. 1127-1138, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.3109/07420528.2012.707999&issn=07420528&volume=29&issue=&paginaInicial=1127&titulo=The Influence of Internal Time, Time Awake, and Sleep Duration on Cognitive Performance in Shiftworkers&sequencial=4&nomePeriodico=Chronobiology International" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROENNEBERG, TILL</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.cub.2012.03.038" target="_blank"></a><b>ROENNEBERG, TILL</b>; ALLEBRANDT, KARLA V. ; MERROW, MARTHA ; VETTER, CÉLINE . Social Jetlag and Obesity. Current Biology<sup><img id='09609822_5' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='09609822' /></sup>, v. 22, p. 939-943, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.cub.2012.03.038&issn=09609822&volume=22&issue=&paginaInicial=939&titulo=Social Jetlag and Obesity&sequencial=5&nomePeriodico=Current Biology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>KANTERMANN, THOMAS</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1371/journal.pone.0040655" target="_blank"></a>KANTERMANN, THOMAS ; FORSTNER, SEBASTIAN ; HALLE, MARTIN ; SCHLANGEN, LUC ; <b>ROENNEBERG, TILL</b> ; SCHMIDT-TRUCKSÄSS, ARNO ; LUCIA, ALEJANDRO . The Stimulating Effect of Bright Light on Physical Performance Depends on Internal Time. Plos One<sup><img id='19326203_6' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='19326203' /></sup>, v. 7, p. e40655, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1371/journal.pone.0040655&issn=19326203&volume=7&issue=&paginaInicial=e40655&titulo=The Stimulating Effect of Bright Light on Physical Performance Depends on Internal Time&sequencial=6&nomePeriodico=Plos One" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>WEFERS, BENEDIKT</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1371/journal.pone.0035035" target="_blank"></a>WEFERS, BENEDIKT ; HITZ, CHRISTIANE ; HÖLTER, SABINE M. ; TRÜMBACH, DIETRICH ; HANSEN, JENS ; WEBER, PETER ; PÜTZ, BENNO ; DEUSSING, JAN M. ; DE ANGELIS, MARTIN HRABÉ ; <b>ROENNEBERG, TILL</b> ; ZHENG, FANG ; ALZHEIMER, CHRISTIAN ; SILVA, ALCINO ; WURST, WOLFGANG ; KÜHN, RALF ; SKOULAKIS, EFTHIMIOS M. C. . MAPK Signaling Determines Anxiety in the Juvenile Mouse Brain but Depression-Like Behavior in Adults. Plos One<sup><img id='19326203_7' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='19326203' /></sup>, v. 7, p. e35035, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1371/journal.pone.0035035&issn=19326203&volume=7&issue=&paginaInicial=e35035&titulo=MAPK Signaling Determines Anxiety in the Juvenile Mouse Brain but Depression-Like Behavior in Adults&sequencial=7&nomePeriodico=Plos One" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>KANTERMANN, T.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1177/0748730411435999" target="_blank"></a>KANTERMANN, T. ; THEADOM, A. ; <b>ROENNEBERG, T.</b> ; CROPLEY, M. . Fibromyalgia Syndrome and Chronotype: Late Chronotypes Are More Affected. Journal of Biological Rhythms<sup><img id='15524531_8' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15524531' /></sup>, v. 27, p. 176-179, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1177/0748730411435999&issn=15524531&volume=27&issue=&paginaInicial=176&titulo=Fibromyalgia Syndrome and Chronotype: Late Chronotypes Are More Affected&sequencial=8&nomePeriodico=Journal of Biological Rhythms" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>PERES, ISABELLA</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.3109/07420528.2011.619084" target="_blank"></a>PERES, ISABELLA ; VETTER, CÉLINE ; BLAUTZIK, JANUSCH ; REISER, MAXIMILIAN ; PÖPPEL, ERNST ; MEINDL, THOMAS ; <b>ROENNEBERG,, TILL</b> ; GUTYRCHIK, EVGENY . Chronotype Predicts Activity Patterns in the Neural Underpinnings of the Motor System During the Day. Chronobiology International (Online)<sup><img id='15256073_9' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15256073' /></sup>, v. 28, p. 883-889, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.3109/07420528.2011.619084&issn=15256073&volume=28&issue=&paginaInicial=883&titulo=Chronotype Predicts Activity Patterns in the Neural Underpinnings of the Motor System During the Day&sequencial=9&nomePeriodico=Chronobiology International (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>LEVANDOVSKI, ROSA</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.3109/07420528.2011.602445" target="_blank"></a>LEVANDOVSKI, ROSA ; DANTAS, GIOVANA ; FERNANDES, LUCIANA CARVALHO ; CAUMO, WOLNEI ; TORRES, IRACI ; <b>ROENNEBERG, TILL</b> ; HIDALGO, MARIA PAZ LOAYZA ; ALLEBRANDT, KARLA VIVIANI . Depression Scores Associate With Chronotype and Social Jetlag in a Rural Population. Chronobiology International (Online)<sup><img id='15256073_10' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15256073' /></sup>, v. 28, p. 771-778, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.3109/07420528.2011.602445&issn=15256073&volume=28&issue=&paginaInicial=771&titulo=Depression Scores Associate With Chronotype and Social Jetlag in a Rural Population&sequencial=10&nomePeriodico=Chronobiology International (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>JASPER, ISABELLE</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.3109/07420521003663793" target="_blank"></a>JASPER, ISABELLE ; <b>ROENNEBERG, TILL</b> ; HÄU LER, ANDREAS ; ZIERDT, ANDREAS ; MARQUARDT, CHRISTIAN ; HERMSDÖRFER, JOACHIM . CIRCADIAN RHYTHM IN FORCE TRACKING AND IN DUAL TASK COSTS. Chronobiology International (Online)<sup><img id='15256073_11' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15256073' /></sup>, v. 27, p. 653-673, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.3109/07420521003663793&issn=15256073&volume=27&issue=&paginaInicial=653&titulo=CIRCADIAN RHYTHM IN FORCE TRACKING AND IN DUAL TASK COSTS&sequencial=11&nomePeriodico=Chronobiology International (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>FROEHLICH, A. C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1128/EC.00380-09" target="_blank"></a>FROEHLICH, A. C. ; CHEN, C. H. ; BELDEN, W. J. ; MADETI, C. ; <b>ROENNEBERG, T.</b> ; MERROW, M. ; LOROS, J. J. ; DUNLAP, J. C. . Genetic and Molecular Characterization of a Cryptochrome from the Filamentous Fungus Neurospora crassa. Eukaryotic Cell (Online)<sup><img id='15359786_12' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15359786' /></sup>, v. 9, p. 738-750, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1128/EC.00380-09&issn=15359786&volume=9&issue=&paginaInicial=738&titulo=Genetic and Molecular Characterization of a Cryptochrome from the Filamentous Fungus Neurospora crassa&sequencial=12&nomePeriodico=Eukaryotic Cell (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROENNEBERG, T.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1177/0748730410379094" target="_blank"></a><b>ROENNEBERG, T.</b>; REMI, J. ; MERROW, M. . Modeling a Circadian Surface. Journal of Biological Rhythms<sup><img id='15524531_13' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15524531' /></sup>, v. 25, p. 340-349, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1177/0748730410379094&issn=15524531&volume=25&issue=&paginaInicial=340&titulo=Modeling a Circadian Surface&sequencial=13&nomePeriodico=Journal of Biological Rhythms" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROENNEBERG, T.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1177/0748730410379082" target="_blank"></a><b>ROENNEBERG, T.</b>; HUT, R. ; DAAN, S. ; MERROW, M. . Entrainment Concepts Revisited. Journal of Biological Rhythms<sup><img id='15524531_14' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15524531' /></sup>, v. 25, p. 329-339, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1177/0748730410379082&issn=15524531&volume=25&issue=&paginaInicial=329&titulo=Entrainment Concepts Revisited&sequencial=14&nomePeriodico=Journal of Biological Rhythms" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>REMI, J.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1177/0748730410379081" target="_blank"></a>REMI, J. ; MERROW, M. ; <b>ROENNEBERG, T.</b> . A Circadian Surface of Entrainment: Varying T,  , and Photoperiod in Neurospora crassa. Journal of Biological Rhythms<sup><img id='15524531_15' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15524531' /></sup>, v. 25, p. 318-328, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1177/0748730410379081&issn=15524531&volume=25&issue=&paginaInicial=318&titulo=A Circadian Surface of Entrainment: Varying T,  , and Photoperiod in Neurospora crassa&sequencial=15&nomePeriodico=Journal of Biological Rhythms" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ALLEBRANDT, KARLA V.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.biopsych.2009.12.026" target="_blank"></a>ALLEBRANDT, KARLA V. ; TEDER-LAVING, MARIS ; AKYOL, MAHMUT ; PICHLER, IRENE ; MÜLLER-MYHSOK, BERTRAM ; PRAMSTALLER, PETER ; MERROW, MARTHA ; MEITINGER, THOMAS ; METSPALU, ANDREAS ; <b>ROENNEBERG, TILL</b> . CLOCK Gene Variants Associate with Sleep Duration in Two Independent Populations. Biological Psychiatry (1969)<sup><img id='00063223_16' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00063223' /></sup>, v. 67, p. 1040-1047, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.biopsych.2009.12.026&issn=00063223&volume=67&issue=&paginaInicial=1040&titulo=CLOCK Gene Variants Associate with Sleep Duration in Two Independent Populations&sequencial=16&nomePeriodico=Biological Psychiatry (1969)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>EELDERINK-CHEN, Z.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1073/pnas.0907902107" target="_blank"></a>EELDERINK-CHEN, Z. ; MAZZOTTA, G. ; STURRE, M. ; BOSMAN, J. ; <b>ROENNEBERG, T.</b> ; MERROW, M. . A circadian clock in Saccharomyces cerevisiae. Proceedings of the National Academy of Sciences of the United States of America (Online)<sup><img id='10916490_17' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='10916490' /></sup>, v. 107, p. 2043-2047, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1073/pnas.0907902107&issn=10916490&volume=107&issue=&paginaInicial=2043&titulo=A circadian clock in Saccharomyces cerevisiae&sequencial=17&nomePeriodico=Proceedings of the National Academy of Sciences of the United States of America (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ALLEBRANDT, KARLA V.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span>ALLEBRANDT, KARLA V. ; <b>ROENNEBERG, T.</b> . The search for circadian clock components in humans: new perspectives for association studies. Brazilian Journal of Medical and Biological Research<sup><img id='16784510_18' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='16784510' /></sup>, v. 41, p. 716, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=16784510&volume=41&issue=&paginaInicial=716&titulo=The search for circadian clock components in humans: new perspectives for association studies&sequencial=18&nomePeriodico=Brazilian Journal of Medical and Biological Research" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROENNEBERG, TILL</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.cub.2008.07.017" target="_blank"></a><b>ROENNEBERG, TILL</b>; CHUA, ELAINE JANE ; BERNARDO, RIC ; MENDOZA, EDUARDO . Modelling Biological Rhythms. Current Biology<sup><img id='09609822_19' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='09609822' /></sup>, v. 18, p. R826-R835, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.cub.2008.07.017&issn=09609822&volume=18&issue=&paginaInicial=R826&titulo=Modelling Biological Rhythms&sequencial=19&nomePeriodico=Current Biology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>FOSTER, RUSSELL G.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.cub.2008.07.003" target="_blank"></a>FOSTER, RUSSELL G. ; <b>ROENNEBERG, TILL</b> . Human Responses to the Geophysical Daily, Annual and Lunar Cycles. Current Biology<sup><img id='09609822_20' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='09609822' /></sup>, v. 18, p. R784-R794, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.cub.2008.07.003&issn=09609822&volume=18&issue=&paginaInicial=R784&titulo=Human Responses to the Geophysical Daily, Annual and Lunar Cycles&sequencial=20&nomePeriodico=Current Biology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROENNEBERG, TILL</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.smrv.2007.07.005" target="_blank"></a><b>ROENNEBERG, TILL</b>; KUEHNLE, TIM ; JUDA, MYRIAM ; KANTERMANN, THOMAS ; ALLEBRANDT, KARLA ; GORDIJN, MARIJKE ; MERROW, MARTHA . Epidemiology of the human circadian clock. Sleep Medicine Reviews<sup><img id='10870792_21' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='10870792' /></sup>, v. 11, p. 429-438, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.smrv.2007.07.005&issn=10870792&volume=11&issue=&paginaInicial=429&titulo=Epidemiology of the human circadian clock&sequencial=21&nomePeriodico=Sleep Medicine Reviews" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROENNEBERG, TILL</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.cub.2006.12.011" target="_blank"></a><b>ROENNEBERG, TILL</b>; KUMAR, C. JAIRAJ ; MERROW, MARTHA . The human circadian clock entrains to sun time. Current Biology<sup><img id='09609822_22' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='09609822' /></sup>, v. 17, p. R44-R45, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.cub.2006.12.011&issn=09609822&volume=17&issue=&paginaInicial=R44&titulo=The human circadian clock entrains to sun time&sequencial=22&nomePeriodico=Current Biology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>JACOBSON, D. J.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2006</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.3852/mycologia.98.4.550" target="_blank"></a>JACOBSON, D. J. ; DETTMAN, J. R. ; ADAMS, R. I. ; BOESL, C. ; SULTANA, S. ; <b>ROENNEBERG, T.</b> ; MERROW, M. ; DUARTE, M. ; MARQUES, I. ; USHAKOVA, A. ; CARNEIRO, P. ; VIDEIRA, A. ; NAVARRO-SAMPEDRO, L. ; OLMEDO, M. ; CORROCHANO, L. M. ; TAYLOR, J. W. . New findings of Neurospora in Europe and comparisons of diversity in temperate climates on continental scales. Mycologia<sup><img id='15572536_23' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15572536' /></sup>, v. 98, p. 550-559, 2006. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.3852/mycologia.98.4.550&issn=15572536&volume=98&issue=&paginaInicial=550&titulo=New findings of Neurospora in Europe and comparisons of diversity in temperate climates on continental scales&sequencial=23&nomePeriodico=Mycologia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>WITTMANN, MARC</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2006</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1080/07420520500545979" target="_blank"></a>WITTMANN, MARC ; DINICH, JENNY ; MERROW, MARTHA ; <b>ROENNEBERG, TILL</b> . Social Jetlag: Misalignment of Biological and Social Time. Chronobiology International (Online)<sup><img id='15256073_24' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15256073' /></sup>, v. 23, p. 497-509, 2006. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1080/07420520500545979&issn=15256073&volume=23&issue=&paginaInicial=497&titulo=Social Jetlag: Misalignment of Biological and Social Time&sequencial=24&nomePeriodico=Chronobiology International (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROENNEBERG, TILL</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2005</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1038/nrm1766" target="_blank"></a><b>ROENNEBERG, TILL</b>; MERROW, MARTHA . Circadian clocks - the fall and rise of physiology. Nature Reviews Molecular Cell Biology<sup><img id='14710080_25' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='14710080' /></sup>, v. 6, p. 965-971, 2005. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1038/nrm1766&issn=14710080&volume=6&issue=&paginaInicial=965&titulo=Circadian clocks - the fall and rise of physiology&sequencial=25&nomePeriodico=Nature Reviews Molecular Cell Biology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MERROW, MARTHA</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2005</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1038/sj.embor.7400541" target="_blank"></a>MERROW, MARTHA ; SPOELSTRA, KAMIEL ; <b>ROENNEBERG, TILL</b> . The circadian cycle: daily rhythms from behaviour to genes. EMBO Reports (Print)<sup><img id='1469221X_26' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='1469221X' /></sup>, v. 6, p. 930-935, 2005. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1038/sj.embor.7400541&issn=1469221X&volume=6&issue=&paginaInicial=930&titulo=The circadian cycle: daily rhythms from behaviour to genes&sequencial=26&nomePeriodico=EMBO Reports (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ZAVADA, ANDREI</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2005</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1081/CBI-200053536" target="_blank"></a>ZAVADA, ANDREI ; GORDIJN, MARIJKE ; BEERSMA, DOMIEN ; DAAN, SERGE ; <b>ROENNEBERG, TILL</b> . Comparison of the Munich Chronotype Questionnaire with the Horne-Östberg&apos;s Morningness-Eveningness score. Chronobiology International (Online)<sup><img id='15256073_27' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15256073' /></sup>, v. 22, p. 267-278, 2005. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1081/CBI-200053536&issn=15256073&volume=22&issue=&paginaInicial=267&titulo=Comparison of the Munich Chronotype Questionnaire with the Horne-Östberg&apos;s Morningness-Eveningness score&sequencial=27&nomePeriodico=Chronobiology International (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROENNEBERG, T.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2005</span><b>ROENNEBERG, T.</b>. Demasking biological oscillators: properties and principles of entrainment exemplified by the Neurospora circadian clock. Proceedings of the National Academy of Sciences of the United States of America<sup><img id='00278423_28' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00278423' /></sup>, v. 102, p. 7742, 2005. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00278423&volume=102&issue=&paginaInicial=7742&titulo=Demasking biological oscillators: properties and principles of entrainment exemplified by the Neurospora circadian clock&sequencial=28&nomePeriodico=Proceedings of the National Academy of Sciences of the United States of America" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROENNEBERG, TILL</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2004</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.cub.2004.11.039" target="_blank"></a><b>ROENNEBERG, TILL</b>; KUEHNLE, TIM ; PRAMSTALLER, PETER P. ; RICKEN, JAN ; HAVEL, MIRIAM ; GUTH, ANGELIKA ; MERROW, MARTHA . A marker for the end of adolescence. Current Biology<sup><img id='09609822_29' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='09609822' /></sup>, v. 14, p. R1038-R1039, 2004. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.cub.2004.11.039&issn=09609822&volume=14&issue=&paginaInicial=R1038&titulo=A marker for the end of adolescence&sequencial=29&nomePeriodico=Current Biology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>TAN, YING</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2004</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1177/0748730404263015" target="_blank"></a>TAN, YING ; MERROW, MARTHA ; <b>ROENNEBERG, TILL</b> . Photoperiodism in Neurospora Crassa. Revista do IEEE América Latina<sup><img id='00000000_30' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00000000' /></sup>, v. 19, p. 135-143, 2004. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1177/0748730404263015&issn=00000000&volume=19&issue=&paginaInicial=135&titulo=Photoperiodism in Neurospora Crassa&sequencial=30&nomePeriodico=Revista do IEEE América Latina" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>TAN, YING</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2004</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.cub.2004.02.035" target="_blank"></a>TAN, YING ; DRAGOVIC, ZDRAVKO ; <b>ROENNEBERG, TILL</b> ; MERROW, MARTHA . Entrainment Dissociates Transcription and Translation of a Circadian Clock Gene in Neurospora. Current Biology<sup><img id='09609822_31' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='09609822' /></sup>, v. 14, p. 433-438, 2004. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.cub.2004.02.035&issn=09609822&volume=14&issue=&paginaInicial=433&titulo=Entrainment Dissociates Transcription and Translation of a Circadian Clock Gene in Neurospora&sequencial=31&nomePeriodico=Current Biology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROENNEBERG, TILL</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2004</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1177/0748730404264863" target="_blank"></a><b>ROENNEBERG, TILL</b>. The Decline in Human Seasonality. Revista do IEEE América Latina<sup><img id='00000000_32' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00000000' /></sup>, v. 19, p. 193-195, 2004. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1177/0748730404264863&issn=00000000&volume=19&issue=&paginaInicial=193&titulo=The Decline in Human Seasonality&sequencial=32&nomePeriodico=Revista do IEEE América Latina" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MERROW, MARTHA</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2003</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1081/CBI-120023678" target="_blank"></a>MERROW, MARTHA ; DRAGOVIC, ZDRAVKO ; TAN, YING ; MEYER, GUNDELA ; SVERIC, KRUNO ; MASON, MOYRA ; RICKEN, JAN ; <b>ROENNEBERG, TILL</b> . Combining Theoretical and Experimental Approaches to Understand the Circadian Clock. Chronobiology International (Online)<sup><img id='15256073_33' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15256073' /></sup>, v. 20, p. 559-575, 2003. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1081/CBI-120023678&issn=15256073&volume=20&issue=&paginaInicial=559&titulo=Combining Theoretical and Experimental Approaches to Understand the Circadian Clock&sequencial=33&nomePeriodico=Chronobiology International (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROENNEBERG, TILL</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2003</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1177/0748730403018003001" target="_blank"></a><b>ROENNEBERG, TILL</b>; DAAN, SERGE ; MERROW, MARTHA . The Art of Entrainment. Journal of Biological Rhythms<sup><img id='07487304_34' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='07487304' /></sup>, v. 18, p. 183-194, 2003. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1177/0748730403018003001&issn=07487304&volume=18&issue=&paginaInicial=183&titulo=The Art of Entrainment&sequencial=34&nomePeriodico=Journal of Biological Rhythms" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROENNEBERG, TILL</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2003</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1177/0748730402239679" target="_blank"></a><b>ROENNEBERG, TILL</b>; WIRZ-JUSTICE, ANNA ; MERROW, MARTHA . Life between Clocks: Daily Temporal Patterns of Human Chronotypes. Journal of Biological Rhythms<sup><img id='07487304_35' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='07487304' /></sup>, v. 18, p. 80-90, 2003. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1177/0748730402239679&issn=07487304&volume=18&issue=&paginaInicial=80&titulo=Life between Clocks: Daily Temporal Patterns of Human Chronotypes&sequencial=35&nomePeriodico=Journal of Biological Rhythms" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROENNEBERG, TILL</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2003</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/S0960-9822(03)00124-6" target="_blank"></a><b>ROENNEBERG, TILL</b>; MERROW, MARTHA . The Network of Time: Understanding the Molecular Circadian System. Current Biology<sup><img id='09609822_36' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='09609822' /></sup>, v. 13, p. R198-R207, 2003. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/S0960-9822(03)00124-6&issn=09609822&volume=13&issue=&paginaInicial=R198&titulo=The Network of Time: Understanding the Molecular Circadian System&sequencial=36&nomePeriodico=Current Biology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROENNEBERG, T.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2002</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1177/0748730402238231" target="_blank"></a><b>ROENNEBERG, T.</b>; MERROW, M. . Life before the Clock: Modeling Circadian Evolution. Journal of Biological Rhythms<sup><img id='07487304_37' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='07487304' /></sup>, v. 17, p. 495-505, 2002. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1177/0748730402238231&issn=07487304&volume=17&issue=&paginaInicial=495&titulo=Life before the Clock: Modeling Circadian Evolution&sequencial=37&nomePeriodico=Journal of Biological Rhythms" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>38. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DENG, TZU-SHING</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2002</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s00114-002-0304-4" target="_blank"></a>DENG, TZU-SHING ; <b>ROENNEBERG, TILL</b> . The flavo-enzyme xanthine oxidase is under circadian control in the marine alga Gonyaulax. Naturwissenschaften<sup><img id='00281042_38' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00281042' /></sup>, v. 89, p. 171-175, 2002. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1007/s00114-002-0304-4&issn=00281042&volume=89&issue=&paginaInicial=171&titulo=The flavo-enzyme xanthine oxidase is under circadian control in the marine alga Gonyaulax&sequencial=38&nomePeriodico=Naturwissenschaften" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>39. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MERROW, MARTHA</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2001</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/S0092-8674(01)00443-3" target="_blank"></a>MERROW, MARTHA ; <b>ROENNEBERG, TILL</b> . Circadian Clocks. Cell (Cambridge)<sup><img id='00928674_39' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00928674' /></sup>, v. 106, p. 141-143, 2001. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/S0092-8674(01)00443-3&issn=00928674&volume=106&issue=&paginaInicial=141&titulo=Circadian Clocks&sequencial=39&nomePeriodico=Cell (Cambridge)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>40. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MERROW, MARTHA</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2001</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/S0168-9525(00)02158-2" target="_blank"></a>MERROW, MARTHA ; <b>ROENNEBERG, TILL</b> . The circadian cycle: is the whole greater than the sum of its parts?. Trends in Genetics (Regular ed.)<sup><img id='01689525_40' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='01689525' /></sup>, v. 17, p. 4-7, 2001. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/S0168-9525(00)02158-2&issn=01689525&volume=17&issue=&paginaInicial=4&titulo=The circadian cycle: is the whole greater than the sum of its parts?&sequencial=40&nomePeriodico=Trends in Genetics (Regular ed.)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>41. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROENNEBERG, T.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2001</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1177/074873001129001999" target="_blank"></a><b>ROENNEBERG, T.</b>; MERROW, M. . Seasonality and Photoperiodism in Fungi. Journal of Biological Rhythms<sup><img id='07487304_41' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='07487304' /></sup>, v. 16, p. 403-414, 2001. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1177/074873001129001999&issn=07487304&volume=16&issue=&paginaInicial=403&titulo=Seasonality and Photoperiodism in Fungi&sequencial=41&nomePeriodico=Journal of Biological Rhythms" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>42. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DAAN, S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2001</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1177/074873001129001809" target="_blank"></a>DAAN, S. ; ALBRECHT, U. ; VAN DER HORST, G. T.J. ; ILLNEROVA, H. ; <b>ROENNEBERG, T.</b> ; WEHR, T. A. ; SCHWARTZ, W. J. . Assembling a Clock for All Seasons: Are There M and E Oscillators in the Genes?. Journal of Biological Rhythms<sup><img id='07487304_42' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='07487304' /></sup>, v. 16, p. 105-116, 2001. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1177/074873001129001809&issn=07487304&volume=16&issue=&paginaInicial=105&titulo=Assembling a Clock for All Seasons: Are There M and E Oscillators in the Genes?&sequencial=42&nomePeriodico=Journal of Biological Rhythms" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>43. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>LOTZE, MARTIN</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2000</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/S0042-6989(00)00175-9" target="_blank"></a>LOTZE, MARTIN ; TREUTWEIN, BERNHARD ; <b>ROENNEBERG, TILL</b> . Daily rhythm of vigilance assessed by temporal resolution of the visual system. Vision Research (Oxford)<sup><img id='00426989_43' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00426989' /></sup>, v. 40, p. 3467-3473, 2000. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/S0042-6989(00)00175-9&issn=00426989&volume=40&issue=&paginaInicial=3467&titulo=Daily rhythm of vigilance assessed by temporal resolution of the visual system&sequencial=43&nomePeriodico=Vision Research (Oxford)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>44. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROENNEBERG, T.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1999</span><b>ROENNEBERG, T.</b>; MERROW, M. . Circadian systems and metabolism. Journal of Biological Rhythms<sup><img id='15524531_44' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15524531' /></sup>, v. 14, p. 17, 1999. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=15524531&volume=14&issue=&paginaInicial=17&titulo=Circadian systems and metabolism&sequencial=44&nomePeriodico=Journal of Biological Rhythms" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>45. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MERROW, MARTHA</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1999</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1038/21190" target="_blank"></a>MERROW, MARTHA ; <b>ROENNEBERG, TILL</b> ; BRUNNER, MICHAEL . Assignment of circadian function for the Neurospora clock gene frequency. Nature (London)<sup><img id='00280836_45' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00280836' /></sup>, v. 399, p. 584-586, 1999. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1038/21190&issn=00280836&volume=399&issue=&paginaInicial=584&titulo=Assignment of circadian function for the Neurospora clock gene frequency&sequencial=45&nomePeriodico=Nature (London)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>46. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROENNEBERG, T.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1999</span><b>ROENNEBERG, T.</b>. Daily rhythm of temporal resolution in the auditory system. Cerebral Cortex<sup><img id='14602199_46' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='14602199' /></sup>, v. 35, p. 89, 1999. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14602199&volume=35&issue=&paginaInicial=89&titulo=Daily rhythm of temporal resolution in the auditory system&sequencial=46&nomePeriodico=Cerebral Cortex" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>47. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROENNEBERG, T.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1998</span><b>ROENNEBERG, T.</b>; MERROW, M. ; B, E. . Cellular mechanisms of circadian systems. Journal of Zoology<sup><img id='14697998_47' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='14697998' /></sup>, v. 100, p. 273, 1998. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14697998&volume=100&issue=&paginaInicial=273&titulo=Cellular mechanisms of circadian systems&sequencial=47&nomePeriodico=Journal of Zoology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>48. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROENNEBERG, T.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1998</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1177/074873098129000011" target="_blank"></a><b>ROENNEBERG, T.</b>; MERROW, M. . Molecular Circadian Oscillators: An Alternative Hypothesis. Journal of Biological Rhythms<sup><img id='07487304_48' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='07487304' /></sup>, v. 13, p. 167-179, 1998. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1177/074873098129000011&issn=07487304&volume=13&issue=&paginaInicial=167&titulo=Molecular Circadian Oscillators: An Alternative Hypothesis&sequencial=48&nomePeriodico=Journal of Biological Rhythms" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>49. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROENNEBERG, TILL</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1997</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1111/j.1751-1097.1997.tb03188.x" target="_blank"></a><b>ROENNEBERG, TILL</b>; FOSTER, RUSSELL G. . Twilight Times: Light and the Circadian System. Photochemistry and Photobiology<sup><img id='17511097_49' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='17511097' /></sup>, v. 66, p. 549-561, 1997. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1111/j.1751-1097.1997.tb03188.x&issn=17511097&volume=66&issue=&paginaInicial=549&titulo=Twilight Times: Light and the Circadian System&sequencial=49&nomePeriodico=Photochemistry and Photobiology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>50. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DENG, TZU-SHING</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1997</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s004250050155" target="_blank"></a>DENG, TZU-SHING ; <b>ROENNEBERG, TILL</b> . Photobiology of the Gonyaulax circadian system. II. Allopurinol inhibits blue-light effects. Planta<sup><img id='14322048_50' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='14322048' /></sup>, v. 202, p. 502-509, 1997. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1007/s004250050155&issn=14322048&volume=202&issue=&paginaInicial=502&titulo=Photobiology of the Gonyaulax circadian system. II. Allopurinol inhibits blue-light effects&sequencial=50&nomePeriodico=Planta" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>51. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROENNEBERG, TILL</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1997</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s004250050154" target="_blank"></a><b>ROENNEBERG, TILL</b>; DENG, TZU-SHING . Photobiology of the Gonyaulax circadian system. I. Different phase response curves for red and blue light. Planta<sup><img id='14322048_51' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='14322048' /></sup>, v. 202, p. 494-501, 1997. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1007/s004250050154&issn=14322048&volume=202&issue=&paginaInicial=494&titulo=Photobiology of the Gonyaulax circadian system. I. Different phase response curves for red and blue light&sequencial=51&nomePeriodico=Planta" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>52. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROENNEBERG, T.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1996</span><b>ROENNEBERG, T.</b>; Rehman J . Nitrate, a non-photic zeitgeber in unicellular alga. The FASEB Journal<sup><img id='08926638_52' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='08926638' /></sup>, v. 10, p. 1443, 1996. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=08926638&volume=10&issue=&paginaInicial=1443&titulo=Nitrate, a non-photic zeitgeber in unicellular alga&sequencial=52&nomePeriodico=The FASEB Journal" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>53. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Morse D</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1996</span>Morse D ; Markovic P ; <b>ROENNEBERG, T.</b> . Several clocks may simplify the circadian system of Gonyaulax polyedra. Brazilian Journal of Medical and Biological Research<sup><img id='16784510_53' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='16784510' /></sup>, v. 29, p. 101, 1996. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=16784510&volume=29&issue=&paginaInicial=101&titulo=Several clocks may simplify the circadian system of Gonyaulax polyedra&sequencial=53&nomePeriodico=Brazilian Journal of Medical and Biological Research" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>54. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MARKOVIC, P.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1996</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1177/074873049601100106" target="_blank"></a>MARKOVIC, P. ; <b>ROENNEBERG, T.</b> ; MORSE, D. . Phased Protein Synthesis at Several Circadian Times Does Not Change Protein Levels in Gonyaulax. Journal of Biological Rhythms<sup><img id='07487304_54' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='07487304' /></sup>, v. 11, p. 57-67, 1996. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1177/074873049601100106&issn=07487304&volume=11&issue=&paginaInicial=57&titulo=Phased Protein Synthesis at Several Circadian Times Does Not Change Protein Levels in Gonyaulax&sequencial=54&nomePeriodico=Journal of Biological Rhythms" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>55. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MORSE, D.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1994</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1177/074873049400900307" target="_blank"></a>MORSE, D. ; HASTINGS, J. W. ; <b>ROENNEBERG, T.</b> . Different Phase Responses of the Two Circadian Oscillators in Gonyaulax. Journal of Biological Rhythms<sup><img id='07487304_55' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='07487304' /></sup>, v. 9, p. 263-274, 1994. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1177/074873049400900307&issn=07487304&volume=9&issue=&paginaInicial=263&titulo=Different Phase Responses of the Two Circadian Oscillators in Gonyaulax&sequencial=55&nomePeriodico=Journal of Biological Rhythms" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>56. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROENNEBERG, T.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1994</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1177/074873049400900101" target="_blank"></a><b>ROENNEBERG, T.</b>; TAYLOR, W. . Light-Induced Phase Responses in Gonyaulax Are Drastically Altered by Creatine. Journal of Biological Rhythms<sup><img id='07487304_56' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='07487304' /></sup>, v. 9, p. 1-12, 1994. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1177/074873049400900101&issn=07487304&volume=9&issue=&paginaInicial=1&titulo=Light-Induced Phase Responses in Gonyaulax Are Drastically Altered by Creatine&sequencial=56&nomePeriodico=Journal of Biological Rhythms" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>57. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROENNEBERG, T.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1994</span><b>ROENNEBERG, T.</b>; Morse D . Zelluläre Mechanismen der inneren Uhr eines Einzellers. Naturwissenschaften<sup><img id='00281042_57' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00281042' /></sup>, v. 8, p. 343, 1994. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00281042&volume=8&issue=&paginaInicial=343&titulo=Zelluläre Mechanismen der inneren Uhr eines Einzellers&sequencial=57&nomePeriodico=Naturwissenschaften" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>58. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROENNEBERG, T.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1993</span><b>ROENNEBERG, T.</b>; Carpenter E . Daily Rhythm of O2-Evolution in the Cyanobacterium Trichodesmium thiebautii under Natural and Constant Conditions. Marine Biology<sup><img id='14321793_58' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='14321793' /></sup>, v. 117, p. 639, 1993. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14321793&volume=117&issue=&paginaInicial=639&titulo=Daily Rhythm of O2-Evolution in the Cyanobacterium Trichodesmium thiebautii under Natural and Constant Conditions&sequencial=58&nomePeriodico=Marine Biology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>59. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CARPENTER, EJ</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1993</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.3354/meps095295" target="_blank"></a>CARPENTER, EJ ; O'NEIL, JM ; DAWSON, R ; CAPONE, DG ; SIDDIQUI, PJA ; <b>ROENNEBERG, T</b> ; BERGMAN, B . The tropical diazotrophic phytoplankter Trichodesmium: biological characteristics of two common species. Marine Ecology Progress Series<sup><img id='16161599_59' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='16161599' /></sup>, v. 95, p. 295-304, 1993. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.3354/meps095295&issn=16161599&volume=95&issue=&paginaInicial=295&titulo=The tropical diazotrophic phytoplankter Trichodesmium: biological characteristics of two common species&sequencial=59&nomePeriodico=Marine Ecology Progress Series" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>60. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>COLEPICOLO, PIO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1993</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1111/j.0022-3646.1993.00173.x" target="_blank"></a>COLEPICOLO, PIO ; <b>ROENNEBERG, TILL</b> ; MORSE, DAVID ; TAYLOR, WALTER R. ; HASTINGS, J. WOODLAND . CIRCADIAN REGULATION OF BIOLUMINESCENCE IN THE DINOFLAGELLATE PYROCYSTIS LUNULA1. Journal of Phycology<sup><img id='15298817_60' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15298817' /></sup>, v. 29, p. 173-179, 1993. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1111/j.0022-3646.1993.00173.x&issn=15298817&volume=29&issue=&paginaInicial=173&titulo=CIRCADIAN REGULATION OF BIOLUMINESCENCE IN THE DINOFLAGELLATE PYROCYSTIS LUNULA1&sequencial=60&nomePeriodico=Journal of Phycology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>61. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROENNEBERG, TILL</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1993</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1038/362362a0" target="_blank"></a><b>ROENNEBERG, TILL</b>; MORSE, DAVID . Two circadian oscillators in one cell. Nature (London)<sup><img id='00280836_61' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00280836' /></sup>, v. 362, p. 362-364, 1993. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1038/362362a0&issn=00280836&volume=362&issue=&paginaInicial=362&titulo=Two circadian oscillators in one cell&sequencial=61&nomePeriodico=Nature (London)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>62. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROENNEBERG, TILL</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1991</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1111/j.1751-1097.1991.tb03665.x" target="_blank"></a><b>ROENNEBERG, TILL</b>; HASTINGS, J. WOODLAND . ARE THE EFFECTS OF LIGHT ON PHASE AND PERIOD OF THE Gonyaulax CLOCK MEDIATED BY DIFFERENT PATHWAYS?. Photochemistry and Photobiology<sup><img id='17511097_62' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='17511097' /></sup>, v. 53, p. 525-533, 1991. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1111/j.1751-1097.1991.tb03665.x&issn=17511097&volume=53&issue=&paginaInicial=525&titulo=ARE THE EFFECTS OF LIGHT ON PHASE AND PERIOD OF THE Gonyaulax CLOCK MEDIATED BY DIFFERENT PATHWAYS?&sequencial=62&nomePeriodico=Photochemistry and Photobiology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>63. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROENNEBERG, T.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1990</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1177/074873049000500304" target="_blank"></a><b>ROENNEBERG, T.</b>; ASCHOFF, J. . Annual Rhythm of Human Reproduction: II. Environmental Correlations. Journal of Biological Rhythms<sup><img id='07487304_63' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='07487304' /></sup>, v. 5, p. 217-239, 1990. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1177/074873049000500304&issn=07487304&volume=5&issue=&paginaInicial=217&titulo=Annual Rhythm of Human Reproduction: II. Environmental Correlations&sequencial=63&nomePeriodico=Journal of Biological Rhythms" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>64. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROENNEBERG, T.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1990</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1177/074873049000500303" target="_blank"></a><b>ROENNEBERG, T.</b>; ASCHOF, J. . Annual Rhythm of Human Reproduction: I. Biology, Sociology, or Both?. Journal of Biological Rhythms<sup><img id='07487304_64' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='07487304' /></sup>, v. 5, p. 195-216, 1990. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1177/074873049000500303&issn=07487304&volume=5&issue=&paginaInicial=195&titulo=Annual Rhythm of Human Reproduction: I. Biology, Sociology, or Both?&sequencial=64&nomePeriodico=Journal of Biological Rhythms" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>65. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROENNEBERG, TILL</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1990</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.3109/07420529009056969" target="_blank"></a><b>ROENNEBERG, TILL</b>. A Simple Method for Testing Monthly Statistical Rates for Normalization. Chronobiology International (Online)<sup><img id='15256073_65' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15256073' /></sup>, v. 7, p. 171-172, 1990. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.3109/07420529009056969&issn=15256073&volume=7&issue=&paginaInicial=171&titulo=A Simple Method for Testing Monthly Statistical Rates for Normalization&sequencial=65&nomePeriodico=Chronobiology International (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>66. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROENNEBERG, TILL</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1988</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1038/334432a0" target="_blank"></a><b>ROENNEBERG, TILL</b>; NAKAMURA, HIDESHI ; HASTINGS, J. WOODLAND . Creatine accelerates the circadian clock in a unicellular alga. Nature (London)<sup><img id='00280836_66' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00280836' /></sup>, v. 334, p. 432-434, 1988. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1038/334432a0&issn=00280836&volume=334&issue=&paginaInicial=432&titulo=Creatine accelerates the circadian clock in a unicellular alga&sequencial=66&nomePeriodico=Nature (London)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>67. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROENNEBERG, T.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1988</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/BF00735584" target="_blank"></a><b>ROENNEBERG, T.</b>; HASTINGS, J. W. . Two photoreceptors control the circadian clock of a unicellular alga. Naturwissenschaften<sup><img id='00281042_67' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00281042' /></sup>, v. 75, p. 206-207, 1988. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1007/BF00735584&issn=00281042&volume=75&issue=&paginaInicial=206&titulo=Two photoreceptors control the circadian clock of a unicellular alga&sequencial=67&nomePeriodico=Naturwissenschaften" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>68. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROENNEBERG, T.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1985</span><b>ROENNEBERG, T.</b>; PÖPPEL, ERNST . Topographical distribution of the summation property of Y- ganglion cells in the cat retina. Experimental Brain Research<sup><img id='14321106_68' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='14321106' /></sup>, v. 59, p. 1, 1985. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=14321106&volume=59&issue=&paginaInicial=1&titulo=Topographical distribution of the summation property of Y- ganglion cells in the cat retina&sequencial=68&nomePeriodico=Experimental Brain Research" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 19/09/2019 &agrave;s 13:34:48</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=4930590945373760" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>
