@@ -1,0 +1,1231 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (En&eacute;ias Aur&eacute;lio Dias)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+        			
+      		});			  
+      		
+      		                                
+		
+	</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4713596T6&amp;idiomaExibicao=2" class="btn-br">English</a><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=1203823034194901" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4713596T6&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4713596T6"><div class="infpessoa">
+<h2 class="nome">En&eacute;ias Aur&eacute;lio Dias</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/1203823034194901</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 10/04/2014</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Aluno do curso de Pós Graduação em Zootecnia nível mestrado. Tem experiência na área de Medicina Veterinária, com ênfase em Medicina Veterinária, atuando principalmente nos seguintes temas: Fiscalização nas áreas de Sanidade animal, Qualidade de produtos e sub-produtos de origem animal, controle de zoonozes; Extensão em aves de produção, Bioclimatologia de bovinos<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Enéias Aurélio Dias</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">DIAS, E. A.</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Agência Goiana de Defesa Agropecuária, AGRODEFESA, REGIONAL RIO VERDAO. <br class="clear" />Rua RG 18<br class="clear" />Residencial Gameleira ll<br class="clear" />75906836 - Rio Verde, GO - Brasil<br class="clear" />Telefone: (64) 36218481</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em andamento em Zootecnia<span class="ajaxCAPES" data-param="&codigoCurso=52010015002P5&nivelCurso=M"></span>. <br class="clear" />Instituto Federal Goiano, IF Goiano, Brasil.
+		
+	Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/9580158651519908'><img src='images/curriculo/logolattes.gif' /></a>Priscila Alonso dos Santos.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em medicina veterinária<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidade Federal de Uberlândia, UFU, Brasil.
+		
+	<br class="clear" />Título: Estudo histomorfometrico de gllândulas sudoríparas de Bos taurus taurus nos período do inverno e verão. <br class="clear" />Orientador: Mara Regina Bueno de Matos do nasciment. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Taxidermia de mamíferos, peixes, repteis,.  (Carga horária: 40h). <br class="clear" />Universidade Federal de Uberlândia, UFU, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Agência Goiana de Defesa Agropecuária, AGRODEFESA, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor Público, Enquadramento Funcional: FISCAL ESTADUAL AGROPECUÁRIO, Carga horária: 40</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Vallée - Matriz, VALLEE, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: EMPREGATÍCIO, Enquadramento Funcional: VETERINÁRIO DE CAMPO SANIDADE BOVINA, Carga horária: 44</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Perdigão - filial mineiros, PERDIGAO, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: EMPREGATÍCIO, Enquadramento Funcional: EXTENSIONISTA DE AVICULTURA, Carga horária: 44, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_(BOLSA PIBIC) Estudo comparativos da estrutura histomorfom&eacute;trica da gl&acirc;ndulas sudor&iacute;para de  seis ra&ccedil;a de bos taurus indicus pura'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">(BOLSA PIBIC) Estudo comparativos da estrutura histomorfométrica da glândulas sudorípara de  seis raça de bos taurus indicus pura<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O estudo analisou a diferença de histomorfometria de bovinos das sequintes raças zebuínas; Nelore, Gir, Guzera, Sindi , Cangaiam e Puganor.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (2)  / Mestrado acadêmico: (1) . <br class="clear" /><br class="clear" />Integrantes: Enéias Aurélio Dias - Coordenador / MAra Regina Bueno de Matos do nascimento - Integrante.<br class="clear" /></div>
+</div><a name='PP_(BOLSA PIBIC) Efeito da idade na histomorfometria de gl&acirc;ndulas sudor&iacute;paras de bovinos nelore em duas esta&ccedil;&otilde;es do ano'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">(BOLSA PIBIC) Efeito da idade na histomorfometria de glândulas sudoríparas de bovinos nelore em duas estações do ano<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O estudo analisou as  o efeito da idade sobre a histomorfometria da glândulas sudoríparas de bovinos nelores de três diferentes idades em duas épocas do ano: Inverno e Verão. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (2)  / Mestrado acadêmico: (1) . <br class="clear" /><br class="clear" />Integrantes: Enéias Aurélio Dias - Coordenador / MAra Regina Bueno de Matos do nascimento - Integrante.<br class="clear" /></div>
+</div><a name='PP_(BOLSA PIBIC) Efeito do anest&eacute;sicos Cetamina e Propofol na Anestesia de podocnemis expansa'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">(BOLSA PIBIC) Efeito do anestésicos Cetamina e Propofol na Anestesia de podocnemis expansa<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto certificado pelo(a) coordenador(a) André Luiz Quagliatto Santos em 28/08/2013.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Foi  estudado a concentração ideal de anestésicos Cetamina e propofol na realização de anestesia de tartaruga da amazonia (Podocnemis expansa). <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" />Alunos envolvidos: Graduação: (2)  / Especialização: (1)  / Mestrado acadêmico: (1) . <br class="clear" /><br class="clear" />Integrantes: Enéias Aurélio Dias - Integrante / André Luiz Quagliato Santos - Coordenador.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Agrárias / Área: Medicina Veterinária. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Agrárias / Área: Zootecnia. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Pouco, Lê Razoavelmente, Escreve Pouco. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Português</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Pouco, Lê Pouco. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Prêmio Ciências Veterinárias, Faculdade de Medicina Veterinária - CONAVET. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DIAS, E. A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2004</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1203823034194901" target="_blank">DIAS, E. A.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4202407853646258" target="_blank">SANTOS, A. L. Q.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0961728516366879" target="_blank">CARVALHO, S. F. M.</a> ; ANDRADE, M. B. . COMPORTAMENTO DAS ARTÈRIAS MESENTÉRICAS CRANIAL E CAUDAL EM Arctocephalus australis (PINNIPEDIA, OTARIIDAE). ARS Veterinária<sup><img id='01026380_1' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='01026380' /></sup>, Jaboticabal, v. 20, n.3, p. 242-248, 2004. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=01026380&volume=20&issue=&paginaInicial=242&titulo=COMPORTAMENTO DAS ARTÈRIAS MESENTÉRICAS CRANIAL E CAUDAL EM Arctocephalus australis (PINNIPEDIA, OTARIIDAE)&sequencial=1&nomePeriodico=ARS Veterinária" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Nascimento, M.R.B.M ; <b>DIAS, E. A.</b> . Efeito da estação do ano e da raça sobre a histomorfometria das glândulas sudoríparas de vacas das raças Sindi e Nelore. In: Congresso Brasileiro de Biometeorologia, 2011, Piracicaba. Anais do V Congresso Brasileiro de Biometeorologia, 2011. p. 1-6. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1203823034194901" target="_blank">DIAS, E. A.</a></b>; Nascimento, M.R.B.M . Diferença de glândulas sudoríparas em Bos taurus indicus em diferentes idades. In: 4ª Semana Acadêmica, 2007, Uberlandia. Anais da Semana Acadêmica, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1203823034194901" target="_blank">DIAS, E. A.</a></b>; PEREIRA, P. C. ; GUIMARAES, G. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4202407853646258" target="_blank">SANTOS, A. L. Q.</a> ; MORAIS, F. M. ; BORGES, K. M. ; ANDRADE, M. B. ; PEREIRA, R. V. V. ; MIRANDA, R. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0961728516366879" target="_blank">CARVALHO, S. F. M.</a> . Forma, Dimensões e irrigação arterial das glândulas adrenais do gato tigrino(Leopardus tigrinus - gray, 1842) (Felidae). In: III Encontro Cintífico de Pós-Graduandos em Ciências Agropecuárias da UNESP e IV Encontro de Pós Graduandos da FCAV, 2004, Jaboticabal. III Encontro Cintífico de Pós-Graduandos em Ciências Agropecuárias da UNESP e IV Encontro de Pós Graduandos da FCAV, 2004. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1203823034194901" target="_blank">DIAS, E. A.</a></b>; PEREIRA, R. V. V. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4202407853646258" target="_blank">SANTOS, A. L. Q.</a> ; ANDRADE, M. B. ; BORGES, K. M. ; MORAIS, F. M. ; OLEGARIO, M. M. M. ; SILVA, C. B. ; PEREIRA, P. C. ; MIRANDA, R. L. . Comportamento das artérias braquiacefálicas em avestruz (Struthio camelus, LINNAEUS - 1758)(STRUTHIONIFORMES, STRUTHIONIDAE). In: VII Encontro de Ciências Avícolas, 2004, Uberlândia. Anais Do VII Encontro de Ciências Avícolas, 2004. p. 10-10. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1203823034194901" target="_blank">DIAS, E. A.</a></b>; PEREIRA, R. V. V. ; PEREIRA, P. C. ; ANDRADE, M. B. ; OLEGARIO, M. M. M. ; BORGES, K. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4202407853646258" target="_blank">SANTOS, A. L. Q.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0961728516366879" target="_blank">CARVALHO, S. F. M.</a> ; MORAIS, F. M. . Formação das Veias Cavas Craniais Em Avestruz(Struthio camelus, LINNAEUS - 1758)(STRUTHIONIFORMES, STRUTHIONIDAE). In: VII Encontro de Ciências Avícolas, 2004, Uberlândia. Anais do VII Encontros de ciências Avícolas, 2004. p. 19-20. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1203823034194901" target="_blank">DIAS, E. A.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4202407853646258" target="_blank">SANTOS, A. L. Q.</a> ; MORAIS, F. M. ; BORGES, K. M. ; OLEGARIO, M. M. M. ; ANDRADE, M. B. ; PEREIRA, P. C. ; PEREIRA, R. V. V. ; MIRANDA, R. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0961728516366879" target="_blank">CARVALHO, S. F. M.</a> . Aspecto Anatômico Do Fígado De Avestruz(Struthio camelus, LINNAEUS - 1758)(STRUTHIONIFORMES, STRUTHIONIDAE). In: VII Encontro De Ciências Avícolas, 2004, Uberlândia. Anais Do VII Encontro De Ciências Avícolas, 2004. p. 2-2. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1203823034194901" target="_blank">DIAS, E. A.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4202407853646258" target="_blank">SANTOS, A. L. Q.</a> ; MORAIS, F. M. ; BORGES, K. M. ; OLEGARIO, M. M. M. ; ANDRADE, M. B. ; PEREIRA, P. C. ; PEREIRA, R. V. V. ; MIRANDA, R. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0961728516366879" target="_blank">CARVALHO, S. F. M.</a> . Aspectos Anatômicos Do Fígado do Mergulhão (Anhinga anhinga BRESSON, 1760)(ANHINGIDAE). In: VII Encontro De Ciências Avícolas, 2004, Uberlândia. Anais Do VII Encontro de Ciências Avícolas, 2004. p. 3-3. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1203823034194901" target="_blank">DIAS, E. A.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4202407853646258" target="_blank">SANTOS, A. L. Q.</a> ; MORAIS, F. M. ; BORGES, K. M. ; OLEGARIO, M. M. M. ; ANDRADE, M. B. ; PEREIRA, P. C. ; PEREIRA, R. V. V. ; MIRANDA, R. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0961728516366879" target="_blank">CARVALHO, S. F. M.</a> . Ramificações da Veia Porta no Fígado De Avestruz (Struthio camelus, LINNAEUS - 1758)(STRUTHIONIFORMES, STRUTHIONIDAE). In: VII Encontro De Ciências Avícolas, 2004, Uberlândia. Anais Do VII Enconttro De Ciências Avícolas, 2004. p. 34-34. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1203823034194901" target="_blank">DIAS, E. A.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4202407853646258" target="_blank">SANTOS, A. L. Q.</a> ; MORAIS, F. M. ; BORGES, K. M. ; OLEGARIO, M. M. M. ; ANDRADE, M. B. ; PEREIRA, P. C. ; PEREIRA, R. V. V. ; MIRANDA, R. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0961728516366879" target="_blank">CARVALHO, S. F. M.</a> . Comportamentos das Veias Hepáticas em avestruz (Struthio camelus, LINNAEUS - 1758)(STRUTHIONIFORMES, STRUTHIONIDAE). In: VII Encontro De Ciências Avícolas, 2004, Uberlândia. Anais do VII Encontro De Ciências Avícolas, 2004. p. 12-12. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1203823034194901" target="_blank">DIAS, E. A.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4202407853646258" target="_blank">SANTOS, A. L. Q.</a> ; MORAIS, F. M. ; BORGES, K. M. ; OLEGARIO, M. M. M. ; ANDRADE, M. B. ; PEREIRA, P. C. ; PEREIRA, R. V. V. ; MIRANDA, R. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0961728516366879" target="_blank">CARVALHO, S. F. M.</a> . Aspectos Anatômicos do Coração De Avestruz(Struthio camelus, LINNAEUS - 1758)(STRUTHIONIFORMES, STRUTHIONIDAE). In: VII Encontro de Ciêncioas Avícolas, 2004, Uberlância. Anais Do VII Encontro De Ciências Avícolas, 2004. p. 1-1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1203823034194901" target="_blank">DIAS, E. A.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4202407853646258" target="_blank">SANTOS, A. L. Q.</a> ; MORAIS, F. M. ; BORGES, K. M. ; OLEGARIO, M. M. M. ; ANDRADE, M. B. ; PEREIRA, P. C. ; PEREIRA, R. V. V. ; MIRANDA, R. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0961728516366879" target="_blank">CARVALHO, S. F. M.</a> . Biometria dos rins de araçari poca (selenidera maculirostris - Lichtenstein, 1823)(Ramphastidae). In: VII Encontro de Ciências Avícolas, 2004, Uberlândia. Anais do VII Encontro de Ciências Avícolas, 2004. p. 9-9. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1203823034194901" target="_blank">DIAS, E. A.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4202407853646258" target="_blank">SANTOS, A. L. Q.</a> ; BORGES, K. M. ; OLEGARIO, M. M. M. ; PEREIRA, P. C. ; ANDRADE, M. B. ; PEREIRA, R. V. V. ; MIRANDA, R. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0961728516366879" target="_blank">CARVALHO, S. F. M.</a> ; MORAIS, F. M. . Morfologia e biometria dos testículos de frango dágua - azul (Porphyrula martinica - Linnaeus, 1766)(Rallidae). In: VII Encontro de Ciências Avícolas, 2004, Uberlândia. Anais do VII encontro de ciências avícolas, 2004. p. 27-27. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1203823034194901" target="_blank">DIAS, E. A.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4202407853646258" target="_blank">SANTOS, A. L. Q.</a> ; SILVA, C. B. ; MORAIS, F. M. ; ALVES JUNIOR, J. R. F. ; OLEGARIO, M. M. M. ; ANDRADE, M. B. ; BORGES, K. M. ; PEREIRA, R. V. V. ; MIRANDA, R. L. . Forma e dimensões do ovário e oviduto de Agapornis personata fischeri (PSITACIDAE). In: VII Encontro de ciências Avícolas, 2004, Uberlândia. Anais do VII Encontro de ciências Avícolas, 2004. p. 19-19. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1203823034194901" target="_blank">DIAS, E. A.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4202407853646258" target="_blank">SANTOS, A. L. Q.</a> ; MORAIS, F. M. ; BORGES, K. M. ; OLEGARIO, M. M. M. ; ANDRADE, M. B. ; PEREIRA, P. C. ; PEREIRA, R. V. V. ; MIRANDA, R. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0961728516366879" target="_blank">CARVALHO, S. F. M.</a> . Gota articular em arara Canindé(Arara ararauna, LINNAEUS   1758) (PSITACIDAE) relato de caso. In: VII Encontro de Ciências Avícolas, 2004, Ubnerlândia. Anais do VII encontro de ciências avícolas, 2004. p. 20-21. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1203823034194901" target="_blank">DIAS, E. A.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4202407853646258" target="_blank">SANTOS, A. L. Q.</a> ; MORAIS, F. M. ; ALVES JUNIOR, J. R. F. ; BORGES, K. M. ; OLEGARIO, M. M. M. ; ANDRADE, M. B. ; PEREIRA, R. V. V. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0961728516366879" target="_blank">CARVALHO, S. F. M.</a> ; MIRANDA, R. L. . Formação da veia cava caudal em frango d`agua   azul (Porphyrula martinica   LINNAEUS   1766)(RALLIDAE). In: VII Encontro de Ciênicas Avícolas, 2004, Uberlândia. Anias do VII Encontro de Ciênicas Avícolas, 2004. p. 20-20. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1203823034194901" target="_blank">DIAS, E. A.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4202407853646258" target="_blank">SANTOS, A. L. Q.</a> ; MORAIS, F. M. ; BORGES, K. M. ; OLEGARIO, M. M. M. ; ANDRADE, M. B. ; PEREIRA, P. C. ; PEREIRA, R. V. V. ; MIRANDA, R. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0961728516366879" target="_blank">CARVALHO, S. F. M.</a> . Aspectos anatômicos do tubo digestivo de perequito   estrela (Aratinga áurea   GMELIN   1788) (PSITTACIDAE). In: VI Encontro de Ciências Avícolas, 2004, Uberlândia. Anais do VII Encontro de ciências Avícolas, 2004. p. 1-2. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1203823034194901" target="_blank">DIAS, E. A.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4202407853646258" target="_blank">SANTOS, A. L. Q.</a> ; MORAIS, F. M. ; BORGES, K. M. ; OLEGARIO, M. M. M. ; ANDRADE, M. B. ; PEREIRA, P. C. ; PEREIRA, R. V. V. ; MIRANDA, R. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0961728516366879" target="_blank">CARVALHO, S. F. M.</a> . Descrição anatômico do tubo digestivo de Agapornis personata fischeri (PSITACIDAE). In: VII Encotro de Ciências Avícolas, 2004, Uberlândia. Anais do VII Encontro de Ciências Avícolas, 2004. p. 13-13. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1203823034194901" target="_blank">DIAS, E. A.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4202407853646258" target="_blank">SANTOS, A. L. Q.</a> ; MORAIS, F. M. ; BORGES, K. M. ; OLEGARIO, M. M. M. ; ANDRADE, M. B. ; PEREIRA, P. C. ; PEREIRA, R. V. V. ; MIRANDA, R. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0961728516366879" target="_blank">CARVALHO, S. F. M.</a> . Aspectos anatômicos do ovário e oviduto de frango d`agua   azul (Porphyrula martinica   LINNAEUS   1766) (RALLIDAE). In: VII Encontro de Ciências Avícolas, 2004, Uberlândia. Anais do VII Encontro de Ciências Avícolas, 2004. p. 4-4. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1203823034194901" target="_blank">DIAS, E. A.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0961728516366879" target="_blank">CARVALHO, S. F. M.</a> ; MIRANDA, R. L. ; PEREIRA, R. V. V. ; PEREIRA, P. C. ; ANDRADE, M. B. ; OLEGARIO, M. M. M. ; BORGES, K. M. ; MORAIS, F. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4202407853646258" target="_blank">SANTOS, A. L. Q.</a> . Comportamento anatômico da artéria celíaca em araçari-poca(Selenidera macurirotris   Lichtenstein   1823) (RAMPHASTIDAE). In: VII Encontro de Ciências Avícolas, 2004, Uberlândia. Anais do VII Encontro de Ciências Avícolas, 2004. p. 10-10. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1203823034194901" target="_blank">DIAS, E. A.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4202407853646258" target="_blank">SANTOS, A. L. Q.</a> ; MORAIS, F. M. ; BORGES, K. M. ; OLEGARIO, M. M. M. ; ANDRADE, M. B. ; PEREIRA, P. C. ; PEREIRA, R. V. V. ; MIRANDA, R. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0961728516366879" target="_blank">CARVALHO, S. F. M.</a> . Comportamento das artérias mesentéricas cranial e caudal em araçari-poca (Selenidera macurirotris   Lichtenstein   1823) (RAMPHASTIDAE). In: VII Encontro de Ciências Avícolas, 2004, Uberlândia. Anais do VII Encontro de Ciências Avícolas, 2004. p. 11-11. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1203823034194901" target="_blank">DIAS, E. A.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4202407853646258" target="_blank">SANTOS, A. L. Q.</a> ; BORGES, K. M. ; OLEGARIO, M. M. M. ; ANDRADE, M. B. ; PEREIRA, P. C. ; PEREIRA, R. V. V. ; MIRANDA, R. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0961728516366879" target="_blank">CARVALHO, S. F. M.</a> ; MORAIS, F. M. . Descrição anatômica da glândula uropigiana de araçari-poca (Selenidera macurirotris   Lichtenstein   1823) (RAMPHASTIDAE). In: VII Encontro de Ciências Avícolas, 2004, Uberlândia. Anais do VII Encontro de Ciências Avícolas, 2004. p. 12-12. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1203823034194901" target="_blank">DIAS, E. A.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4202407853646258" target="_blank">SANTOS, A. L. Q.</a> ; MORAIS, F. M. ; BORGES, K. M. ; ANDRADE, M. B. ; OLEGARIO, M. M. M. ; PEREIRA, P. C. ; PEREIRA, R. V. V. ; MIRANDA, R. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0961728516366879" target="_blank">CARVALHO, S. F. M.</a> . Aspectos anatômicos e morfometria dos testículos de araçari-poca (Selenidera macurirotris   Lichtenstein   1823) (RAMPHASTIDAE). In: VII Encontro de Ciências Avícolas, 2004, Uberlândia. Anais do VII Encontro de Ciências Avícolas, 2004. p. 28-28. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1203823034194901" target="_blank">DIAS, E. A.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4202407853646258" target="_blank">SANTOS, A. L. Q.</a> ; TEIXEIRA, T. C. S. ; BELETTI, M. E. . Interferência de minerais quelatados no comprimento intestinal e peso ao abate em frangos de corte (Gallus gallus domesticus, LINNAEUS- 1758). In: VII Encontro de Ciências Avícolas, 2004, Uberlândia. Anais do VII Encontro de Ciências Avícolas, 2004. p. 25-25. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1203823034194901" target="_blank">DIAS, E. A.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4202407853646258" target="_blank">SANTOS, A. L. Q.</a> ; MORAIS, F. M. ; BORGES, K. M. ; OLEGARIO, M. M. M. ; ANDRADE, M. B. ; PEREIRA, P. C. ; PEREIRA, R. V. V. ; MIRANDA, R. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0961728516366879" target="_blank">CARVALHO, S. F. M.</a> . Morfologia e morfometria do esôfago e estômago do pingüim de magalhães (spheniscus magellanicus, FOSTER   1781). In: VII Encontro de Ciências Avícolas, 2004, Uberlândia. Anais do VII Encontro de ciências Avícolas, 2004. p. 28-28. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1203823034194901" target="_blank">DIAS, E. A.</a></b>; PEREIRA, R. V. V. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4202407853646258" target="_blank">SANTOS, A. L. Q.</a> . BIOMETRIA DE NEONATATOS DE RAIAS D ESP'ECIE POTAMOTRYCON MOTORO ENCONTRADOS NA BACIA DO RIO ARAGUAIA.. In: SEMANA ACADEMICA, 2004, Uberlandia. ANAIS DA I SEMANA ACADEMICA, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1203823034194901" target="_blank">DIAS, E. A.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4202407853646258" target="_blank">SANTOS, A. L. Q.</a> ; ANDRADE, M. B. . Morfomertria dos rins de frango d'agua azul(porphyrula martinica - Linnaeus, 1966). In: SEmana academica, 2004, Uberlandia. Anais da I Semana academica, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1203823034194901" target="_blank">DIAS, E. A.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4202407853646258" target="_blank">SANTOS, A. L. Q.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0961728516366879" target="_blank">CARVALHO, S. F. M.</a> ; MORAIS, F. M. . Coagulo cervical em jabuti Piranga (Geochelone carbonaria - Six 1824)(TESTUNIDAE). In: CONBRAVET, 2004, Sao Luiz. Anais do XXXI CONBRAVET, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1203823034194901" target="_blank">DIAS, E. A.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4202407853646258" target="_blank">SANTOS, A. L. Q.</a> ; MORAIS, F. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0961728516366879" target="_blank">CARVALHO, S. F. M.</a> . Lipoma Subcutaneo em papagaio verdadeiro (Amazona aestiva - Linnaeus, 1758)(PSIITACIDAE). In: CONBRAVET, 2004, Sao Luiz. Anais do XXXI CONBRAVET, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1203823034194901" target="_blank">DIAS, E. A.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4202407853646258" target="_blank">SANTOS, A. L. Q.</a> ; ANDRADE, M. B. . Comprimento do intestino e capacidade volumetrica do estomago da onca parda(Puma concolo - Jardine)(FELIDADE). In: III Encontro de Animais Selvagens, 2004, Pocos de Caldas. Anais do III Encontro de Animais Selvagens, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1203823034194901" target="_blank">DIAS, E. A.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4202407853646258" target="_blank">SANTOS, A. L. Q.</a> ; GUIMARAES, L. K. P. . Comprimentos parciais e total da medula espinhal e esqueletocopia do cone medular em lobo guara(Crysocyou brachiurus). In: III Encontro de Animais Selvagens, 2004, Pocos de Caldas. Anais do III Encontro de Animais Selvagens, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1203823034194901" target="_blank">DIAS, E. A.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4202407853646258" target="_blank">SANTOS, A. L. Q.</a> ; CRIVELENTI, L. Z. . Aspectos anatomicos do tubo digestivo de neonatos de um dia de raia de fogo(Potaamotrygon motoro). In: VII encontro sobre Animais selvagens, 2004, Pocos de Caldas. Anais do VII encontro sobre Animais selvagens, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1203823034194901" target="_blank">DIAS, E. A.</a></b>; ANDRADE, M. B. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4202407853646258" target="_blank">SANTOS, A. L. Q.</a> . Aspectos anatomicos do tubo digestivo do mergulhao(Anhinga anhinga - BRESSON,1834) - ( ANHINGIDAE). In: VII encontro sobre Animais selvagens, 2004, Pocos dee caldas. Anais do VII encontro sobre Animais selvagens, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1203823034194901" target="_blank">DIAS, E. A.</a></b>; ANDRADE, M. B. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4202407853646258" target="_blank">SANTOS, A. L. Q.</a> . Aspectos anatomicos da glandula uropigiana do mergulhao(Anhinga anhinga - BRESSON, 1834)(ANHINGIDADE). In: VII encontro sobre Animais selvagens, 2004, Pocos de Caldas. Anais do VII encontro sobre Animais selvagens, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1203823034194901" target="_blank">DIAS, E. A.</a></b>; BORGES, A. B. ; SILVA, N. R. ; RESENDE, B. J. ; CRIVELENTTI, L. Z. . Manutenção de aquário amazonense Plantado com ultilização de biofiltro externo. In: III Encontro sobre animais selvagens, 2004, Poços de Caldas. Anais do III Encontro sobre animais selvagens, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1203823034194901" target="_blank">DIAS, E. A.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4202407853646258" target="_blank">SANTOS, A. L. Q.</a> ; GUIMARAES, L. K. P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0961728516366879" target="_blank">CARVALHO, S. F. M.</a> . Comprimentos Parciais e Total da medula espinhal e esqueletocopia do cone medular do cachorrro do Mato )(Cerdocyon thous-HAMILTON-SMITH,1889)(CANIDAE). In: III Encontro sobre animais selvagens, 2004, Poços de Caldas. Encontro do III Encontro sobre animais selvagens, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1203823034194901" target="_blank">DIAS, E. A.</a></b>; GUIMARAES, L. K. P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4202407853646258" target="_blank">SANTOS, A. L. Q.</a> . Comprimentos parciais e total. In: III Encontro sobre animais selvagens, 2004, Poços de Caldas. Anais do III Encontro sobre animais selvagens, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1203823034194901" target="_blank">DIAS, E. A.</a></b>; BORGES, A. B. ; SILVA, N. R. ; CRIVELENTTI, L. Z. . Manutenção de Aquário Falso Marinho Com a Ultilização do Biofiltro externo. In: XVII Semana Científica de Medicina Veterinária, 2004, Uberlândia. Anais da XVII Semana Científica de Medicina Veterinária, 2004. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Semana Científica de Medicina Veterinária.
+							2006. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">7º Interleite Simpósio internbacional sobre produção intensiva do leite.7º Interleite Simpósio internbacional sobre produção intensiva do leite.
+							2005. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Encontro Sobre Animais Selvagens - Manejo e Conservação.III Encontro Sobre Animais Selvagens - Manejo e Conservação.
+							2005. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXXII CONBRAVET. XXXII CONBRAVET - Congresso Brasileiro de Medicina Veterinária. 2005. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">III Encontro sobre animais selvagens. III Encontro sobre animais selvagens. 2004. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II Seminário Sobre rastreabilidade e segurança alimentar.II Seminário Sobre rastreabilidade e segurança alimentar. 2004. (Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VII Encontro de Ciências Avícolas.VII Encontro de ciências Avícolas.
+							2004. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XVII Semana Científica de Medicina Veterinária. XVII SECIVET. 2004. (Congresso). </div>
+</div>
+<br class="clear">
+</div>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 19/09/2019 &agrave;s 19:14:51</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=1203823034194901" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

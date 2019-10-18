@@ -1,0 +1,809 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Gustavo Nunes Wagner)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+        			
+      		});			  
+      		
+      		                                
+		
+	</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4482289D2&amp;idiomaExibicao=2" class="btn-br">English</a><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=2170025438151010" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosDesenvolvimento">Projetos de desenvolvimento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4482289D2&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4482289D2"><div class="infpessoa">
+<h2 class="nome">Gustavo Nunes Wagner</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/2170025438151010</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 11/10/2008</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui gradua&ccedil;&atilde;o  em Engenharia de Computa&ccedil;&atilde;o pela Pontif&iacute;cia Universidade Cat&oacute;lica do Rio de Janeiro(2005), mestrado em Inform&aacute;tica pela Pontif&iacute;cia Universidade Cat&oacute;lica do Rio de Janeiro(2006) e curso-tecnico-profissionalizantepelo Instituto de Tecnologia ORT(1999). Atualmente &eacute; Analista / Pesquisador do Funda&ccedil;&atilde;o Padre Leonel Fran&ccedil;a. Tem experi&ecirc;ncia na &aacute;rea de Ci&ecirc;ncia da Computa&ccedil;&atilde;o, com &ecirc;nfase em Metodologia e T&eacute;cnicas da Computa&ccedil;&atilde;o. Atuando principalmente nos seguintes temas:Computa&ccedil;&atilde;o Gr&aacute;fica, Modelos Massivos, Visualiza&ccedil;&atilde;o. <span style="font-weight: bold" class="texto"> (Texto gerado automaticamente pela aplica&ccedil;&atilde;o CVLattes)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Gustavo Nunes Wagner<img src='/buscatextual/images/icon-rfb.png' class='alinhamento-texto-img'  title='Dados cadastrais validados junto a Receita Federal do Brasil' /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">WAGNER, G. N.</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico-Científico, Departamento de Informática. <br class="clear" />Rua Marquês de São Vicente, 225<br class="clear" />Gávea<br class="clear" />22453-900 - Rio de Janeiro, RJ - Brasil<br class="clear" />Telefone: (21) 25125984<br class="clear" />Fax: (21) 2131141848<br class="clear" />URL da Homepage: <a target="blank" href="http://www.tecgraf.puc-rio.br">http://www.tecgraf.puc-rio.br</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Informática<span class="ajaxCAPES" data-param="&codigoCurso=31005012004P9&nivelCurso=M"></span>. <br class="clear" />Pontifícia Universidade Católica do Rio de Janeiro, PUC/RJ, Brasil.
+		
+	<br class="clear" />Título: Visualização Interativa de Modelos Massivos de Engenharia na Indústria de Petróleo com o Algoritmo de Voxels Distantes,Ano de Obtenção: 2007.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/7454736736043931'><img src='images/curriculo/logolattes.gif' /></a>Marcelo Gattass.<br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. <br class="clear" />Palavras-chave: Computação Gráfica; Modelos Massivos; Visualização.<br class="clear" />Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação / Especialidade: Processamento Gráfico (Graphics). </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2000 - 2005</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Engenharia de Computação<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Pontifícia Universidade Católica do Rio de Janeiro, PUC/RJ, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997 - 1999</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Curso técnico/profissionalizante<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Instituto de Tecnologia ORT, ORT, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Fundação Padre Leonel França, FPLF, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Colaborador, Enquadramento Funcional: Analista / Pesquisador, Carga horária: 40</div>
+</div><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosDesenvolvimento">
+<h1>Projetos de desenvolvimento</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Modelo Virtual do CENPES II'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Modelo Virtual do CENPES II<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Na construção de prédios e instalações muitas vezes só se percebe um determinado problema de projeto quando a obra está em estágio avançado de execução, gerando retrabalhos e novos custos de aquisição de materiais e serviços, além do comprometimento do prazo do empreendimento. O desenvolvimento de uma tecnologia para acompanhamento de obras com auxílio da realidade virtual resulta em melhores instalações a custos otimizados. Visando utilizar recursos de Realidade Virtual e Realidade Aumentada para acompanhamento das obras do complexo do CENPES II, este projeto inclui as seguintes atividades: 1. Modelagem 3D do projeto do Cenpes II, visando a visualização interativa em ambientes virtuais; 2. Conversão dos modelos para formatos de visualização 3D e análise das ferramentas existentes para a visualização estereoscópica; 3. Desenvolvimento de um sistema para viabilizar a utilização de realidade aumentada na construção do Cenpes II... <br class="clear" />Situação: Em andamento; Natureza: Desenvolvimento. <br class="clear" />Alunos envolvidos: Graduação: (2)  / Mestrado acadêmico: (1)  / Doutorado: (2) . <br class="clear" /><br class="clear" />Integrantes: Gustavo Nunes Wagner - Integrante / Alberto Barbosa Raposo - Coordenador / Ismael Santos - Integrante / Thadeu Corseuil - Integrante / Marcelo Gattass - Integrante / Marcio Pinto - Integrante / Heitor Augusto de Araujo Filho - Integrante / Paulo Cezar Pinto de Carvalho - Integrante / Felipe Gomes Carvalho - Integrante.<br class="clear" />Financiador(es): Centro de Pesquisa e Desenvolvimento Leopoldo Américo Miguêz de Mello - Auxílio
+										financeiro / Associação do Laboratório de Sistemas Integráveis Tecnológico - Cooperação.</div>
+</div><a name='PP_SIVIEP - Sistema de Visualiza&ccedil;&atilde;o Integrada em E&amp;P'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">SIVIEP - Sistema de Visualização Integrada em E&P<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O objetivo geral desse projeto é projetar e implementar um sistema de visualização modular e extensível, considerando-se as necessidades de apresentação de projetos integrados de E&P. Deverão ser definidos uma arquitetura e um ambiente de desenvolvimento (framework) que permitam a evolução do sistema, e sua adaptação para aplicações específicas, através da incorporação de componentes independentes. Um objetivo fundamental deste projeto, além do desenvolvimento de uma ferramenta de visualização, é a definição de uma arquitetura aberta e de um ambiente de desenvolvimento que permitiam sua evolução, baseada na integração incremental de novas funcionalidades... <br class="clear" />Situação: Em andamento; Natureza: Desenvolvimento. <br class="clear" />Alunos envolvidos: Graduação: (3)  / Mestrado acadêmico: (1)  / Doutorado: (1) . <br class="clear" /><br class="clear" />Integrantes: Gustavo Nunes Wagner - Integrante / Alberto Barbosa Raposo - Coordenador / Ismael Santos - Integrante / Thadeu Corseuil - Integrante / Rodrigo Toledo - Integrante / Marcelo Gattass - Integrante / Marcelo Knörich Zuffo - Integrante / Luciano Pereira dos Reis - Integrante / Waldemar Celes - Integrante / Eduardo T. Carlos - Integrante / Börje Karlsson - Integrante / Pablo Carneiro Elias - Integrante.<br class="clear" />Financiador(es): Petróleo Brasileiro - Rio de Janeiro - Auxílio
+										financeiro / Financiadora de Estudos e Projetos - Auxílio
+										financeiro / Associação do Laboratório de Sistemas Integráveis Tecnológico - Cooperação.</div>
+</div><a name='PP_VROIS - Visualiza&ccedil;&atilde;o Remota de Opera&ccedil;&otilde;es de Instala&ccedil;&otilde;es Submarinas'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">VROIS - Visualização Remota de Operações de Instalações Submarinas<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Descrição: Este projeto é parte de uma iniciativa para estudar e propor soluções para operações de instalação, inspeção e manutenção de equipamentos submarinos. O objetivo é desenvolver um sistema gráfico em Realidade Virtual para a simulação e acompanhamento em tempo real dessas operações, utilizando modelos reais dos equipamentos submarinos, dos robôs e das ferramentas utilizadas. O projeto está dividido em duas partes. A primeira delas, voltada para as operações realizadas com robôs. O sistema desenvolvido interagirá com os dispositivos reais de controle do robô (mestres), de modo que a simulação possa ser controlada da mesma forma que os robôs reais. A simulação permitirá o estudo e a definição da trajetória ideal do braço para uma determinada operação (com detecção de colisões). A segunda parte do projeto estende o sistema acima para outros tipos de operações submarinas. Nesse caso, a idéia é, além das imagens reais das câmeras, a operação poder ser vista no cenário virtual, o que permitirá um melhor acompanhamento do processo, dada a possibilidade de se ter diferentes ângulos de visão. Para isso, o sistema estará integrado ao PetroNave, sistema da Petrobras que fornece a posição dos equipamentos nesse tipo de operação. .     . <br class="clear" />Situação: Em andamento; Natureza: Desenvolvimento. <br class="clear" />Alunos envolvidos: Graduação: (2)  / Mestrado acadêmico: (1)  / Doutorado: (1) . <br class="clear" /><br class="clear" />Integrantes: Gustavo Nunes Wagner - Integrante / Alberto Barbosa Raposo - Coordenador / Ismael Santos - Integrante / Thadeu Corseuil - Integrante / Paulo Ivson - Integrante / Marcelo Gattass - Integrante / Heitor Augusto de Araujo Filho - Integrante / Mauricio Hofmam - Integrante / Simone Diniz Junqueira Barbosa - Integrante.<br class="clear" />Financiador(es): Centro de Pesquisa e Desenvolvimento Leopoldo Américo Miguêz de Mello - Auxílio
+										financeiro / Depto. de Engenharia Mecânica - PUC-Rio - Cooperação.</div>
+</div><a name='PP_Ambiente Colaborativo para Engenharia Offshore utilizando Cluster-Gr&aacute;fico de Alta Performance'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ambiente Colaborativo para Engenharia Offshore utilizando Cluster-Gráfico de Alta Performance<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Desenvolver um ambiente colaborativo integrado para dar suporte ao desenvolvimento e elaboração de Projetos de Engenharia Offshore em Ambientes Imersivos (CEE Collaborative Engineering Environment) que permita a visualização dos artefatos de Engenharia utilizados no segmento de E&P e das respectivas simulações dos fenômenos físicos de interesse, utilizando técnicas de computação gráfica e simulação numérica de alto desempenho. Este sistema objetiva a redução dos riscos de projetos de Engenharia Offshore bem como a melhoria na qualidade dos mesmos... <br class="clear" />Situação: Concluído; Natureza: Desenvolvimento. <br class="clear" /><br class="clear" />Integrantes: Gustavo Nunes Wagner - Integrante / Alberto Barbosa Raposo - Coordenador / Ismael Santos - Integrante / Luciano Soares - Integrante / Manuel Loaiza - Integrante / Felipe Gomes Carvalho - Integrante.<br class="clear" />Financiador(es): Associação do Laboratório de Sistemas Integráveis Tecnológico - Cooperação / Centro de Pesquisa e Desenvolvimento Leopoldo Américo Miguêz de Mello - Auxílio
+										financeiro / Fraunhofer Institut Medienkommunikation - Cooperação.</div>
+</div><a name='PP_DesVirt- Desenvolvimento de aplica&ccedil;&otilde;es de realidade virtual e de colabora&ccedil;&atilde;o no Cenpes/MC e EISAT/UN-Rio'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">DesVirt- Desenvolvimento de aplicações de realidade virtual e de colaboração no Cenpes/MC e EISAT/UN-Rio<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O objetivo do DesVirt (Projeto de continuidade das atividades de desenvolvimento de aplicações de realidade virtual e de colaboração no Cenpes/MC) é prosseguir com o desenvolvimento das aplicações iniciadas no projeto AmbVirt, visando dotar o Cenpes e a Petrobras de know-how e ferramentas para os ambientes de RV que tendem a se multiplicar com a construção de novas salas de visualização e do CRV/Cenpes. Com essas ferramentas, as salas de visualização poderão ser efetivamente utilizadas como ambientes de treinamento, pois será possível integrar as tecnologias de vídeo estereoscópico com as tecnologias interativas de visualização RV e interligar as várias salas da Petrobras em sessões colaborativas de trabalho... <br class="clear" />Situação: Concluído; Natureza: Desenvolvimento. <br class="clear" />Alunos envolvidos: Graduação: (4)  / Mestrado acadêmico: (1)  / Doutorado: (2) . <br class="clear" /><br class="clear" />Integrantes: Gustavo Nunes Wagner - Coordenador / Alberto Barbosa Raposo - Integrante / Ismael Santos - Integrante / Thadeu Corseuil - Integrante / Marcelo Gattass - Integrante / Thiago Bastos - Integrante / Marcio Pinto - Integrante / Lucas Pereira Francisco de Azevedo - Integrante.<br class="clear" />Financiador(es): Centro de Pesquisa e Desenvolvimento Leopoldo Américo Miguêz de Mello - Auxílio
+										financeiro.</div>
+</div><a name='PP_AmbVirt - Ambientes Virtuais para Desenvolvimento de Aplica&ccedil;&otilde;es Upstream &amp; Dowsntream (CT-PETRO)'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2001 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">AmbVirt - Ambientes Virtuais para Desenvolvimento de Aplicações Upstream & Dowsntream (CT-PETRO)<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O projeto teve como objetivos expandir a utilização de ambientes virtuais em atividades upstream e downstream, visando gerar vantagem competitiva para a PETROBRAS, através do desenvolvimento de projetos de pesquisa e de capacitação para aplicação desta tecnologia em atividades estratégicas de geociências, engenharia e meio-ambiente. Aspectos fundamentais do projeto são: 1) Ênfase na transferência da tecnologia às atividades operacionais; 2) Formação de pessoal habilitado a suprir as necessidades da companhia na criação de modelos tridimensionais; desenvolvimento, adaptação e integração de software e ferramentas de visualização; especificação e operação da infra-estrutura computacional. 3) Desenvolvimento de aplicações gráficas interativas, com uso de tecnologias de Realidade Virtual para dar suporte às atividades de petróleo. 4) Desenvolvimento de aplicações para dar suporte à colaboração em atividades envolvendo participantes distribuídos geograficamente.. <br class="clear" />Situação: Concluído; Natureza: Desenvolvimento. <br class="clear" />Alunos envolvidos: Graduação: (3)  / Mestrado acadêmico: (1)  / Doutorado: (2) . <br class="clear" /><br class="clear" />Integrantes: Gustavo Nunes Wagner - Integrante / Alberto Barbosa Raposo - Coordenador / Ismael Santos - Integrante / Marcelo Gattass - Integrante / Romano Silva - Integrante / Luciano Pereira dos Reis - Integrante / Waldemar Celes - Integrante / Cesar T. Pozzer - Integrante / João Luiz E. Campos - Integrante / Enio Emanuel Ramos Russo - Integrante / Flávio Szenberg - Integrante.<br class="clear" />Financiador(es): Centro de Pesquisa e Desenvolvimento Leopoldo Américo Miguêz de Mello - Auxílio
+										financeiro / Financiadora de Estudos e Projetos - Auxílio
+										financeiro / Pontifícia Universidade Católica do Rio de Janeiro - Auxílio
+										financeiro.</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Processamento Gráfico (Graphics). <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Computação Gráfica. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Sistemas de Computação. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Realidade Virtual. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Português</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RAPOSO, A. B. ; SOARES, L. P. ; CORSEUIL, T. ; IVSON, P. I. N. ; <b>WAGNER, G. N.</b> ; TOLEDO, R. ; GATTASS, M. . EnViron: An integrated VR tool for engineering projects. In: Computer Supported Cooperative Work in Design, 2008. CSCWD 2008., 2008, Xi'an. Proceedings of the 12th International Conference on CSCW in Design   CSCWD 2008, 2008. v. II. p. 721-726. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>WAGNER, G. N.</b>; RAPOSO, A. B. ; GATTASS, M. . An Anti-aliasing Technique for Voxel-Based Massive Model Visualization Strategies. In: 3rd International Symposium on Visual Computing, 2007, Lake Tahoe. 3rd International Symposium on Visual Computing. Berlin-Heidelberg: Springer Berlin, 2007. v. 4841. p. 160-169. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RAPOSO, A. B. ; CORSEUIL, T. ; <b>WAGNER, G. N.</b> ; GATTASS, M. . Towards the use of cad models in VR applications. In: 2006 ACM International Conference on Virtual Reality Continuum and Its Applications   VRCIA, 2006, Hong-Kong. Proceedings of the 2006 ACM International Conference on Virtual Reality Continuum and Its Applications   VRCIA, 2006. p. 67-74. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LOAIZA, M. ; <b>WAGNER, G. N.</b> ; BASTOS, T. A. ; GATTASS, M. . Sistemas de Rastreamento de Baixo Custo para Desktops. In: XXXII Seminário Integrado de Software e Hardware (SEMISH), 2005, São Leopoldo. XXXII Seminário Integrado de Software e Hardware (SEMISH), 2005. p. 1676-1690. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CORSEUIL, T. ; RAPOSO, A. B. ; SILVA, R. J. M. ; PINTO, M. H. G. ; <b>WAGNER, G. N.</b> ; GATTASS, M. . ENVIRON - Visualization of CAD Models in a Virtual Reality Environment. In: 10th Eurographics Symposium on Virtual Environments, 2004, 2004, Grenoble. Eurographics / ACM SIGGRAPH Symposium Proceedings - Virtual Environments 2004. p. 71-80. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">CORSEUIL, T. ; RAPOSO, A. B. ; SILVA, R. J. M. ; PINTO, M. H. G. ; <b>WAGNER, G. N.</b> ; GATTASS, M. . A VR Tool for the Visualization of CAD Models. In: VII Symposium on Virtual Reality SVR 2004, 2004, Porto Alegre. VII Symposium on Virtual Reality Proceedings, 2004. p. 327-338. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SILVA, R. J. M. ; <b>WAGNER, G. N.</b> ; RAPOSO, A. B. ; GATTASS, M. . Experiência de Portais em Ambientes Arquitetônicos Virtuais. In: VI Symposium on Virtual Reality, 2003, 2003, Ribeirão Preto. SVR 2003 VI Symposium on Virtual Reality, 2003. p. 117-128. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos expandidos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>WAGNER, G. N.</b>; RAPOSO, A. B. ; GATTASS, M. . Adaptando um Algoritmo de Geração de Terrenos para a Renderização de Águas de Oceanos. In: VII Symposium on Virtual Reality SVR 2004, 2004, Porto Alegre. SVR 2004 - VII Symposium on Virtual Reality Proceedings, 2004. p. 341-343. </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="TrabalhosTecnicos"></a>Trabalhos técnicos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RAPOSO, A. B. ; SOARES, L. P. ; CORSEUIL, T. ; <b>WAGNER, G. N.</b> ; IVSON, P. I. N. ; TOLEDO, R. ; GATTASS, M. . EnViron: an integrated VR tool for engineering projects. 2008. </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SOARES, L. P. ; PONCE, P. J. ; CORSEUIL, T. ; RAPOSO, A. B. ; <b>WAGNER, G. N.</b> ; IVSON, P. I. N. ; AVILA, B. ; TOLEDO, R. ; PINTO, M. H. G. . Environ: a visualization system aimed at massive CAD models (Video Proceedings IEEE VR 2008). 2008.
+							(Vídeo).
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SOARES, L. P. ; RAPOSO, A. B. ; CORSEUIL, T. ; PONCE, P. J. ; TOLEDO, R. ; <b>WAGNER, G. N.</b> ; IVSON, P. I. N. ; PINTO, M. H. G. . Environ: a visualization system aimed at massive CAD models (SIGGRAPH 2008 Computer Animation Festival). 2008.
+							(Vídeo).
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 19/09/2019 &agrave;s 7:52:19</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=2170025438151010" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

@@ -1,0 +1,761 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Rog&eacute;rio Ruscitto do Prado)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+        			
+      		});			  
+      		
+      		                                
+		
+	</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4770358A8&amp;idiomaExibicao=2" class="btn-br">English</a><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=1798368567228660" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul></ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4770358A8&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4770358A8"><div class="infpessoa">
+<h2 class="nome">Rog&eacute;rio Ruscitto do Prado</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/1798368567228660</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 02/09/2016</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui gradua&ccedil;&atilde;o  em Estat&iacute;stica pelo Instituto de Matem&aacute;tica e Estat&iacute;stica da Universidade de S&atilde;o Paulo(2001), mestrado em Estat&iacute;stica pelo Instituto de Matem&aacute;tica e Estat&iacute;stica da Universidade de S&atilde;o Paulo(2004) e doutorado em Medicina Preventiva pela Faculdade de Medicina da Universidade de S&atilde;o Paulo(2008). <span style="font-weight: bold" class="texto"> (Texto gerado automaticamente pela aplica&ccedil;&atilde;o CVLattes)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Rogério Ruscitto do Prado</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">PRADO, R. R.;Prado, Rogério Ruscitto do;DO PRADO, ROGÉRIO RUSCITTO</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Universidade de São Paulo, Faculdade de Medicina da Universidade de São Paulo. <br class="clear" />Av. Dr. Arnaldo, 455<br class="clear" />Cerqueira César<br class="clear" />01246-903 - Sao Paulo, SP - Brasil<br class="clear" />Telefone: (11) 30617083<br class="clear" />Fax: (11) 30626018</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2005 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Medicina Preventiva<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=D"></span>. <br class="clear" />Faculdade de Medicina da Universidade de São Paulo, FMUSP, Brasil.
+		
+	<br class="clear" />Título: Análise espaço-temporal dos casos de aids no Estado de São Paulo - 1990 a 2004, Ano de obtenção: 2008. <br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/3112674950616014'><img src='images/curriculo/logolattes.gif' /></a>Euclides Ayres de Castilho. <br class="clear" />Bolsista do(a): Coordenação de Aperfeiçoamento de Pessoal de Nível Superior, CAPES, Brasil. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2002 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Estatística<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=M"></span>. <br class="clear" />Instituto de Matemática e Estatística da Universidade de São Paulo, IME-USP, Brasil.
+		
+	<br class="clear" />Título: Modelagem do coeficiente kappa ponderado,Ano de Obtenção: 2004.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/9878475870031007'><img src='images/curriculo/logolattes.gif' /></a>Rinaldo Artes.<br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - 2001</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Estatística<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Instituto de Matemática e Estatística da Universidade de São Paulo, IME-USP, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Razoavelmente, Fala Razoavelmente, Lê Bem, Escreve Bem. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DE OLIVEIRA, WANDERLEI ABADIO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2016</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.jped.2015.04.003" target="_blank"></a>DE OLIVEIRA, WANDERLEI ABADIO ; SILVA, MARTA ANGÉLICA IOSSI ; DA SILVA, JORGE LUIZ ; DE MELLO, FLÁVIA CARVALHO MALTA ; <b>DO PRADO, ROGÉRIO RUSCITTO</b> ; MALTA, DEBORAH CARVALHO . Associations between the practice of bullying and individual and contextual variables from the aggressors? perspective. Jornal de Pediatria (Impresso)<sup><img id='00217557_1' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00217557' /></sup>, v. 92, p. 32-39, 2016. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.jped.2015.04.003&issn=00217557&volume=92&issue=&paginaInicial=32&titulo=Associations between the practice of bullying and individual and contextual variables from the aggressors? perspective&sequencial=1&nomePeriodico=Jornal de Pediatria (Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MALTA, DEBORAH CARVALHO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/1809-4503201400050005" target="_blank"></a>MALTA, DEBORAH CARVALHO ; OLIVEIRA-CAMPOS, MARYANE ; <b>Prado, Rogério Ruscitto do</b> ; ANDRADE, SILVANIA SUELY CARIBÉ ; MELLO, FLÁVIA CARVALHO MALTA DE ; DIAS, ANTONIO JOSÉ RIBEIRO ; BOMTEMPO, DENISE BIRCHE . Psychoactive substance use, family context and mental health among Brazilian adolescents, National Adolescent School-based Health Survey (PeNSE 2012). Revista Brasileira de Epidemiologia (Impresso)<sup><img id='1415790X_2' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='1415790X' /></sup>, v. 17, p. 46-61, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/1809-4503201400050005&issn=1415790X&volume=17&issue=&paginaInicial=46&titulo=Psychoactive substance use, family context and mental health among Brazilian adolescents, National Adolescent School-based Health Survey (PeNSE 2012)&sequencial=2&nomePeriodico=Revista Brasileira de Epidemiologia (Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MALTA, DEBORAH CARVALHO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/1809-4503201400050015" target="_blank"></a>MALTA, DEBORAH CARVALHO ; <b>Prado, Rogério Ruscitto do</b> ; CARIBE, SILVANIA SUELY ANDRADE ; SILVA, MARTA MARIA ALVES DA ; ANDREAZZI, MARCO ANTONIO RATZSCH DE ; SILVA JÚNIOR, JARBAS BARBOSA DA ; MINAYO, MARIA CECILIA DE SOUZA . Factors associated with injuries in adolescents, from the National Adolescent School-based Health Survey (PeNSE 2012). Revista Brasileira de Epidemiologia (Impresso)<sup><img id='1415790X_3' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='1415790X' /></sup>, v. 17, p. 183-202, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/1809-4503201400050015&issn=1415790X&volume=17&issue=&paginaInicial=183&titulo=Factors associated with injuries in adolescents, from the National Adolescent School-based Health Survey (PeNSE 2012)&sequencial=3&nomePeriodico=Revista Brasileira de Epidemiologia (Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>HORTA, ROGÉRIO LESSA</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/1809-4503201400050004" target="_blank"></a>HORTA, ROGÉRIO LESSA ; HORTA, BERNARDO LESSA ; COSTA, ANDRE WALLACE NERY DA ; <b>Prado, Rogério Ruscitto do</b> ; OLIVEIRA-CAMPOS, MARYANE ; MALTA, DEBORAH CARVALHO . Lifetime use of illicit drugs and associated factors among Brazilian schoolchildren, National Adolescent School-based Health Survey (PeNSE 2012). Revista Brasileira de Epidemiologia (Impresso)<sup><img id='1415790X_4' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='1415790X' /></sup>, v. 17, p. 31-45, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/1809-4503201400050004&issn=1415790X&volume=17&issue=&paginaInicial=31&titulo=Lifetime use of illicit drugs and associated factors among Brazilian schoolchildren, National Adolescent School-based Health Survey (PeNSE 2012)&sequencial=4&nomePeriodico=Revista Brasileira de Epidemiologia (Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MALTA, DEBORAH CARVALHO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/1809-4503201400050013" target="_blank"></a>MALTA, DEBORAH CARVALHO ; MASCARENHAS, MÁRCIO DÊNIS MEDEIROS ; DIAS, ANTÔNIO RIBEIRO ; <b>Prado, Rogério Ruscitto do</b> ; LIMA, CHEILA MARINA ; SILVA, MARTA MARIA ALVES DA ; SILVA JÚNIOR, JARBAS BARBOSA DA . Situations of violence experienced by students in the state capitals and the Federal District: results from the National Adolescent School-based Health Survey (PeNSE 2012). Revista Brasileira de Epidemiologia (Impresso)<sup><img id='1415790X_5' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='1415790X' /></sup>, v. 17, p. 158-171, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/1809-4503201400050013&issn=1415790X&volume=17&issue=&paginaInicial=158&titulo=Situations of violence experienced by students in the state capitals and the Federal District: results from the National Adolescent School-based Health Survey (PeNSE 2012)&sequencial=5&nomePeriodico=Revista Brasileira de Epidemiologia (Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MALTA, DEBORAH CARVALHO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/1809-4503201400050011" target="_blank"></a>MALTA, DEBORAH CARVALHO ; <b>Prado, Rogério Ruscitto do</b> ; DIAS, ANTÔNIO JOSÉ RIBEIRO ; MELLO, FLAVIA CARVALHO M. ; SILVA, MARTA ANGELICA IOSSI ; COSTA, MICHELLE RALIL DA ; CAIAFFA, WALESKA TEIXEIRA . Bullying and associated factors among Brazilian adolescents: analysis of the National Adolescent School-based Health Survey (PeNSE 2012). Revista Brasileira de Epidemiologia (Impresso)<sup><img id='1415790X_6' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='1415790X' /></sup>, v. 17, p. 131-145, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/1809-4503201400050011&issn=1415790X&volume=17&issue=&paginaInicial=131&titulo=Bullying and associated factors among Brazilian adolescents: analysis of the National Adolescent School-based Health Survey (PeNSE 2012)&sequencial=6&nomePeriodico=Revista Brasileira de Epidemiologia (Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MALTA, DEBORAH CARVALHO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.5123/S1679-49742014000400002" target="_blank"></a>MALTA, DEBORAH CARVALHO ; MOURA, LENILDO DE ; <b>Prado, Rogério Ruscitto do</b> ; ESCALANTE, JUAN CORTEZ ; SCHMIDT, MARIA INÊS ; DUNCAN, BRUCE BARTHOLOW . Mortalidade por doenças crônicas não transmissíveis no Brasil e suas regiões, 2000 a 2011. Epidemiologia e Serviços de Saúde<sup><img id='16794974_7' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='16794974' /></sup>, v. 23, p. 599-608, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.5123/S1679-49742014000400002&issn=16794974&volume=23&issue=&paginaInicial=599&titulo=Mortalidade por doenças crônicas não transmissíveis no Brasil e suas regiões, 2000 a 2011&sequencial=7&nomePeriodico=Epidemiologia e Serviços de Saúde" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Gouveia, Nelson</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/S1415-790X2010000100001" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7831806910930755" target="_blank">Gouveia, Nelson</a> ; <b>Prado, Rogério Ruscitto do</b> . Análise espacial dos riscos à saúde associados à incineração de resíduos sólidos: avaliação preliminar. Revista Brasileira de Epidemiologia<sup><img id='1415790X_8' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='1415790X' /></sup>, v. 13, p. 3-10, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/S1415-790X2010000100001&issn=1415790X&volume=13&issue=&paginaInicial=3&titulo=Análise espacial dos riscos à saúde associados à incineração de resíduos sólidos: avaliação preliminar&sequencial=8&nomePeriodico=Revista Brasileira de Epidemiologia" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>PRADO, R. R.;Prado, Rogério Ruscitto do;DO PRADO, ROGÉRIO RUSCITTO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1590/S0037-86822009000500011" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1798368567228660" target="_blank">PRADO, R. R.</a></b>; Castilho, Euclides Ayres de . A epidemia de aids no Estado de São Paulo: uma aplicação do modelo espaço-temporal bayesiano completo. Revista da Sociedade Brasileira de Medicina Tropical (Impresso)<sup><img id='00378682_9' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00378682' /></sup>, v. 42, p. 537-542, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1590/S0037-86822009000500011&issn=00378682&volume=42&issue=&paginaInicial=537&titulo=A epidemia de aids no Estado de São Paulo: uma aplicação do modelo espaço-temporal bayesiano completo&sequencial=9&nomePeriodico=Revista da Sociedade Brasileira de Medicina Tropical (Impresso)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		Luiz Eduardo Alcântara de Melo ; <b>Prado, Rogério Ruscitto do</b> . A aplicação da metodologia do FAP. In: Remígio Todeschini; Wanderley Codo. (Org.). Novo seguro de acidente Novo FAP. 1/1ed.São Paulo: LTr, 2009, v. 1, p. 30-47. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Lúcia Soratto ; <b>Prado, Rogério Ruscitto do</b> ; Luiz Eduardo Alcântara de Melo ; Maria Paula Alves Soares . Radiográfia do FAP: a distribuição de bonu se malus pelos setores econômicos. In: Remígio Todeschini; Wanderley Codo. (Org.). Novo seguro de acidente Novo FAP. 1/1ed.São Paulo: LTr, 2009, v. 1, p. 80-88. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1798368567228660" target="_blank">PRADO, R. R.</a></b>; Nascimento, A. F. . Mortalidade no Brasil e Regiões. In: Gerson de Oliveira Pena. (Org.). Saúde Brasil 2007 Uma análise da situação de saúde. 1/1ed.Brasília: Ministério da Saúde, 2008, v. 1, p. 107-142. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1798368567228660" target="_blank">PRADO, R. R.</a></b>; Nascimento, A. F. ; MARINHO, M. F. . Mortalidade no Brasil em 2004. In: Fabiano Geraldo Pimenta Júnior; Jarbas Barbosa da Silva Júnior. (Org.). Saúde Brasil 2006 Uma análise da desigualdade em saúde. 1/1ed.Brasília: Ministério da Saúde, 2006, v. 1, p. 69-104. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1798368567228660" target="_blank">PRADO, R. R.</a></b>; MARINHO, M. F. ; RAMALHO, W. M. ; BRAGA, J. U. ; MONTENEGRO, M. M. S. . NUANCES DO SISTEMA DE INFORMAÇÃO GEOGRÁFICA E QUANTIFICAÇÃO DAS MEDIDAS DE EFEITO ? ATLAS DE SAÚDE 2005. In: 11o. Congresso Mundial de Saúde Pública e 8o. Congresso Brasileiro de Saúde Coletiva, 2006, Rio de Janeiro. Revista Brasileira de Epidemiologia, 2006. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1798368567228660" target="_blank">PRADO, R. R.</a></b>. USO DO SISTEMA DE INFORMAÇÕES GEOREFERENCIADAS (SIG) NA ANÁLISE DO RISCO DE CÂNCER NAS PROXIMIDADES DE UM INCINERADOR. 2005. (Apresentação de Trabalho/Simpósio). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">11o. Congresso Mundial de Saúde Pública e 8o. Congresso Brasileiro de Saúde Coletiva. NUANCES DO SISTEMA DE INFORMAÇÃO GEOGRÁFICA E QUANTIFICAÇÃO DAS MEDIDAS DE EFEITO ? ATLAS DE SAÚDE 2005. 2006. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">II SIMPÓSIO NACIONAL DE GEOGRAFIA DA SAÚDE.USO DO SISTEMA DE INFORMAÇÕES GEOREFERENCIADAS (SIG) NA ANÁLISE DO RISCO DE CÂNCER NAS PROXIMIDADES DE UM INCINERADOR.
+							2005. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+</div>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 19/09/2019 &agrave;s 9:17:46</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=1798368567228660" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

@@ -1,0 +1,2515 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Martin Roff&eacute;)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+        			
+      		});			  
+      		
+      		                                
+		
+	</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4295432Z0&amp;idiomaExibicao=2" class="btn-br">English</a><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=2786949793018212" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasInformacoesRelevantes">Outras informações relevantes</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	
+		
+		
+		<li><a href="#FormacaoComplementar">Formação complementar</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#RevisorPeriodico">Revisor de periódico</a></li>
+		
+	
+		
+		
+		<li><a href="#RevisorProjetoFomento">Revisor de projeto de fomento</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("educacaoPopularizacaoCTA");</script>
+		
+		
+		<a id="ancora-menu-educacaoPopularizacaoCTA" href="#EducacaoPopularizacaoCTA" class="acessibilidade separador"><span></span>Educação e Popularização de C & T</a>
+		
+	
+		
+		
+		<div id="menu-educacaoPopularizacaoCTA" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosEPCTA">Artigos</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulosEPCTA">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisEPCTA">Textos em jornais de notícias/revistas</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacoesTrabalhoEPCTA">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorEPCTA">Programa de computador sem registro de patente</a></li>
+		
+	
+		
+		
+		<li><a href="#CursosCurtaEPCTA">Cursos de curta duração ministrados</a></li>
+		
+	
+		
+		
+		<li><a href="#MaterialDidaticoEPCTA">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasEPCTA">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoEPCTA">Programa de Computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventosEPCTA">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociaisEPCTA">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuaisEPCTA">Artes Visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesCenicasEPCTA">Artes Cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#MusicaEPCTA">Música</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("citacoes");</script>
+		
+		
+		<a id="ancora-menu-citacoes" href="#Citacoes" class="acessibilidade separador"><span></span>Citações</a>
+		
+	
+		
+		
+		<div id="menu-citacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Citacoes">Citações no ISI</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes">Citações no SciELO</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes">Citações no SCOPUS</a></li>
+		
+	
+		
+		
+		<li><a href="#Citacoes">Citações em outras bases bibliográficas</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4295432Z0&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4295432Z0"><div class="infpessoa">
+<h2 class="nome">Martin Roff&eacute;</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/2786949793018212</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 02/07/2019</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Martín Roffé é graduado em Bioquímica pela Facultad de Farmacia y Bioquímica da Universidad de Buenos Aires (UBA), Argentina (2003). Obteve seu doutorado em 2011 pelo Departamento de Microbiologia, Imunologia e Parasitologia da Universidade Federal de São Paulo (UNIFESP), estudando o controle da tradução de mRNAs em neurônios. Durante o doutorado, fez estágio no laboratório do Dr. Nahum Sonenberg na McGill University em Montreal, Canadá (2010). Em 2012 começõu o pós-doutorado no A.C.Camargo Cancer Center e tornou-se pesquisador nessa instituição no ano de 2015. O principal interesse é o estudo das alterações das vias de sinalização, especialmente as que controlam a síntese de proteínas, em tumores. Atualmente está desenvolvendo a técnica de CRISPR/Cas9 para a geração de modelos celulares para o estudo de vias de sinalização e o efeito de mutações relacionadas com o câncer.<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Martin Roffé</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">ROFFE, M.;Roffé, M.;ROFFE, M;ROFFÉ, MARTÍN;ROFFE, MARTIN;ROFFÉ, MARTIN</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Fundação Antônio Prudente. <br class="clear" />Rua Taguá, 440<br class="clear" />Liberdade<br class="clear" />01508010 - São Paulo, SP - Brasil<br class="clear" />Telefone: (11) 21895000<br class="clear" />Ramal: 1977<br class="clear" />URL da Homepage: <a target="blank" href="http://www.accamargo.org.br/cipe-centro-internacional-de-pesquisa-e-ensino/">http://www.accamargo.org.br/cipe-centro-internacional-de-pesquisa-e-ensino/</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Micro-Imuno-Parasitologia<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=D"></span>. <br class="clear" />Universidade Federal de São Paulo, UNIFESP, Brasil.
+		
+	<br class="clear" />Título: Controle da Síntese de Proteínas em Neurônios: Papel da Proteína IMPACT, Ano de obtenção: 2011. <br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/7279695213301746'><img src='images/curriculo/logolattes.gif' /></a>Beatriz Amaral de Castilho. <br class="clear" />Bolsista do(a): Fundação de Amparo à Pesquisa do Estado de São Paulo, FAPESP, Brasil. <br class="clear" />Grande área: Ciências Biológicas</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação em Bioquimica<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Universidad de Buenos Aires, UBA, Argentina.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaPosDoutorado">
+<h1>P&oacute;s-doutorado</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pós-Doutorado. <br class="clear" />Fundação Antônio Prudente, FAP, Brasil.
+		
+	<br class="clear" />Bolsista do(a): Fundação de Amparo à Pesquisa do Estado de São Paulo, FAPESP, Brasil. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoComplementar">
+<h1>Forma&ccedil;&atilde;o Complementar</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - 2017</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Análise de Dados de Sequenciadores de Segunda Geração.  (Carga horária: 20h). <br class="clear" />Universidade Federal do Rio Grande do Norte, UFRN, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - 2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Introductory course on genomic informatics.  (Carga horária: 32h). <br class="clear" />Universidade de São Paulo, USP, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - 2010</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio no laboratorio do Dr. Nahum Sonenberg. <br class="clear" />McGill University, MCGILL, Canadá.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mini-Curso Proteômica.  (Carga horária: 6h). <br class="clear" />Sociedade Brasileira de Bioquímica e Biologia Molecular, SBBQ, Brasil.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2006</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estágio Científico na FFyB,. <br class="clear" />Universidad de Buenos Aires, UBA, Argentina.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Quimica Medicinal. <br class="clear" />Universidad de Buenos Aires, UBA, Argentina.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Principios y Aplicaciones de siRNA.  (Carga horária: 4h). <br class="clear" />Instituto de Investigaciones Medicas Alfredo Lanari, IDIM-CONICET, Argentina.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2004 - 2004</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">BIOLOGIA CELULAR Y MOLECULAR EN NEUROCIENCIAS.  (Carga horária: 120h). <br class="clear" />International Brain Research Organization, IBRO, Canadá.
+		
+	</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"> Extensão universitária em Farmacobotánica. <br class="clear" />Universidad de Buenos Aires, UBA, Argentina.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Fundação Antônio Prudente, FAP, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Celetista, Enquadramento Funcional: Pesquisador Junior, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Pós-doutor, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Universidade Federal de São Paulo, UNIFESP, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Bolsista, Enquadramento Funcional: Doutorado, Regime: Dedicação exclusiva. </div>
+</div><br class="clear" /></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Regula&ccedil;&atilde;o da tradu&ccedil;&atilde;o de 5'TOP mRNA pela isoforma RSK1 em c&eacute;lulas de glioblastoma'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2019 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Regulação da tradução de 5'TOP mRNA pela isoforma RSK1 em células de glioblastoma<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O glioblastoma (GBM) é o tumor cerebral mais frequente e de maior malignidade, impondo aos pacientes uma sobrevida média de 12-15 meses, mesmo com os tratamentos atuais. Alterações moleculares em componentes das vias de receptores tirosina quinase (RTK), PI3K-Akt-mTORC1 e Ras-ERK1/2 estão presentes em 88% dos GBMs. No entanto, terapias-alvo para GBM com inibidores da via de RTK-PI3K-Akt-mTORC1 mostraram resultados aquém do esperado em ensaios clínicos, sugerindo a presença de mecanismos de resistência. Nos últimos anos, nosso laboratório tem estudado em GBMs a função da família de quinases RSK, a qual é regulada pela via de Ras-ERK1/2 e foi proposta como um mecanismo de cross-talk com a via de mTORC1. A família das RSKs é composta por 4 isoformas que apresentam alta homologia e substratos redundantes. Observamos que tanto em linhagens celulares de GBM, quanto em tumores humanos, a isoforma RSK1 apresenta uma expressão muito variável, sendo o aumento de expressão relacionado a um mau prognóstico. Por outro lado, RSK2 possui expressão constante e RSK3 e RSK4 não são detectadas em células derivadas de GBM. Para elucidar os efeitos das RSKs, em especial no nível isoforma específica, geramos células nocaute, através do sistema de CRISPR/Cas9, para as isoformas RSK1, RSK2 e células duplo nocautes (RSK1 + RSK2). Para dissecar o papel das RSKs e sua relação com mTORC1 no controle da tradução de mRNAs, analisamos o perfil de mRNAs diferencialmente traduzidos nas células nocaute na presença ou ausência de um inibidor de mTOR (Torin1). Utilizando esta estratégia, fomos capazes de definir módulos de regulação da tradução dependentes das isoformas de RSKs. De maneira surpreendente, observamos que a maioria dos 5?TOP mRNAs tem a tradução dependente de RSK1, em um mecanismo visualizado somente quando mTORC1 está inativado. Essa observação indica fortemente que RSK1 estaria mediando um mecanismo redundante e de resistência contra a inativação de mTORC1. Nos últimos anos, a proteína LARP1 tem sido envolvida como o mediador da regulação de 5?TOP mRNAs por mTORC1. No presente projeto, pretendemos demonstrar que RSK1 pode regular a tradução de 5?TOP mRNAs em condições de inativação de mTORC1, e verificaremos se o mecanismo envolve a modulação direta de LARP1. A confirmação de nossa hipótese de que a expressão de RSK1 resulta numa vantagem seletiva para as células de GBM através da resistência à inibição de mTORC1 é de extrema relevância para o desenho de terapias alvo mais eficientes. Além disso, poderemos determinar um mecanismo inédito de controle da tradução numa área de pesquisa altamente competitiva em nível mundial.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Martin Roffé - Integrante / Martin Roffe - Coordenador.<br class="clear" /></div>
+</div><a name='PP_Characterization of the RSK-independent mechanisms of BI-D1870 that potentiate the activity of therapeutic oncolytic viruses in glioblastoma cells'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Characterization of the RSK-independent mechanisms of BI-D1870 that potentiate the activity of therapeutic oncolytic viruses in glioblastoma cells<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Cancer is the leading cause of death in Canada, accounting for approximately 80,000 deaths per year. In Brazil, new cases of cancer are estimated to be 600,000 for the 2016-2017 biennium. Chemotherapy (drugs) and radiotherapy (radiation) are commonly used in the treatment of various malignancies, but for some cancer types (such as the most common brain cancer, glioblastoma), these regimens are not sufficient to completely eradicate the cancer. In recent years, scientists have developed alternative approaches that involve the use of common viruses to reactivate the immune system within patient to recognize cancer cells as a foreign entity. In our laboratories, we are testing the ability of the Herpes Simplex Virus 1 (HSV1) to infect various cancer cell types and stimulate their elimination. Recently, we have identified a chemical anti-cancer agent, called BI-D1870, that strongly enhances the ability of HSV1 to propagate inside cancer cells. In this study, we propose to investigate how this drug boosts the infection of the virus, and design approaches to determine whether this could improve anti-cancer therapeutic efficacy. The understanding of this process will provide valuable insight for the development of novel anti-cancer combination strategies using HSV1, the first FDA-approved oncolytic virus.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Martin Roffé - Integrante / Martin Roffe - Coordenador.<br class="clear" />Financiador(es): Fundação de Amparo à Pesquisa do Estado de São Paulo - Cooperação.</div>
+</div><a name='PP_Instituto Nacional de Tecnologia em Oncogen&ocirc;mica e Inova&ccedil;&atilde;o Terapeutica'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Instituto Nacional de Tecnologia em Oncogenômica e Inovação Terapeutica<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Martin Roffé - Integrante / Martin Roffe - Integrante / Vilma Regina Martins - Coordenador / Glaucia N.M. Hajj - Integrante.<br class="clear" />Financiador(es): Fundação de Amparo à Pesquisa do Estado de São Paulo - Auxílio
+										financeiro / Coordenação de Aperfeiçoamento de Pessoal de Nível Superior - Auxílio
+										financeiro / Conselho Nacional de Desenvolvimento Científico e Tecnológico - Auxílio
+										financeiro.</div>
+</div><a name='PP_The role of epitranscriptome and translational dysregulation in cancer'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">The role of epitranscriptome and translational dysregulation in cancer<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Este projeto busca analisar como modificações pós-transcricionais no RNA mensageiro afetam o controle traducional em diversas situações, em especial no câncer.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Martin Roffé - Integrante / Martin Roffe - Integrante / Glaucia N.M. Hajj - Coordenador.<br class="clear" />Financiador(es): Joint Canada-Israel Health Research Program - Auxílio
+										financeiro.</div>
+</div><a name='PP_Estudo da regula&ccedil;&atilde;o e fun&ccedil;&atilde;o da fam&iacute;lia das RSKs em glioblastomas'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - 2019</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Estudo da regulação e função da família das RSKs em glioblastomas<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: As RSKs (RSK1-4) são um grupo de quinases reguladas diretamente pela via de Ras-ERK1/2. Em vários tipos tumorais, as RSKs estão envolvidas com importantes funções, como proliferação, e controle da transcrição e tradução. No entanto, descrevemos que os dois inibidores químicos mais usados para RSK (SL0101 e BI-D1870) são inespecíficos, gerando a necessidade de uma reavaliação das funções descritas para as RSKs. Até o momento nada se conhece da função das RSKs em glioblastomas (GB). O (GB) é o tumor do cérebro mais comum e apresenta altas taxas de mortalidade. Com os tratamentos disponíveis atualmente, o tempo de sobrevida é menor que dois anos. Deste modo, conhecer melhor as vias de sinalização alteradas nos GBs é essencial para o desenvolvimento de terapias mais efetivas. Resultados preliminares do nosso grupo sugerem uma grande heterogeneidade na expressão das RSKs, tanto em casos de GB como em linhagens celulares. Também, observamos uma correlação entre os níveis da proteína RSK1 e PTEN, sendo que alterações de PTEN são frequentes nos GBs. Dessa maneira pretendemos analisar como as RSKs regulam vários processos envolvidos na tumorigênese. Será dada especial importância a avaliação do papel das RSKs no controle da tradução de mRNAs pelas RSKs, um processo no qual ainda existem dúvidas respeito ao papel das RSKs. Baseado numa possível relação entre RSK e PTEN, buscaremos definir o efeito das RSKs no processo de senescência induzido pela perda de PTEN. Assim, pretende-se contribuir para o avanço no conhecimento dos mecanismos moleculares que regulam a biologia dos GBs, construindo assim uma base sólida para o desenvolvimento de novas estratégias terapêuticas.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Martin Roffé - Integrante / Martin Roffe - Coordenador / HAJJ, GLAUCIA N. M. - Integrante / MARTINS, VILMA R. - Integrante / ROGATTO, SILVIA REGINA - Integrante / Maria Dirlei Ferreira de Souza Begnami - Integrante / Fabio Albuquerque Marchi - Integrante.<br class="clear" />Financiador(es): Fundação de Amparo à Pesquisa do Estado de São Paulo - Auxílio
+										financeiro.</div>
+</div><a name='PP_Controle Traducional em Tumores'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Controle Traducional em Tumores<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Martin Roffé - Integrante / Martin Roffe - Integrante / Glaucia N.M. Hajj - Coordenador.<br class="clear" />Financiador(es): Fundação de Amparo à Pesquisa do Estado de São Paulo - Auxílio
+										financeiro.</div>
+</div><a name='PP_Regula&ccedil;&atilde;o da s&iacute;ntese de prote&iacute;nas atrav&eacute;s da SUMOila&ccedil;&atilde;o'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Regulação da síntese de proteínas através da SUMOilação<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A sumoilação é uma modificação pós-traducional que leva a alteração da função e/ou localização das proteínas alvo. Em geral, a via de sumoilação tem sido associada a eventos nucleares, como por exemplo, a regulação da transcrição. No entanto, nos últimos anos cada vez mais funções extra-nucleares para essa via têm sido descritas. Dentre estas funções extra-nucleares, somente duas publicações apontam a sumoilação como um regulador do controle da tradução em células de mamífero. Nos mesmos são estudados os efeitos da sumoilação do fator de inicio da tradução 4E (eIF4E). Alem disso, num estudo de proteômica em Drosophila melanogaster, várias proteínas ribossomais e fatores associados ao controle traducional foram identificados como alvos da sumoilação. Dessa maneira a sumoilação poderia ser um outro mecanismo de controle traducional ainda não explorado em células de mamíferos. Assim, o objetivo desse projeto será a identificação de proteínas envolvidas no controle da tradução que são sumoiladas em células de mamífero. Para isso, será realizado um estudo de larga escala com técnicas de proteômica para a identificação de proteínas sumoiladas que se associam a polissomos, seguido pela confirmação dos candidatos e análise de como a sumoilação afeta a funcionalidade de cada proteína-alvo. A desregulação da tradução é um fenômeno comum para vários tipos de tumores. Observações preliminares do nosso laboratório identificaram que a expressão de componentes da cascata da sumoilação está alterada em glioblastomas. Dessa maneira estudaremos se a via da sumoilação é também responsável, ou contribui, para a desregulação traducional observada em glioblastomas, junto com a identificação dos fatores afetados.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Martin Roffé - Integrante / Martin Roffe - Coordenador.<br class="clear" /></div>
+</div><a name='PP_O controle da tradu&ccedil;&atilde;o no sistema nervoso: mecanismos tumorais'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">O controle da tradução no sistema nervoso: mecanismos tumorais<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto certificado pelo(a) coordenador(a) Glaucia Noeli Maroso Hajj em 09/08/2013.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Processos celulares, como a proliferação e a diferenciação, dependem do correto controle da tradução de mRNAs, assim alterações das vias que regulam a tradução podem ser parte importante da transformação celular maligna. O glioblastoma multiforme (GBM) está entre os tipos tumorais mais agressivos e de menor resposta a agentes quimioterápicos. Deste modo, definir alterações nos mecanismos de controle traducional em GBMs, é de grande interesse para entender a sua biologia e facilitar a descoberta de novas terapias.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Martin Roffé - Integrante / Hajj, G. N. - Coordenador.<br class="clear" /></div>
+</div><a name='PP_Mecanismos associados &agrave; fun&ccedil;&atilde;o da prote&iacute;na prion e seu ligante STI1/Hop: abordagens terap&ecirc;uticas'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2010 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mecanismos associados à função da proteína prion e seu ligante STI1/Hop: abordagens terapêuticas<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto certificado pelo(a) coordenador(a) Vilma Regina Martins em 09/08/2013.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: A proteína prion celular (PrPC) desempenha importantes funções celulares através da formação de complexos supramoleculares e organizando plataformas de sinalização. Estes complexos precisam ser melhores caracterizados do ponto de vista molecular e celular para que se entenda os mecanismos que controlam estas associações e deflagram diferentes sinais celulares. A associação de PrPC com a stress insducible protein 1 de camundongo ou seu homólogo humano Hop (STI1/Hop), secretada por astrócitos e que possui atividades tróficas, promove sobrevivência e diferenciação neuronal e glial in vitro, tem atividade no controle da proliferação de células tronco e de células tumorais em cultura, atuando ainda em processos imunológicos. Os mecanismos moleculares, em particular modificações pós-traducionais, relacionados à secreção de STI1/Hop são desconhecidos e é necessário estuda-los. É prioritário ainda determinar a função de STI1/Hop in vivo pelo uso de animais nocautes constitutivos e condicionais, ferramentas que acabam de ser desenvolvidas pelo nosso grupo. O complexo PrPC-STI1/Hop pode ser um alvo terapêutico relevante e seu papel na função de células tronco neurais adultas, na neuroproteção in vivo em modelos de lesão tecidual como a isquemia e a radioterapia, no controle da proliferação de tumores bem como nos mecanismos imunitários deve ser largamente explorado.. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Martin Roffé - Integrante / Martin Roffe - Integrante / Vilma Regina Martins - Coordenador.<br class="clear" /></div>
+</div><a name='PP_O papel da prote&iacute;na prion celular no controle da diferencia&ccedil;&atilde;o e sobreviv&ecirc;ncia celular: controle da s&iacute;ntese de prote&iacute;nas'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">O papel da proteína prion celular no controle da diferenciação e sobrevivência celular: controle da síntese de proteínas<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto certificado pelo(a) coordenador(a) Glaucia Noeli Maroso Hajj em 09/08/2013.</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Os prions, que são conhecidos por seu envolvimento em várias doenças neurodegenerativas de humanos e animais, possuem uma isoforma celular normal, Proteína Prion Celular ou PrPc, cuja função ainda é alvo de muita controvérsia. PrPc é capaz de interagir com a proteína Stress inducible protein (STI1). Em neurônios, essa interação resulta em neuritogênese e proteção contra apoptose, sendo importante para o desenvolvimento e manutenção de neurônios funcionais. Processos neuronais exercidos por fatores neurotróficos, como sinaptogênese e a plasticidade sináptica, são dependentes do controle da tradução de proteínas. Como STI1 possui funções neurotróficas, é possível que seu mecanismo de ação envolva o controle da tradução de proteínas. Resultados preliminares apontam que a neuroproteção promovida por STI1 é dependente de vias de sinalização que controlam a tradução e que STI1 é capaz de estimular a síntese de novas proteínas, de maneira dependente de PrPc. Deste modo, as propriedades neurotróficas de STI1 devem ser melhor investigadas, uma vez que esta pode apresentar um valor terapêutico potencial em doenças neurodegenerativas. Por outro lado, o papel de STI1 em outros tipos celulares, particularmente em células tumorais do sistema nervoso é ainda desconhecido. Entretanto, sua participação na sobrevivência e diferenciação celular aponta que esta pode ter participação em processos tumorais. Outra faceta importante de PrPc é sua conhecida interação com proteínas da matriz extracelular (ECM), como Laminina e Vitronectina. Estas interações são importantes para a neuritogênese no sistema nervoso central e periférico, entretanto não se sabe seu papel no controle da síntese de proteínas. Assim, este projeto tem como objetivos: a) determinar se as funções neurotróficas de STI1 são dependentes de síntese protéica e quais os possíveis alvos desta regulação, identificando proteínas especificamente reguladas por PrPc.; b) caracterizar o papel de STI1 no controle da síntese protéica em tumores gliais de baixo e alto graus; c) determinar se a interação de PrPc com as proteínas da matriz extracelular está envolvida com o controle da síntese de proteínas. Desta maneira tentaremos ampliar os conhecimentos sobre os mecanismos patogênicos resultantes de uma deficiência ou perda de função de PrPc e propor novos alvos e estratégias terapêuticas para doenças neurodegenerativas e para o câncer.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Martin Roffé - Integrante / Martin Roffe - Integrante / Hajj, G. N. - Coordenador.<br class="clear" /></div>
+</div><a name='PP_Regula&ccedil;&atilde;o da tradu&ccedil;&atilde;o de prote&iacute;nas no sistema nervoso central: papel de IMPACT'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Regulação da tradução de proteínas no sistema nervoso central: papel de IMPACT<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O fator de início de tradução eIF2 é um dos principais alvos da regulação da síntese protéica nos eucariotos. A fosforilação da subunidade alpha de elF2 (elF2alpha) produz um profundo efeito inibitório da tradução protéica gerai, mas estimula a tradução preferencial de alguns mRNAs, como ATF4 em mamíferos. GCN2, uma das quatro quinases de eIF2alpha em mamíferos, é ativada na carência de aminoácidos. A ativação de GCN2 depende da ligação de sua região N-terminal (domínio GI) com a proteína GCN1. O domínio GI é encontrado também na proteína IMPACT, que ligando-se a GCN1, atua como inibidor competitivo da ativação de GCN2. Foi observado por nosso grupo, que IMPACT é preferencialmente expressa no cérebro de camundongos. O ortólogo de IMPACT em levedura, além de ter o domínio GI, forma um complexo com actina. Recentemente, GCN2 foi envolvido na regulação da plasticidade sináptica, aprendizagem e memória, através da regulação da via ATF4/CREB. Sabe-se que a sinaptogênese e o controle da plasticidade sináptica dependem da síntese de novas proteínas a partir de mRNAs pré-formados, compartimentalizados em estruturas celulares como cones de crescimento de axônios e dendritos. Assim, a regulação tradicional é essencial para estes mecanismos. Este projeto tem como objetivos: I) analisar a possível interação entre IMPACT e actina, avaliando sua importância fisiológica; e II) estudar o papel de IMPACT e o mecanismo da via de GCN2 no controle da sinaptogênese e a plasticidade sináptica.. <br class="clear" />Situação: Concluído; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Martin Roffé - Integrante / Martin Roffe - Coordenador.<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="RevisorPeriodico">
+<h1>Revisor de peri&oacute;dico</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Journal of Neurochemistry</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Brazilian Journal of Medical and Biological Research</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Scientific Reports</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: GENETICS AND MOLECULAR BIOLOGY</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: CELL BIOLOGY INTERNATIONAL</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="RevisorProjetoFomento">
+<h1>Revisor de projeto de fomento</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Agência de fomento: Fundação de Amparo à Pesquisa do Estado de São Paulo</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Biológicas / Área: Bioquímica. <br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Biológicas / Área: Bioquímica / Subárea: Biologia Molecular. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Espanhol</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Português</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Recipient of Affymetrix Tumor Profiling Grant Program, Affymetrix. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2011</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">SBBq Award for the best poster, SBBq. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Melhor Apresentação Oral na Sessão Jovem Pesquisador do XIV Congresso da SBBC, Sociedade Brasileira de Biologia Celular. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Menção Honrosa por apresentação de pôster no XIV Congresso da SBBC, Sociedade Brasileira de Biologia Celular. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">best poster presented during XXXVI Annual Meeting of SBBq and 10 IUBMB conference, SBBq. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a><div class="cita-artigos"> <b>Citações</b> </div><br class="clear"><div class="layout-cell layout-cell-12"><div class="layout-cell layout-cell-6"><div class="layout-cell-pad"> <div class="science_cont"><div class="web_s">Web of Science<a href="http://www.researcherid.com/rid/I-1864-2013" target='_blank' ><img src="/buscatextual/images/curriculo/researcherID.gif"/></a></div><div class="trab">Total de trabalhos:16</div><div class="cita">Total de citações:260</div><div class="fator">Fator H:9</div><div class="detalhes"><a href="http://www.researcherid.com/rid/I-1864-2013" target='_blank' >Roffe, M</a>&nbsp;&nbsp;Data:&nbsp;17/09/2018</div></div></div></div></div><br class="clear"><div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>LUPINACCI, FERNANDA CRISTINA SULLA</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2019</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.3390/ijms20092177" target="_blank"></a>LUPINACCI, FERNANDA CRISTINA SULLA ; KUASNE, HELLEN ; <b>ROFFÉ, MARTIN</b> ; VASSALAKIS, JULIA AVIAN ; DA SILVA, FERNANDA FERREIRA ; SANTOS, TIAGO GÓSS ; ANDRADE, VICTOR PIANA ; SANEMATSU, PAULO ; MARTINS, VILMA REGINA ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2259986546265579" target="_blank">ROGATTO, SILVIA REGINA</a> ; HAJJ, GLAUCIA NOELI MAROSO . Polysome Profiling of a Human Glioblastoma Reveals Intratumoral Heterogeneity. INTERNATIONAL JOURNAL OF MOLECULAR SCIENCES<sup><img id='14220067_1' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='14220067' /></sup>, v. 20, p. 2177, 2019. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.3390/ijms20092177&issn=14220067&volume=20&issue=&paginaInicial=2177&titulo=Polysome Profiling of a Human Glioblastoma Reveals Intratumoral Heterogeneity&sequencial=1&nomePeriodico=INTERNATIONAL JOURNAL OF MOLECULAR SCIENCES" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MACHADO, LUIS EDUARDO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2018</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1369/0022155417750838" target="_blank"></a>MACHADO, LUIS EDUARDO ; ALVARENGA, ARTHUR WILLIAM ; DA SILVA, FERNANDA FERREIRA ; <b>ROFFÉ, MARTÍN</b> ; BEGNAMI, MARIA DIRLEI ; TORRES, LUÍS FERNANDO BLEGGI ; DA CUNHA, ISABELA WERNECK ; MARTINS, VILMA REGINA ; HAJJ, GLAUCIA NOELI MAROSO . Overexpression of mTOR and p(240-244)S6 in IDH1 Wild-Type Human Glioblastomas Is Predictive of Low Survival. JOURNAL OF HISTOCHEMISTRY & CYTOCHEMISTRY<sup><img id='00221554_2' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00221554' /></sup>, v. 66, p. 403-414, 2018. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1369/0022155417750838&issn=00221554&volume=66&issue=&paginaInicial=403&titulo=Overexpression of mTOR and p(240-244)S6 in IDH1 Wild-Type Human Glioblastomas Is Predictive of Low Survival&sequencial=2&nomePeriodico=JOURNAL OF HISTOCHEMISTRY & CYTOCHEMISTRY" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ALVARENGA, A. W.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2017</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1369/0022155416675850" target="_blank"></a>ALVARENGA, A. W. ; MACHADO, L. E. ; RODRIGUES, B. R. ; LUPINACCI, F. C. S. ; SANEMASTU, P. ; MATTA, E. ; <b>ROFFE, M.</b> ; TORRES, L. F. B. ; DA CUNHA, I. W. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2774467864626548" target="_blank">MARTINS, V. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0953704905334927" target="_blank">HAJJ, G. N. M.</a> . Evaluation of Akt and RICTOR Expression Levels in Astrocytomas of All Grades. The Journal of Histochemistry and Cytochemistry<sup><img id='00221554_3' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00221554' /></sup>, v. 65, p. 93-103, 2017. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1369/0022155416675850&issn=00221554&volume=65&issue=&paginaInicial=93&titulo=Evaluation of Akt and RICTOR Expression Levels in Astrocytomas of All Grades&sequencial=3&nomePeriodico=The Journal of Histochemistry and Cytochemistry" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>LIANG, SHUO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2017</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1093/nar/gkx940" target="_blank"></a>LIANG, SHUO ; BELLATO, HERMANO MARTINS ; LORENT, JULIE ; LUPINACCI, FERNANDA C. S. ; OERTLIN, CHRISTIAN ; VAN HOEF, VINCENT ; ANDRADE, VICTOR P. ; <b>ROFFÉ, MARTÍN</b> ; MASVIDAL, LAIA ; HAJJ, GLAUCIA N. M. ; LARSSON, OLA . Polysome-profiling in small tissue samples. NUCLEIC ACIDS RESEARCH<sup><img id='03051048_4' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='03051048' /></sup>, v. gkx940, p. gkx940, 2017. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1093/nar/gkx940&issn=03051048&volume=gkx940&issue=&paginaInicial=gkx940&titulo=Polysome-profiling in small tissue samples&sequencial=4&nomePeriodico=NUCLEIC ACIDS RESEARCH" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DE BRITO, GIOVANNA</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2017</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1042/bcj20170137" target="_blank"></a>DE BRITO, GIOVANNA ; LUPINACCI, FERNANDA C. ; BERALDO, FLÁVIO H. ; SANTOS, TIAGO G. ; <b>ROFFÉ, MARTÍN</b> ; LOPES, MARILENE H. ; DE LIMA, VLADMIR C. ; MARTINS, VILMA R. ; HAJJ, GLAUCIA N. . Loss of prion protein is associated with the development of insulin resistance and obesity. BIOCHEMICAL JOURNAL<sup><img id='02646021_5' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='02646021' /></sup>, v. 474, p. 2981-2991, 2017. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1042/bcj20170137&issn=02646021&volume=474&issue=&paginaInicial=2981&titulo=Loss of prion protein is associated with the development of insulin resistance and obesity&sequencial=5&nomePeriodico=BIOCHEMICAL JOURNAL" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DIAS, MARCOS V.S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2016</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1080/15548627.2016.1226735" target="_blank"></a>DIAS, MARCOS V.S. ; TEIXEIRA, BIANCA L. ; RODRIGUES, BRUNA R. ; SINIGAGLIA-COIMBRA, RITA ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4491172172991526" target="_blank">PORTO-CARREIRO, ISABEL</a> ; <b>ROFFÉ, MARTÍN</b> ; HAJJ, GLAUCIA N. M. ; MARTINS, VILMA R. . PRNP/prion protein regulates the secretion of exosomes modulating CAV1/caveolin-1-suppressed autophagy. Autophagy (Georgetown, TX)<sup><img id='15548627_6' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15548627' /></sup>, v. -, p. 00-00, 2016. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1080/15548627.2016.1226735&issn=15548627&volume=-&issue=&paginaInicial=00&titulo=PRNP/prion protein regulates the secretion of exosomes modulating CAV1/caveolin-1-suppressed autophagy&sequencial=6&nomePeriodico=Autophagy (Georgetown, TX)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROFFÉ, MARTÍN</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.cellsig.2015.04.004" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2786949793018212" target="_blank">ROFFÉ, MARTÍN</a></b>; LUPINACCI, FERNANDA C. ; SOARES, LUANA C. ; HAJJ, GLAUCIA N. ; MARTINS, VILMA R. . Two widely used RSK inhibitors, BI-D1870 and SL0101, alter mTORC1 signaling in a RSK-independent manner. Cellular Signalling<sup><img id='08986568_7' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='08986568' /></sup>, v. 27, p. 1630, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.cellsig.2015.04.004&issn=08986568&volume=27&issue=&paginaInicial=1630&titulo=Two widely used RSK inhibitors, BI-D1870 and SL0101, alter mTORC1 signaling in a RSK-independent manner&sequencial=7&nomePeriodico=Cellular Signalling" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BERTONHA, FERNANDA BERNARDI</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.molonc.2014.09.009" target="_blank"></a>BERTONHA, FERNANDA BERNARDI ; BARROS FILHO, MATEUS DE CAMARGO ; KUASNE, HELLEN ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1109525021631011" target="_blank">DOS REIS, PATRICIA PINTOR</a> ; DA COSTA PRANDO, ERIKA ; MUÑOZ, JUAN JOSÉ AUGUSTO MOYANO ; <b>ROFFÉ, MARTÍN</b> ; HAJJ, GLAUCIA NOELI MAROSO ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1030369301187376" target="_blank">KOWALSKI, LUIZ PAULO</a> ; RAINHO, CLAUDIA APARECIDA ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2259986546265579" target="_blank">ROGATTO, SILVIA REGINA</a> . PHF21B as a candidate tumor suppressor gene in head and neck squamous cell carcinomas. MOL ONCOL<sup><img id='15747891_8' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15747891' /></sup>, v. -, p. -, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.molonc.2014.09.009&issn=15747891&volume=-&issue=&paginaInicial=-&titulo=PHF21B as a candidate tumor suppressor gene in head and neck squamous cell carcinomas&sequencial=8&nomePeriodico=MOL ONCOL" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>1</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BERALDO, F. H.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1096/fj.13-232280" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8391898697582771" target="_blank">BERALDO, F. H.</a> ; SOARES, I. N. ; GONCALVES, D. F. ; FAN, J. ; THOMAS, A. A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7634526007103037" target="_blank">Santos, T. G.</a> ; MOHAMMAD, A. H. ; <b>ROFFE, M.</b> ; CALDER, M. D. ; NIKOLOVA, S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0953704905334927" target="_blank">Hajj, G. N.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0276331080418074" target="_blank">GUIMARAES, A. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1569228929685657" target="_blank">MASSENSINI, A. R.</a> ; WELCH, I. ; BETTS, D. H. ; GROS, R. ; DRANGOVA, M. ; WATSON, A. J. ; BARTHA, R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3222014752923501" target="_blank">PRADO, V. F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2774467864626548" target="_blank">MARTINS, V. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8706664565242249" target="_blank">Prado, M. A. M.</a> . Stress-inducible phosphoprotein 1 has unique cochaperone activity during development and regulates cellular response to ischemia via the prion protein. The FASEB Journal<sup><img id='08926638_9' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='08926638' /></sup>, v. 1, p. 1, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1096/fj.13-232280&issn=08926638&volume=1&issue=&paginaInicial=1&titulo=Stress-inducible phosphoprotein 1 has unique cochaperone activity during development and regulates cellular response to ischemia via the prion protein&sequencial=9&nomePeriodico=The FASEB Journal" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>2</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>HAJJ, GLAUCIA N. M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s00018-013-1328-y" target="_blank"></a>HAJJ, GLAUCIA N. M. ; ARANTES, CAMILA P. ; DIAS, MARCOS VINICIOS SALLES ; <b>ROFFÉ, MARTÍN</b> ; COSTA-SILVA, BRUNO ; LOPES, MARILENE H. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4491172172991526" target="_blank">PORTO-CARREIRO, ISABEL</a> ; RABACHINI, TATIANA ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4125254830545309" target="_blank">LIMA, FLÁVIA R.</a> ; BERALDO, FLÁVIO H. ; PRADO, MARCO M. A. ; LINDEN, RAFAEL ; MARTINS, VILMA R. . The unconventional secretion of stress-inducible protein 1 by a heterogeneous population of extracellular vesicles. Cellular and Molecular Life Sciences (Printed ed.)<sup><img id='1420682X_10' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='1420682X' /></sup>, v. 1, p. 1, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1007/s00018-013-1328-y&issn=1420682X&volume=1&issue=&paginaInicial=1&titulo=The unconventional secretion of stress-inducible protein 1 by a heterogeneous population of extracellular vesicles&sequencial=10&nomePeriodico=Cellular and Molecular Life Sciences (Printed ed.)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>4</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SANTOS, TIAGO G.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1111/jnc.12091" target="_blank"></a>SANTOS, TIAGO G. ; BERALDO, FLAVIO H. ; HAJJ, GLAUCIA N. M. ; LOPES, MARILENE H. ; <b>ROFFE, MARTIN</b> ; LUPINACCI, FERNANDA C. S. ; OSTAPCHENKO, VALERIY G. ; PRADO, VANIA F. ; PRADO, MARCO A. M. ; MARTINS, VILMA R. . Laminin-&#947;1 chain and stress inducible protein 1 synergistically mediate PrP <sup>C</sup> -dependent axonal growth via Ca <sup>2+</sup> mobilization in dorsal root ganglia neurons. Journal of Neurochemistry<sup><img id='00223042_11' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00223042' /></sup>, v. 124, p. 210-223, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1111/jnc.12091&issn=00223042&volume=124&issue=&paginaInicial=210&titulo=Laminin-&#947;1 chain and stress inducible protein 1 synergistically mediate PrP <sup>C</sup> -dependent axonal growth via Ca <sup>2+</sup> mobilization in dorsal root ganglia neurons&sequencial=11&nomePeriodico=Journal of Neurochemistry" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>3</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROFFE, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1074/jbc.m113.461970" target="_blank"></a><b>ROFFE, M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0953704905334927" target="_blank">HAJJ, G. N. M.</a> ; AZEVEDO, H. F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3916570471672394" target="_blank">ALVES, V. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7279695213301746" target="_blank">CASTILHO, B. A.</a> . IMPACT Is a Developmentally Regulated Protein in Neurons That Opposes the Eukaryotic Initiation Factor 2  Kinase GCN2 in the modulation of Neurite Outgrowth. The Journal of Biological Chemistry (Print)<sup><img id='00219258_12' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00219258' /></sup>, v. 288, p. 10860-10869, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1074/jbc.m113.461970&issn=00219258&volume=288&issue=&paginaInicial=10860&titulo=IMPACT Is a Developmentally Regulated Protein in Neurons That Opposes the Eukaryotic Initiation Factor 2  Kinase GCN2 in the modulation of Neurite Outgrowth&sequencial=12&nomePeriodico=The Journal of Biological Chemistry (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>5</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Machado, C. F.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1074/jbc.m112.428235" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5293664133554552" target="_blank">Machado, C. F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8391898697582771" target="_blank">BERALDO, F. H.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7634526007103037" target="_blank">Santos, T. G.</a> ; BOURGEON, D. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7348091330126436" target="_blank">LANDEMBERGER, M. C.</a> ; <b>ROFFE, M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2774467864626548" target="_blank">MARTINS, V. R.</a> . Disease-associated Mutations in the Prion Protein Impair Laminin-induced Process Outgrowth and Survival. The Journal of Biological Chemistry (Print)<sup><img id='00219258_13' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00219258' /></sup>, v. 287, p. 43777-43788, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1074/jbc.m112.428235&issn=00219258&volume=287&issue=&paginaInicial=43777&titulo=Disease-associated Mutations in the Prion Protein Impair Laminin-induced Process Outgrowth and Survival&sequencial=13&nomePeriodico=The Journal of Biological Chemistry (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>6</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BERALDO, F. H.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1096/fj.10-161653" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8391898697582771" target="_blank">BERALDO, F. H.</a> ; Arantes, C. P. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7634526007103037" target="_blank">Santos, T. G.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5293664133554552" target="_blank">Machado, C. F.</a> ; <b>ROFFE, M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0953704905334927" target="_blank">Hajj, G. N.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7705881286363327" target="_blank">Lee, K. S.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3399630061755735" target="_blank">Magalhaes, A. C.</a> ; Caetano, F. A. ; Mancini, G. L. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4085502364048357" target="_blank">LOPES, M. H.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9222985744153669" target="_blank">Americo, T. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1563046386791003" target="_blank">Magdesian, M. H.</a> ; Ferguson, S. S. G. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1333516694233409" target="_blank">Linden, R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8706664565242249" target="_blank">Prado, M. A. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2774467864626548" target="_blank">MARTINS, V. R.</a> . Metabotropic glutamate receptors transduce signals for neurite outgrowth after binding of the prion protein to laminin  1 chain. The FASEB Journal<sup><img id='08926638_14' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='08926638' /></sup>, v. 25, p. 265-279, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1096/fj.10-161653&issn=08926638&volume=25&issue=&paginaInicial=265&titulo=Metabotropic glutamate receptors transduce signals for neurite outgrowth after binding of the prion protein to laminin  1 chain&sequencial=14&nomePeriodico=The FASEB Journal" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>7</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ROFFE, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1073/pnas.1000784107" target="_blank"></a><b>ROFFE, M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8391898697582771" target="_blank">BERALDO, F. H.</a> ; Bester, R. ; NUNZIANTE, M. ; BACH, C. ; MANCINI, G. ; Gilch, S. ; VORBERG, I. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7279695213301746" target="_blank">CASTILHO, B. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2774467864626548" target="_blank">MARTINS, V. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0953704905334927" target="_blank">HAJJ, G. N. M.</a> . Prion protein interaction with stress-inducible protein 1 enhances neuronal protein synthesis via mTOR. Proceedings of the National Academy of Sciences of the United States of America<sup><img id='00278424_15' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00278424' /></sup>, v. 107, p. 13147-13152, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1073/pnas.1000784107&issn=00278424&volume=107&issue=&paginaInicial=13147&titulo=Prion protein interaction with stress-inducible protein 1 enhances neuronal protein synthesis via mTOR&sequencial=15&nomePeriodico=Proceedings of the National Academy of Sciences of the United States of America" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'>8</span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Perez, M.J.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1002/jnr.21962" target="_blank"></a>Perez, M.J. ; Ortiz, E.H. ; <b>Roffé, M.</b> ; SOTO, E.F. ; PASQUINI, J.M. . Fyn kinase is involved in oligodendroglial cell differentiation induced by apotransferrin. Journal of Neuroscience Research<sup><img id='03604012_16' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='03604012' /></sup>, v. 87, p. 3378-3389, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1002/jnr.21962&issn=03604012&volume=87&issue=&paginaInicial=3378&titulo=Fyn kinase is involved in oligodendroglial cell differentiation induced by apotransferrin&sequencial=16&nomePeriodico=Journal of Neuroscience Research" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ALVES, VIVIANE S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.bbrc.2008.10.161" target="_blank"></a>ALVES, VIVIANE S. ; MOTTA, FABIANA L. ; <b>ROFFÉ, MARTÍN</b> ; DELAMANO, ARTHUR ; PESQUERO, JOÃO B. ; CASTILHO, BEATRIZ A. . GCN2 activation and eIF2&#945; phosphorylation in the maturation of mouse oocytes. Biochemical and Biophysical Research Communications (Print)<sup><img id='0006291X_17' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='0006291X' /></sup>, v. 378, p. 41-44, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.bbrc.2008.10.161&issn=0006291X&volume=378&issue=&paginaInicial=41&titulo=GCN2 activation and eIF2&#945; phosphorylation in the maturation of mouse oocytes&sequencial=17&nomePeriodico=Biochemical and Biophysical Research Communications (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="TextosJornaisRevistas"></a>Textos em jornais de notícias/revistas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Roffé, M.</b> . Manipulação genética é vista como promissora contra doença rara. Folha de S.Paulo, 22 mar.  2016. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0953704905334927" target="_blank">HAJJ, G. N. M.</a> ; BRITO, G. ; <b>Roffé, M.</b> ; LUPINACCI, F. C. S. ; SANTOS, TIAGO G. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8391898697582771" target="_blank">BERALDO, F. H.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2774467864626548" target="_blank">MARTINS, V. R.</a> . PrPc in metabolic diseases. In: Brazil-Canada workshop on Advances in the Science of Prion and Prion-like Misfolding Diseases, 2014, Banff. Livro de Resumos, 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">RODRIGUES, B. R. ; QUEIROZ, N. G. T. ; <b>ROFFE, M.</b> ; LOPES, M. H. ; CUNHA, I. W. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2774467864626548" target="_blank">MARTINS, V. R.</a> . Nuclear unphosphorylated STAT3 is overexpressed in glioblastoma multiforme and correlates with poor prognosis. In: Nex Frontiers to Cure Cancer, 2013, São Paulo. Nex Frontiers to Cure Cancer, 2013. p. 129. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LUPINACCI, F. C. S. ; <b>ROFFE, M</b> ; FERREIRA, E. N. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2774467864626548" target="_blank">MARTINS, V. R.</a> ; CARRARO, D. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0953704905334927" target="_blank">HAJJ, G. N. M.</a> . Molecular alterations in gliomas evaluated using large scale sequencing of mRNAs associated with polyribosomes. In: Nex Frontiers to Cure Cancer, 2013, São Paulo. Nex Frontiers to Cure Cancer, 2013. p. 99. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ROFFE, M.</b> ; LUPINACCI, F. C. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0953704905334927" target="_blank">Hajj, G. N.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2774467864626548" target="_blank">MARTINS, V. R.</a> . p90 Ribosomal S6 Kinases (RSKs) are differentially expressed in Glioblastoma-derived cell lines and control cellular proliferation. In: Nex Frontiers to Cure Cancer, 2013, São Paulo. Nex Frontiers to Cure Cancer, 2013. p. 97. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Roffé, M.</b> ; LUPINACCI, F. C. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0953704905334927" target="_blank">Hajj, G. N.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2774467864626548" target="_blank">MARTINS, V. R.</a> . p90 Ribosomal S6 kinases (RSKs) are differentially expressed in glioblastoma-derived cell lines and control cellular proliferation. In: XXVIII Reunião Anual da FeSBE, 2013, Caxambu. Programa XXVIII Reunião Anual da FeSBE. p. 72. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">LUPINACCI, F. C. S. ; <b>Roffé, M.</b> ; FERREIRA, E. N. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2774467864626548" target="_blank">MARTINS, V. R.</a> ; CARRARO, D. M. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0953704905334927" target="_blank">Hajj, G. N.</a> . Alterações Moleculares em Gliomas avaliadas através do sequenciamento em larga escala de mRNAs associados a polirribossomos. In: XXVIII Reunião Anual da FeSBE, 2013, Caxambu. Programa XXVIII Reunião Anual da FeSBE. p. 47. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0953704905334927" target="_blank">HAJJ, G. N. M.</a> ; Arantes, C. P. ; DIAS, M. S. ; PORTO-CARREIRO, I. ; <b>ROFFE, M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8706664565242249" target="_blank">Prado, M. A. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1333516694233409" target="_blank">Linden, R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2774467864626548" target="_blank">MARTINS, V. R.</a> . Secretion of Stress Inducible Protein 1 in Microvesicles by Astrocytes. In: 10th International Congress on Cell Biology/16th Meeting of the Brazilian Society for Cell Biology, 2012, Rio de Janeiro. 10th International Congress on Cell Biology/16th Meeting of the Brazilian Society for Cell Biology, 2012. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ROFFE, M</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0953704905334927" target="_blank">HAJJ, G. N. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7279695213301746" target="_blank">CASTILHO, B. A.</a> . IMPACT Opposes GCN2 in Modulating Neurite Outgrowth. In: XL Annual Meeting of the Brazilian Society for Biochemistry and Molecular Biology (SBBq), 2011, Foz do Iguaçu. XL Annual Meeting of SBBq 2011, 2011. p. 91. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ROFFE, M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0953704905334927" target="_blank">HAJJ, G. N. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7279695213301746" target="_blank">CASTILHO, B. A.</a> . The GCN2-IMPACT module of translational control regulates neurite outgrowth. In: A.C.Camargo Global Meeting of Translational Science, 2nd São Paulo School of Translational Science, 2011, São Paulo. Program & Abstracts, 2011. p. 45. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ROFFE, M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0953704905334927" target="_blank">HAJJ, G. N. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7279695213301746" target="_blank">CASTILHO, B. A.</a> . IMPACT, a developmentally regulated protein in neurons, opposes GCN2 in modulating neurite outgrowth. In: ISN-ESN 23rd Biennial Meeting, 2011, Atenas. ISN-ESN 23rd Biennial Meeting Program, 2011. p. 77. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0953704905334927" target="_blank">Hajj, G. N.</a> ; <b>ROFFE, M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8391898697582771" target="_blank">BERALDO, F. H.</a> ; WASILEWSKA-SAMPAIO, A. P. ; HIRATA, P. H. ; VORBERG, I. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7279695213301746" target="_blank">CASTILHO, B. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8706664565242249" target="_blank">Prado, M. A. M.</a> ; FERREIRA, S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2774467864626548" target="_blank">MARTINS, V. R.</a> . The Control of Protein Synthesis in Prion and Alzheimer Diseases. In: ISN-ESN 2011 23rd Biennial Meeting, 2011, Athens. ISN-ESN 2011 23rd Biennial Meeting program, 2011. p. 52. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ROFFE, M.</b> ; BERALDO, F. H. ; ROST, R. ; Nunziante, M. ; BACH, C. ; MANCINI, G. ; Vorberg, I. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7279695213301746" target="_blank">CASTILHO, B. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2774467864626548" target="_blank">MARTINS, V. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0953704905334927" target="_blank">HAJJ, G. N. M.</a> . Prion protein interaction with Stress-Inducible protein 1 enhances neuronal protein synthesis through the mTOR pathway. In: PrP Canada 2010, 2010, Ottawa. Conference Program, 2010. p. 21. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ROFFE, M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0953704905334927" target="_blank">HAJJ, G. N. M.</a> ; AZEVEDO, H. F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7279695213301746" target="_blank">CASTILHO, B. A.</a> . Modulation of Neuronal Differentiation by GCN2 and its inhibitor IMPACT. In: Cold Spring Harbor Laboratory meeting on Translational Control, 2010, Cold Spring Harbor. Abstracts of papers presented at the 2010 meeting on Translational Control, 2010. p. 134. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0953704905334927" target="_blank">HAJJ, G. N. M.</a> ; <b>ROFFE, M</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8391898697582771" target="_blank">BERALDO, F. H.</a> ; ROST, R. ; NUNZIANTE, M. ; BACH, C. ; MANCINI, G. ; VORBERG, I. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7279695213301746" target="_blank">CASTILHO, B. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2774467864626548" target="_blank">MARTINS, V. R.</a> . Control of protein synthesis by cellular and scrapie prion. In: Neuroscience 2009, 2009, Chigago. Society for Neuroscience Final Program, 2009. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ROFFE, M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0953704905334927" target="_blank">HAJJ, G. N. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7279695213301746" target="_blank">CASTILHO, B. A.</a> . IMPACT, a new neuronal granule protein stimulates protein synthesis in neurons. In: Neuroscience, 2009, Chicago. Society for Neuroscience Final Program, 2009. p. 3. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2786949793018212" target="_blank">ROFFE, M.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0953704905334927" target="_blank">HAJJ, G. N. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7279695213301746" target="_blank">CASTILHO, B. A.</a> . IMPACT Inhibits GCN2 Activation and Stimulates Protein Synthesis in Neurons. In: XIV Congresso da Sociedade Brasileira de Biologia Celular, 2008, São Paulo. XIV Congresso da Sociedade Brasileira de Biologia Celular, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2786949793018212" target="_blank">ROFFE, M.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8391898697582771" target="_blank">BERALDO, F. H.</a> ; MANCINI, G. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7279695213301746" target="_blank">CASTILHO, B. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2774467864626548" target="_blank">MARTINS, V. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0953704905334927" target="_blank">HAJJ, G. N. M.</a> . Stress Inducible Protein 1 Neurotrophic Functions Involve Protein Synthesis Stimulation Via the mTOR Pathway. In: XIV Congresso da Sociedade Brasileira de Biologia Celular, 2008, São Paulo. XIV Congresso da Sociedade Brasileira de Biologia Celular, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Roffé, M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8391898697582771" target="_blank">BERALDO, F. H.</a> ; MANCINI, G. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7279695213301746" target="_blank">CASTILHO, B</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2774467864626548" target="_blank">MARTINS, V. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0953704905334927" target="_blank">HAJJ, G. N. M.</a> . Stres Inducible Protein 1 Neurotrophic functions involve protein synthesis stimulation via the mTOR pathway. In: XIV Congresso da Sociedade Brasileira de Biologia Celular, 2008, São Paulo. Programa e Resumos, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">DELAMANO, A. ; PEREIRA, C. M. ; WEK, R. ; <b>ROFFE, M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7279695213301746" target="_blank">CASTILHO, B</a> . IMPACT and GCN1 Modulate mammalian GCN2 activation upon several stress conditions. In: Translational Control meeting - Cold Spring Harbor, 2008, Cold Spring Harbor. Abstracts of papers presented at the 2008 meeting on Translational Control, 2008. p. 85. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0953704905334927" target="_blank">Hajj, G. N.</a> ; <b>ROFFE, M</b> ; Arantes, C. P. ; BERALDO, F. H. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7279695213301746" target="_blank">CASTILHO, B</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2774467864626548" target="_blank">MARTINS, V. R.</a> . Stress Inducible Protein 1 neurotrophic functions involve protein synthesis stimulation via the mTOR pathway. In: Neuroscience 2008, 2008, Washington, DC. 2008 Neuroscience Meeting Planner, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2786949793018212" target="_blank">ROFFE, M.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8391898697582771" target="_blank">BERALDO, F. H.</a> ; MANCINI, G. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7279695213301746" target="_blank">CASTILHO, B. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0953704905334927" target="_blank">HAJJ, G. N. M.</a> . Stress Inducible Protein 1 neurotrophic function involves protein synthesis stimulation via the mTOR pathway. In: EMBO Conference on Protein Synthesis and Translational Control, 2007, Heidelberg. EMBO Conference on Protein Synthesis and Translational Control, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0953704905334927" target="_blank">HAJJ, G. N. M.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2786949793018212" target="_blank">ROFFE, M.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8391898697582771" target="_blank">BERALDO, F. H.</a> ; MANCINI, G. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4085502364048357" target="_blank">LOPES, M. H.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7279695213301746" target="_blank">CASTILHO, B. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2774467864626548" target="_blank">MARTINS, V. R.</a> . Stress Inducible Protein 1 in Neuritogenesis: Unravelling Intracelullar Signaling Pathways. In: XXXVI Annual Meeting SBBq and 10th IUBMB Conference, 2007, Salvador. XXXVI Annual Meeting SBBq and 10th IUBMB Conference, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2786949793018212" target="_blank">ROFFE, M.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7279695213301746" target="_blank">CASTILHO, B. A.</a> . IMPACT, a Translational Regulator, is Present in Growth Cones and Synapsis. In: XXXVI Annual Meeting SBBq and 10th IUBMB Conference, 2007, Salvador. XXXVI Annual Meeting SBBq and 10th IUBMB Conference, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0953704905334927" target="_blank">HAJJ, G. N. M.</a> ; <b>Roffé, M.</b> ; BERALDO, F. H. ; MANCINI, G. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7279695213301746" target="_blank">CASTILHO, B. A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2774467864626548" target="_blank">MARTINS, V. R.</a> . Stress inducible protein 1 promotes protein synthesis in neurons via the mammalian target of rapamycin pathway. In: Neuroscience 2007, 2007, San Diego. Neuroscience Meeting Planner, 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2786949793018212" target="_blank">ROFFE, M.</a></b>; PAEZ, P.M. ; GARCIA, C. I. ; SOTO, E.F. ; PASQUINI, J.M. . La Vía de Señalización de Notch es Regulada de Manera Diferente por Apotransferrina en Dos Líneas Celulares Oligodendrogliales que Representan Distintos Estadíos de Diferenciación. In: VII Taller Argentino de Neurociencias, 2005, Villa Giardino. VII Taller Argentino de Neurociencias, 2005. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2786949793018212" target="_blank">ROFFE, M.</a></b>; ORTIZ, E. H. ; PASQUINI, J.M. . Transferrin Action on the Expression of Myelin Basic Protein Involves Fyn Tyrosine Kinase Activity. In: 10th Congress PABMB, 41th Annual Meeting SAIB, 20th Annual Meeting Sociedad Argentina de Neuroquímica, 2005, Pinamar. BIOCELL, 2005. v. 29. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2786949793018212" target="_blank">ROFFE, M.</a></b>; PAEZ, P.M. ; GARCIA, C. I. ; SOTO, E.F. ; PASQUINI, J.M. . Regulación de la Vía de Señalización de Notch por Apotransferrina en dos Líneas Celulares Oligodendrogliales. In: Congreso Conjunto de Sociedades Biomédicas, 2004, Mar del Plata. Medicina, 2004. v. 64. p. 1-416. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="ApresentacoesTrabalho"></a>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Roffé, M.</b> . Application of the CRISPR/Cas9 system to dissect the roles of RSK isoforms in glioblastomas. 2018. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Roffé, M.</b> . O Sistema CRISPR/Cas9: conceitos básicos e implementação prática. 2017. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ROFFE, M</b> . Papel das 'p90 ribosomal S6 Kinases' (RSKs) em glioblastomas. 2015. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Roffé, M.</b> . Estudo da função da p90 ribosomal S6 kinase em Glioblastomas. 2014. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Roffé, M.</b> . Estudo da função das p90 ribosomal S6 kinases (RSKs) em glioblastomas. 2014. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Roffé, M.</b> ; LUPINACCI, F. C. S. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0953704905334927" target="_blank">HAJJ, G. N. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2774467864626548" target="_blank">MARTINS, V. R.</a> . p90 Ribosomal S6 kinases (RSKs) are differentially expressed in glioblastoma-derived cell lines and control cellular proliferation. 2013. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ROFFE, M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0953704905334927" target="_blank">HAJJ, G. N. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7279695213301746" target="_blank">CASTILHO, B. A.</a> . The GCN2-IMPACT module of translational control regulates neurite outgrowth. 2011. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ROFFE, M.</b> . IMPACTando o repressor traducional GCN2: implicações para a diferenciação neuronal. 2011. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>ROFFE, M.</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0953704905334927" target="_blank">HAJJ, G. N. M.</a> ; AZEVEDO, H. F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7279695213301746" target="_blank">CASTILHO, B. A.</a> . Modulation of Neuronal Differentiation by GCN2 and its inhibitor IMPACT. 2010. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b>ROFFE, M</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0953704905334927" target="_blank">HAJJ, G. N. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7279695213301746" target="_blank">CASTILHO, B. A.</a> . IMPACT, a new neuronal granule protein, stimulates protein synthesis in neurons. 2009. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ROFFE, M</b> . GCN2 e seu inibidor IMPACT regulam a síntese de proteínas em neurônios. 2009. (Apresentação de Trabalho/Seminário). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2786949793018212" target="_blank">ROFFE, M.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0953704905334927" target="_blank">HAJJ, G. N. M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7279695213301746" target="_blank">CASTILHO, B. A.</a> . IMPACT Inhibits GCN2 Activation and Stimulates Protein Synthesis in Neurons. 2008. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Roffé, M.</b> . O Sistema CRISPR/Cas9: conceitos básicos e implementação prática. 2017. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ROFFE, M</b> . Proteínas e Sinalização Intracelular. 2016. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Roffé, M.</b> . Grupo de Discussão - Mecanismos de metástase e transição epitélio-mesênquima. 2015. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Roffé, M.</b> . Vias de sinalização e seus inibidores no câncer. 2015. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Roffé, M.</b> . Bases da Biologia Molecular e Celular. 2015. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Roffé, M.</b> . Vias de sinalização e seus inibidores no câncer. 2015. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Roffé, M.</b> . Mecanismos de metástase e transição epitélio-mesênquima. 2015. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ROFFE, M</b> . Proteínas e Sinalização Intracelular. 2015. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Roffé, M.</b> . Receptores celulares como alvos na terapêutica no cÂncer. 2015. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Roffé, M.</b> . Grupo de discussão durante a disciplina Bases da Biologia Molecular e Celular promovida pelo Curso de Pós-Graduação em Ciências da Fundação Antônio Prudente - Área de Oncologia. 2014. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ROFFE, M.</b> . Impacto do Controle da Síntese de Proteínas e Modificações pós-traducionais nos processos tumorais. 2013. (Curso de curta duração ministrado/Especialização). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ROFFE, M</b> . Concepts on Western Blotting. 2013. . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Roffé, M.</b> . Morte e sobrevivência celulares. 2013. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ROFFE, M.</b> . Impacto do Controle da Síntese de Proteínas nos processos tumorais. 2012. (Curso de curta duração ministrado/Especialização). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ROFFE, M</b>.  Participação em banca de Kelvin César de Andrade. Avaliação do comprimento telomérico em portadores da síndrome de Li-Fraumeni. 2016. Dissertação (Mestrado em Oncologia) - Fundação Antônio Prudente. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalhos de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ROFFE, M</b>.  Participação em banca de Ana Caroline de Oliveira.Imunidade contra tumores: Quem, Quando, Quanto e Por Quê?.
+							2012. Trabalho de Conclusão de Curso (Graduação em Biomedicina)  - Centro Universitário São Camilo. </div>
+</div>
+<br class="clear"><br class="clear" /><a name="ParticipacaoBancasComissoes"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Outras participações</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Roffé, M.</b>. Comissão Científica do Programa PIBIC, das apresentações dos alunos de Iniciação Científica do Curso de Pós-graduação em Ciências da Fundação Antônio Prudente.
+							2013.
+							Fundação Antônio Prudente. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ZERBINI, M. C. N.; LIMA, V. C. C.; <b>ROFFE, M.</b>. Estudo da expressão protéica dos marcadores relacionados à proliferação celular no linfoma de grandes células B primários do mediastino e sua relação com fatores clínicos e patológicos.
+							2012. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">2018 International Congress of Genetics. Application of the CRISPR/Cas9 system to dissect the roles of RSK isoforms in glioblastomas. 2018. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXXII Reunião Anual da FeSBE. O Sistema CRISPR/Cas9: conceitos básicos. 2017. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Nex Frontiers to Cure Cancer. p90 Ribosomal S6 Kinases (RSKs) are differentially expressed in Glioblastoma-derived cell lines and control cellular proliferation. 2013. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXVIII Reunião Anual da FeSBE. p90 Ribosomal S6 kinases (RSKs) are differentially expressed in glioblastoma-derived cell lines and control cellular proliferation. 2013. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Prion Science Brazil & Canada. 2012. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">A.C.Camargo Global Meeting of Translational Science, 2nd São Paulo School of Translational Science.The GCN2-IMPACT module of translational control regulates neurite outgrowth.
+							2011. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ISN-ESN 23rd Biennial Meeting. IMPACT, a developmentally regulated protein in neurons, opposes GCN2 in modulating neurite outgrowth. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XL Annual Meeting of the Brazilian Society for Biochemistry and Molecular Biology (SBBq). IMPACT Opposes GCN2 in Modulating Neurite Outgrowth. 2011. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cold Spring Harbor Laboratory meeting on Translational Control. Modulation of Neuronal Differentiation by GCN2 and its inhibitor IMPACT. 2010. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Neuroscience 2009. IMPACT, a new neuronal granule protein, stimulates protein synthesis in neurons. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Cold Spring Harbor Laboratory meeting on Translational Control. IMPACT, a GCN2 inhibitor, Stimulates protein synthesis in neurons. 2008. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XIV Congresso da Sociedade Brasileira de Biologia Celular. IMPACT Inhibits GCN2 Activation and Stimulates Protein Synthesis in Neurons. 2008. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">EMBO Conference on Protein Synthesis and Translational Control. Stress Inducible Protein 1 neurotrophic function involves protein synthesis stimulation via the mTOR pathway. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">XXXVI Annual Meeting SBBq and 10th IUBMB Conference. IMPACT, a Translational Regulator, is Present in Growth Cones and Synapsis. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">10th Congress PABMB, 41th Annual Meeting SAIB, 20th Annual Meeting Sociedad Argentina de Neuroquímica. Transferrin Action on the Expression of Myelin Basic Protein Involves Fyn Tyrosine Kinase Activity. 2005. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">VII Taller Argentino de Neurociencias.La Vía de Señalización de Notch es Regulada de Manera Diferente por Apotransferrina en Dos Líneas Celulares Oligodendrogliales que Representan Distintos Estadíos de Diferenciación. 2005. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Congreso Conjunto de Sociedades Biomédicas. Regulación da la Vía de Señalización de Notch por Apotransferrina en dos Líneas Celulares Oligodendrogliales. 2004. (Congresso). </div>
+</div>
+<br class="clear">
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/5553578611797708'><img src='images/curriculo/logolattes.gif' /></a>Paula Borzino Cordeiro Nunes. Função de mRNAs controlados traducionalmente em glioblastomas.
+						Início: 2018.
+						Dissertação (Mestrado em Oncologia)  - Fundação Antônio Prudente. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Juvanier Romão Cruz. AVALIAÇÃO DA RELAÇÃO ENTRE A EXPRESSÃO DE RSK1 E A PRESENÇA DE INFILTRADO DE CÉLULAS DO SITEMA IMUNE EM GLIOBLASTOMAS NO HOSPITAL DO CÂNCER DE PERNAMBUCO.
+						Início: 2016.
+						Dissertação (Mestrado em Pós-graduação em oncologia)  - Hospital de Câncer de Pernambuco. (Coorientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Danielle Pereira Nascimento. Efeitos da regulação da tradução via RSKs em Glioblastomas.
+						Início: 2016.
+						Dissertação (Mestrado em Oncologia)  - Fundação Antônio Prudente, Fundação de Amparo à Pesquisa do Estado de São Paulo. (Coorientador). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Tese de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/7299790014726935'><img src='images/curriculo/logolattes.gif' /></a>Denise Harumi Silva Yamashita. Geração de modelos celulares para o estudo da mutação TP53R337H, responsável por síndromes hereditárias no Brasil.
+						Início: 2017. Tese (Doutorado em Doutorado)  - Fundação Antônio Prudente, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Arielly da Hora Alves. Estudo dos efeitos da depleção das isoformas de RSKs em células de glioblastoma. Início: 2018 - Fundação Antônio Prudente, Fundação de Amparo à Pesquisa do Estado de São Paulo. (Orientador). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Dimas Pontes Café Filho. Efeitos do inibidor de PRMT5, EPZ015666, em células expressando o mutante TP53R337H. Início: 2017 - Fundação Antônio Prudente, Conselho Nacional de Desenvolvimento Científico e Tecnológico. (Orientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Luana Campos Soares. Papel de mTOR e RSK no processo de tumorigênese em gliomas.
+							2016.
+						
+					Dissertação  (Mestrado em Oncologia)  - Fundação Antônio Prudente, Fundação de Amparo à Pesquisa do Estado de São Paulo. Coorientador: Martin Roffé. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Iniciação científica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Ana Carolina Chiacetti Rodrigues.
+							GERAÇÃO DE CÉLULAS ?KNOCKIN? PARA ESTUDAR OS EFEITOS DO MUTANTE TP53R337H QUE ESTÁ ASSOCIADO À SÍNDROME DE LI-FRAUMENI.
+							2016.
+							Iniciação Científica - Fundação Antônio Prudente,
+							Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Martin Roffé.
+						</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Jéssica Tayna da Silva.
+							Estudo dos efeitos da mutação R337H de p53, que está associada a síndrome de Li-Fraumeni em células PC-3 expressando a proteína mutada.
+							2015.
+							Iniciação Científica - Fundação Antônio Prudente,
+							Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Martin Roffé.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="EducacaoPopularizacaoCTA">
+<h1>Educa&ccedil;&atilde;o e Populariza&ccedil;&atilde;o de C &amp; T</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="TextosJornaisEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Textos em jornais de notícias/revistas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Roffé, M.</b> . Manipulação genética é vista como promissora contra doença rara. Folha de S.Paulo, 22 mar.  2016. </div>
+</div>
+<br class="clear">
+<a name="ApresentacoesTrabalhoEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Apresentações de Trabalho</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Roffé, M.</b> . O Sistema CRISPR/Cas9: conceitos básicos e implementação prática. 2017. (Apresentação de Trabalho/Conferência ou palestra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Roffé, M.</b> . Application of the CRISPR/Cas9 system to dissect the roles of RSK isoforms in glioblastomas. 2018. (Apresentação de Trabalho/Congresso). </div>
+</div>
+<br class="clear">
+<a name="CursosCurtaEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Cursos de curta duração ministrados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ROFFE, M.</b> . Impacto do Controle da Síntese de Proteínas nos processos tumorais. 2012. (Curso de curta duração ministrado/Especialização). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ROFFE, M.</b> . Impacto do Controle da Síntese de Proteínas e Modificações pós-traducionais nos processos tumorais. 2013. (Curso de curta duração ministrado/Especialização). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ROFFE, M</b> . Concepts on Western Blotting. 2013. . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Roffé, M.</b> . Morte e sobrevivência celulares. 2013. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Roffé, M.</b> . Grupo de discussão durante a disciplina Bases da Biologia Molecular e Celular promovida pelo Curso de Pós-Graduação em Ciências da Fundação Antônio Prudente - Área de Oncologia. 2014. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Roffé, M.</b> . Grupo de Discussão - Mecanismos de metástase e transição epitélio-mesênquima. 2015. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Roffé, M.</b> . Vias de sinalização e seus inibidores no câncer. 2015. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Roffé, M.</b> . Bases da Biologia Molecular e Celular. 2015. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Roffé, M.</b> . Vias de sinalização e seus inibidores no câncer. 2015. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Roffé, M.</b> . Mecanismos de metástase e transição epitélio-mesênquima. 2015. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ROFFE, M</b> . Proteínas e Sinalização Intracelular. 2016. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>ROFFE, M</b> . Proteínas e Sinalização Intracelular. 2015. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Roffé, M.</b> . O Sistema CRISPR/Cas9: conceitos básicos e implementação prática. 2017. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Roffé, M.</b> . Receptores celulares como alvos na terapêutica no cÂncer. 2015. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrasInformacoesRelevantes">
+<h1>Outras informa&ccedil;&otilde;es relevantes</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<pre class="outras-informacoes">- Membro do Comitê de Ética em Pesquisa no A.C.Camargo Cancer Center
+- Coordenador do ciclo de Seminários de Pesquisa Básica do Centro Internacional de Pesquisa - A.C.Camargo Cancer Center</pre>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 19/09/2019 &agrave;s 4:54:32</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=2786949793018212" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

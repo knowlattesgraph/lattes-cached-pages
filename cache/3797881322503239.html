@@ -1,0 +1,938 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Ronan Sulpice)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+        			
+      		});			  
+      		
+      		                                
+		
+	</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K8106089T2&amp;idiomaExibicao=2" class="btn-br">English</a><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=3797881322503239" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K8106089T2&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K8106089T2"><div class="infpessoa">
+<h2 class="nome">Ronan Sulpice</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/3797881322503239</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 10/09/2014</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Possui doutorado em biology pela Universit&eacute; de Rennes I(2000). <span style="font-weight: bold" class="texto"> (Texto gerado automaticamente pela aplica&ccedil;&atilde;o CVLattes)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ronan Sulpice</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">SULPICE, R.;SULPICE, RONAN</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">National University of Ireland Galway. <br class="clear" />NUI Galway, botany and Plant science, aras de brun<br class="clear" />000<br class="clear" />0000 - galway,  - Irlanda<br class="clear" />Telefone: (353) 91494292</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1995 - 2000</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em biology<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso=D"></span>. <br class="clear" />Université de Rennes I, RENNES 1, França.
+		
+	<br class="clear" />Título: Challenging the theory of the compatible solutes in higher plants, Ano de obtenção: 2000. <br class="clear" />Orientador: Pr. Francois Larher. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<div class="layout-cell layout-cell-12 data-cell"></div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Outros. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>THALHAMMER, A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1104/pp.114.245399" target="_blank"></a>THALHAMMER, A. ; BRYANT, G. ; <b>SULPICE, R.</b> ; HINCHA, D. K. . Disordered Cold Regulated15 Proteins Protect Chloroplast Membranes during Freezing through Binding and Folding, But Do Not Stabilize Chloroplast Enzymes in Vivo. Plant Physiology (Bethesda)<sup><img id='00320889_1' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00320889' /></sup>, v. 166, p. 190-201, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1104/pp.114.245399&issn=00320889&volume=166&issue=&paginaInicial=190&titulo=Disordered Cold Regulated15 Proteins Protect Chloroplast Membranes during Freezing through Binding and Folding, But Do Not Stabilize Chloroplast Enzymes in Vivo&sequencial=1&nomePeriodico=Plant Physiology (Bethesda)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ARRIVAULT, S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1074/mcp.M114.038190" target="_blank"></a>ARRIVAULT, S. ; GUENTHER, M. ; FLORIAN, A. ; ENCKE, B. ; FEIL, R. ; VOSLOH, D. ; LUNN, J. E. ; <b>SULPICE, R.</b> ; FERNIE, A. R. ; STITT, M. ; SCHULZE, W. X. . Dissecting the Subcellular Compartmentation of Proteins and Metabolites in Arabidopsis Leaves Using Non-aqueous Fractionation. Molecular & Cellular Proteomics<sup><img id='15359476_2' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15359476' /></sup>, v. 13, p. 2246-2259, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1074/mcp.M114.038190&issn=15359476&volume=13&issue=&paginaInicial=2246&titulo=Dissecting the Subcellular Compartmentation of Proteins and Metabolites in Arabidopsis Leaves Using Non-aqueous Fractionation&sequencial=2&nomePeriodico=Molecular & Cellular Proteomics" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SULPICE, RONAN</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1111/pce.12240" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3797881322503239" target="_blank">SULPICE, RONAN</a></b>; ISHIHARA, HIROFUMI ; SCHLERETH, ARMIN ; CAWTHRAY, GREGORY R. ; ENCKE, BEATRICE ; GIAVALISCO, PATRICK ; IVAKOV, ALEXANDER ; ARRIVAULT, STÉPHANIE ; JOST, RICARDA ; KROHN, NICOLE ; KUO, JOHN ; LALIBERTÉ, ETIENNE ; PEARSE, STUART J. ; RAVEN, JOHN A. ; SCHEIBLE, WOLF-RÜDIGER ; TESTE, FRANÇOIS ; VENEKLAAS, ERIK J. ; STITT, MARK ; LAMBERS, HANS . Low levels of ribosomal RNA partly account for the very high photosynthetic phosphorus-use efficiency of Proteaceae species. Plant, Cell and Environment (Print)<sup><img id='01407791_3' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='01407791' /></sup>, v. 37, p. 1276-1298, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1111/pce.12240&issn=01407791&volume=37&issue=&paginaInicial=1276&titulo=Low levels of ribosomal RNA partly account for the very high photosynthetic phosphorus-use efficiency of Proteaceae species&sequencial=3&nomePeriodico=Plant, Cell and Environment (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>KLEESSEN, SABRINA</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1038/ncomms4537" target="_blank"></a>KLEESSEN, SABRINA ; LAITINEN, ROOSA ; FUSARI, CORINA M. ; ANTONIO, CARLA ; <b>SULPICE, RONAN</b> ; FERNIE, ALISDAIR R. ; STITT, MARK ; NIKOLOSKI, ZORAN . Metabolic efficiency underpins performance trade-offs in growth of Arabidopsis thaliana. Nature Communications<sup><img id='20411723_4' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='20411723' /></sup>, v. 5, p. 3537, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1038/ncomms4537&issn=20411723&volume=5&issue=&paginaInicial=3537&titulo=Metabolic efficiency underpins performance trade-offs in growth of Arabidopsis thaliana&sequencial=4&nomePeriodico=Nature Communications" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>FLORIAN, A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1093/mp/ssu008" target="_blank"></a>FLORIAN, A. ; NIKOLOSKI, Z. ; <b>SULPICE, R.</b> ; TIMM, S. ; ARAUJO, W. L. ; TOHGE, T. ; BAUWE, H. ; FERNIE, A. R. . Analysis of Short-Term Metabolic Alterations in Arabidopsis Following Changes in the Prevailing Environmental Conditions. MOL PLANT<sup><img id='16742052_5' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='16742052' /></sup>, v. 7, p. 893-911, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1093/mp/ssu008&issn=16742052&volume=7&issue=&paginaInicial=893&titulo=Analysis of Short-Term Metabolic Alterations in Arabidopsis Following Changes in the Prevailing Environmental Conditions&sequencial=5&nomePeriodico=MOL PLANT" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>POKHILKO, ALEXANDRA</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1039/c3mb70459a" target="_blank"></a>POKHILKO, ALEXANDRA ; FLIS, ANNA ; <b>SULPICE, RONAN</b> ; STITT, MARK ; EBENHÖH, OLIVER . Adjustment of carbon fluxes to light conditions regulates the daily turnover of starch in plants: a computational model. Molecular Biosystems (Print)<sup><img id='1742206X_6' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='1742206X' /></sup>, v. 10, p. 613, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1039/c3mb70459a&issn=1742206X&volume=10&issue=&paginaInicial=613&titulo=Adjustment of carbon fluxes to light conditions regulates the daily turnover of starch in plants: a computational model&sequencial=6&nomePeriodico=Molecular Biosystems (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SULPICE, R.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1093/mp/sst127" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3797881322503239" target="_blank">SULPICE, R.</a></b>; FLIS, A. ; IVAKOV, A. A. ; APELT, F. ; KROHN, N. ; ENCKE, B. ; ABEL, C. ; FEIL, R. ; LUNN, J. E. ; STITT, M. . Arabidopsis Coordinates the Diurnal Regulation of Carbon Allocation and Growth across a Wide Range of Photoperiods. MOL PLANT<sup><img id='16742052_7' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='16742052' /></sup>, v. 7, p. 137-155, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1093/mp/sst127&issn=16742052&volume=7&issue=&paginaInicial=137&titulo=Arabidopsis Coordinates the Diurnal Regulation of Carbon Allocation and Growth across a Wide Range of Photoperiods&sequencial=7&nomePeriodico=MOL PLANT" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>NARDOZZA, S.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1093/jxb/ert293" target="_blank"></a>NARDOZZA, S. ; BOLDINGH, H. L. ; OSORIO, S. ; HOHNE, M. ; WOHLERS, M. ; GLEAVE, A. P. ; MACRAE, E. A. ; RICHARDSON, A. C. ; ATKINSON, R. G. ; <b>SULPICE, R.</b> ; FERNIE, A. R. ; CLEARWATER, M. J. . Metabolic analysis of kiwifruit (Actinidia deliciosa) berries from extreme genotypes reveals hallmarks for fruit starch metabolism. Journal of Experimental Botany<sup><img id='00220957_8' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00220957' /></sup>, v. 64, p. 5049-5063, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1093/jxb/ert293&issn=00220957&volume=64&issue=&paginaInicial=5049&titulo=Metabolic analysis of kiwifruit (Actinidia deliciosa) berries from extreme genotypes reveals hallmarks for fruit starch metabolism&sequencial=8&nomePeriodico=Journal of Experimental Botany" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MCKEOWN, PETER C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.tibtech.2013.06.008" target="_blank"></a>MCKEOWN, PETER C. ; FORT, ANTOINE ; DUSZYNSKA, DOROTA ; <b>SULPICE, RONAN</b> ; SPILLANE, CHARLES . Emerging molecular mechanisms for biotechnological harnessing of heterosis in crops. Trends in Biotechnology (Regular ed.)<sup><img id='01677799_9' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='01677799' /></sup>, v. 31, p. 549-551, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.tibtech.2013.06.008&issn=01677799&volume=31&issue=&paginaInicial=549&titulo=Emerging molecular mechanisms for biotechnological harnessing of heterosis in crops&sequencial=9&nomePeriodico=Trends in Biotechnology (Regular ed.)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SANCHEZ-VILLARREAL, ALFREDO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1111/tpj.12292" target="_blank"></a>SANCHEZ-VILLARREAL, ALFREDO ; SHIN, JIEUN ; BUJDOSO, NORA ; OBATA, TOSHIHIRO ; NEUMANN, ULLA ; DU, SHEN-XIU ; DING, ZHAOJUN ; DAVIS, AMANDA M. ; SHINDO, TAKAYUKI ; SCHMELZER, ELMON ; <b>SULPICE, RONAN</b> ; NUNES-NESI, ADRIANO ; STITT, MARK ; FERNIE, ALISDAIR R. ; DAVIS, SETH J. . <i>TIME FOR COFFEE</i> is an essential component in the maintenance of metabolic homeostasis in <i>Arabidopsis thaliana</i>. Plant Journal (Print)<sup><img id='09607412_10' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='09607412' /></sup>, v. 2, p. n/a-n/a, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1111/tpj.12292&issn=09607412&volume=2&issue=&paginaInicial=n/a&titulo=<i>TIME FOR COFFEE</i> is an essential component in the maintenance of metabolic homeostasis in <i>Arabidopsis thaliana</i>&sequencial=10&nomePeriodico=Plant Journal (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>PAL, S. K.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1104/pp.112.212258" target="_blank"></a>PAL, S. K. ; LIPUT, M. ; PIQUES, M. ; ISHIHARA, H. ; OBATA, T. ; MARTINS, M. C. M. ; <b>SULPICE, R.</b> ; VAN DONGEN, J. T. ; FERNIE, A. R. ; YADAV, U. P. ; LUNN, J. E. ; USADEL, B. ; STITT, M. . Diurnal changes of polysome loading track sucrose content in the rosette of wildtype Arabidopsis and the starchless pgm mutant. Plant Physiology (Bethesda)<sup><img id='00320889_11' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00320889' /></sup>, v. 3, p. 1246-1265, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1104/pp.112.212258&issn=00320889&volume=3&issue=&paginaInicial=1246&titulo=Diurnal changes of polysome loading track sucrose content in the rosette of wildtype Arabidopsis and the starchless pgm mutant&sequencial=11&nomePeriodico=Plant Physiology (Bethesda)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SULPICE, R.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1104/pp.112.210104" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3797881322503239" target="_blank">SULPICE, R.</a></b>; NIKOLOSKI, Z. ; TSCHOEP, H. ; ANTONIO, C. ; KLEESSEN, S. ; LARHLIMI, A. ; SELBIG, J. ; ISHIHARA, H. ; GIBON, Y. ; FERNIE, A. R. ; STITT, M. . Impact of the Carbon and Nitrogen Supply on Relationships and Connectivity between Metabolism and Biomass in a Broad Panel of Arabidopsis Accessions. Plant Physiology (Bethesda)<sup><img id='00320889_12' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00320889' /></sup>, v. 162, p. 347-363, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1104/pp.112.210104&issn=00320889&volume=162&issue=&paginaInicial=347&titulo=Impact of the Carbon and Nitrogen Supply on Relationships and Connectivity between Metabolism and Biomass in a Broad Panel of Arabidopsis Accessions&sequencial=12&nomePeriodico=Plant Physiology (Bethesda)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>KLEESSEN, SABRINA</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1038/ncomms2333" target="_blank"></a>KLEESSEN, SABRINA ; ANTONIO, CARLA ; <b>SULPICE, RONAN</b> ; LAITINEN, ROOSA ; FERNIE, ALISDAIR R. ; STITT, MARK ; NIKOLOSKI, ZORAN . Structured patterns in geographic variability of metabolic phenotypes in Arabidopsis thaliana. Nature Communications<sup><img id='20411723_13' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='20411723' /></sup>, v. 3, p. 1319, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1038/ncomms2333&issn=20411723&volume=3&issue=&paginaInicial=1319&titulo=Structured patterns in geographic variability of metabolic phenotypes in Arabidopsis thaliana&sequencial=13&nomePeriodico=Nature Communications" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BAERENFALLER, KATJA</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1038/msb.2012.39" target="_blank"></a>BAERENFALLER, KATJA ; MASSONNET, CATHERINE ; WALSH, SEAN ; BAGINSKY, SACHA ; BÜHLMANN, PETER ; HENNIG, LARS ; HIRSCH-HOFFMANN, MATTHIAS ; HOWELL, KATHARINE A ; KAHLAU, SABINE ; RADZIEJWOSKI, AMANDINE ; RUSSENBERGER, DORIS ; RUTISHAUSER, DOROTHEA ; SMALL, IAN ; STEKHOVEN, DANIEL ; <b>SULPICE, RONAN</b> ; SVOZIL, JULIA ; WUYTS, NATHALIE ; STITT, MARK ; HILSON, PIERRE ; GRANIER, CHRISTINE ; GRUISSEM, WILHELM . Systems-based analysis of Arabidopsis leaf growth reveals adaptation to water deficit. Molecular Systems Biology<sup><img id='17444292_14' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='17444292' /></sup>, v. 8, p. 696, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1038/msb.2012.39&issn=17444292&volume=8&issue=&paginaInicial=696&titulo=Systems-based analysis of Arabidopsis leaf growth reveals adaptation to water deficit&sequencial=14&nomePeriodico=Molecular Systems Biology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>PYL, E.-T.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1105/tpc.112.097188" target="_blank"></a>PYL, E.-T. ; PIQUES, M. ; IVAKOV, A. ; SCHULZE, W. ; ISHIHARA, H. ; STITT, M. ; <b>SULPICE, R.</b> . Metabolism and Growth in Arabidopsis Depend on the Daytime Temperature but Are Temperature-Compensated against Cool Nights. The Plant Cell<sup><img id='10404651_15' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='10404651' /></sup>, v. 24, p. 2443-2469, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1105/tpc.112.097188&issn=10404651&volume=24&issue=&paginaInicial=2443&titulo=Metabolism and Growth in Arabidopsis Depend on the Daytime Temperature but Are Temperature-Compensated against Cool Nights&sequencial=15&nomePeriodico=The Plant Cell" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>RIEDELSHEIMER, C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1073/pnas.1120813109" target="_blank"></a>RIEDELSHEIMER, C. ; LISEC, J. ; CZEDIK-EYSENBERG, A. ; <b>SULPICE, R.</b> ; FLIS, A. ; GRIEDER, C. ; ALTMANN, T. ; STITT, M. ; WILLMITZER, L. ; MELCHINGER, A. E. . Genome-wide association mapping of leaf metabolic profiles for dissecting complex traits in maize. Proceedings of the National Academy of Sciences of the United States of America<sup><img id='00278424_16' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00278424' /></sup>, v. 109, p. 8872-8877, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1073/pnas.1120813109&issn=00278424&volume=109&issue=&paginaInicial=8872&titulo=Genome-wide association mapping of leaf metabolic profiles for dissecting complex traits in maize&sequencial=16&nomePeriodico=Proceedings of the National Academy of Sciences of the United States of America" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>RIEDELSHEIMER, CHRISTIAN</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1038/ng.1033" target="_blank"></a>RIEDELSHEIMER, CHRISTIAN ; CZEDIK-EYSENBERG, ANGELIKA ; GRIEDER, CHRISTOPH ; LISEC, JAN ; TECHNOW, FRANK ; <b>SULPICE, RONAN</b> ; ALTMANN, THOMAS ; STITT, MARK ; WILLMITZER, LOTHAR ; MELCHINGER, ALBRECHT E . Genomic and metabolic prediction of complex heterotic traits in hybrid maize. Nature Genetics (Print)<sup><img id='10614036_17' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='10614036' /></sup>, v. 44, p. 217-220, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1038/ng.1033&issn=10614036&volume=44&issue=&paginaInicial=217&titulo=Genomic and metabolic prediction of complex heterotic traits in hybrid maize&sequencial=17&nomePeriodico=Nature Genetics (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DIAZ, CELINE</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1186/1752-0509-5-192" target="_blank"></a>DIAZ, CELINE ; KUSANO, MIYAKO ; <b>SULPICE, RONAN</b> ; ARAKI, MITSUTAKA ; REDESTIG, HENNING ; SAITO, KAZUKI ; STITT, MARK ; SHIN, RYOUNG . Determining novel functions of Arabidopsis 14-3-3 proteins in central metabolic processes. BMC Systems Biology<sup><img id='17520509_18' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='17520509' /></sup>, v. 5, p. 192, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1186/1752-0509-5-192&issn=17520509&volume=5&issue=&paginaInicial=192&titulo=Determining novel functions of Arabidopsis 14-3-3 proteins in central metabolic processes&sequencial=18&nomePeriodico=BMC Systems Biology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CALDANA, CAMILA</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1111/j.1365-313x.2011.04640.x" target="_blank"></a>CALDANA, CAMILA ; DEGENKOLBE, THOMAS ; CUADROS-INOSTROZA, ALVARO ; KLIE, SEBASTIAN ; <b>SULPICE, RONAN</b> ; LEISSE, ANDREA ; STEINHAUSER, DIRK ; FERNIE, ALISDAIR R. ; WILLMITZER, LOTHAR ; HANNAH, MATTHEW A. . High-density kinetic analysis of the metabolomic and transcriptomic response of Arabidopsis to eight environmental conditions. Plant Journal (Print)<sup><img id='09607412_19' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='09607412' /></sup>, v. 67, p. 869-884, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1111/j.1365-313x.2011.04640.x&issn=09607412&volume=67&issue=&paginaInicial=869&titulo=High-density kinetic analysis of the metabolomic and transcriptomic response of Arabidopsis to eight environmental conditions&sequencial=19&nomePeriodico=Plant Journal (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>YAZDANBAKHSH, NIMA</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1111/j.1365-3040.2011.02286.x" target="_blank"></a>YAZDANBAKHSH, NIMA ; <b>SULPICE, RONAN</b> ; GRAF, ALEXANDER ; STITT, MARK ; FISAHN, JOACHIM . Circadian control of root elongation and C partitioning in Arabidopsis thaliana. Plant, Cell and Environment (Print)<sup><img id='01407791_20' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='01407791' /></sup>, v. 34, p. 877-894, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1111/j.1365-3040.2011.02286.x&issn=01407791&volume=34&issue=&paginaInicial=877&titulo=Circadian control of root elongation and C partitioning in Arabidopsis thaliana&sequencial=20&nomePeriodico=Plant, Cell and Environment (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>DO, P. T.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1104/pp.110.163030" target="_blank"></a>DO, P. T. ; PRUDENT, M. ; <b>SULPICE, R.</b> ; CAUSSE, M. ; FERNIE, A. R. . The Influence of Fruit Load on the Tomato Pericarp Metabolome in a Solanum chmielewskii Introgression Line Population. Plant Physiology (Bethesda)<sup><img id='00320889_21' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00320889' /></sup>, v. 154, p. 1128-1142, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1104/pp.110.163030&issn=00320889&volume=154&issue=&paginaInicial=1128&titulo=The Influence of Fruit Load on the Tomato Pericarp Metabolome in a Solanum chmielewskii Introgression Line Population&sequencial=21&nomePeriodico=Plant Physiology (Bethesda)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SULPICE, R.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1105/tpc.110.076653" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3797881322503239" target="_blank">SULPICE, R.</a></b>; TRENKAMP, S. ; STEINFATH, M. ; USADEL, B. ; GIBON, Y. ; WITUCKA-WALL, H. ; PYL, E.-T. ; TSCHOEP, H. ; STEINHAUSER, M. C. ; GUENTHER, M. ; HOEHNE, M. ; ROHWER, J. M. ; ALTMANN, T. ; FERNIE, A. R. ; STITT, M. . Network Analysis of Enzyme Activities and Metabolite Levels and Their Relationship to Biomass in a Large Panel of Arabidopsis Accessions. The Plant Cell<sup><img id='10404651_22' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='10404651' /></sup>, v. 22, p. 2872-2893, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1105/tpc.110.076653&issn=10404651&volume=22&issue=&paginaInicial=2872&titulo=Network Analysis of Enzyme Activities and Metabolite Levels and Their Relationship to Biomass in a Large Panel of Arabidopsis Accessions&sequencial=22&nomePeriodico=The Plant Cell" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>HUMMEL, I.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1104/pp.110.157008" target="_blank"></a>HUMMEL, I. ; PANTIN, F. ; <b>SULPICE, R.</b> ; PIQUES, M. ; ROLLAND, G. ; DAUZAT, M. ; CHRISTOPHE, A. ; PERVENT, M. ; BOUTEILLE, M. ; STITT, M. ; GIBON, Y. ; MULLER, B. . Arabidopsis Plants Acclimate to Water Deficit at Low Cost through Changes of Carbon Usage: An Integrated Perspective Using Growth, Metabolite, Enzyme, and Gene Expression Analysis. Plant Physiology (Bethesda)<sup><img id='00320889_23' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00320889' /></sup>, v. 154, p. 357-372, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1104/pp.110.157008&issn=00320889&volume=154&issue=&paginaInicial=357&titulo=Arabidopsis Plants Acclimate to Water Deficit at Low Cost through Changes of Carbon Usage: An Integrated Perspective Using Growth, Metabolite, Enzyme, and Gene Expression Analysis&sequencial=23&nomePeriodico=Plant Physiology (Bethesda)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SULPICE, RONAN</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/s00726-010-0617-0" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3797881322503239" target="_blank">SULPICE, RONAN</a></b>; SIENKIEWICZ-PORZUCEK, AGATA ; OSORIO, SONIA ; KRAHNERT, INA ; STITT, MARK ; FERNIE, ALISDAIR R. ; NUNES-NESI, ADRIANO . Mild reductions in cytosolic NADP-dependent isocitrate dehydrogenase activity result in lower amino acid contents and pigmentation without impacting growth. Amino Acids (Wien. Print)<sup><img id='09394451_24' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='09394451' /></sup>, v. 39, p. 1055-1066, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1007/s00726-010-0617-0&issn=09394451&volume=39&issue=&paginaInicial=1055&titulo=Mild reductions in cytosolic NADP-dependent isocitrate dehydrogenase activity result in lower amino acid contents and pigmentation without impacting growth&sequencial=24&nomePeriodico=Amino Acids (Wien. Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GONZALEZ, N.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1104/pp.110.156018" target="_blank"></a>GONZALEZ, N. ; DE BODT, S. ; <b>SULPICE, R.</b> ; JIKUMARU, Y. ; CHAE, E. ; DHONDT, S. ; VAN DAELE, T. ; DE MILDE, L. ; WEIGEL, D. ; KAMIYA, Y. ; STITT, M. ; BEEMSTER, G. T. S. ; INZE, D. . Increased Leaf Size: Different Means to an End. Plant Physiology (Bethesda)<sup><img id='00320889_25' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00320889' /></sup>, v. 153, p. 1261-1279, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1104/pp.110.156018&issn=00320889&volume=153&issue=&paginaInicial=1261&titulo=Increased Leaf Size: Different Means to an End&sequencial=25&nomePeriodico=Plant Physiology (Bethesda)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ZHANG, NENGYI</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1371/journal.pone.0009991" target="_blank"></a>ZHANG, NENGYI ; GUR, AMIT ; GIBON, YVES ; <b>SULPICE, RONAN</b> ; FLINT-GARCIA, SHERRY ; MCMULLEN, MICHAEL D. ; STITT, MARK ; BUCKLER, EDWARD S. . Genetic Analysis of Central Carbon Metabolism Unveils an Amino Acid Substitution That Alters Maize NAD-Dependent Isocitrate Dehydrogenase Activity. Plos One<sup><img id='19326203_26' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='19326203' /></sup>, v. 5, p. e9991, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1371/journal.pone.0009991&issn=19326203&volume=5&issue=&paginaInicial=e9991&titulo=Genetic Analysis of Central Carbon Metabolism Unveils an Amino Acid Substitution That Alters Maize NAD-Dependent Isocitrate Dehydrogenase Activity&sequencial=26&nomePeriodico=Plos One" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>CHILDS, LIAM H</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1186/1471-2164-11-188" target="_blank"></a>CHILDS, LIAM H ; WITUCKA-WALL, HANNA ; GÜNTHER, TORSTEN ; <b>SULPICE, RONAN</b> ; KORFF, MARIA V ; STITT, MARK ; WALTHER, DIRK ; SCHMID, KARL J ; ALTMANN, THOMAS . Single feature polymorphism (SFP)-based selective sweep identification and association mapping of growth-related metabolic traits in Arabidopsis thaliana. BMC Genomics<sup><img id='14712164_27' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='14712164' /></sup>, v. 11, p. 188, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1186/1471-2164-11-188&issn=14712164&volume=11&issue=&paginaInicial=188&titulo=Single feature polymorphism (SFP)-based selective sweep identification and association mapping of growth-related metabolic traits in Arabidopsis thaliana&sequencial=27&nomePeriodico=BMC Genomics" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SIENKIEWICZ-PORZUCEK, A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1093/mp/ssp101" target="_blank"></a>SIENKIEWICZ-PORZUCEK, A. ; <b>SULPICE, R.</b> ; OSORIO, S. ; KRAHNERT, I. ; LEISSE, A. ; URBANCZYK-WOCHNIAK, E. ; HODGES, M. ; FERNIE, A. R. ; NUNES-NESI, A. . Mild Reductions in Mitochondrial NAD-Dependent Isocitrate Dehydrogenase Activity Result in Altered Nitrate Assimilation and Pigmentation But Do Not Impact Growth. MOL PLANT<sup><img id='16742052_28' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='16742052' /></sup>, v. 3, p. 156-173, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1093/mp/ssp101&issn=16742052&volume=3&issue=&paginaInicial=156&titulo=Mild Reductions in Mitochondrial NAD-Dependent Isocitrate Dehydrogenase Activity Result in Altered Nitrate Assimilation and Pigmentation But Do Not Impact Growth&sequencial=28&nomePeriodico=MOL PLANT" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>STITT, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2010</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1104/pp.109.150821" target="_blank"></a>STITT, M. ; <b>SULPICE, R.</b> ; KEURENTJES, J. . Metabolic Networks: How to Identify Key Components in the Regulation of Metabolism and Growth. Plant Physiology (Bethesda)<sup><img id='00320889_29' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00320889' /></sup>, v. 152, p. 428-444, 2010. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1104/pp.109.150821&issn=00320889&volume=152&issue=&paginaInicial=428&titulo=Metabolic Networks: How to Identify Key Components in the Regulation of Metabolism and Growth&sequencial=29&nomePeriodico=Plant Physiology (Bethesda)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SULPICE, R.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1073/pnas.0903478106" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3797881322503239" target="_blank">SULPICE, R.</a></b>; PYL, E.-T. ; ISHIHARA, H. ; TRENKAMP, S. ; STEINFATH, M. ; WITUCKA-WALL, H. ; GIBON, Y. ; USADEL, B. ; POREE, F. ; PIQUES, M. C. ; VON KORFF, M. ; STEINHAUSER, M. C. ; KEURENTJES, J. J. B. ; GUENTHER, M. ; HOEHNE, M. ; SELBIG, J. ; FERNIE, A. R. ; ALTMANN, T. ; STITT, M. . Starch as a major integrator in the regulation of plant growth. Proceedings of the National Academy of Sciences of the United States of America<sup><img id='00278424_30' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00278424' /></sup>, v. 106, p. 10348-10353, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1073/pnas.0903478106&issn=00278424&volume=106&issue=&paginaInicial=10348&titulo=Starch as a major integrator in the regulation of plant growth&sequencial=30&nomePeriodico=Proceedings of the National Academy of Sciences of the United States of America" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ARRIVAULT, STÉPHANIE</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1111/j.1365-313X.2009.03902.x" target="_blank"></a>ARRIVAULT, STÉPHANIE ; GUENTHER, MANUELA ; IVAKOV, ALEXANDER ; FEIL, REGINA ; VOSLOH, DANIEL ; VAN DONGEN, JOOST T. ; <b>SULPICE, RONAN</b> ; STITT, MARK . Use of reverse-phase liquid chromatography, linked to tandem mass spectrometry, to profile the Calvin cycle and other metabolic intermediates in Arabidopsis rosettes at different carbon dioxide concentrations. Plant Journal (Print)<sup><img id='09607412_31' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='09607412' /></sup>, v. 59, p. 826-839, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1111/j.1365-313X.2009.03902.x&issn=09607412&volume=59&issue=&paginaInicial=826&titulo=Use of reverse-phase liquid chromatography, linked to tandem mass spectrometry, to profile the Calvin cycle and other metabolic intermediates in Arabidopsis rosettes at different carbon dioxide concentrations&sequencial=31&nomePeriodico=Plant Journal (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>ZANOR, M. I.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1104/pp.109.136598" target="_blank"></a>ZANOR, M. I. ; OSORIO, S. ; NUNES-NESI, A. ; CARRARI, F. ; LOHSE, M. ; USADEL, B. ; KUHN, C. ; BLEISS, W. ; GIAVALISCO, P. ; WILLMITZER, L. ; <b>SULPICE, R.</b> ; ZHOU, Y.-H. ; FERNIE, A. R. . RNA Interference of LIN5 in Tomato Confirms Its Role in Controlling Brix Content, Uncovers the Influence of Sugars on the Levels of Fruit Hormones, and Demonstrates the Importance of Sucrose Cleavage for Normal Fruit Development and Fertility. Plant Physiology (Bethesda)<sup><img id='00320889_32' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00320889' /></sup>, v. 150, p. 1204-1218, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1104/pp.109.136598&issn=00320889&volume=150&issue=&paginaInicial=1204&titulo=RNA Interference of LIN5 in Tomato Confirms Its Role in Controlling Brix Content, Uncovers the Influence of Sugars on the Levels of Fruit Hormones, and Demonstrates the Importance of Sucrose Cleavage for Normal Fruit Development and Fertility&sequencial=32&nomePeriodico=Plant Physiology (Bethesda)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>GIBON, YVES</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1111/j.1365-3040.2009.01965.x" target="_blank"></a>GIBON, YVES ; PYL, EVA-THERESA ; <b>SULPICE, RONAN</b> ; LUNN, JOHN E. ; HÖHNE, MELANIE ; GÜNTHER, MANUELA ; STITT, MARK . Adjustment of growth, starch turnover, protein content and central metabolism to a decrease of the carbon supply when is grown in very short photoperiods. Plant, Cell and Environment (Print)<sup><img id='01407791_33' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='01407791' /></sup>, v. 32, p. 859-874, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1111/j.1365-3040.2009.01965.x&issn=01407791&volume=32&issue=&paginaInicial=859&titulo=Adjustment of growth, starch turnover, protein content and central metabolism to a decrease of the carbon supply when is grown in very short photoperiods&sequencial=33&nomePeriodico=Plant, Cell and Environment (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>KEURENTJES, JOOST JB</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1186/gb-2008-9-8-r129" target="_blank"></a>KEURENTJES, JOOST JB ; <b>SULPICE, RONAN</b> ; GIBON, YVES ; STEINHAUSER, MARIE-CAROLINE ; FU, JINGYUAN ; KOORNNEEF, MAARTEN ; STITT, MARK ; VREUGDENHIL, DICK . Integrative analyses of genetic variation in enzyme activities of primary carbohydrate metabolism reveal distinct modes of regulation in Arabidopsis thaliana. Genome Biology<sup><img id='14656906_34' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='14656906' /></sup>, v. 9, p. R129, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1186/gb-2008-9-8-r129&issn=14656906&volume=9&issue=&paginaInicial=R129&titulo=Integrative analyses of genetic variation in enzyme activities of primary carbohydrate metabolism reveal distinct modes of regulation in Arabidopsis thaliana&sequencial=34&nomePeriodico=Genome Biology" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>HOEHENWARTER, WOLFGANG</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1002/pmic.200701047" target="_blank"></a>HOEHENWARTER, WOLFGANG ; VAN DONGEN, JOOST T. ; WIENKOOP, STEFANIE ; STEINFATH, MATTHIAS ; HUMMEL, JAN ; ERBAN, ALEXANDER ; <b>SULPICE, RONAN</b> ; REGIERER, BABETTE ; KOPKA, JOACHIM ; GEIGENBERGER, PETER ; WECKWERTH, WOLFRAM . A rapid approach for phenotype-screening and database independent detection of cSNP/protein polymorphism using mass accuracy precursor alignment. Proteomics (Weinheim. Print)<sup><img id='16159853_35' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='16159853' /></sup>, v. 8, p. 4214-4225, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1002/pmic.200701047&issn=16159853&volume=8&issue=&paginaInicial=4214&titulo=A rapid approach for phenotype-screening and database independent detection of cSNP/protein polymorphism using mass accuracy precursor alignment&sequencial=35&nomePeriodico=Proteomics (Weinheim. Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SIENKIEWICZ-PORZUCEK, A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2008</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1104/pp.108.117978" target="_blank"></a>SIENKIEWICZ-PORZUCEK, A. ; NUNES-NESI, A. ; <b>SULPICE, R.</b> ; LISEC, J. ; CENTENO, D. C. ; CARILLO, P. ; LEISSE, A. ; URBANCZYK-WOCHNIAK, E. ; FERNIE, A. R. . Mild Reductions in Mitochondrial Citrate Synthase Activity Result in a Compromised Nitrate Assimilation and Reduced Leaf Pigmentation But Have No Effect on Photosynthetic Performance or Growth. Plant Physiology (Bethesda)<sup><img id='00320889_36' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00320889' /></sup>, v. 147, p. 115-127, 2008. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1104/pp.108.117978&issn=00320889&volume=147&issue=&paginaInicial=115&titulo=Mild Reductions in Mitochondrial Citrate Synthase Activity Result in a Compromised Nitrate Assimilation and Reduced Leaf Pigmentation But Have No Effect on Photosynthetic Performance or Growth&sequencial=36&nomePeriodico=Plant Physiology (Bethesda)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>NUNES-NESI, A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1093/jxb/ern002" target="_blank"></a>NUNES-NESI, A. ; <b>SULPICE, R.</b> ; GIBON, Y. ; FERNIE, A. R. . The enigmatic contribution of mitochondrial function in photosynthesis. Journal of Experimental Botany<sup><img id='00220957_37' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00220957' /></sup>, v. 59, p. 1675-1684, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1093/jxb/ern002&issn=00220957&volume=59&issue=&paginaInicial=1675&titulo=The enigmatic contribution of mitochondrial function in photosynthesis&sequencial=37&nomePeriodico=Journal of Experimental Botany" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>38. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>NUNES-NESI, ADRIANO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1111/j.1365-313x.2007.03115.x" target="_blank"></a>NUNES-NESI, ADRIANO ; CARRARI, FERNANDO ; GIBON, YVES ; <b>SULPICE, RONAN</b> ; LYTOVCHENKO, ANNA ; FISAHN, JOACHIM ; GRAHAM, JAMES ; RATCLIFFE, R. GEORGE ; SWEETLOVE, LEE J. ; FERNIE, ALISDAIR R. . Deficiency of mitochondrial fumarase activity in tomato plants impairs photosynthesis via an effect on stomatal function. Plant Journal (Print)<sup><img id='09607412_38' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='09607412' /></sup>, v. 50, p. 1093-1106, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1111/j.1365-313x.2007.03115.x&issn=09607412&volume=50&issue=&paginaInicial=1093&titulo=Deficiency of mitochondrial fumarase activity in tomato plants impairs photosynthesis via an effect on stomatal function&sequencial=38&nomePeriodico=Plant Journal (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 04/09/2019 &agrave;s 21:33:52</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=3797881322503239" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>

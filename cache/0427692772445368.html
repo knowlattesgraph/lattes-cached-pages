@@ -1,0 +1,3359 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<HTML lang="pt-BR">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="images/v2/fav_ico_lattes.ico" rel="Shortcut Icon">
+<meta content="Sistema de Curr&iacute;culos Lattes 2.0 (CNPq)" http-equiv="generator">
+<meta content="curr&iacute;culo,curriculo,curriculum,cv,vitae,lattes,produ&ccedil;&atilde;o,producao,cient&iacute;fica,cientifica,Brasil" http-equiv="keywords">
+<TITLE>Curr&iacute;culo do Sistema de Curr&iacute;culos Lattes (Roberto Ierusalimschy)</TITLE>
+<link type="text/css" rel="stylesheet" href="css/import.css">
+<link type="text/css" href="css/tablet-mobile.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/jquery.megamenu.css">
+<link type="text/css" rel="stylesheet" href="css/style_curiculo.css">
+<link type="text/css" rel="stylesheet" href="css/v2/espelho.css">
+<link type="text/css" rel="stylesheet" href="css/impressao.css">
+<script type="text/javascript" src="js/v2/jquery.min.js"></script><script src="js/jquery.cookie.js" type="text/javascript"></script><script src="js/acessibilidade.js" type="text/javascript"></script><script type="text/javascript" src="js/v2/tooltip-position.js"></script><script type="text/javascript" src="js/v2/jquery.tipsy.js"></script><script type="text/javascript" src="js/v2/jquery.megamenu.js"></script><script type="text/javascript" src="js/v2/byOrder.js"></script><script type="text/javascript" src="js/v2/font-size.js"></script><script type="text/javascript" src="js/v2/cv_citacoes.js"></script><script type="text/javascript" src="js/v2/hint_ajax.js"></script><script type="text/javascript" src="js/v2/menuFlowScroll.js"></script><script type="text/javascript" src="js/v2/videoUtils.js"></script><script type="text/javascript">
+			
+			var menu = {
+				iniciar: function(id) {
+					jkmegamenu.definemenu("ancora-menu-" + id, "menu-" + id, "focus");
+				}
+			};
+			
+			function abreLinkHistoricoPublicacoes(codigo,nome){
+            	var j = window.open("historicoAtualizacao.jsp?id="+codigo+"&nome="+nome+"&fromBusca=1", "historico","resizable=no,menubar=no,toolbar=no,status=yes,scrollbars=yes,width=550px,height=470px,left=0,top=0");
+            	if(j){
+            		j.focus();
+            	} else {
+            		alert('Por favor, desabilite o bloqueador de popups');
+            	}
+			}
+			
+			var autores = {
+				exibir: function() {
+					$(this).hide().parent().find(".autores-et-al").show();
+				},
+				ocultar: function() {
+					$(this).parent().hide().parent().find(".autores-et-al-plus").show();
+				}
+			};
+				
+			$(document).ready(function(){
+			
+				$(".ajaxJCR").ajaxJCR();
+				
+				$(".ajaxCAPES").ajaxCAPES();
+				
+				$(".ajaxINPI").ajaxINPI();
+				
+				$("div.citacoes").verificarCitacoes();
+				
+				$(".tooltip").tipsy({gravity: 's'});
+				
+				$(".autores-et-al-plus").click(autores.exibir);
+				
+				$(".autores-et-al-minus").click(autores.ocultar);
+        			
+      		});			  
+      		
+      		                                
+		
+	</script><script type="text/javascript">
+					
+					  var _gaq = _gaq || [];
+					  _gaq.push(['_setAccount', 'UA-35652740-1']);
+					  _gaq.push(['_trackPageview']);
+					
+					  (function() {
+					    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+					  })();
+					
+					</script>
+</HEAD>
+<BODY>
+<div class="page min-width">
+<div class="header">
+<div class="header-content max-width">
+<div class="identity center">
+<div class="combo">
+<h1 class="escondido"> Curr&iacute;culo Lattes - Busca Textual - Visualiza&ccedil;&atilde;o do Curr&iacute;culo </h1>
+<a href="http://lattes.cnpq.br/" title="Curr&iacute;culo Lattes" target="_blank"><img title="Curr&iacute;culo Lattes" alt="Curr&iacute;culo Lattes" src="images/titulo-sistema.png"></a>
+</div>
+<div class="menu-header">
+<span class="tituloFlow"></span><span class="linksFlow"><a title="Imprimir curr&iacute;culo" class="bt-menu-header titBottom  icons-top icons-top-print" href="javascript:window.print()"></a><a title="Aumentar a fonte" class="bt-menu-header titBottom fontMais icons-top icons-top-fontMais" href="javascript:void(0)"></a><a title="Fonte padr&atilde;o" class="bt-menu-header titBottom fontMenos icons-top icons-top-fontMenos" href="javascript:void(0)"></a><a title="Alto contraste" class="bt-menu-header titBottom contraste icons-top icons-top-contraste-en" href="javascript:void(0)"></a><a href="download.do?metodo=apresentar&amp;idcnpq=0427692772445368" target="_blank" class="bt-menu-header titBottom fontMenos icons-top icons-top-xml" title="Baixar Currículo em XML" /><a title="Ajuda" class="bt-menu-header titBottom icons-top icons-top-help" target="_blank" href="http://ajuda.cnpq.br/index.php"></a></span>
+</div>
+<div class="logo">
+<a target="_blank" href="http://cnpq.br/">
+<h2>CNPq - Conselho Nacional de Desenvolvimento Cient&iacute;fico e Tecnol&oacute;gico</h2>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation-wrapper">
+<div class="center navigation-wrapper-line">
+<div class="menuPrincipal">
+<div class="menuCtl menuAcesso">
+<div class="menucent"><script type='text/javascript'>menu.iniciar("dados-gerais");</script>
+		
+		
+		<a id="ancora-menu-dados-gerais" href="javascript:void(0)" class="acessibilidade"><span></span>Dados gerais</a>
+		
+	
+		
+		
+		<div id="menu-dados-gerais" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Identificacao">Identificação</a></li>
+		
+	
+		
+		
+		<li><a href="#Endereco">Endereço</a></li>
+		
+	
+		
+		
+		<li><a href="#Idiomas">Idiomas</a></li>
+		
+	
+		
+		
+		<li><a href="#PremiosTitulos">Prêmios e títulos</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasInformacoesRelevantes">Outras informações relevantes</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("formacao");</script>
+		
+		
+		<a id="ancora-menu-formacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Formação</a>
+		
+	
+		
+		
+		<div id="menu-formacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#FormacaoAcademicaTitulacao">Formação acadêmica/titulação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("atuacao");</script>
+		
+		
+		<a id="ancora-menu-atuacao" href="javascript:void(0)" class="acessibilidade separador"><span></span>Atuação</a>
+		
+	
+		
+		
+		<div id="menu-atuacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#AtuacaoProfissional">Atuação profissional</a></li>
+		
+	
+		
+		
+		<li><a href="#RevisorPeriodico">Revisor de periódico</a></li>
+		
+	
+		
+		
+		<li><a href="#AreasAtuacao">Áreas de atuação</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	
+		
+		
+		<a id="ancora-menu-projetos" href="#ProjetosPesquisa" class="acessibilidade separador"><span></span>Projetos</a>
+		
+	<script type='text/javascript'>menu.iniciar("projetos");</script>
+		
+		
+		<div id="menu-projetos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ProjetosPesquisa">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosDesenvolvimento">Projetos de desenvolvimento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("producoes");</script>
+		
+		
+		<a id="ancora-menu-producoes" href="#ProducoesCientificas" class="acessibilidade separador"><span></span>Produções</a>
+		
+	
+		
+		
+		<div id="menu-producoes" class="megamenu">
+		
+		<div class='column'><div class='subtitMenu'><a href='#ProducaoBibliografica'>Produção Bibliográfica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosCompletos">Artigos completos publicados em periódicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtigosAceitos">Artigos aceitos para publicação</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulos">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisRevistas">Textos em jornais ou revistas (magazine)</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosPublicadosAnaisCongresso">Trabalhos publicados em anais de congressos</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacaoTrabalho">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Partitura musical</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Tradução</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Prefácio, pósfacio</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesBibliograficas">Outras produções bibliográficas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoTecnica'>Produção Técnica</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#AssessoriaConsultoria">Assessoria e consultoria</a></li>
+		
+	
+		
+		
+		<li><a href="#SoftwareSemPatente">Programas de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosTecnologicos">Produtos tecnológicos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicas">Processos e técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#TrabalhosTecnicos">Trabalhos técnicos</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Cartas, mapas ou similares</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Curso de curta duração ministrado</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Editoração</a></li>
+		
+	
+		
+		
+		<li><a href="#ManutencaoObraArtistica">Manutenção de obra artística</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Maquete</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasMesasRedondas">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducaoTecnica">Relatório de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociais">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#DemaisProducoesTecnicas">Outras produções técnicas</a></li>
+		
+	</ul></div><div class='column'><div class='subtitMenu'><a href='#ProducaoArtisticaCultural'>Produção Artística/Cultural</a></div><h3></h3><ul>
+		
+		
+		<li><a href="#ArtesCenicas">Artes cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#Musica">Música</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuais">Artes visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrasProducoesArtisticas">Outras produções artísticas/culturais</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("patentes-registros");</script>
+		
+		
+		<a id="ancora-menu-patentes-registros" href="#PatentesRegistros" class="acessibilidade separador"><span></span>Patentes e Registros</a>
+		
+	
+		
+		
+		<div id="menu-patentes-registros" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Patente">Patente</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputador">Programa de computador</a></li>
+		
+	
+		
+		
+		<li><a href="#CultivarProtegida">Cultivar protegida</a></li>
+		
+	
+		
+		
+		<li><a href="#CultivarRegistrada">Cultivar registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#DesenhoIndustrial">Desenho industrial</a></li>
+		
+	
+		
+		
+		<li><a href="#MarcaRegistrada">Marca registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#TopografiaCircuitoIntegrado">Topografia de circuito integrado</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("potencialInovacao");</script>
+		
+		
+		<a id="ancora-menu-potencialInovacao" href="#PotencialInovacao" class="acessibilidade separador"><span></span>Inovação</a>
+		
+	
+		
+		
+		<div id="menu-potencialInovacao" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#PatentePI">Patente</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoPI">Programa de computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#CultivarProtegidaPI">Cultivar protegida</a></li>
+		
+	
+		
+		
+		<li><a href="#CultivarRegistradaPI">Cultivar registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#DesenhoIndustrialRegistradoPI">Desenho industrial registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#MarcaRegistradaPI">Marca registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#TopografiaCircuitoIntegradoRegistradaPI">Topografia de circuito integrado registrada</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorSemRegistroPI">Programa de computador sem registro</a></li>
+		
+	
+		
+		
+		<li><a href="#ProdutosPI">Produtos</a></li>
+		
+	
+		
+		
+		<li><a href="#ProcessosTecnicasPI">Processos ou técnicas</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetosPesquisaPI">Projetos de pesquisa</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetoDesenvolvimentoTecnologicoPI">Projeto de desenvolvimento tecnológico</a></li>
+		
+	
+		
+		
+		<li><a href="#ProjetoExtensaoPI">Projeto de extensão</a></li>
+		
+	
+		
+		
+		<li><a href="#OutrosProjetosPI">Outros projetos</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("educacaoPopularizacaoCTA");</script>
+		
+		
+		<a id="ancora-menu-educacaoPopularizacaoCTA" href="#EducacaoPopularizacaoCTA" class="acessibilidade separador"><span></span>Educação e Popularização de C & T</a>
+		
+	
+		
+		
+		<div id="menu-educacaoPopularizacaoCTA" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ArtigosEPCTA">Artigos</a></li>
+		
+	
+		
+		
+		<li><a href="#LivrosCapitulosEPCTA">Livros e capítulos</a></li>
+		
+	
+		
+		
+		<li><a href="#TextosJornaisEPCTA">Textos em jornais de notícias/revistas</a></li>
+		
+	
+		
+		
+		<li><a href="#ApresentacoesTrabalhoEPCTA">Apresentações de trabalho</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorEPCTA">Programa de computador sem registro de patente</a></li>
+		
+	
+		
+		
+		<li><a href="#CursosCurtaEPCTA">Cursos de curta duração ministrados</a></li>
+		
+	
+		
+		
+		<li><a href="#MaterialDidaticoEPCTA">Desenvolvimento de material didático ou instrucional</a></li>
+		
+	
+		
+		
+		<li><a href="#EntrevistasEPCTA">Entrevistas, mesas redondas, programas e comentários na mídia</a></li>
+		
+	
+		
+		
+		<li><a href="#ProgramaComputadorRegistradoEPCTA">Programa de Computador registrado</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventosEPCTA">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#RedesSociaisEPCTA">Redes sociais, websites e blogs</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesVisuaisEPCTA">Artes Visuais</a></li>
+		
+	
+		
+		
+		<li><a href="#ArtesCenicasEPCTA">Artes Cênicas</a></li>
+		
+	
+		
+		
+		<li><a href="#MusicaEPCTA">Música</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("eventos");</script>
+		
+		
+		<a id="ancora-menu-eventos" href="#Eventos" class="acessibilidade separador"><span></span>Eventos</a>
+		
+	
+		
+		
+		<div id="menu-eventos" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoEventos">Participação em eventos, congressos, exposições e feiras</a></li>
+		
+	
+		
+		
+		<li><a href="#OrganizacaoEventos">Organização de eventos, congressos, exposições e feiras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("orientacoes");</script>
+		
+		
+		<a id="ancora-menu-orientacoes" href="#Orientacoes" class="acessibilidade separador"><span></span>Orientações</a>
+		
+	
+		
+		
+		<div id="menu-orientacoes" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#Orientacoesconcluidas">Orientações e supervisões concluídas</a></li>
+		
+	
+		
+		
+		<li><a href="#Orientacaoemandamento">Orientações e supervisões em andamento</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("bancas");</script>
+		
+		
+		<a id="ancora-menu-bancas" href="#Bancas" class="acessibilidade separador"><span></span>Bancas</a>
+		
+	
+		
+		
+		<div id="menu-bancas" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="#ParticipacaoBancasTrabalho">Participação em bancas de trabalhos de conclusão</a></li>
+		
+	
+		
+		
+		<li><a href="#ParticipacaoBancasComissoes">Participação em bancas de comissões julgadoras</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	<script type='text/javascript'>menu.iniciar("informacoes-complementares");</script>
+		
+		
+		<a id="ancora-menu-informacoes-complementares" href="javascript:void(0)" class="acessibilidade separador"><span></span>+</a>
+		
+	
+		
+		
+		<div id="menu-informacoes-complementares" class="megamenu">
+		
+		<div class='column'><h3></h3><ul>
+		
+		
+		<li><a href="visualizacv.do?metodo=apresentar&id=K4786973E6&tipo=completo&idiomaExibicao=1">Mostrar informações complementares</a></li>
+		
+	</ul></div>
+		
+		
+		<div class="clear"></div></div>
+		
+	</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wrapper">
+<div class="main-content max-width min-width center">
+<div class="layout-cell layout-cell-12">
+<div class="layout-cell-pad-main">
+<img class="foto" src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&amp;id=K4786973E6"><div class="infpessoa">
+<h2 class="nome">Roberto Ierusalimschy<br>
+<br>
+<span align="center" style="font-weight: bold" class="texto">Bolsista de Produtividade Desen. Tec. e Extens&atilde;o Inovadora do CNPq - N&iacute;vel 2</span>
+</h2>
+<ul class="informacoes-autor">
+<li>
+<span class="img_link icone-informacao-autor"></span>Endere&ccedil;o para acessar este CV: http://lattes.cnpq.br/0427692772445368</li>
+<li>
+<span class="img_cert icone-informacao-autor"></span>&Uacute;ltima atualiza&ccedil;&atilde;o do curr&iacute;culo em 09/11/2018</li>
+</ul>
+</div><br class="clear" /><div class="title-wrapper">
+<h1 class="ui-hidden"></h1>
+<hr class="separator">
+<p class="resumo">Roberto Ierusalimschy é Professor Associado do Departamento de Informática da PUC-Rio, onde trabalha na área de Linguagens de Programação. Roberto é também o principal projetista da linguagem de programação Lua. Em 2013, foi agraciado com o Prêmio do Mérito Científico da Sociedade Brasileira de Computação. Roberto é Conferencista Senior da SBC, Distinguished Speaker da ACM e membro do Grupo de Trabalho em Linguagens de Programação da IFIP (IFIP WG 2.16).<span style="font-weight: bold" class="texto"> (Texto informado pelo autor)</span>
+</p>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Identificacao">
+<h1>Identifica&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Roberto Ierusalimschy</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Nome em citações bibliográficas</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">IERUSALIMSCHY, R.;Ierusalimschy, Roberto</div>
+</div>
+</div>
+</div><br class="clear" /><div class="title-wrapper">
+<a name="Endereco">
+<h1>Endere&ccedil;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Endereço Profissional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pontifícia Universidade Católica do Rio de Janeiro, Centro Técnico Científico. <br class="clear" />Rua M. S. Vicente 225<br class="clear" />Gavea<br class="clear" />22451-900 - Rio de Janeiro, RJ - Brasil<br class="clear" />Telefone: (21) 35271500<br class="clear" />Ramal: 4343<br class="clear" />URL da Homepage: <a target="blank" href="http://www.inf.puc-rio.br/~roberto">http://www.inf.puc-rio.br/~roberto</a></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaTitulacao">
+<h1>Forma&ccedil;&atilde;o acad&ecirc;mica/titula&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1986 - 1990</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Doutorado em Informática<span class="ajaxCAPES" data-param="&codigoCurso=31005012004P9&nivelCurso=D"></span>. <br class="clear" />Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil.
+		
+	<br class="clear" />Título: O=M : Uma Linguagem Orientada a Objetos para Desenvolvimento Rigoroso de Programas, Ano de obtenção: 1990. <br class="clear" />Orientador: Carlos José Pereira de Lucena. <br class="clear" />Palavras-chave: métodos formais.<br class="clear" />Grande área: Ciências Exatas e da Terra</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1983 - 1985</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Mestrado em Informática<span class="ajaxCAPES" data-param="&codigoCurso=31005012004P9&nivelCurso=M"></span>. <br class="clear" />Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil.
+		
+	<br class="clear" />Título: Interface de Barra Microprogramada para a Rede Local REDEPUC,Ano de Obtenção: 1985.<br class="clear" />Orientador: <a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/2126584242026703'><img src='images/curriculo/logolattes.gif' /></a>Luiz Fernando Gomes Soares.<br class="clear" />Bolsista do(a): Conselho Nacional de Desenvolvimento Científico e Tecnológico, CNPq, Brasil. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1978 - 1982</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Graduação<span class="ajaxCAPES" data-param="&codigoCurso=&nivelCurso="></span>. <br class="clear" />Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil.
+		
+	</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="FormacaoAcademicaPosDoutorado">
+<h1>P&oacute;s-doutorado</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1991 - 1992</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pós-Doutorado. <br class="clear" />University of Waterloo, U.WATERLOO, Canadá.
+		
+	<br class="clear" />Grande área: Ciências Exatas e da Terra</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AtuacaoProfissional">
+<h1>Atua&ccedil;&atilde;o Profissional</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><br class="clear" /><div class="inst_back">
+<b>Stanford University, STANFORD, Estados Unidos.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012 - 2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Professor vistante, Enquadramento Funcional: Contratado, Carga horária: 40</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Outras informações</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Tinker Visiting Professor</div>
+</div><br class="clear" /><br class="clear" /><div class="inst_back">
+<b>Pontifícia Universidade Católica do Rio de Janeiro, PUC-Rio, Brasil.
+		
+	</b>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Vínculo institucional</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1986 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Vínculo: Servidor público ou celetista, Enquadramento Funcional: Professor Associado, Carga horária: 44</div>
+</div><br class="clear" /><div class="layout-cell layout-cell-3 text-align-right subtit-1">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Atividades</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5"><br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1986 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Direção e administração, Pontifícia Universidade Católica do Rio de Janeiro, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Cargo ou função<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1986 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Pesquisa e desenvolvimento , Pontifícia Universidade Católica do Rio de Janeiro, . </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1986 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1986 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Ensino, Informática, Nível: Pós-Graduação</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Disciplinas ministradas<br class="clear" />Linguagens de Programação<br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosPesquisa">
+<h1>Projetos de pesquisa</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Projeto e An&aacute;lise de Linguagens Din&acirc;micas'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Projeto e Análise de Linguagens Dinâmicas<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Bolsa de produtividade em pesquisa nível 1D. <br class="clear" />Situação: Em andamento; Natureza: Pesquisa. <br class="clear" /><br class="clear" />Integrantes: Roberto Ierusalimschy - Coordenador.<br class="clear" />Financiador(es): Conselho Nacional de Desenvolvimento Científico e Tecnológico - Bolsa.</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProjetosDesenvolvimento">
+<h1>Projetos de desenvolvimento</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell"><a name='PP_Google Summer of Code 2017'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2017 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Google Summer of Code 2017<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Projeto de desenvolvimento de Software Livre patrocinado pela Google. O LabLua é uma "mentoring organization" acreditada pela Google desde 2014.. <br class="clear" />Situação: Em andamento; Natureza: Desenvolvimento. <br class="clear" />Alunos envolvidos: Graduação: (7) . <br class="clear" /><br class="clear" />Integrantes: Roberto Ierusalimschy - Coordenador / TOMÁS GUISASOLA GORHAM - Integrante / Ana Lucia de Moura - Integrante / Sergio Medeiros - Integrante / Francisco Sant'Anna - Integrante / André Murbach Maidl - Integrante / BRANCO, ADRIANO - Integrante / Bruno Silvestre - Integrante.<br class="clear" />Financiador(es): Pontifícia Universidade Católica do Rio de Janeiro - Bolsa.</div>
+</div><a name='PP_Google Summer of Code 2016'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2016 - 2016</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Google Summer of Code 2016<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Projeto de desenvolvimento de Software Livre patrocinado pela Google. O LabLua é uma "mentoring organization" acreditada pela Google desde 2014.. <br class="clear" />Situação: Concluído; Natureza: Desenvolvimento. <br class="clear" />Alunos envolvidos: Graduação: (8) . <br class="clear" /><br class="clear" />Integrantes: Roberto Ierusalimschy - Coordenador / TOMÁS GUISASOLA GORHAM - Integrante / Ana Lucia de Moura - Integrante / Fabio Mascarenhas - Integrante / Sergio Medeiros - Integrante / Francisco Sant'Anna - Integrante / André Murbach Maidl - Integrante / Muhammad, Hisham - Integrante.<br class="clear" />Financiador(es): Pontifícia Universidade Católica do Rio de Janeiro - Bolsa.</div>
+</div><a name='PP_Google Summer of Code 2015'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2015 - 2015</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Google Summer of Code 2015<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Projeto de desenvolvimento de Software Livre patrocinado pela Google. O LabLua é uma "mentoring organization" acreditada pela Google desde 2014.. <br class="clear" />Situação: Concluído; Natureza: Desenvolvimento. <br class="clear" />Alunos envolvidos: Graduação: (7) . <br class="clear" /><br class="clear" />Integrantes: Roberto Ierusalimschy - Coordenador / NOEMI RODRIGUEZ - Integrante / TOMÁS GUISASOLA GORHAM - Integrante / Ana Lucia de Moura - Integrante / Fabio Mascarenhas - Integrante / Hisham Muhammad - Integrante / Francisco Sant'Anna - Integrante / André Murbach Maidl - Integrante.<br class="clear" />Financiador(es): Google Inc. - Bolsa.</div>
+</div><a name='PP_Google Summer of Code - LabLua'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2014 - 2014</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Google Summer of Code - LabLua<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: O LabLua foi uma das organizações selecionadas pela Google para seu programa "Google Summer of Code" em 2014.. <br class="clear" />Situação: Concluído; Natureza: Desenvolvimento. <br class="clear" />Alunos envolvidos: Graduação: (2)  / Mestrado acadêmico: (2)  / Doutorado: (2) . <br class="clear" /><br class="clear" />Integrantes: Roberto Ierusalimschy - Coordenador / RODRIGUEZ, NOEMI - Integrante.<br class="clear" />Financiador(es): Google Inc. - Bolsa.</div>
+</div><a name='PP_Kepler Movel'></a><div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2009</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Kepler Movel<br class="clear" /></div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b><br class="clear" /></b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Descrição: Desenvolver componentes para a plataforma Kepler para dar suporte a dispositivos móveis.. <br class="clear" />Situação: Em andamento; Natureza: Desenvolvimento. <br class="clear" />Alunos envolvidos: Doutorado: (2) . <br class="clear" /><br class="clear" />Integrantes: Roberto Ierusalimschy - Coordenador.<br class="clear" />Financiador(es): Financiadora de Estudos e Projetos - Auxílio
+										financeiro.</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="RevisorPeriodico">
+<h1>Revisor de peri&oacute;dico</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2006 - 2007</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: ACM Transactions on Architecture and Code Optimization</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2003 - 2003</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Journal of Functional Programming</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2008 - 2008</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: IEEE Software</div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2009 - Atual</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Periódico: Science of Computer Programming</div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="AreasAtuacao">
+<h1>&Aacute;reas de atua&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Grande área: Ciências Exatas e da Terra / Área: Ciência da Computação / Subárea: Metodologia e Técnicas da Computação/Especialidade: Linguagens de Programação. <br class="clear" /></div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Idiomas">
+<h1>Idiomas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>Inglês</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Compreende Bem, Fala Bem, Lê Bem, Escreve Bem. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PremiosTitulos">
+<h1>Pr&ecirc;mios e t&iacute;tulos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Conferencista Senior da SBC, Sociedade Brasileira de Computação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Prêmio Mérito Científico da SBC, Sociedade Brasileira de Computação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Melhor Artigo do SBLP 2013, Sociedade Brasileira de Computação (SBC). </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2013</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Homenagem pelos 20 anos de Lua, Congresso Brasileiro de Software - CBSoft. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">ACM Distinguished Speaker, ACM. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Tinker Professor, CLAS, Stanford University. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2012</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Melhor Artigo no SBLP 2012, Sociedade Brasileira de Computação. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1998</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">Top Full Paper Award, WebNet 98---World Conference of the WWW, Internet and Intranet. </div>
+</div>
+<div class="layout-cell layout-cell-3 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1997</b>
+</div>
+</div>
+<div class="layout-cell layout-cell-9">
+<div class="layout-cell-pad-5">II Prêmio Compaq de Estimulo à Pesquisa e Desenvolvimento em Informática, Academia Brasileira de Ciências/Compaq/Instituto UNIEMP. </div>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="ProducoesCientificas">
+<h1>Produ&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ProducaoBibliografica"></a><br class="clear" /><div class="inst_back">
+<b>Produção bibliográfica</b>
+</div>
+<a name="Citacoes"></a>
+<div id="artigos-completos">
+<div class="cita-artigos">
+<b><a name="ArtigosCompletos"></a>Artigos completos publicados em periódicos</b>
+</div><br class="clear" /><div class="layout-cell-6">
+<div class="sub_tit_form">
+<label for="combo-ordenacao-citacao">Ordenar por</label><select class="input-text input-login-select" id="combo-ordenacao-citacao"><option value="1"> Ordem Cronol&oacute;gica </option><option value="2"> N&uacute;mero de cita&ccedil;&otilde;es Web of science </option><option value="3"> N&uacute;mero de cita&ccedil;&otilde;es Scopus </option><option value="4"> Numero de cita&ccedil;&otilde;es Scielo </option><option value="5"> Primeiro autor </option><option value="6"> Impacto JCR </option><option value="7"> Ordem de Import&acirc;ncia </option></select>
+</div>
+</div>
+<script type="text/javascript">
+			
+				var ordenacao = {
+					engine: {
+						textual: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = $(a).find(seletor).text();
+								var v2 = $(b).find(seletor).text();
+								return (v1 > v2) ? 1 : -1;
+							});
+						},
+						numerico: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 < v2) ? 1 : -1;
+							});
+						},
+						numerico_crescente: function(seletor) {
+						
+							$("#artigos-completos").find(".artigo-completo").sortElements(function(a, b){
+								var v1 = parseInt($(a).find(seletor).text(), 10);
+								var v2 = parseInt($(b).find(seletor).text(), 10);
+								if (isNaN(v1)) v1 = 0;
+								if (isNaN(v1)) v2 = 0;
+								return (v1 > v2) ? 1 : -1;
+							});
+						}
+					},
+					change: function(e) {
+					
+						var combo = $(e.target),
+							valor = combo.val();
+							
+						if (valor == 1) ordenacao.engine.numerico("span[data-tipo-ordenacao='ano']");
+						if (valor == 2) ordenacao.engine.numerico("span[data-tipo-ordenacao='1']");
+						if (valor == 3) ordenacao.engine.numerico("span[data-tipo-ordenacao='3']");						
+						if (valor == 4) ordenacao.engine.numerico("span[data-tipo-ordenacao='2']");
+						if (valor == 5) ordenacao.engine.textual("span[data-tipo-ordenacao='autor']");
+						if (valor == 6) ordenacao.engine.numerico("span[data-tipo-ordenacao='jcr']");
+						if (valor == 7) ordenacao.engine.numerico_crescente("span[data-tipo-ordenacao='importancia']");
+							
+					}
+				};
+			
+				$("#combo-ordenacao-citacao").bind("change", ordenacao.change);
+			
+			</script>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Ierusalimschy, Roberto</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2018</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1145/3186277" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">Ierusalimschy, Roberto</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2093767103221971" target="_blank">De Figueiredo, Luiz Henrique</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6533801740375459" target="_blank">Celes, Waldemar</a> . A look at the design of Lua. COMMUNICATIONS OF THE ACM<sup><img id='00010782_1' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00010782' /></sup>, v. 61, p. 114-123, 2018. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1145/3186277&issn=00010782&volume=61&issue=&paginaInicial=114&titulo=A look at the design of Lua&sequencial=1&nomePeriodico=COMMUNICATIONS OF THE ACM" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Sant'Anna, Francisco</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2017</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1145/3035544" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0077491494754494" target="_blank">Sant'Anna, Francisco</a> ; <b>Ierusalimschy, Roberto</b> ; RODRIGUEZ, NOEMI ; ROSSETTO, SILVANA ; BRANCO, ADRIANO . The Design and Implementation of the Synchronous Language C <scp>éU</scp>. ACM Transactions on Embedded Computing Systems<sup><img id='15399087_2' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15399087' /></sup>, v. 16, p. 1-26, 2017. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1145/3035544&issn=15399087&volume=16&issue=&paginaInicial=1&titulo=The Design and Implementation of the Synchronous Language C <scp>éU</scp>&sequencial=2&nomePeriodico=ACM Transactions on Embedded Computing Systems" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>IERUSALIMSCHY, R.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2017</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.3217/jucs-023-01-0112" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>. First-Class Functions in an Imperative World. JOURNAL OF UNIVERSAL COMPUTER SCIENCE<sup><img id='0948695X_3' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='0948695X' /></sup>, v. 23, p. 112-126, 2017. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.3217/jucs-023-01-0112&issn=0948695X&volume=23&issue=&paginaInicial=112&titulo=First-Class Functions in an Imperative World&sequencial=3&nomePeriodico=JOURNAL OF UNIVERSAL COMPUTER SCIENCE" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MAIDL, ANDRÉ MURBACH</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2016</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1145/2936313.2816709" target="_blank"></a>MAIDL, ANDRÉ MURBACH ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2273723591083358" target="_blank">MASCARENHAS, F.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b> . A formalization of typed lua. SIGPLAN Notices (Cessou em 1991. Cont. ISSN 1523-2867 ACM SIGPLAN Notices)<sup><img id='03621340_4' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='03621340' /></sup>, v. 51, p. 13-25, 2016. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1145/2936313.2816709&issn=03621340&volume=51&issue=&paginaInicial=13&titulo=A formalization of typed lua&sequencial=4&nomePeriodico=SIGPLAN Notices (Cessou em 1991. Cont. ISSN 1523-2867 ACM SIGPLAN Notices)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MAIDL, ANDRÉ MURBACH</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2016</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.scico.2016.08.004" target="_blank"></a>MAIDL, ANDRÉ MURBACH ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2273723591083358" target="_blank">MASCARENHAS, F.</a> ; MEDEIROS, SÉRGIO ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b> . Error reporting in Parsing Expression Grammars. Science of Computer Programming (Print)<sup><img id='01676423_5' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='01676423' /></sup>, v. 132, p. 129-140, 2016. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.scico.2016.08.004&issn=01676423&volume=132&issue=&paginaInicial=129&titulo=Error reporting in Parsing Expression Grammars&sequencial=5&nomePeriodico=Science of Computer Programming (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>BRANCO, ADRIANO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2015</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1145/2811267" target="_blank"></a>BRANCO, ADRIANO ; SANT?ANNA, FRANCISCO ; <b>Ierusalimschy, Roberto</b> ; RODRIGUEZ, NOEMI ; ROSSETTO, SILVANA . Terra. ACM Transactions on Sensor Networks<sup><img id='15504859_6' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='15504859' /></sup>, v. 11, p. 1-27, 2015. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1145/2811267&issn=15504859&volume=11&issue=&paginaInicial=1&titulo=Terra&sequencial=6&nomePeriodico=ACM Transactions on Sensor Networks" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Mascarenhas, Fabio</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.scico.2014.01.012" target="_blank"></a>Mascarenhas, Fabio ; MEDEIROS, SÉRGIO ; <b>Ierusalimschy, Roberto</b> . On the relation between context-free grammars and parsing expression grammars. Science of Computer Programming (Print)<sup><img id='01676423_7' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='01676423' /></sup>, v. 1, p. 12, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.scico.2014.01.012&issn=01676423&volume=1&issue=&paginaInicial=12&titulo=On the relation between context-free grammars and parsing expression grammars&sequencial=7&nomePeriodico=Science of Computer Programming (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MEDEIROS, SÉRGIO</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.scico.2014.01.013" target="_blank"></a>MEDEIROS, SÉRGIO ; Mascarenhas, Fabio ; <b>Ierusalimschy, Roberto</b> . Left recursion in Parsing Expression Grammars. Science of Computer Programming (Print)<sup><img id='01676423_8' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='01676423' /></sup>, v. 1, p. 13, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.scico.2014.01.013&issn=01676423&volume=1&issue=&paginaInicial=13&titulo=Left recursion in Parsing Expression Grammars&sequencial=8&nomePeriodico=Science of Computer Programming (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SKYRME, ALEXANDRE</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2014</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/ms.2014.102" target="_blank"></a>SKYRME, ALEXANDRE ; RODRIGUEZ, NOEMI ; <b>Ierusalimschy, Roberto</b> . Scripting Multiple CPUs with Safe Data Sharing. IEEE Software<sup><img id='07407459_9' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='07407459' /></sup>, v. 31, p. 44-51, 2014. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1109/ms.2014.102&issn=07407459&volume=31&issue=&paginaInicial=44&titulo=Scripting Multiple CPUs with Safe Data Sharing&sequencial=9&nomePeriodico=IEEE Software" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>SKYRME, ALEXANDRE</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2013</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.jpdc.2013.11.005" target="_blank"></a>SKYRME, ALEXANDRE ; RODRIGUEZ, NOEMI ; <b>Ierusalimschy, Roberto</b> . A survey of support for structured communication in concurrency control models. Journal of Parallel and Distributed Computing (Print)<sup><img id='07437315_10' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='07437315' /></sup>, v. 74, p. 2266-2285, 2013. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.jpdc.2013.11.005&issn=07437315&volume=74&issue=&paginaInicial=2266&titulo=A survey of support for structured communication in concurrency control models&sequencial=10&nomePeriodico=Journal of Parallel and Distributed Computing (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MASCARENHAS, F.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2012</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1016/j.scico.2012.11.006" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2273723591083358" target="_blank">MASCARENHAS, F.</a> ; MEDEIROS, SÉRGIO ; Mascarenhas, Fabio ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b> . From regexes to parsing expression grammars. Science of Computer Programming (Print)<sup><img id='01676423_11' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='01676423' /></sup>, v. 79, p. 2012.11.006, 2012. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1016/j.scico.2012.11.006&issn=01676423&volume=79&issue=&paginaInicial=2012.11.006&titulo=From regexes to parsing expression grammars&sequencial=11&nomePeriodico=Science of Computer Programming (Print)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Ierusalimschy, Roberto</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2011</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1145/1965724.1965739" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">Ierusalimschy, Roberto</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2093767103221971" target="_blank">De Figueiredo, Luiz Henrique</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6533801740375459" target="_blank">Celes, Waldemar</a> . Passing a language through the eye of a needle. Communications of the ACM<sup><img id='00010782_12' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00010782' /></sup>, v. 54, p. 38-43, 2011. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1145/1965724.1965739&issn=00010782&volume=54&issue=&paginaInicial=38&titulo=Passing a language through the eye of a needle&sequencial=12&nomePeriodico=Communications of the ACM" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>Ierusalimschy, Roberto</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1002/spe.892" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">Ierusalimschy, Roberto</a></b>. A text pattern-matching tool based on Parsing Expression Grammars. SOFTWARE-PRACTICE & EXPERIENCE<sup><img id='00380644_13' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00380644' /></sup>, v. 39, p. 221-258, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1002/spe.892&issn=00380644&volume=39&issue=&paginaInicial=221&titulo=A text pattern-matching tool based on Parsing Expression Grammars&sequencial=13&nomePeriodico=SOFTWARE-PRACTICE & EXPERIENCE" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>IERUSALIMSCHY, R.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/978-3-642-11999-6_1" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>. Programming with Multiple Paradigms in Lua. Lecture Notes in Computer Science<sup><img id='03029743_14' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='03029743' /></sup>, v. 5979, p. 1-12, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1007/978-3-642-11999-6_1&issn=03029743&volume=5979&issue=&paginaInicial=1&titulo=Programming with Multiple Paradigms in Lua&sequencial=14&nomePeriodico=Lecture Notes in Computer Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MOURA, A. L.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2009</span>
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1145/1462166.1462167" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7730721978822885" target="_blank">MOURA, A. L.</a> ; <b>IERUSALIMSCHY, R.</b> . Revisiting coroutines. ACM Transactions on Programming Languages and Systems<sup><img id='01640925_15' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='01640925' /></sup>, v. 31, p. 6.1-6.31, 2009. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.1145/1462166.1462167&issn=01640925&volume=31&issue=&paginaInicial=6.1&titulo=Revisiting coroutines&sequencial=15&nomePeriodico=ACM Transactions on Programming Languages and Systems" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MUHAMMAD, H.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2007</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.3217/jucs-013-06-0839" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8198489262539174" target="_blank">MUHAMMAD, H.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b> . C APIs in Extension and Extensible Languages. Journal of Universal Computer Science<sup><img id='0948695X_16' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='0948695X' /></sup>, v. 13, p. 839-853, 2007. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.3217/jucs-013-06-0839&issn=0948695X&volume=13&issue=&paginaInicial=839&titulo=C APIs in Extension and Extensible Languages&sequencial=16&nomePeriodico=Journal of Universal Computer Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>IERUSALIMSCHY, R.;Ierusalimschy, Roberto</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2005</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.3217/jucs-011-07-1159" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2093767103221971" target="_blank">FIGUEIREDO, L. H.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6533801740375459" target="_blank">CELES, W.</a> . The Implementation of Lua 5.0. Journal of Universal Computer Science<sup><img id='0948695X_17' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='0948695X' /></sup>, v. 11, n.7, p. 1159-1176, 2005. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.3217/jucs-011-07-1159&issn=0948695X&volume=11&issue=&paginaInicial=1159&titulo=The Implementation of Lua 5.0&sequencial=17&nomePeriodico=Journal of Universal Computer Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>LEAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2005</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.3217/jucs-011-07-1198" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1893409730462581" target="_blank">LEAL, M.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b> . A Formal Semantics for Finalizers. Journal of Universal Computer Science<sup><img id='0948695X_18' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='0948695X' /></sup>, v. 11, n.7, p. 1198-1214, 2005. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.3217/jucs-011-07-1198&issn=0948695X&volume=11&issue=&paginaInicial=1198&titulo=A Formal Semantics for Finalizers&sequencial=18&nomePeriodico=Journal of Universal Computer Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MASCARENHAS, F.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2005</span><a class="icone-producao icone-doi" href="http://dx.doi.org/10.3217/jucs-011-07-1275" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2273723591083358" target="_blank">MASCARENHAS, F.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b> . Running Lua Scripts on the CLR through Bytecode Translation. Journal of Universal Computer Science<sup><img id='0948695X_19' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='0948695X' /></sup>, v. 11, n.7, p. 1275-1290, 2005. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=10.3217/jucs-011-07-1275&issn=0948695X&volume=11&issue=&paginaInicial=1275&titulo=Running Lua Scripts on the CLR through Bytecode Translation&sequencial=19&nomePeriodico=Journal of Universal Computer Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MASCARENHAS, F.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2004</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2273723591083358" target="_blank">MASCARENHAS, F.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b> . LuaInterface: Scripting the .NET CLR with Lua. Journal of Universal Computer Science (Online)<sup><img id='09486968_20' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='09486968' /></sup>, Alemanha, v. 10, n.7, p. 892-908, 2004. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=09486968&volume=10&issue=&paginaInicial=892&titulo=LuaInterface: Scripting the .NET CLR with Lua&sequencial=20&nomePeriodico=Journal of Universal Computer Science (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>MOURA, A. L.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2004</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7730721978822885" target="_blank">MOURA, A. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4933326132948063" target="_blank">RODRIGUEZ, N.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b> . Coroutines in Lua. Journal of Universal Computer Science<sup><img id='0948695X_21' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='0948695X' /></sup>, v. 10, n.7, p. 910-925, 2004. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=0948695X&volume=10&issue=&paginaInicial=910&titulo=Coroutines in Lua&sequencial=21&nomePeriodico=Journal of Universal Computer Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>LEAL, M.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2003</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1893409730462581" target="_blank">LEAL, M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4933326132948063" target="_blank">RODRIGUEZ, N.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b> . LuaTS - A Reactive Event-Driven Tuple Space. Journal of Universal Computer Science (Online)<sup><img id='09486968_22' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='09486968' /></sup>, Berlin, v. 9, n.8, p. 730-744, 2003. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=09486968&volume=9&issue=&paginaInicial=730&titulo=LuaTS - A Reactive Event-Driven Tuple Space&sequencial=22&nomePeriodico=Journal of Universal Computer Science (Online)" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>URURAHY, C.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>2002</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9642031769846939" target="_blank">URURAHY, C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4933326132948063" target="_blank">RODRIGUEZ, N.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b> . ALua: Flexibility for Paralel Programming. Computer languages<sup><img id='00960551_23' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00960551' /></sup>, New York, v. 28, n.2, p. 155-180, 2002. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00960551&volume=28&issue=&paginaInicial=155&titulo=ALua: Flexibility for Paralel Programming&sequencial=23&nomePeriodico=Computer languages" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>HESTER, A.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1998</span>HESTER, A. ; BORGES, R. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b> . Building flexible and extensible Web applications with Lua. Journal of Universal Computer Science, Heidelberg, Alemanha, v. 4, n.9, p. 748-762, 1998. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=&volume=4&issue=&paginaInicial=748&titulo=Building flexible and extensible Web applications with Lua&sequencial=24&nomePeriodico=Journal of Universal Computer Science" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>IERUSALIMSCHY, R.;Ierusalimschy, Roberto</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1996</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2093767103221971" target="_blank">FIGUEIREDO, L. H.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6533801740375459" target="_blank">CELES, W.</a> . Lua - An Extensible Extension Language. Software, Practice & Experience<sup><img id='00380644_25' src='/buscatextual/images/curriculo/jcr.gif' style ='display: none' class='ajaxJCR' data-issn='00380644' /></sup>, v. 26, n.6, p. 635-652, 1996. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=00380644&volume=26&issue=&paginaInicial=635&titulo=Lua - An Extensible Extension Language&sequencial=25&nomePeriodico=Software, Practice & Experience" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>IERUSALIMSCHY, R.;Ierusalimschy, Roberto</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1995</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIY, R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4933326132948063" target="_blank">RODRIGUEZ, N.</a> . Side effect free functions in object-oriented languages. Computer Languages, v. 21, n.3, p. 129-146, 1995. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=&volume=21&issue=&paginaInicial=129&titulo=Side effect free functions in object-oriented languages&sequencial=26&nomePeriodico=Computer Languages" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>IERUSALIMSCHY, R.;Ierusalimschy, Roberto</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1993</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>. A formal specification for a hierarchy of collections. Software Engineering Journal, v. 8, n.4, p. 237-245, 1993. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=&volume=8&issue=&paginaInicial=237&titulo=A formal specification for a hierarchy of collections&sequencial=27&nomePeriodico=Software Engineering Journal" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>COWAN, D.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1993</span>COWAN, D. ; STEPIEN, T. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2491891766759477" target="_blank">LUCENA, C.</a> . Application Integration: Constructing composite applications from interactive components. Software: Practice & Experience, v. 23, n.3, p. 255-275, 1993. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=&volume=23&issue=&paginaInicial=255&titulo=Application Integration: Constructing composite applications from interactive components&sequencial=28&nomePeriodico=Software: Practice & Experience" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>IERUSALIMSCHY, R.;Ierusalimschy, Roberto</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1993</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>. A denotational approach for type-checking in object-oriented programming languages. Computer Languages, v. 19, n.1, p. 19-40, 1993. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=&volume=19&issue=&paginaInicial=19&titulo=A denotational approach for type-checking in object-oriented programming languages&sequencial=29&nomePeriodico=Computer Languages" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>COWAN, D.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1993</span>COWAN, D. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2491891766759477" target="_blank">LUCENA, C.</a> ; STEPIEN, T. . Abstract data views. Structured Programming, v. 14, n.1, p. 1-13, 1993. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=&volume=14&issue=&paginaInicial=1&titulo=Abstract data views&sequencial=30&nomePeriodico=Structured Programming" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+<div class="artigo-completo">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span class='informacao-artigo' data-tipo-ordenacao='importancia'></span><span class='informacao-artigo' data-tipo-ordenacao='autor'>RODRIGUEZ, N.</span><span class='informacao-artigo' data-tipo-ordenacao='ano'>1993</span><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4933326132948063" target="_blank">RODRIGUEZ, N.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b> ; RANGEL, J. L. . Types in School. Sigplan Notices, v. 28, n.8, 1993. <div class="citacoes" cvURI="/buscatextual/servletcitacoes?doi=&issn=&volume=28&issue=&paginaInicial=&titulo=Types in School&sequencial=31&nomePeriodico=Sigplan Notices" tooltip="Citações a partir de 1996" ></div></div>
+</div>
+<br class="clear">
+</div>
+</div>
+<div class="cita-artigos">
+<b><a name="LivrosCapitulos"></a>Livros publicados/organizados ou edições</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>. Programming in Lua, Fourth Edition. 4. ed. Rio de Janeiro: Lua.org, 2016. 369p . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">Ierusalimschy, Roberto</a></b>. Programming in Lua, Third Edition. 3. ed. Rio de Janeiro: Lua.org, 2013. v. 1. 366p . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2093767103221971" target="_blank">FIGUEIREDO, L. H.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6533801740375459" target="_blank">CELES, W.</a> ; <b>IERUSALIMSCHY, R.</b> . Lua Programming Gems. Rio de Janeiro: Lua.org, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>. Programming in Lua, Second Edition. 2. ed. Rio de Janeiro: Lua.org, 2006. 326p . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2093767103221971" target="_blank">FIGUEIREDO, L. H.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6533801740375459" target="_blank">CELES, W.</a> . Lua 5.1 Reference Manual. 1. ed. Rio de Janeiro: Lua.org, 2006. v. 1. 112p . </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>. Programming in Lua. Rio de Janeiro: Lua.Org, 2003. 288p . </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="CapitulosLivrosPublicados"></a>Capítulos de livros publicados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/978-3-319-24012-1_3" target="_blank"></a>Ribeiro, Félix ; Muhammad, Hisham ; Maidl, André Murbach ; <b>Ierusalimschy, Roberto</b> . Preserving Lexical Scoping When Dynamically Embedding Languages. In: S. Doaitse Swierstra; Alberto Pardo. (Org.). Lecture Notes in Computer Science. 1ed.Heidelberg: Springer International Publishing, 2015, v. , p. 31-43. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>. Interview: Lua. In: Robert W. Sebesta. (Org.). Concepts of Programming Languages. 10ed.: Addison-Wesley, 2012, v. , p. 274-275. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2093767103221971" target="_blank">FIGUEIREDO, L. H.</a> ; <b>IERUSALIMSCHY, R.</b> . Interview about Lua. In: Federico Biancuzzi; Shane Warden. (Org.). Masterminds of Programming: Conversations with the Creators of Major Programming Languages. : O'Reilly Media, Inc., 2009, v. , p. 161-176. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>. Uma Introdução à Programação em Lua. In: André C. P. L. F. de Carvalho; Tomasz Kowaltowski. (Org.). Atualizações em Informática 2009. Rio de Janeiro: Editora PUC-Rio/SBC, 2009, v. , p. 113-152. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>. Lua Performance Tips. In: Luiz H. de Figueiredo, W. Celes, R. Ierusalimschy. (Org.). Lua Programming Gems. Rio de Janeiro: Lua.org, 2008, v. , p. 15-28. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6533801740375459" target="_blank">CELES, W.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2093767103221971" target="_blank">FIGUEIREDO, L. H.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b> . Binding C/C++ Objects to Lua. In: Micael Dickheiser. (Org.). Game Programming Gems 6. Boston: Charles River Media, 2006, v. , p. 341-356. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2093767103221971" target="_blank">FIGUEIREDO, L. H.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6533801740375459" target="_blank">CELES, W.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b> . Programming Advanced Control Mechanisms with Lua Coroutines. In: Micael Dickheiser. (Org.). Game Programming Gems 6. Boston: Charles River Media, 2006, v. , p. 357-370. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0731606611183670" target="_blank">CERQUEIRA, R. F. G.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b> . Automated Testing for a CORBA-Based Distributed System. In: Giancarlo Succi; Michele Marchesi. (Org.). Extreme Programming Examined. : Addison-Wesley, 2001, v. , p. 379-396. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TextosJornaisRevistas"></a>Textos em jornais de notícias/revistas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2093767103221971" target="_blank">FIGUEIREDO, L. H.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6533801740375459" target="_blank">CELES, W.</a> . Lua: An extensible embedded language. Dr. Dobb's Journal, p. 26 - 33, 05 dez.  1996. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Trabalhos completos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">GUALANDI, H. ; <b>IERUSALIMSCHY, R.</b> . Pallene: A statically typed companion language for Lua. In: XXII Brazilian Symposium on Programming Languages, 2018, São Carlos. XXII Brazilian Symposium on Programming Languages. New York: ACM, 2018. p. 19-26. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SANTOS, R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4933326132948063" target="_blank">RODRIGUEZ, N.</a> ; <b>IERUSALIMSCHY, R.</b> . Rivisiting Monitors. In: XXII Brazilian Symposium on Programming Languages, 2018, São Carlos. XXII Brazilian Symposium on Programming Languages. New York: ACM, 2018. p. 75-82. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1145/3211332.3211334" target="_blank"></a>SANTOS, RODRIGO C. M. ; LIMA, GUILHERME F. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0077491494754494" target="_blank">Sant'Anna, Francisco</a> ; <b>Ierusalimschy, Roberto</b> ; HAEUSLER, EDWARD H. . A memory-bounded, deterministic and terminating semantics for the synchronous programming language Céu. In: the 19th ACM SIGPLAN/SIGBED International Conference, 2018, Philadelphia. Proceedings of the 19th ACM SIGPLAN/SIGBED International Conference on Languages, Compilers, and Tools for Embedded Systems - LCTES 2018. New York: ACM, 2018. p. 1-18. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1145/2816707.2816709" target="_blank"></a>Maidl, André Murbach ; Mascarenhas, Fabio ; <b>Ierusalimschy, Roberto</b> . A formalization of typed lua. In: the 11th Symposium, 2015, Pittsburgh. Proceedings of the 11th Symposium on Dynamic Languages - DLS 2015. New York: ACM Press, 2015. p. 13-25. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1145/2724525.2724571" target="_blank"></a>SANT' ANNA, FRANCISCO ; <b>Ierusalimschy, Roberto</b> ; RODRIGUEZ, NOEMI . Structured synchronous reactive programming with Cýu. In: the 14th International Conference, 2015, Fort Collins. Proceedings of the 14th International Conference on Modularity - MODULARITY 2015, 2015. p. 29-40. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1145/2661088.2661096" target="_blank"></a>VIEIRA NETO, LOURIVAL ; <b>Ierusalimschy, Roberto</b> ; DE MOURA, ANA LÚCIA ; BALMER, MARC . Scriptable operating systems with Lua. In: the 10th ACM Symposium, 2014, Portland. Proceedings of the 10th ACM Symposium on Dynamic languages - DLS &apos;14. New York: ACM Press, 2014. p. 2-10. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1145/2617548.2617553" target="_blank"></a>Maidl, André Murbach ; Mascarenhas, Fabio ; <b>Ierusalimschy, Roberto</b> . Typed Lua. In: the Workshop, 2014, Edinburgh. Proceedings of the Workshop on Dynamic Languages and Applications - Dyla&apos;14, 2014. p. 1-10. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1109/sbrc.2014.27" target="_blank"></a>MILANES, ANOLAN ; RODRIGUEZ, NOEMI ; <b>Ierusalimschy, Roberto</b> . Reflection-Based Heterogeneous Migration of Computations. In: 2014 Brazilian Symposium on Computer Networks and Distributed Systems (SBRC), 2014, Florianopolis. 2014 Brazilian Symposium on Computer Networks and Distributed Systems, 2014. p. 223-230. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MAIDL, A. M. ; Mascarenhas, Fabio ; <b>Ierusalimschy, Roberto</b> . Exception Handling for Error Reporting in Parsing Expression Grammars. In: 17th Brazilian Symposium on Programming Languages, SBLP 2013, 2013, Brasilia. 17th Brazilian Symposium, SBLP 2013. Heidelberg: Springer, 2013. p. 1-15. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8198489262539174" target="_blank">MUHAMMAD, H.</a> ; Mascarenhas, Fabio ; <b>Ierusalimschy, Roberto</b> . LuaRocks - A Declarative adn Extensible Package Management System for Lua. In: 17th Brazilian Symposium on Programming Languages, SBLP 2013, 2013, Brasilia. 17th Brazilian Symposium, SBLP 2013. Heidelberg: Springer, 2013. p. 16-30. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1145/2517351.2517360" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0077491494754494" target="_blank">Sant'Anna, Francisco</a> ; RODRIGUEZ, NOEMI ; <b>Ierusalimschy, Roberto</b> ; LANDSIEDEL, OLAF ; TSIGAS, PHILIPPAS . Safe system-level concurrency on resource-constrained nodes. In: the 11th ACM Conference, 2013, Roma. Proceedings of the 11th ACM Conference on Embedded Networked Sensor Systems - SenSys &apos;13. New York: ACM Press, 2013. p. 1. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0310395336626784" target="_blank">MEDEIROS S,</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2273723591083358" target="_blank">MASCARENHAS, F.</a> ; <b>IERUSALIMSCHY, R.</b> . Left Recursion in Parsing Expression Grammars. In: XVI Brazilian Symposium on Programming Languages, 2012, Natal, RN. Lecture Notes in Computer Science, 2012. v. 7554. p. 27-41. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0310395336626784" target="_blank">MEDEIROS S,</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2273723591083358" target="_blank">MASCARENHAS, F.</a> ; <b>Ierusalimschy, Roberto</b> . From Regular Expressions to PEGs. In: XV Brazilian Symposium on Programming Languages, 2011, São Paulo. Proceedings of the XV Brazilian Symposium on Programming Lanugages, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2273723591083358" target="_blank">MASCARENHAS, F.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0310395336626784" target="_blank">MEDEIROS S,</a> ; <b>Ierusalimschy, Roberto</b> . Paring Expression Grammars for Strucutred Data. In: XV Brazilian Symposium on Programming Languages, 2011, São Paulo. Proceedings of the XV Brazilian Symposium on Programming Languages, 2011. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5195737083101608" target="_blank">Oikawa, Marcelo</a> ; <b>Ierusalimschy, Roberto</b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7730721978822885" target="_blank">MOURA, A. L.</a> . Converting regexes to Parsing Expression Grammars. In: XIV Brazilian Symposium on Programming Languages, 2010, Salvador, BA. Proceedings of the XIV Brazilian Symposium on Programming Languages, 2010. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1007/978-3-642-11999-6_1" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">Ierusalimschy, Roberto</a></b>. Programming with Multiple Paradigms in Lua. In: Functional and Constraint Logic Programming, 2010, Brasilia, BR. Lecture Notes in Computer Science, 2009. v. 5979. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0077491494754494" target="_blank">Sant'Anna, Francisco</a> ; <b>IERUSALIMSCHY, R.</b> . LuaGravity, a Reactive Language based on Implicit Invocation. In: Brazilian Symposium on Programming Languages, 2009, Gramado, RS. Proceedings of the XIII Brazilian Symposium on Programming Languages, 2009. p. 89-102. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1145/1363686.1363743" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2273723591083358" target="_blank">MASCARENHAS, F.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b> . Efficient Compilation of Lua for the CLR. In: SAC '08: 2008 ACM Symposium on Applied Computing, 2008, Fortaleza, Brazil. Proceedings of the 2008 ACM Symposium on Applied Computing. New York, NY: ACM, 2008. p. 217-221. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/5256144058117920" target="_blank">BARROS, A.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b> . Eliminating Cycles in Weak Tables. In: XII Brazilian Symposium on Programming Languages, 2008, Fortaleza, CE. Proceedings of the XII Brazilian Symposium on Programming Languages, 2008. p. 61-74. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/3458116213537005" target="_blank">SKYRME, A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4933326132948063" target="_blank">RODRIGUEZ, N.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b> . Exploring Lua for Concurrent Programming. In: XII Brazilian Symposium on Programming Languages, 2008, Fortaleza, CE. Proceedings of the XII Brazilian Symposium on Programming Languages, 2008. p. 117-128. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="icone-producao icone-doi" href="http://dx.doi.org/10.1145/1408681.1408683" target="_blank"></a><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0310395336626784" target="_blank">MEDEIROS S,</a> ; <b>IERUSALIMSCHY, R.</b> . A parsing machine for PEGs. In: Dynamic languages Symposium, 2008, Paphos, Chipre. Proceedings of the 2008 Symposium on Dynamic languages. New York: ACM, 2008. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<a class="icone-producao icone-doi" href="http://dx.doi.org/10.1145/1238844.1238846" target="_blank"></a><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2093767103221971" target="_blank">FIGUEIREDO, L. H.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6533801740375459" target="_blank">CELES, W.</a> . The Evolution of Lua. In: Third ACM SIGPLAN Conference on History of Programming Languages, 2007, San Diego, CA. Third ACM SIGPLAN Conference on History of Programming Languages, 2007. v. 2. p. 1-26. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>23. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2093767103221971" target="_blank">FIGUEIREDO, L. H.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6533801740375459" target="_blank">CELES, W.</a> . The Implementation of Lua 5.0. In: IX Brazilian Symposium on Programming Languages, 2005, Recife, PE. Anais do IX Simpósio Brasileiro de Linguagens de Programação, 2005. p. 63-75. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>24. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/7730721978822885" target="_blank">MOURA, A. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4933326132948063" target="_blank">RODRIGUEZ, N.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b> . Coroutines in Lua. In: VIII Simpósio Brasileiro de Linguagens de Programação, 2004, Niterói. Anais do VIII Simpósio Brasileiro de Linguagens de Programação, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>25. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2273723591083358" target="_blank">MASCARENHAS, F.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b> . LuaInterface: Scripting the .NET CLR with Lua. In: VIII Simpósio Brasileiro de Linguagens de Programação, 2004, Niterói. Anais do VIII Simpósio Brasileiro de Linguagens de Programação, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>26. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8583471050868720" target="_blank">ROSSETO, S.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4933326132948063" target="_blank">RODRIGUEZ, N.</a> . Abstrações para o Desenvolvimento de Aplicações Distribuídas em Ambientes com Mobilidade. In: VIII Simpósio Brasileiro de Linguagens de Programação, 2004, Niterói. Anais do VIII Simpósio Brasileiro de Linguagens de Programação, 2004. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>27. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1893409730462581" target="_blank">LEAL, M.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4933326132948063" target="_blank">RODRIGUEZ, N.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b> . LuaTS --- Um Espaço de Tuplas Reativo Orientado a Eventos. In: VII Simpósio Brasileiro de Linguagens de Programação, 2003, Ouro Preto. Anais do VII Simpósio Brasileiro de Linguagens de Programação, 2003. p. 36-49. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>28. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6838089171759440" target="_blank">LIMA, M. J.</a> . Continuações em Lua. In: VI Simpósio Brasileiro de Linguagens de Programação, 2002, Rio de Janeiro. Anais do VI Simpósio Brasileiro de Linguagens de Programação, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>29. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6407920272037317" target="_blank">NEHAB, D.</a> . A Linguagem de programação Sloth. In: VI Simpósio Brasileiro de Linguagens de Programação, 2002, Rio de Janeiro. Anais do VI Simpósio Brasileiro de Linguagens de Programação, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>30. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6952782645957326" target="_blank">PFEIFER, A. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9642031769846939" target="_blank">URURAHY, C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4933326132948063" target="_blank">RODRIGUEZ, N.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b> . Event-Driven Programming for Distributed Multimedia Applications. In: XX Simpósio Brasileiro de Redes de Computadores, 2002, Búzios. Anais do XX Simpósio Brasileiro de Redes de Computadores, 2002. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>31. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2093767103221971" target="_blank">FIGUEIREDO, L. H.</a> . The Evolution of an Extension Language: A History of Lua. In: V Simpósio Brasileiro de Linguagens de Programação, 2001, Curitiba. anais do V Simpósio Brasileiro de Linguagens de Programação, 2001. p. B14-B28. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>32. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6838089171759440" target="_blank">LIMA, M. J.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4933326132948063" target="_blank">RODRIGUEZ, N.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b> . Remote Functions as First-Class Values in a Distributed Object System. In: IV Simpósio Brasileiro de Linguagens de Programação, 2000, Recife. anais do IV Simpósio Brasileiro de Linguagens de Programação, 2000. p. 1-14. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>33. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MARTINS, M. C. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4933326132948063" target="_blank">RODRIGUEZ, N.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b> . Dynamic extension of CORBA servers. In: Euro-Par'99 Parallel Processing, 1999, Toulouse. Euro-Par'99 Parallel Processing (LNCS 1685), 1999. p. 1369-1376. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>34. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0731606611183670" target="_blank">CERQUEIRA, R. F. G.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0367707937273645" target="_blank">CASSINO, C.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b> . Dynamic component gluing across different componentware systems. In: DOA'99 --- International Symposium on Distributed Objects and Applications, 1999, Edinburgh. DOA'99 --- International Symposium on Distributed Objects and Applications, 1999. p. 362-371. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>35. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4933326132948063" target="_blank">RODRIGUEZ, N.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b> . Dynamic reconfiguration of CORBA-based applications. In: SOFSEM'99: 26th Conference on Current Trends in Theory and Practice of Informatics, 1999, Milovy. LNCS 1725, 1999. p. 95-111. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>36. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0367707937273645" target="_blank">CASSINO, C. R. S. P.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b> . LuaJava --- Uma ferramenta de scripting para Java. In: III Simpósio Brasileiro de Linguagens de Programação, 1999, Porto Alegre. Anais do III Simpósio Brasileiro de Linguagens de Programação, 1999. p. 125-137. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>37. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0731606611183670" target="_blank">CERQUEIRA, R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4933326132948063" target="_blank">RODRIGUEZ, N.</a> . Using reflexivity to interface with CORBA. In: IEEE International Conference on Computer Languages, 1998. Proceedings. Chicago, 1998. p. 39-46. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>38. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4933326132948063" target="_blank">RODRIGUEZ, N.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0731606611183670" target="_blank">CERQUEIRA, R.</a> . Dynamic configuration with CORBA components. In: 4th International Conference on Configurable Distributed Systems, 1998. Proceedings. Annapolis, MD, 1998. p. 27-34. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>39. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9136262673186413" target="_blank">GOMES, P. R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/8249534204731109" target="_blank">FEIJÓ, B.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0731606611183670" target="_blank">CERQUEIRA, R.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b> . Reactivity and pro-activeness in virtual prototyping. In: 2nd International Symposium on Tools and Methods for Concurrent Engineering, 1998. Proceedings. Manchester, UK, 1998. p. 242-253. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>40. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>. A new perspective for entry-level computer courses. In: International Conference on Engineering Education, 1998. Proceedings. Rio de Janeiro, 1998. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>41. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>; HESTER, A. ; BORGES, R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIY, R.</a> . Building Flexible and Extensible Web Applications with Lua. In: WebNet 98---World Conference of the WWW, Internet and Intranet, 1998. Proceedings, 1998. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>42. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>; HESTER, A. ; BORGES, R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIY, R.</a> . CGI-Lua: a multi-paradigmatic tool for creating dynamic WWW pages. In: XI Simpósio Brasileiro de Engenharia de Software, 1997. Anais. Fortaleza, 1997. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>43. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0731606611183670" target="_blank">CERQUEIRA, R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4933326132948063" target="_blank">RODRIGUEZ, N.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIY, R.</a> . Binding an interpreted language to CORBA. In: II Simpósio Brasileiro de Linguagens de Programação, 1997. Anais. Campinas, 1997. p. 23-36. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>44. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0731606611183670" target="_blank">CERQUEIRA, R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIY, R.</a> . Uma avaliação das arquiteturas para interoperabilidade entre objetos. In: X Simpósio Brasileiro de Engenharia de Software, 1996. Anais. São Carlos, 1996. p. 371-386. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>45. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0588837446817137" target="_blank">GORHAM, T.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIY, R.</a> . Um sistema de depuração reflexivo para uma linguagem de extensão. In: I Simpósio Brasileiro de Linguagens de Programação, 1996. Anais. Belo Horizonte, 1996. p. 103-114. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>46. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>; BORGES, R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALISMCHY, R.</a> . Módulos em Linguagens orientadas a objetos. In: I Simósio Brasileiro de Linguagens de Programação, 1996. Anais. Belo Horizonte, 1996. p. 103-114. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>47. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1348173907649819" target="_blank">DUARTE, C.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b> . On the Systematic Development of Compilers: A Case Study. In: CC'96 - International Conference on Compiler Construction, 1996, Linkoping. Poster Session of CC'96 - International Conference on Compiler Construction, 1996. p. 49-56. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>48. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4933326132948063" target="_blank">RODRIGUEZ, N.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9642031769846939" target="_blank">URURAHY, C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIY, R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0731606611183670" target="_blank">CERQUEIRA, R.</a> . The use of interpreted languages for implementing parallel algorithms on distributed systems. In: Euro-Par'96 Parallel Processing - Second International Euro-Par Conference, 1996. Lecture Notes in Computer Science. Lyon, França, 1996. v. I. p. 597-600. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>49. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1437000917885797" target="_blank">CARREGAL, A.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIY, R.</a> . Tche: a visual environment for the Lua language. In: VIII Simpósio Brasileiro de Computação Gráfica, 1995. Anais. São Carlos, 1995. p. 227-232. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>50. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4933326132948063" target="_blank">RODRIGUEZ, N.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIY, R.</a> ; RANGEL, J. L. . Exception handling in a strongly typed object-oriented language. In: IX Simpósio Brasileiro de Engenharia de Software, 1995. Anais. Recife, 1995. p. 161-174. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>51. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/1348173907649819" target="_blank">DUARTE, C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIY, R.</a> . Aplicando um método orientado a objetos para desenvolvimento de compiladores. In: XXI Conferência Latino-Americana de Informática, 1995. Anais. Canela, RS, 1995. p. 743-754. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>52. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0731606611183670" target="_blank">CERQUEIRA, R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4933326132948063" target="_blank">RODRIGUEZ, N.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIY, R.</a> . Uma experiência em programação distribuida dirigida por eventos. In: XXI Conferência Latino-Americana de Informática, 1995. Anais. Canela, RS, 1995. p. 225-236. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>53. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>; BORGES, R. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0367707937273645" target="_blank">CASSINO, C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0731606611183670" target="_blank">CERQUEIRA, R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIY, R.</a> . UAI - um framework para suporte a objetos visuais. In: VIII Simpósio Brasileiro de Engenharia de Software, 1994. Anais. Curitiba, 1994. p. 79-89. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>54. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2093767103221971" target="_blank">FIGUEIREDO, L. H.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6533801740375459" target="_blank">CELES, W.</a> . The design and implementation of a language for extending applications. In: XXI SEMISH, 1994. Anais. Caxambu, MG, 1994. p. 273-284. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>55. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIY, R.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4933326132948063" target="_blank">RODRIGUEZ, N.</a> . Side effect free functions in object-oriented languages. In: XXI SEMISH, 1994. Anais. Caxambu, MG, 1994. p. 301-316. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="TrabalhosPublicadosAnaisCongresso"></a>Resumos publicados em anais de congressos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6952782645957326" target="_blank">PFEIFER, A. L.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/9642031769846939" target="_blank">URURAHY, C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4933326132948063" target="_blank">RODRIGUEZ, N.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b> . An Event-Driven System for Distributed Multimedia Applications. In: International Workshop on Distributed Event-Based Systems, 2002, Viena. Proceedings of DEBS'02 --- International Workshop on Distributed Event-Based Systems (held in conjunction with IEEE ICDCS 2002), 2002. p. 583-584. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0731606611183670" target="_blank">CERQUEIRA, R. F. G.</a> ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4933326132948063" target="_blank">RODRIGUEZ, N.</a> . A Dynamic Integration Model for Componentware Systems. In: OOPSLA'99 Doctoral Symposium, 1999, Denver, CO. OOPSLA'99 Doctoral Symposium (Proceedings Companion), 1999. p. 123-124. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/4933326132948063" target="_blank">RODRIGUEZ, N.</a> ; MARTINS, M. C. ; <b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b> . Extensão Dinâmica de Agentes CORBA. In: XVI Simpósio Brasileiro de Redes de Computadores, 1998, Rio de Janeiro. Anais do XVI Simpósio Brasileiro de Redes de Computadores, 1998. p. 768-768. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="OutrasProducoesBibliograficas"></a>Outras produções bibliográficas</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>. prefácio para livro 'Le guide de Lua et ses applications', 2012. (Prefácio, Pósfacio/Prefácio)>. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>. foreword for Game Development with Lua, 2005. (Prefácio, Pósfacio/Prefácio)>. </div>
+</div>
+<br class="clear">
+<a name="ProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Produção técnica</b>
+</div>
+<div class="cita-artigos">
+<b><a name="SoftwareSemPatente"></a>Programas de computador sem registro</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2093767103221971" target="_blank">FIGUEIREDO, L. H.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6533801740375459" target="_blank">CELES, W.</a> . Lua 5.3.1. 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2093767103221971" target="_blank">FIGUEIREDO, L. H.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6533801740375459" target="_blank">CELES, W.</a> . Lua 5.3.2. 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>. LPeg 1.0. 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2093767103221971" target="_blank">FIGUEIREDO, L. H.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6533801740375459" target="_blank">CELES, W.</a> . Lua versão 5.3.0. 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>. LPEG. 2007. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2093767103221971" target="_blank">FIGUEIREDO, L. H.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6533801740375459" target="_blank">CELES, W.</a> . Linguagem Lua 5.1. 2006. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">
+		<img src="images/curriculo/ico_relevante.gif" style='icone-relevancia' />
+		<b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2093767103221971" target="_blank">FIGUEIREDO, L. H.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6533801740375459" target="_blank">CELES, W.</a> . Linguagem Lua 5.0. 2003. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2093767103221971" target="_blank">FIGUEIREDO, L. H.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6533801740375459" target="_blank">CELES, W.</a> . Linguagem de Extensão Lua versão 4.0. 2000. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2093767103221971" target="_blank">FIGUEIREDO, L. H.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6533801740375459" target="_blank">CELES, W.</a> . Linguagem de Extensão Lua versão 3.0. 1997. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="EntrevistasMesasRedondas"></a>Entrevistas, mesas redondas, programas e comentários na mídia</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>; SOARES, L. F. G. ; ZIVIANI, N. ; PEIXOTO, E. ; SCHEER, S. . Computação e Inovação. 2012. 
+						
+							(Programa de rádio ou TV/Mesa redonda).
+						<img class="icone-video" src="http://estatico.cnpq.br/imagens/ico_pw_video.png" onclick="mostrarPreviaVideo('http://www.imago.ufpr.br/csbc2012/secomu.php')"></img></div>
+</div>
+<br class="clear">
+<a name="DemaisProducaoTecnica"></a><br class="clear" /><div class="inst_back">
+<b>Demais tipos de produção técnica</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>. 9th LASER Summer School on Software Engineering. 2012. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>. XXXI JORNADAS DE ATUALIZAÇÃO EM INFORMÁTICA DA SBC. 2012. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b><a name="DemaisTrabalhos"></a>Demais trabalhos</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>; COSTA, A. ; CLINIO, A. ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0367707937273645" target="_blank">CASSINO, C.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIY, R.</a> . UAI - Uma biblioteca gráfico-interativa portável orientada por objetos. 1994 (Prêmio em concurso de trabalhos acadêmicos) . </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PatentesRegistros">
+<h1>Patentes e registros</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="MarcaRegistrada"></a><br class="clear" /><div class="inst_back">
+<b>Marca registrada</b>
+</div>
+<a name="marca"></a>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span title="Clique aqui para visualizar as informações da patente no site do INPI" class="ajaxINPI tooltip" data-param="codigoRegistro=3.978.463&idCNPq=0427692772445368&sequencial=137">&nbsp;</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2093767103221971" target="_blank">FIGUEIREDO, L. H.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6533801740375459" target="_blank">CELES, W.</a> . Lua. 
+						2006, 
+						Estados Unidos. <br>
+                Patente:
+                Marca Registrada de Produto.
+            Número do registro: 3.978.463, título: "Lua" , Instituição de registro: United States Patent and Trademark Office.          
+        </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Bancas">
+<h1>Bancas</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoBancasTrabalho"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de trabalhos de conclusão</b>
+</div>
+<div class="cita-artigos">
+<b>Teses de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Roberto Bigonha; LORIO, V.; BIGONHA, M.; <b>IERUSALIMSCHY, R.</b>; QUINTAO, F.; MUSICANTE, M..  Participação em banca de LEONARDO VIEIRA DOS SANTOS REIS. ADAPTABLE PARSING EXPRESSION GRAMMARS. 2014. Tese (Doutorado em Ciências da Computação)  - Universidade Federal de Minas Gerais. </div>
+</div>
+<br class="clear"><br class="clear" /><a name="ParticipacaoBancasComissoes"></a><br class="clear" /><div class="inst_back">
+<b>Participação em bancas de comissões julgadoras</b>
+</div>
+<div class="cita-artigos">
+<b>Concurso público</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>IERUSALIMSCHY, R.</b>. Concurso Público para Professor Adjunto.
+							2015. Universidade do Estado do Rio de Janeiro. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>IERUSALIMSCHY, R.</b>. Concurso para Professor.
+							2014. Universidade Federal Fluminense. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>IERUSALIMSCHY, R.</b>. Concurso de Ingresso na Carreira - Professor Doutor.
+							2010. Universidade de São Paulo. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>Ierusalimschy, Roberto</b>. Concurso para Professor Adjunto.
+							2009. Universidade Federal de Minas Gerais. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>. concurso para Professor.
+							2005. Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>. concurso para Professor Adjunto.
+							2005. Universidade Federal Fluminense. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>. Concurso para Professor Doutor.
+							2004. Universidade de São Paulo. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>. concurso para Professor Doutor.
+							2004. Universidade de São Paulo. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Livre docência</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b>IERUSALIMSCHY, R.</b>. Concurso para Livre-docência.
+						2008. Universidade Estadual de Campinas. </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Eventos">
+<h1>Eventos</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="ParticipacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Participação em eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Keynote speaker na CurryOn Barcelona. CurryOn Barcelona. 2017. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IFIP WG 2.16.Integers in Lua.
+							2015. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">SNAPL 2015 - The 1st Summit oN Advances in Programming Languages. (Sem apresentação; fui convidado para avaliar os trabalhos e participar das dusicussões). 2015. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IFIP WG 2.16 (Language Design).DIY OO Systems.
+							2014. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Scripting Languages and Frameworks: Analysis and Verification.What About Lua?.
+							2014. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IFIP WG 2.8 (Functional Programming).An Overview of Lua.
+							2013. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IFIP WG 2.16 (Language Design).Small is Beautiful: the design of Lua.
+							2012. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">IFIP WG 2.16 (Language Design).LPeg: an Alternative to regexs based on PEGs.
+							2012. (Encontro). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">18th International Workshop on Functional and (Constraint) Logic Programming. Programming with Multiple Paradigms in Lua. 2009. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">23rd Annual ACM Symposium on Applied Computing.Membro do Comitê de Programa.
+							2008. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ACM Dynamic Languages Symposium.Membro do comitê de programa.
+							2008. (Simpósio). 
+					</div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Free Software Rio. A Linguagem de Programação Lua. 2008. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">TeX USers Group Conference. About Lua/Lua and LuaTeX. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Third International ACM SIGPLAN/SIGOPS Conference on Virtual Execution Environments. Membro do Comitê de Programa. 2007. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">14th International Conference on Compiler Construction (CC). Membro do Comitê de Programa. 2005. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">ACM SIGPLAN Workshop on Interpreters, Virtual Machines, and Emulators.Membro do Comitê de Programa. 2003. (Oficina). 
+					</div>
+</div>
+<br class="clear">
+</div>
+<a name="OrganizacaoEventos"></a><br class="clear" /><div class="inst_back">
+<b>Organização de eventos, congressos, exposições e feiras</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2093767103221971" target="_blank">FIGUEIREDO, L. H.</a> . Lua Workshop. 2016. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>. Dynamic Language ymposium (DLS). 2016. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2093767103221971" target="_blank">FIGUEIREDO, L. H.</a> . Lua Workshop. 2015. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2093767103221971" target="_blank">FIGUEIREDO, L. H.</a> . Lua Workshop. 2014. (Congresso). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2093767103221971" target="_blank">FIGUEIREDO, L. H.</a> . Lua Workshop. 2013. (Concerto). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2093767103221971" target="_blank">FIGUEIREDO, L. H.</a> . Lua Workshop. 2012. (Congresso). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="Orientacoes">
+<h1>Orienta&ccedil;&otilde;es</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="Orientacaoemandamento"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões em andamento</b>
+</div>
+<div class="cita-artigos">
+<b>Tese de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/4885349527302978'><img src='images/curriculo/logolattes.gif' /></a>Hugo Musso gualandi. Titan.
+						Início: 2018. Tese (Doutorado em Informática)  - Pontifícia Universidade Católica do Rio de Janeiro, Conselho Nacional de Desenvolvimento Científico e Tecnológico. (Orientador). </div>
+</div>
+<br class="clear">
+<a name="Orientacoesconcluidas"></a><br class="clear" /><div class="inst_back">
+<b>Orientações e supervisões concluídas</b>
+</div>
+<div class="cita-artigos">
+<b>Dissertação de mestrado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/1693345402311066'><img src='images/curriculo/logolattes.gif' /></a>Pablo Martins Musa. Profiling Memory in Lua.
+							2015.
+						
+					Dissertação  (Mestrado em Informática)  - Pontifícia Universidade Católica do Rio de Janeiro, . Orientador: Roberto Ierusalimschy. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/4885349527302978'><img src='images/curriculo/logolattes.gif' /></a>Hugo Musso Gualandi. Typing dynamic languages ? a review.
+							2015.
+						
+					Dissertação  (Mestrado em Informática)  - Pontifícia Universidade Católica do Rio de Janeiro, Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Roberto Ierusalimschy. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Lourival Pereira Vieira Neto. Lunatik: Scripting de Kernel de Sistema Operacional com Lua.
+							2011.
+						
+					Dissertação  (Mestrado em Informática)  - Pontifícia Universidade Católica do Rio de Janeiro, Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Roberto Ierusalimschy. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/5195737083101608'><img src='images/curriculo/logolattes.gif' /></a>Marcelo Oikawa. Conversão de regexes para Parsing Expression Grammars.
+							2010.
+						
+					Dissertação  (Mestrado em Informática)  - Pontifícia Universidade Católica do Rio de Janeiro, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. Orientador: Roberto Ierusalimschy. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/0077491494754494'><img src='images/curriculo/logolattes.gif' /></a>Francisco Figueiredo Goytacaz  Sant'Anna. A Synchronous Reactive Language based on Implicit Invocation.
+							2009.
+						
+					Dissertação  (Mestrado em Informática)  - Pontifícia Universidade Católica do Rio de Janeiro, Financiadora de Estudos e Projetos. Orientador: Roberto Ierusalimschy. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/5256144058117920'><img src='images/curriculo/logolattes.gif' /></a>Alexandra Barreto Assad de Barros. Implementando Finalizadores via Referências Fracas.
+							2007.
+						
+					Dissertação  (Mestrado em Informática)  - Pontifícia Universidade Católica do Rio de Janeiro, Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Roberto Ierusalimschy. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/8198489262539174'><img src='images/curriculo/logolattes.gif' /></a>Hisham Hashem Muhammad. Estudo sobre APIs de Linguagens de Script.
+							2006.
+						
+					Dissertação  (Mestrado em Informática)  - Pontifícia Universidade Católica do Rio de Janeiro, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. Orientador: Roberto Ierusalimschy. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">João Coutinho Machado. Um Estudo sobre o Desenvolvimento Orientado a Serviços.
+							2004.
+						
+					Dissertação  (Mestrado em Informática)  - Pontifícia Universidade Católica do Rio de Janeiro, . Orientador: Roberto Ierusalimschy. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/2273723591083358'><img src='images/curriculo/logolattes.gif' /></a>Fabio Mascarenhas. Integração entre a Linguagem Lua e o `Common Language Runtime'.
+							2004.
+						
+					Dissertação  (Mestrado em Informática)  - Pontifícia Universidade Católica do Rio de Janeiro, . Orientador: Roberto Ierusalimschy. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/6407920272037317'><img src='images/curriculo/logolattes.gif' /></a>DIEGO FERNANDES NEHAB. A Implementação da Linguagem de Programação SLOTH.
+							2002.
+						
+					Dissertação  (Mestrado em Informática)  - Pontifícia Universidade Católica do Rio de Janeiro, . Orientador: Roberto Ierusalimschy. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marcela Ozorio Suarez. O Modelo de I/O baseado em Streams Aplicado ao Desenvolvimento de Aplicações Gráficas Orientadas a Eventos.
+							1999.
+						
+					Dissertação  (Mestrado em Informática)  - Pontifícia Universidade Católica do Rio de Janeiro, . Orientador: Roberto Ierusalimschy. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Anna Magdalena Hester. A Ferramenta CGILua em Múltiplas APIs com o Servidor HTTP.
+							1999.
+						
+					Dissertação  (Mestrado em Informática)  - Pontifícia Universidade Católica do Rio de Janeiro, . Orientador: Roberto Ierusalimschy. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>13. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Marco Aurélio Catunda Martins. Extensão Dinâmica de Agentes CORBA.
+							1998.
+						
+					Dissertação  (Mestrado em Informática)  - Pontifícia Universidade Católica do Rio de Janeiro, . Coorientador: Roberto Ierusalimschy. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>14. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">André Oliveira Costa. TkVIX - Um Toolkit para Construção de Intefaces Gráficas em Lua.
+							1997.
+						
+					Dissertação  (Mestrado em Informática)  - Pontifícia Universidade Católica do Rio de Janeiro, . Orientador: Roberto Ierusalimschy. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>15. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/3266434128127984'><img src='images/curriculo/logolattes.gif' /></a>André Luiz Clínio dos Santos. VIX - Um Framework para Suporte a Objetos Visuais Interativos.
+							1996.
+						
+					Dissertação  (Mestrado em Informática)  - Pontifícia Universidade Católica do Rio de Janeiro, . Orientador: Roberto Ierusalimschy. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>16. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Carlos Roberto Serra Pinto Cassino. Uma Ferramenta para Programação Literária Modular.
+							1996.
+						
+					Dissertação  (Mestrado em Informática)  - Pontifícia Universidade Católica do Rio de Janeiro, . Orientador: Roberto Ierusalimschy. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>17. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Renato Ferreira Borges. Uma Implementação para a Linguagem School.
+							1996.
+						
+					Dissertação  (Mestrado em Informática)  - Pontifícia Universidade Católica do Rio de Janeiro, . Orientador: Roberto Ierusalimschy. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>18. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/0588837446817137'><img src='images/curriculo/logolattes.gif' /></a>Tomás Guisasola Gorham. Um sistema de depuração para a linguagem de extensão Lua.
+							1996.
+						
+					Dissertação  (Mestrado em Informática)  - Pontifícia Universidade Católica do Rio de Janeiro, . Orientador: Roberto Ierusalimschy. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>19. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/0731606611183670'><img src='images/curriculo/logolattes.gif' /></a>RENATO FONTOURA DE GUSMAO CERQUEIRA. Um Estudo sobre Interoperabilidade entre Linguagens Orientadas a Objetos.
+							1996.
+						
+					Dissertação  (Mestrado em Informática)  - Pontifícia Universidade Católica do Rio de Janeiro, . Orientador: Roberto Ierusalimschy. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>20. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/1437000917885797'><img src='images/curriculo/logolattes.gif' /></a>André Filipe Lessa Carregal. Tche - um ambiente visual Lua.
+							1995.
+						
+					Dissertação  (Mestrado em Informática)  - Pontifícia Universidade Católica do Rio de Janeiro, . Orientador: Roberto Ierusalimschy. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>21. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/1348173907649819'><img src='images/curriculo/logolattes.gif' /></a>Carlos Henrique Cabral Duarte. O desenvolvimento de um compilador Miranda usando um método orientado a objetos.
+							1994.
+						
+					Dissertação  (Mestrado em Informática)  - Pontifícia Universidade Católica do Rio de Janeiro, . Orientador: Roberto Ierusalimschy. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>22. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Sônia Souza de Carvalho. Metodologias de Desenvolvimento de Software: Confronto entre suas metas e sua utilização em uma grande empresa.
+							1994.
+						
+					Dissertação  (Mestrado em Informática)  - Pontifícia Universidade Católica do Rio de Janeiro, . Orientador: Roberto Ierusalimschy. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Tese de doutorado</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/8198489262539174'><img src='images/curriculo/logolattes.gif' /></a>HISHAM HASHEM MUHAMMAD.
+						Dataflow Semantics for End-User Programmable Applications.
+							2017. Tese
+					 (Doutorado em Informática)  - Pontifícia Universidade Católica do Rio de Janeiro, Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Roberto Ierusalimschy. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/5715291694627004'><img src='images/curriculo/logolattes.gif' /></a>André Murbach Maidl.
+						Typed Lua: An Optional Type System for Lua.
+							2015. Tese
+					 (Doutorado em Informática)  - Pontifícia Universidade Católica do Rio de Janeiro, . Orientador: Roberto Ierusalimschy. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Alexandre Rupert Arpini Skyrme.
+						Safe Record Sharing in Dynamic Programming Languages.
+							2015. Tese
+					 (Doutorado em Informática)  - Pontifícia Universidade Católica do Rio de Janeiro, . Coorientador: Roberto Ierusalimschy. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/0077491494754494'><img src='images/curriculo/logolattes.gif' /></a>Francisco Figueiredo Goytacaz Sant'anna.
+						Safe System-level Concurrency on Resource-Constrained Nodes with Céu.
+							2013. Tese
+					 (Doutorado em Informática)  - Pontifícia Universidade Católica do Rio de Janeiro, Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Roberto Ierusalimschy. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>5. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/0310395336626784'><img src='images/curriculo/logolattes.gif' /></a>Sérgio Queiroz de Medeiros.
+						Correspondência entre PEGs e Classes de Gramáticas Livres de Contexto.
+							2010. Tese
+					 (Doutorado em Informática)  - Pontifícia Universidade Católica do Rio de Janeiro, Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Roberto Ierusalimschy. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>6. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/2273723591083358'><img src='images/curriculo/logolattes.gif' /></a>Fabio Mascarenhas de Queiroz.
+						Optimized Compilation of a Dynamic Language to a Managed Runtime Environment.
+							2009. Tese
+					 (Doutorado em Informática)  - Pontifícia Universidade Católica do Rio de Janeiro, Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Roberto Ierusalimschy. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>7. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Anolan Yamilé Milanés Barrientos.
+						Suporte de LInguagens de Programação para Migração Heterogênea de Computações.
+							2008. Tese
+					 (Doutorado em Informática)  - Pontifícia Universidade Católica do Rio de Janeiro, Conselho Nacional de Desenvolvimento Científico e Tecnológico. Coorientador: Roberto Ierusalimschy. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>8. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">MARCUS AMORIM LEAL.
+						Finalizadores  e Referências Fracas: Interagindo com o Coletor de Lixo.
+							2005. Tese
+					 (Doutorado em Informática)  - Pontifícia Universidade Católica do Rio de Janeiro, Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Roberto Ierusalimschy. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>9. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/7730721978822885'><img src='images/curriculo/logolattes.gif' /></a>Ana Lucia de Moura.
+						Revisitando Co-Rotinas.
+							2004. Tese
+					 (Doutorado em Informática)  - Pontifícia Universidade Católica do Rio de Janeiro, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. Orientador: Roberto Ierusalimschy. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>10. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Maria Júlia Dias de Lima.
+						ORFEO: Programação Distribuida Orientada a Eventos com Funções e Continuações como Valores de Primeira Classe.
+							2001. Tese
+					 (Doutorado em Informática)  - Pontifícia Universidade Católica do Rio de Janeiro, Conselho Nacional de Desenvolvimento Científico e Tecnológico. Coorientador: Roberto Ierusalimschy. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>11. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/0367707937273645'><img src='images/curriculo/logolattes.gif' /></a>Carlos Roberto Serra Pinto Cassino.
+						Distribuição de Carga em Sistemas Web Controlada por Ferramentas de Construção de Páginas Dinâmicas.
+							2000. Tese
+					 (Doutorado em Informática)  - Pontifícia Universidade Católica do Rio de Janeiro, Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. Orientador: Roberto Ierusalimschy. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>12. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><a class='icone-lattes' target='_blank' href='http://lattes.cnpq.br/0731606611183670'><img src='images/curriculo/logolattes.gif' /></a>RENATO FONTOURA DE GUSMAO CERQUEIRA.
+						Um Modelo de Composição Dinâmica entre Sistemas de Componentes de Software.
+							2000. 0 f. Tese
+					 (Doutorado em Informática)  - Pontifícia Universidade Católica do Rio de Janeiro, Conselho Nacional de Desenvolvimento Científico e Tecnológico. Orientador: Roberto Ierusalimschy. </div>
+</div>
+<br class="clear">
+<div class="cita-artigos">
+<b>Trabalho de conclusão de curso de graduação</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5">Guilherme de Campos Lima Berger.
+							Malu: Macros em Lua.
+							2016.
+							Trabalho de Conclusão de Curso. (Graduação em Ciência da Computação)  - Pontifícia Universidade Católica do Rio de Janeiro. Orientador: Roberto Ierusalimschy.
+						</div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="PotencialInovacao">
+<h1>Inova&ccedil;&atilde;o</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="MarcaRegistradaPI"></a><br class="clear" /><div class="inst_back">
+<b>Marca registrada</b>
+</div>
+<a name="marca"></a>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><span title="Clique aqui para visualizar as informações da patente no site do INPI" class="ajaxINPI tooltip" data-param="codigoRegistro=3.978.463&idCNPq=0427692772445368&sequencial=137">&nbsp;</span><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2093767103221971" target="_blank">FIGUEIREDO, L. H.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6533801740375459" target="_blank">CELES, W.</a> . Lua. 
+						2006, 
+						Estados Unidos. <br>
+                Patente:
+                Marca Registrada de Produto.
+            Número do registro: 3.978.463, título: "Lua" , Instituição de registro: United States Patent and Trademark Office.          
+        </div>
+</div>
+<br class="clear">
+<a name="ProgramaComputadorSemRegistroPI"></a><br class="clear" /><div class="inst_back">
+<b>Programa de computador sem registro</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2093767103221971" target="_blank">FIGUEIREDO, L. H.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6533801740375459" target="_blank">CELES, W.</a> . Lua versão 5.3.0. 2014. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2093767103221971" target="_blank">FIGUEIREDO, L. H.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6533801740375459" target="_blank">CELES, W.</a> . Lua 5.3.1. 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>3. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/2093767103221971" target="_blank">FIGUEIREDO, L. H.</a> ; <a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/6533801740375459" target="_blank">CELES, W.</a> . Lua 5.3.2. 2015. </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>4. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>. LPeg 1.0. 2015. </div>
+</div>
+<br class="clear">
+<a name="ProjetoDesenvolvimentoTecnologicoPI"></a><br class="clear" /><div class="inst_back">
+<b>Projeto de desenvolvimento tecnológico</b>
+</div>
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="EducacaoPopularizacaoCTA">
+<h1>Educa&ccedil;&atilde;o e Populariza&ccedil;&atilde;o de C &amp; T</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<a name="CursosCurtaEPCTA"></a><br class="clear" /><div class="inst_back">
+<b>Cursos de curta duração ministrados</b>
+</div>
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>1. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>. 9th LASER Summer School on Software Engineering. 2012. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+<div class="layout-cell layout-cell-1 text-align-right">
+<div class="layout-cell-pad-5 text-align-right">
+<b>2. </b>
+</div>
+</div>
+<div class="layout-cell layout-cell-11">
+<div class="layout-cell-pad-5"><b><a class="tooltip" title="Clique para visualizar o currículo" href="http://lattes.cnpq.br/0427692772445368" target="_blank">IERUSALIMSCHY, R.</a></b>. XXXI JORNADAS DE ATUALIZAÇÃO EM INFORMÁTICA DA SBC. 2012. (Curso de curta duração ministrado/Outra). </div>
+</div>
+<br class="clear">
+</div><br class="clear" /></div><br class="clear" /><div class="title-wrapper">
+<a name="OutrasInformacoesRelevantes">
+<h1>Outras informa&ccedil;&otilde;es relevantes</h1>
+</a>
+<hr class="separator">
+<div class="layout-cell layout-cell-12 data-cell">
+<pre class="outras-informacoes">IBM Faculty Award. Valor USD 40.000,00. Janeiro 2006</pre>
+</div><br class="clear" /></div><br class="clear" /><br class="clear" /><div class="rodape-cv">P&aacute;gina gerada pelo Sistema Curr&iacute;culo Lattes em 05/09/2019 &agrave;s 20:05:48</div><br class="clear" /><div class="control-bar-wrapper"><a href="download.do?metodo=apresentar&amp;idcnpq=0427692772445368" target="_blank" class="button"><span class="mini-ico mini-ico-down"></span>Baixar Currículo</a><a class="button" href="javascript:window.print()"><span class="mini-ico mini-ico-list"></span>Imprimir Curr&iacute;culo</a>
+</div><br class="clear" /></div>
+</div>
+</div>
+</div>
+</div>
+<div class="to-top-bar" id="toTop">
+<a href="javascript:void(0)" class="topo-width center">
+<div class="id-orgao">
+<span>CNPq</span> | Uma ag&ecirc;ncia do Minist&eacute;rio da Ci&ecirc;ncia, Tecnologia e Inova&ccedil;&atilde;o</div>
+</a>
+</div>
+</BODY>
+</HTML>
